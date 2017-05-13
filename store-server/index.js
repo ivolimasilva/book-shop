@@ -59,7 +59,7 @@ require('routes')(server);
 // Register and if no errors start the server
 server.register({
 	register: require('good'),
-	options,
+	options
 }, (err) => {
 
 	// Error loading the configuration

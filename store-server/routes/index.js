@@ -1,4 +1,11 @@
-// Definition of routes
 module.exports = function (server) {
-	require('routes/test')(server);
+	/*
+	 * Routes for authentication
+	 * Auth routes have the '/auth' prefix
+	 * 
+	 * Routes:
+	 * 	/login
+	 *  /register
+	 */
+	require('routes/auth')(server);
 };
