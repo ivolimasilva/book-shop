@@ -10,7 +10,7 @@ module.exports = function (server) {
      * Params:  email - Email of the user
      *          password - Password of the user
      *
-     * Returns: the user's token to save (as cookie or localStorage idk yet)
+     * Returns: the user's info + token to save (as cookie or localStorage idk yet)
      */
     server.route({
         path: '/auth/login',
@@ -20,12 +20,16 @@ module.exports = function (server) {
             validate: {
                 payload: {
                     email: Joi.string().email().required(),
-                    password: Joi.string().regex(/^[a-zA-Z0-9]{8,30}$/).required()
+                    password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required()
                 }
             },
             handler: function (request, reply) {
-                // Verify with the registred users
-                return reply({ statusCode: 200 });
+                return reply({
+                    email: request.payload.email,
+                    name: 'Ivo Lima da Silva',
+                    address: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                    token: '123456789'
+                });
             }
         }
     });

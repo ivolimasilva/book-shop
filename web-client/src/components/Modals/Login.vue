@@ -11,7 +11,7 @@
                 <form v-on:submit.prevent="onSubmit">
                     <div class="field">
                         <p class="control has-icon">
-                            <input class="input is-medium" type="email" placeholder="Email" v-model="email" required>
+                            <input class="input is-medium" type="email" placeholder="Email" v-model="user.email" required>
                             <span class="icon is-small">
                                 <i class="fa fa-envelope"></i>
                             </span>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="field">
                         <p class="control has-icon">
-                            <input class="input is-medium" type="password" placeholder="Password" v-model="password" required>
+                            <input class="input is-medium" type="password" placeholder="Password" v-model="user.password" required>
                             <span class="icon is-small">
                                 <i class="fa fa-key"></i>
                             </span>
@@ -44,8 +44,10 @@ export default {
     name: 'modal-login',
     data: function() {
         return {
-            email: '',
-            password: '',
+            user: {
+                email: '',
+                password: ''
+            },
             error: ''
         }
     },
@@ -57,12 +59,18 @@ export default {
 	},
     	methods: {
             onSubmit: function() {
-                console.log({
-                    email: this.email,
-                    password: this.password
-                });
-
-                this.error = 'Not implemented yet.';
+                Axios.post(Server + '/auth/login', this.user)
+                    .then((response) => {
+                        // Save user's information
+                        this.$store.dispatch('login', response.data)
+                            .then(() => {
+                                this.error = '';
+                                this.$emit('close');
+                            });
+                    })
+                    .catch((error) => {
+                        this.error = error.response.data.message;
+                    });
             },
             close: function () {
                 this.$emit('close');
@@ -72,4 +80,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>

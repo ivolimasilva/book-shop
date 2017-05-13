@@ -10,9 +10,12 @@
 					</a>
 				</div>
 				<div class="nav-right clearfix-vertical-margins">
-					<div>
+					<div v-if="!logged">
 						<a v-on:click="openRegister" class="nav-item is-pulled-right">Register</a>
 						<a v-on:click="openLogin" class="nav-item is-pulled-right">Login</a>
+					</div>
+					<div v-if="logged">
+						<a class="nav-item is-pulled-right">{{ user.name }}</a>
 					</div>
 					<a class="nav-item is-pulled-right" target="_blank" href="https://github.com/ivolimasilva/book-shop">
 						<span class="icon">
@@ -40,8 +43,18 @@ export default {
 	data: function () {
 		return {
 			activeLogin: false,
-			activeRegister: false
+			activeRegister: false,
+			user: {},
+			logged: false
 		}
+	},
+	mounted: function() {
+		this.$store.subscribe((mutation, state) => {
+			if (mutation.type == 'login') {
+				this.user = mutation.payload;
+				this.logged = true;
+			}
+		});
 	},
 	methods: {
 		openLogin: function() {
