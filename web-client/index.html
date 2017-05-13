@@ -3,12 +3,23 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>book-shop</title>
+	<title>Book Shop</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/bulma.min.css">
 </head>
 
 <body>
 	<div id="app">
+
+		<!-- Header -->
+		<navbar></navbar>
+
+		<!-- View -->
 		<router-view></router-view>
+
 	</div>
 	<script src="/dist/build.js"></script>
 </body>
