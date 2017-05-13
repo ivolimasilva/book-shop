@@ -1,0 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.is-fullheight {
+    min-height: calc(100vh - 50px) !important;
+}
