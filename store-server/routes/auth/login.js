@@ -1,6 +1,8 @@
 'use strict'
 
-var Joi = require('joi');
+var Joi = require('joi'),
+    Mongoose = require('mongoose'),
+    User = Mongoose.model('User');
 
 module.exports = function (server) {
 
@@ -24,11 +26,23 @@ module.exports = function (server) {
                 }
             },
             handler: function (request, reply) {
-                return reply({
+
+                User.findOne({
                     email: request.payload.email,
-                    name: 'Ivo Lima da Silva',
-                    address: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-                    token: '123456789'
+                    password: request.payload.password
+                }, function (err, user) {
+
+                    if (err) {
+                        return reply({ statusCode: 500 });
+                    } else {
+                        return reply({
+                            email: user.email,
+                            name: user.name,
+                            address: user.address,
+                            token: '123456789'
+                        });
+                    }
+
                 });
             }
         }
