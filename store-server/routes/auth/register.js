@@ -1,6 +1,8 @@
 'use strict'
 
-var Joi = require('joi');
+var Joi = require('joi'),
+    Mongoose = require('mongoose'),
+    User = Mongoose.model('User');
 
 module.exports = function (server) {
 
@@ -22,16 +24,28 @@ module.exports = function (server) {
             validate: {
                 payload: {
                     email: Joi.string().email().required(),
-                    password: Joi.string().regex(/^[a-zA-Z0-9]{8,30}$/).required(),
+                    password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required(),
                     name: Joi.string().required(),
                     address: Joi.string().required()
                 }
             },
             handler: function (request, reply) {
 
-                console.log(request.payload);
+                var user = new User({
+                    name: request.payload.name,
+                    email: request.payload.email,
+                    password: request.payload.password,
+                    address: request.payload.address
+                });
 
-                return reply({ statusCode: 200 });
+                user.save(function (err) {
+                    if (err) {
+                        return reply(err);
+                    } else {
+                        return reply({ statusCode: 200 });
+                    }
+                });
+
             }
         }
     });

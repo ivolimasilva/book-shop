@@ -77,9 +77,13 @@ export default {
 	},
     	methods: {
             onSubmit: function() {
-                console.log(this.user);
-
-                this.error = 'Not implemented yet.';
+                Axios.post('http://localhost:9000/auth/register', this.user)
+                    .then(function(response) {
+                        console.log('Registo ok.');
+                    })
+                    .catch(function(err) {
+                        console.log(err);
+                    });
             },
             close: function () {
                 this.$emit('close');
@@ -89,4 +93,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
