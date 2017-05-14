@@ -18,4 +18,12 @@ module.exports = function (server) {
 	 *  /register
 	 */
 	require('routes/user')(server);
+	
+	/*
+	 * Routes for Book management	 
+	 * 
+	 * Routes:
+	 * 	/book
+	 */
+	require('routes/book')(server);
 };

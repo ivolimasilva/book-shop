@@ -22,7 +22,7 @@ module.exports = function (server) {
 	 */
     server.route({
         path: '/auth/register',
-        method: 'POST',
+        method: 'POST',        
         config: {
             // Validate payload params before handler gets the load
             validate: {
