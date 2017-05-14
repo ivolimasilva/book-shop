@@ -4,5 +4,7 @@
     },
     "database": {
         "uri": "mongodb://localhost:27017/store"
-    }
+    },
+    "secret": "SPAGHETTI CODE IS THE BEST CODE",
+    "saltRounds": 10
 }

@@ -16,16 +16,8 @@ export const store = new Vuex.Store({
         login(state, user) {
             // Save user's information in Store
             state.user = user;
-        }
-    },
-    actions: {
-        login({ commit }, user) {
-            // Call mutations to change state
-            commit('login', user);
-            return new Promise(resolve => {
-                localStorage.setItem('token', user.token);
-                resolve();
-            });
+            // Save Authentication JSON Web Token
+            localStorage.setItem('token', user.token);
         }
     }
 });

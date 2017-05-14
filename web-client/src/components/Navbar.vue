@@ -49,6 +49,21 @@ export default {
 		}
 	},
 	mounted: function() {
+		// Check if there's a JWT
+		if (localStorage.getItem('token')) {
+			Axios.get(Server + '/user', {
+				params: {
+					token: localStorage.getItem('token')
+				}
+			})
+				.then((response) => {
+					this.$store.commit('login', response.data);
+				})
+				.catch((error) => {
+					console.log(error);
+				});
+		}
+
 		this.$store.subscribe((mutation, state) => {
 			if (mutation.type == 'login') {
 				this.user = mutation.payload;

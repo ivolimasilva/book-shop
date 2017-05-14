@@ -1,6 +1,10 @@
 'use strict'
 
 var Joi = require('joi'),
+    Boom = require('boom'),
+    Bcrypt = require('bcrypt'),
+    Config = require('config'),
+    Jwt = require('utils/jwt'),
     Mongoose = require('mongoose'),
     User = Mongoose.model('User');
 
@@ -31,21 +35,39 @@ module.exports = function (server) {
             },
             handler: function (request, reply) {
 
-                var user = new User({
-                    name: request.payload.name,
-                    email: request.payload.email,
-                    password: request.payload.password,
-                    address: request.payload.address
-                });
+                // Encrypts the password field
+                Bcrypt.hash(request.payload.password, Config.saltRounds)
+                    .then((hash) => {
 
-                user.save(function (err) {
-                    if (err) {
-                        return reply(err);
-                    } else {
-                        return reply({ statusCode: 200 });
-                    }
-                });
+                        // Create a new User object
+                        var user = new User({
+                            name: request.payload.name,
+                            email: request.payload.email,
+                            password: hash,
+                            address: request.payload.address
+                        });
 
+                        // Save new User in DB
+                        user.save((err, _user) => {
+                            if (err) {
+                                return reply(Boom.badImplementation('Server error saving user.'));
+                            } else {
+                                // Encode token
+                                Jwt.encode({ _id: _user._id })
+                                    .then((_token) => {
+                                        return reply({
+                                            email: _user.email,
+                                            name: _user.name,
+                                            address: _user.address,
+                                            token: _token
+                                        });
+                                    })
+                                    .catch((err) => {
+                                        return reply(Boom.badImplementation('Server error generating token.'));
+                                    });
+                            }
+                        });
+                    });
             }
         }
     });

@@ -42,7 +42,7 @@
 <script>
 export default {
     name: 'modal-login',
-    data: function() {
+    data: function () {
         return {
             user: {
                 email: '',
@@ -52,30 +52,32 @@ export default {
         }
     },
     props: {
-		isActive: {
-			type: Boolean,
-			required: true
-		}
-	},
-    	methods: {
-            onSubmit: function() {
-                Axios.post(Server + '/auth/login', this.user)
-                    .then((response) => {
-                        // Save user's information
-                        this.$store.dispatch('login', response.data)
-                            .then(() => {
-                                this.error = '';
-                                this.$emit('close');
-                            });
-                    })
-                    .catch((error) => {
-                        this.error = error.response.data.message;
-                    });
-            },
-            close: function () {
-                this.$emit('close');
-            }
-	}
+        isActive: {
+            type: Boolean,
+            required: true
+        }
+    },
+    methods: {
+        onSubmit: function () {
+            Axios.post(Server + '/auth/login', this.user)
+                .then((response) => {
+                    // Save user's information in Vuex Store
+                    this.$store.commit('login', response.data);
+
+                    // Clear any error message
+                    this.error = '';
+
+                    // Close Login modal
+                    this.$emit('close');
+                })
+                .catch((error) => {
+                    this.error = error.response.data.message;
+                });
+        },
+        close: function () {
+            this.$emit('close');
+        }
+    }
 }
 </script>
 

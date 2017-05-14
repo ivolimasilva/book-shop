@@ -58,7 +58,7 @@
 <script>
 export default {
     name: 'modal-register',
-    data: function() {
+    data: function () {
         return {
             user: {
                 name: '',
@@ -70,25 +70,32 @@ export default {
         }
     },
     props: {
-		isActive: {
-			type: Boolean,
-			required: true
-		}
-	},
-    	methods: {
-            onSubmit: function() {
-                Axios.post('http://localhost:9000/auth/register', this.user)
-                    .then(function(response) {
-                        console.log('Registo ok.');
-                    })
-                    .catch(function(err) {
-                        console.log(err);
-                    });
-            },
-            close: function () {
-                this.$emit('close');
-            }
-	}
+        isActive: {
+            type: Boolean,
+            required: true
+        }
+    },
+    methods: {
+        onSubmit: function () {
+            Axios.post(Server + '/auth/register', this.user)
+                .then((response) => {
+                    // Save user's information in Vuex Store
+                    this.$store.commit('login', response.data);
+
+                    // Clear any error message
+                    this.error = '';
+
+                    // Close Login modal
+                    this.$emit('close');
+                })
+                .catch((err) => {
+                    this.error = error.response.data.message;
+                });
+        },
+        close: function () {
+            this.$emit('close');
+        }
+    }
 }
 </script>
 

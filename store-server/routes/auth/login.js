@@ -1,6 +1,9 @@
 'use strict'
 
 var Joi = require('joi'),
+    Boom = require('boom'),
+    Jwt = require('utils/jwt'),
+    Bcrypt = require('bcrypt'),
     Mongoose = require('mongoose'),
     User = Mongoose.model('User');
 
@@ -28,19 +31,38 @@ module.exports = function (server) {
             handler: function (request, reply) {
 
                 User.findOne({
-                    email: request.payload.email,
-                    password: request.payload.password
+                    email: request.payload.email
                 }, function (err, user) {
 
                     if (err) {
                         return reply({ statusCode: 500 });
+                    } else if (user) {
+
+                        Bcrypt.compare(request.payload.password, user.password)
+                            .then((res) => {
+                                if (res) {
+                                    // Encode token
+                                    Jwt.encode({ _id: user._id })
+                                        .then((_token) => {
+                                            return reply({
+                                                email: user.email,
+                                                name: user.name,
+                                                address: user.address,
+                                                token: _token
+                                            });
+                                        })
+                                        .catch((err) => {
+                                            return reply(Boom.badImplementation('Server error generating token.'));
+                                        });
+                                } else {
+                                    // Wrong password
+                                    return reply(Boom.unauthorized('Incorrect password.'));
+                                }
+                            });
+
                     } else {
-                        return reply({
-                            email: user.email,
-                            name: user.name,
-                            address: user.address,
-                            token: '123456789'
-                        });
+                        console.log("EP3");
+                        return reply(Boom.badRequest('User not found.'));
                     }
 
                 });
