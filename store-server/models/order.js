@@ -12,10 +12,6 @@ var validator = require('node-mongoose-validator'),
             required: true
         },
         user: {
-            id: {
-                type: mongoose.Schema.Types.ObjectId,
-                required: true
-            },
             name: {
                 type: String,
                 required: true
@@ -31,7 +27,7 @@ var validator = require('node-mongoose-validator'),
         },
         books: [
             {
-                id: {
+                _id: {
                     type:  mongoose.Schema.Types.ObjectId,
                     required: true
                 },
