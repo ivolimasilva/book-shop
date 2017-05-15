@@ -1,33 +1,17 @@
 <template>
     <div class="container">
-        <div class="tile is-ancestor">
-            <div class="tile is-parent is-8">
-                <article class="tile is-child notification is-info">
-                    <div class="columns">
-                        <div class="column">
-                            <figure class="image">
-                                <img class="img-big" src="https://unsplash.it/300/500">
-                            </figure>
-                        </div>
-                        <div class="column flex flex-column">
-                            <a>
-                                <p class="title">Title</p>
-                            </a>
-                            <p class="subtitle">Author</p>
-                            <p class="price flex-end has-text-right">10.00€</p>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <div class="tile is-vertical">
-                <div class="tile">
-                    <div class="tile is-parent is-vertical">
-                        <item></item>
-                        <item></item>
-                        <item></item>
-                    </div>
-                </div>
-            </div>
+        <p class="title is-1">Recent</p>
+        <div class="columns is-multiline">
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
+            <item class="item"></item>
         </div>
     </div>
 </template>
@@ -37,8 +21,19 @@ import Item from '../components/Item.vue';
 
 export default {
     name: 'Dashboard',
+    data: function () {
+        return {
+            books: []
+        }
+    },
     components: {
         'item': Item
+    },
+    mounted: function () {
+        Axios.get(Server + '/book')
+            .then((books) => {
+                this.books = books;
+            });
     }
 }
 </script>
@@ -46,17 +41,20 @@ export default {
 <style scoped>
 .container {
     margin-top: 25px;
+    padding-right: 1em;
 }
 
-.flex {
-    display: flex;
+.item {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.flex-column {
-    flex-direction: column;
+.columns .item:nth-child(5n+1) {
+    margin-left: 0;
 }
 
-.summary {
-    text-align: justify;
+.columns .item:nth-child(5n) {
+    margin-right: 0;
 }
 </style>

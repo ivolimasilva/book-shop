@@ -10,10 +10,10 @@ html {
     min-height: calc(100vh - 50px) !important;
 }
 
-.img-big {
-    max-width: 800px;
+.is-bold {
+    font-weight: 600;
 }
 
-.img-small {
-    max-width: 150px;
+.small-margin-bottom {
+    margin-bottom: 5px;
 }

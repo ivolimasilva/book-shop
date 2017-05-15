@@ -1,37 +1,35 @@
 <template>
-    <article class="tile is-child notification is-info">
-        <div class="columns">
-            <div class="column">
-                <figure class="image">
-                    <img class="img-small" src="https://unsplash.it/400/500">
-                </figure>
-            </div>
-            <div class="column flex flex-column">
-                <p class="title">Title</p>
-                <p class="subtitle">Author</p>
-                <p class="price flex-end has-text-right">10.00€</p>
-            </div>
-        </div>
-    </article>
+    <div class="column is-5">
+        <figure class="image">
+            <img class="small-margin-bottom" src="https://unsplash.it/400/500">
+        </figure>
+        <p class="title is-5 is-bold">A Sociedade dos Sonhadores Involuntários</p>
+        <p class="subtitle small-margin-bottom is-6">José Eduardo Agualusa</p>
+        <p class="price">10.00€</p>
+    </div>
 </template>
 
 <script>
 export default {
-    name: 'item'
+    name: 'item',
+    props: [
+        'title',
+        'author',
+        'price'
+    ]
 }
 </script>
 
 <style scoped>
-.flex {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
+img {
+    display: block;
+    max-height: 300px;
+    max-width: 250px;
+    width: auto;
+    height: auto;
 }
 
 .price {
-    margin-top: auto;
     font-size: 2em;
 }
 </style>
