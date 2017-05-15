@@ -2,16 +2,14 @@
     <div class="container">
         <p class="title is-1">Recent</p>
         <div class="columns is-multiline">
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
-            <item class="item"></item>
+            <div v-for="book in books">
+                <item class="item"
+                    v-bind:id="book._id"
+                    v-bind:title="book.title"
+                    v-bind:author="book.author"
+                    v-bind:price="book.price"
+                    v-bind:url="book.imageurl"></item>
+            </div>
         </div>
     </div>
 </template>
@@ -31,8 +29,8 @@ export default {
     },
     mounted: function () {
         Axios.get(Server + '/book')
-            .then((books) => {
-                this.books = books;
+            .then((response) => {
+                this.books = response.data;
             });
     }
 }

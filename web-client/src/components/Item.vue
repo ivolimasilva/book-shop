@@ -1,11 +1,13 @@
 <template>
     <div class="column is-5">
         <figure class="image">
-            <img class="small-margin-bottom" src="https://unsplash.it/400/500">
+            <img class="small-margin-bottom" v-bind:src="url">
         </figure>
-        <p class="title is-5 is-bold">A Sociedade dos Sonhadores Involuntários</p>
-        <p class="subtitle small-margin-bottom is-6">José Eduardo Agualusa</p>
-        <p class="price">10.00€</p>
+        <a href="/book">
+            <p class="title is-5 is-bold">{{ title }}</p>
+        </a>
+        <p class="subtitle small-margin-bottom is-6">{{ author }}</p>
+        <p class="price">{{ price }}€</p>
     </div>
 </template>
 
@@ -13,9 +15,11 @@
 export default {
     name: 'item',
     props: [
+        'id',
         'title',
         'author',
-        'price'
+        'price',
+        'url'
     ]
 }
 </script>

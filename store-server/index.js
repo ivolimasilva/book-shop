@@ -28,7 +28,7 @@ mongoose.Promise = require('bluebird');
 mongoose.connect(Config.database.uri);
 
 // Load models
-require('models')();
+require('schemas')();
 
 // Log (to console & file) configuration
 const options = {
