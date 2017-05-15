@@ -2,9 +2,9 @@
 
 var Joi = require('joi'),
     Boom = require('boom'),
-    Promise = require('bluebird'),
     Config = require('config'),
     Jwt = require('utils/jwt'),
+    Promise = require('bluebird'),
     Mongoose = require('mongoose'),
     Book = Mongoose.model('Book'),
     Order = Mongoose.model('Order');
@@ -14,15 +14,16 @@ module.exports = function (server) {
 	/*
 	 * Route for register order
 	 * Method:  POST
-	 * Params:  user - User making the order
-	 *          books - Books of the order
+	 * Params:  user - User who made the order
+	 *          books - Ordered books
 	 *
-	 * Returns: Error or OK, everything went fine	 */
+	 * Returns: Order object with ID, total, ...
+     */
+
     server.route({
         path: '/order',
         method: 'POST',
         config: {
-            // Validate payload params before handler gets the load
             validate: {
                 payload: {
                     user: Joi.object().required(),
@@ -31,64 +32,57 @@ module.exports = function (server) {
             },
             handler: function (request, reply) {
                 Jwt.verify(request.payload.user.token)
-                    .then((jwt) => {
+                    .then((decoded) => {
+
+                        // Create Order object
                         var order = new Order({
-                            state: 'Waiting for dispatch', //change to integer.
+                            state: 'Waiting for dispatch', // TODO: Change to integer?
                             total: 0,
                             user: {
-                                id: jwt._id,
                                 name: request.payload.user.name,
                                 address: request.payload.user.address,
                                 email: request.payload.user.email
                             },
                             books: []
                         });
-                        //request.payload.books.forEach(function (book) {
+
+                        // Iterate over requested books to update order object's books
                         Promise.each(request.payload.books, function (book) {
-                            console.log(book);
-                            Book.findById(book.id, function (err, bookfound) {
-                                if (err) {
-                                    console.log('Server error saving order. Derp.');
-                                }
-                                else if (bookfound) {
-                                    console.log(bookfound);
+                            return Book.findById(book._id).exec((err, bookfound) => {
+                                if (!err && bookfound) {
+
+                                    // Update order's books' array
                                     order.books.push({
-                                        id: bookfound._id,
+                                        _id: bookfound._id,
                                         title: bookfound.title,
                                         isbn: bookfound.isbn,
                                         quantity: book.quantity,
                                         price: bookfound.price,
-                                        id: bookfound._id,
                                         total: book.quantity * bookfound.price
                                     });
+
+                                    // Update order's total cost
                                     order.total += book.quantity * bookfound.price;
 
-                                    console.log(order.books);
-                                }
-                                else {
-                                    console.log('There is no book');
                                 }
                             });
                         }).then(function () {
+
                             // Save new Order in DB
-                            order.save((err) => {
+                            order.save((err, newOrder) => {
                                 if (err) {
-                                    console.log(err);
                                     return reply(Boom.badImplementation('Server error saving order. Derp.'));
                                 }
                                 else
-                                    return reply({ statusCode: 200 });
+                                    return reply(newOrder);
                             });
+
                         });
 
                     })
                     .catch((err) => {
-                        console.log(err);
-                        return reply(err);
+                        return reply(Boom.unauthorized('Invalid authentication token.'));
                     });
-
-
-
 
             }
         }

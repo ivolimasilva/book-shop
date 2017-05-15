@@ -1,9 +1,10 @@
 'use strict'
 
 var Joi = require('joi'),
+    Boom = require('boom'),
+    Jwt = require('utils/jwt'),
     Mongoose = require('mongoose'),
-    User = Mongoose.model('User'),
-    Jwt = require('utils/jwt');
+    User = Mongoose.model('User');
 
 module.exports = function (server) {
 
@@ -38,7 +39,7 @@ module.exports = function (server) {
                         });
                     })
                     .catch((err) => {
-                        return reply(err);
+                        return reply(Boom.unauthorized('Invalid token.'));
                     });
             }
         }
