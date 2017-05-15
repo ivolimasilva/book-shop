@@ -1,13 +1,15 @@
+'use strict'
+
 module.exports = function (server) {
 
     /*
-     * Route for login
-     * Method:  POST
-     * Params:  email - Email of the user
-     *          password - Password of the user
+     * Route to get user's information
+     * Method:  GET
+     * Params:  token - Valid token for the user
      *
-     * Returns: the user's token to save (as cookie or localStorage idk yet)
+     * Returns: the user's information (name, email, address)
      */
-    require('routes/user/user')(server);
+
+    require('routes/user/get')(server);
 
 };

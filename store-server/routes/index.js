@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function (server) {
 	/*
 	 * Routes for authentication
@@ -18,5 +20,14 @@ module.exports = function (server) {
 	 *  /register
 	 */
 	require('routes/user')(server);
+
 	require('routes/order')(server);
+
+	/*
+	 * Routes for Book management	 
+	 * 
+	 * Routes:
+	 * 	/book
+	 */
+	require('routes/book')(server);
 };

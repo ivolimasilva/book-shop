@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = function (server) {
 
     /*
@@ -8,6 +10,7 @@ module.exports = function (server) {
      *
      * Returns: the user's token to save (as cookie or localStorage idk yet)
      */
+
 	require('routes/auth/login')(server);
 
 	/*
@@ -20,5 +23,6 @@ module.exports = function (server) {
 	 *
 	 * Returns: the user's token to save (as cookie or localStorage idk yet)
 	 */
+
 	require('routes/auth/register')(server);
 };
