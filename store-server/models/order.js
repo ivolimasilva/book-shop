@@ -3,7 +3,7 @@
 var validator = require('node-mongoose-validator'),
     mongoose = require('mongoose'),
     schema = new mongoose.Schema({
-        state:{
+        state: {
             type: String,
             required: true
         },
@@ -12,6 +12,10 @@ var validator = require('node-mongoose-validator'),
             required: true
         },
         user: {
+            _id: {
+                type: mongoose.Schema.Types.ObjectId,
+                required: true
+            },
             name: {
                 type: String,
                 required: true
@@ -28,7 +32,7 @@ var validator = require('node-mongoose-validator'),
         books: [
             {
                 _id: {
-                    type:  mongoose.Schema.Types.ObjectId,
+                    type: mongoose.Schema.Types.ObjectId,
                     required: true
                 },
                 title: {

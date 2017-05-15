@@ -39,6 +39,7 @@ module.exports = function (server) {
                             state: 'Waiting for dispatch', // TODO: Change to integer?
                             total: 0,
                             user: {
+                                _id: decoded,
                                 name: request.payload.user.name,
                                 address: request.payload.user.address,
                                 email: request.payload.user.email
@@ -73,8 +74,13 @@ module.exports = function (server) {
                                 if (err) {
                                     return reply(Boom.badImplementation('Server error saving order. Derp.'));
                                 }
-                                else
+                                else {
+                                    // Delete user's ID just to be safe
+                                    newOrder.user._id = undefined;
+
+                                    // Return Order object
                                     return reply(newOrder);
+                                }
                             });
 
                         });
