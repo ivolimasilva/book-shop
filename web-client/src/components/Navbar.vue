@@ -10,11 +10,11 @@
 					</a>
 				</div>
 				<div class="nav-right clearfix-vertical-margins">
-					<div v-if="user == {}">
+					<div v-if="!user.token">
 						<a v-on:click="openRegister" class="nav-item is-pulled-right">Register</a>
 						<a v-on:click="openLogin" class="nav-item is-pulled-right">Login</a>
 					</div>
-					<div v-if="user != {}">
+					<div v-if="user.token">
 						<a href="/profile" class="nav-item is-pulled-right">{{ user.name }}</a>
 					</div>
 					<a class="nav-item is-pulled-right" target="_blank" href="https://github.com/ivolimasilva/book-shop">

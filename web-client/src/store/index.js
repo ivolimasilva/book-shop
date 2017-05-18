@@ -29,7 +29,6 @@ export const store = new Vuex.Store({
             localStorage.setItem('token', user.token);
         },
         order(state, orders) {
-            console.log(orders);
             state.orders = orders;
         }
     },
