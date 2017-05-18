@@ -10,11 +10,11 @@
 					</a>
 				</div>
 				<div class="nav-right clearfix-vertical-margins">
-					<div v-if="!logged">
+					<div v-if="user == {}">
 						<a v-on:click="openRegister" class="nav-item is-pulled-right">Register</a>
 						<a v-on:click="openLogin" class="nav-item is-pulled-right">Login</a>
 					</div>
-					<div v-if="logged">
+					<div v-if="user != {}">
 						<a class="nav-item is-pulled-right">{{ user.name }}</a>
 					</div>
 					<a class="nav-item is-pulled-right" target="_blank" href="https://github.com/ivolimasilva/book-shop">
@@ -35,7 +35,7 @@ import ModalLogin from './Modals/Login.vue';
 import ModalRegister from './Modals/Register.vue';
 
 export default {
-    name: 'navbar',
+	name: 'navbar',
 	components: {
 		'modal-login': ModalLogin,
 		'modal-register': ModalRegister
@@ -43,45 +43,32 @@ export default {
 	data: function () {
 		return {
 			activeLogin: false,
-			activeRegister: false,
-			user: {},
-			logged: false
+			activeRegister: false
 		}
 	},
-	mounted: function() {
+	computed: {
+		user: function () {
+			return this.$store.getters.user;
+		}
+	},
+	mounted: function () {
 		// Check if there's a JWT
 		if (localStorage.getItem('token')) {
-			Axios.get(Server + '/user', {
-				params: {
-					token: localStorage.getItem('token')
-				}
-			})
-				.then((response) => {
-					this.$store.commit('login', response.data);
-				})
-				.catch((error) => {
-					console.log(error);
-				});
+			// If so, load user
+			this.$store.dispatch('loadUser');
 		}
-
-		this.$store.subscribe((mutation, state) => {
-			if (mutation.type == 'login') {
-				this.user = mutation.payload;
-				this.logged = true;
-			}
-		});
 	},
 	methods: {
-		openLogin: function() {
+		openLogin: function () {
 			this.activeLogin = true;
 		},
-		closeLogin: function() {
+		closeLogin: function () {
 			this.activeLogin = false;
 		},
-		openRegister: function() {
+		openRegister: function () {
 			this.activeRegister = true;
 		},
-		closeRegister: function() {
+		closeRegister: function () {
 			this.activeRegister = false;
 		}
 	}
