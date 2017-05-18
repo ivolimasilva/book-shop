@@ -80,4 +80,8 @@ export default {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+.nav-left .nav-item:first-child {
+	padding-left: 0px !important;
+}
 </style>

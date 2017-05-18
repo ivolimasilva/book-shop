@@ -1,27 +1,50 @@
 <template>
-    <div>
-        <div>
-            <p>{{ user.name }}</p>
-            <p>{{ user.email }}</p>
-            <p>{{ user.address }}</p>
-        </div>
-        <div v-for="order in orders" v-cloak>
-            <p>{{ order.state }}</p>
-            <p>{{ order.total }}€</p>
-            <div v-for="book in order.books">
-                <p>{{ book.title }}</p>
-                <p>{{ book.isbn }}</p>
-                <p>{{ book.quantity }}</p>
-                <p>{{ book.price }}</p>
-                <p>{{ book.total }}</p>
+    <section class="section is-fullheight">
+        <div class="container">
+            <h1 class="title">Details</h1>
+            <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <p class="control">
+                            <h2 class="subtitle" v-text="user.name"></h2>
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <p class="control">
+                            <h2 class="subtitle" v-text="user.email"></h2>
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Address</label>
+                        <p class="control">
+                            <h2 class="subtitle" v-text="user.address"></h2>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h1 class="title">Orders</h1>
+            <div v-for="order in orders">
+                <order v-bind:order="order"></order>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
+import Order from '../components/Boxes/Order.vue';
+
 export default {
     name: 'profile',
+    components: {
+        'order': Order
+    },
     computed: {
         user: function () {
             return this.$store.getters.user;
@@ -38,5 +61,7 @@ export default {
 </script>
 
 <style>
-
+.section {
+    padding-top: 2rem !important;
+}
 </style>
