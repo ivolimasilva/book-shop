@@ -5,6 +5,10 @@ let routes = [
     {
         path: '/',
         component: require('./views/Dashboard.vue')
+    },
+    {
+        path: '/book/:id',
+        component: require('./views/Book.vue')
     }
 ];
 

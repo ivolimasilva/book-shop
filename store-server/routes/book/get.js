@@ -28,7 +28,11 @@ module.exports = function (server) {
                     if (err) {
                         return reply(Boom.badRequest(err));
                     } else if (books) {
-                        return reply(books);
+                        if (books.length > 1) {
+                            return reply(books);
+                        } else {
+                            return reply(books[0]);
+                        }
                     } else {
                         return reply(Boom.badRequest('Book not found.'));
                     }

@@ -3,12 +3,7 @@
         <p class="title is-1">Recent</p>
         <div class="columns is-multiline">
             <div v-for="book in books">
-                <item class="item"
-                    v-bind:id="book._id"
-                    v-bind:title="book.title"
-                    v-bind:author="book.author"
-                    v-bind:price="book.price"
-                    v-bind:url="book.imageurl"></item>
+                <item class="column is-5 item" v-bind:id="book._id" v-bind:title="book.title" v-bind:author="book.author" v-bind:price="book.price" v-bind:url="book.imageurl"></item>
             </div>
         </div>
     </div>
@@ -28,7 +23,11 @@ export default {
         'item': Item
     },
     mounted: function () {
-        Axios.get(Server + '/book')
+        Axios.get(Server + '/book', {
+            params: {
+                year: 2001
+            }
+        })
             .then((response) => {
                 this.books = response.data;
             });
@@ -43,7 +42,7 @@ export default {
 }
 
 .item {
-    width: 250px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
 }
