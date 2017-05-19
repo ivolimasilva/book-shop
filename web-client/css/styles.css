@@ -1,5 +1,9 @@
 html {
-    background-color: #f5f5f5;
+    background-color: #F5F5F5;
+}
+
+.is-semi-white {
+    background-color: #F5F5F5;
 }
 
 [v-cloak] {

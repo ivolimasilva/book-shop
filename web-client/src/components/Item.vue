@@ -20,7 +20,7 @@ export default {
     props: ['book'],
     computed: {
         uri: function () {
-            return '/book/' + this.id;
+            return '/book/' + this.book._id;
         }
     },
     methods: {

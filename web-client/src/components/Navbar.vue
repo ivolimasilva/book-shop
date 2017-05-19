@@ -21,7 +21,7 @@
 					</div>
 					<div v-if="user.token">
 						<a v-on:click="logout" class="nav-item is-tab is-pulled-right">Logout</a>
-						<a v-on:click="goToCart" class="nav-item is-tab is-pulled-right">Shopping Cart ({{ cart.length }})</a>
+						<a v-on:click="goToCart" class="nav-item is-tab is-pulled-right">Shopping Cart ({{ cart.quantity }})</a>
 						<a v-on:click="goToProfile" class="nav-item is-tab is-pulled-right">Profile ({{ user.name.split(' ')[0] }})</a>
 					</div>
 				</div>

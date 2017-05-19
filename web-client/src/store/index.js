@@ -13,7 +13,11 @@ export const store = new Vuex.Store({
             token: ''
         },
         orders: [],
-        cart: []
+        cart: {
+            total: 0,
+            quantity: 0,
+            items: []
+        }
     },
     getters: {
         user: (state) => {
@@ -58,7 +62,18 @@ export const store = new Vuex.Store({
             state.orders = orders;
         },
         addToCart(state, book) {
-            state.cart.push(book);
+            // Increment quantity
+            state.cart.quantity++;
+
+            // Increment total
+            state.cart.total += book.price;
+
+            if (state.cart.items.indexOf(book) > -1) {
+                state.cart.items[state.cart.items.indexOf(book)].quantity++;
+            } else {
+                book.quantity = 1;
+                state.cart.items.push(book);
+            }
         }
     },
     actions: {
