@@ -31,7 +31,27 @@
             </div>
         </div>
         <section class="section" v-if="open">
-            
+            <h1 class="title">Ordered Books</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ISBN</th>
+                        <th>Title</th>
+                        <th>Quantity</th>
+                        <th>Price (unitary)</th>
+                        <th>Price (total)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="book in order.books">
+                        <th>{{ book.isbn }}</th>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.quantity }}</td>
+                        <td>{{ book.price }}€</td>
+                        <td>{{ book.total }}€</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </div>
 </template>
@@ -56,6 +76,15 @@ export default {
 <style scoped>
 .box {
     margin: 15px 0px;
+}
+
+.box .columns {
+    margin-bottom: 0px;
+}
+
+.box .section {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .icon {

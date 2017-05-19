@@ -31,6 +31,17 @@ export const store = new Vuex.Store({
                 expires: '1Y'
             });
         },
+        logout(state) {
+            Vue.cookie.delete('session');
+
+            state.user = {
+                email: '',
+                name: '',
+                address: '',
+                token: ''
+            };
+            state.orders = [];
+        },
         order(state, orders) {
             state.orders = orders;
         }
