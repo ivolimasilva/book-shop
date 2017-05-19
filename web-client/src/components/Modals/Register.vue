@@ -77,7 +77,9 @@ export default {
     },
     methods: {
         onSubmit: function () {
-            Axios.post(Server + '/auth/register', this.user)
+            Axios.post(Server + '/auth/register', this.user, {
+                withCredentials: true
+            })
                 .then((response) => {
                     // Save user's information in Vuex Store
                     this.$store.commit('login', response.data);
