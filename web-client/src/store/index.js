@@ -25,8 +25,12 @@ export const store = new Vuex.Store({
         login(state, user) {
             // Save user's information in Store
             state.user = user;
+
             // Save Authentication JSON Web Token
-            localStorage.setItem('token', user.token);
+            Vue.cookie.set('session', user.token, {
+                expires: '1Y',
+                domain: 'localhost'
+            });
         },
         order(state, orders) {
             state.orders = orders;
@@ -34,10 +38,11 @@ export const store = new Vuex.Store({
     },
     actions: {
         // TODO: Refactor errors
+        // TODO: GET doesn't need params, since session works with cookie now
         loadUser(context) {
             Axios.get(Server + '/user', {
                 params: {
-                    token: localStorage.getItem('token')
+                    token: Vue.cookie.get('session')
                 }
             })
                 .then((response) => {

@@ -53,7 +53,7 @@ export default {
             return this.$store.getters.orders;
         }
     },
-    beforeMount: function () {
+    mounted: function () {
         // Update orders
         this.$store.dispatch('loadOrder');
     }

@@ -53,7 +53,7 @@ export default {
 	},
 	mounted: function () {
 		// Check if there's a JWT
-		if (localStorage.getItem('token')) {
+		if (this.$cookie.get('session')) {
 			// If so, load user
 			this.$store.dispatch('loadUser');
 		}
