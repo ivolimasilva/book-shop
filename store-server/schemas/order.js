@@ -3,8 +3,13 @@
 var validator = require('node-mongoose-validator'),
     mongoose = require('mongoose'),
     schema = new mongoose.Schema({
-        state: {
+        status: {
             type: String,
+            required: true
+        },
+        date: {
+            type: Date,
+            default: Date.now,
             required: true
         },
         total: {

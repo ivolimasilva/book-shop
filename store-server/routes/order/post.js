@@ -36,7 +36,7 @@ module.exports = function (server) {
 
                         // Create Order object
                         var order = new Order({
-                            state: 'Waiting for dispatch', // TODO: Change to integer?
+                            status: 'Waiting for dispatch', // TODO: Change to integer?
                             total: 0,
                             user: {
                                 _id: decoded,
