@@ -60,7 +60,9 @@ export const store = new Vuex.Store({
                 });
         },
         loadOrder(context) {
-            Axios.get(Server + '/order')
+            Axios.get(Server + '/order', {
+                withCredentials: true
+            })
                 .then((response) => {
                     context.commit('order', response.data);
                 })

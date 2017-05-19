@@ -3,6 +3,7 @@
 var Joi = require('joi'),
     Boom = require('boom'),
     Config = require('config'),
+    Jwt = require('utils/jwt'),
     Promise = require('bluebird'),
     Mongoose = require('mongoose'),
     Order = Mongoose.model('Order');
@@ -24,10 +25,18 @@ module.exports = function (server) {
         config: {
             handler: function (request, reply) {
 
-                Order.find({}, (err, orders) => {
-                    return reply(orders);
-                });
+           // Verify if token is valid and returns user's ID
+                Jwt.verify(request.state.session)
+                    .then((decoded) => {
+                        Order.find({ 'user._id': new Mongoose.Types.ObjectId(decoded._id) }, (err, orders) => {
+                            return reply(orders);
+                        });
 
+                    })
+
+                    .catch((err) => {
+                        return reply(Boom.unauthorized('Invalid token.'));
+                    });
             }
         }
     });
