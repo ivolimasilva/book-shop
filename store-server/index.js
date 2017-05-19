@@ -17,7 +17,11 @@ var server = new Hapi.Server({
 server.connection({
 	port: Config.server.port,
 	routes: {
-		cors: true
+		cors: {
+			origin: ['*'],
+			// headers: ['*'],
+			credentials: true
+		}
 	}
 });
 

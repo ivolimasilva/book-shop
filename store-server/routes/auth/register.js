@@ -22,7 +22,7 @@ module.exports = function (server) {
 	 */
     server.route({
         path: '/auth/register',
-        method: 'POST',        
+        method: 'POST',
         config: {
             // Validate payload params before handler gets the load
             validate: {
@@ -60,7 +60,7 @@ module.exports = function (server) {
                                             name: _user.name,
                                             address: _user.address,
                                             token: _token
-                                        });
+                                        }).header('Access-Control-Allow-Credentials', true);
                                     })
                                     .catch((err) => {
                                         return reply(Boom.badImplementation('Server error generating token.'));

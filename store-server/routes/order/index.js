@@ -9,4 +9,5 @@ module.exports = function (server) {
      * Returns: the user's token to save (as cookie or localStorage idk yet)
      */
 	require('routes/order/post')(server);
+	require('routes/order/get')(server);
 };

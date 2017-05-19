@@ -20,15 +20,10 @@ module.exports = function (server) {
         path: '/user',
         method: 'GET',
         config: {
-            validate: {
-                query: {
-                    token: Joi.string().required()
-                }
-            },
             handler: function (request, reply) {
 
                 // Verify if token is valid and returns user's ID
-                Jwt.verify(request.query.token)
+                Jwt.verify(request.state.session)
                     .then((decoded) => {
 
                         // Search DB for the user by ID
@@ -42,8 +37,8 @@ module.exports = function (server) {
                                     email: user.email,
                                     name: user.name,
                                     address: user.address,
-                                    token: request.query.token
-                                });
+                                    token: request.state.session
+                                }).header('Access-Control-Allow-Credentials', true);
                             } else {
                                 return reply(Boom.badRequest('User not found.'));
                             }

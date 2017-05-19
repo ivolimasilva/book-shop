@@ -10,12 +10,12 @@
 					</a>
 				</div>
 				<div class="nav-right clearfix-vertical-margins">
-					<div v-if="user == {}">
+					<div v-if="!user.token">
 						<a v-on:click="openRegister" class="nav-item is-pulled-right">Register</a>
 						<a v-on:click="openLogin" class="nav-item is-pulled-right">Login</a>
 					</div>
-					<div v-if="user != {}">
-						<a class="nav-item is-pulled-right">{{ user.name }}</a>
+					<div v-if="user.token">
+						<a href="/profile" class="nav-item is-pulled-right">{{ user.name }}</a>
 					</div>
 					<a class="nav-item is-pulled-right" target="_blank" href="https://github.com/ivolimasilva/book-shop">
 						<span class="icon">
@@ -53,7 +53,7 @@ export default {
 	},
 	mounted: function () {
 		// Check if there's a JWT
-		if (localStorage.getItem('token')) {
+		if (this.$cookie.get('session')) {
 			// If so, load user
 			this.$store.dispatch('loadUser');
 		}
@@ -79,5 +79,9 @@ export default {
 .clearfix-vertical-margins {
 	margin-top: auto;
 	margin-bottom: auto;
+}
+
+.nav-left .nav-item:first-child {
+	padding-left: 0px !important;
 }
 </style>

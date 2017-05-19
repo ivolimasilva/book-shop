@@ -9,6 +9,10 @@ let routes = [
     {
         path: '/book/:id',
         component: require('./views/Book.vue')
+    },
+    {
+        path: '/profile/',
+        component: require('./views/Profile.vue')
     }
 ];
 

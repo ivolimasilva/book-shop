@@ -49,7 +49,7 @@ module.exports = function (server) {
                                                 name: user.name,
                                                 address: user.address,
                                                 token: _token
-                                            });
+                                            }).header('Access-Control-Allow-Credentials', true);
                                         })
                                         .catch((err) => {
                                             return reply(Boom.badImplementation('Server error generating token.'));
