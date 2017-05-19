@@ -27,11 +27,9 @@ export const store = new Vuex.Store({
             state.user = user;
 
             // Save Authentication JSON Web Token
-            if (!Vue.cookie.get('session')) {
-                Vue.cookie.set('session', user.token, {
-                    expires: '1Y'
-                });
-            }
+            Vue.cookie.set('session', user.token, {
+                expires: '1Y'
+            });
         },
         order(state, orders) {
             state.orders = orders;
