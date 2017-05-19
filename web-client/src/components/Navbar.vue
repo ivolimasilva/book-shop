@@ -3,7 +3,7 @@
 		<nav class="nav">
 			<div class="container">
 				<div class="nav-left">
-					<a class="nav-item" href="/">
+					<a class="nav-item" v-on:click="goToHome">
 						<h1 class="title">
 							Book Shop
 						</h1>
@@ -21,8 +21,8 @@
 					</div>
 					<div v-if="user.token">
 						<a v-on:click="logout" class="nav-item is-tab is-pulled-right">Logout</a>
-						<a href="/cart" class="nav-item is-tab is-pulled-right">Shopping Cart ({{ cart.length }})</a>
-						<a href="/profile" class="nav-item is-tab is-pulled-right">Profile ({{ user.name.split(' ')[0] }})</a>
+						<a v-on:click="goToCart" class="nav-item is-tab is-pulled-right">Shopping Cart ({{ cart.length }})</a>
+						<a v-on:click="goToProfile" class="nav-item is-tab is-pulled-right">Profile ({{ user.name.split(' ')[0] }})</a>
 					</div>
 				</div>
 			</div>
@@ -78,6 +78,15 @@ export default {
 		},
 		logout: function () {
 			this.$store.commit('logout');
+		},
+		goToHome: function () {
+			this.$router.push({ name: 'home' });
+		},
+		goToProfile: function () {
+			this.$router.push({ name: 'profile' });
+		},
+		goToCart: function () {
+			this.$router.push({ name: 'cart' });
 		}
 	}
 }

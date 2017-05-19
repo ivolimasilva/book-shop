@@ -37,15 +37,22 @@ export const store = new Vuex.Store({
             });
         },
         logout(state) {
+            // Clear cookie
             Vue.cookie.delete('session');
 
+            // Clear user
             state.user = {
                 email: '',
                 name: '',
                 address: '',
                 token: ''
             };
+
+            // Clear orders
             state.orders = [];
+
+            // Clear cart
+            state.cart = [];
         },
         order(state, orders) {
             state.orders = orders;
