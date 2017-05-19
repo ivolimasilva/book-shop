@@ -3,7 +3,7 @@
         <p class="title is-1">Recent</p>
         <div class="columns is-multiline">
             <div v-for="book in books">
-                <item class="column is-5 item" v-bind:id="book._id" v-bind:title="book.title" v-bind:author="book.author" v-bind:price="book.price" v-bind:url="book.imageurl"></item>
+                <item class="column is-5 item" v-bind:book="book"></item>
             </div>
         </div>
     </div>

@@ -13,6 +13,10 @@ let routes = [
     {
         path: '/profile/',
         component: require('./views/Profile.vue')
+    },
+    {
+        path: '/cart/',
+        component: require('./views/Cart.vue')
     }
 ];
 

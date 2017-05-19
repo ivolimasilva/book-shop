@@ -9,19 +9,21 @@
 						</h1>
 					</a>
 				</div>
-				<div class="nav-right clearfix-vertical-margins">
+				<span class="nav-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+				<div class="nav-right nav-menu clearfix-vertical-margins">
 					<div v-if="!user.token">
-						<a v-on:click="openRegister" class="nav-item is-pulled-right">Register</a>
-						<a v-on:click="openLogin" class="nav-item is-pulled-right">Login</a>
+						<a v-on:click="openRegister" class="nav-item is-tab is-pulled-right">Register</a>
+						<a v-on:click="openLogin" class="nav-item is-tab is-pulled-right">Login</a>
 					</div>
 					<div v-if="user.token">
-						<a href="/profile" class="nav-item is-pulled-right">{{ user.name }}</a>
+						<a v-on:click="logout" class="nav-item is-tab is-pulled-right">Logout</a>
+						<a href="/cart" class="nav-item is-tab is-pulled-right">Shopping Cart ({{ cart.length }})</a>
+						<a href="/profile" class="nav-item is-tab is-pulled-right">Profile ({{ user.name.split(' ')[0] }})</a>
 					</div>
-					<a class="nav-item is-pulled-right" target="_blank" href="https://github.com/ivolimasilva/book-shop">
-						<span class="icon">
-							<i class="fa fa-github"></i>
-						</span>
-					</a>
 				</div>
 			</div>
 		</nav>
@@ -49,6 +51,9 @@ export default {
 	computed: {
 		user: function () {
 			return this.$store.getters.user;
+		},
+		cart: function () {
+			return this.$store.getters.cart;
 		}
 	},
 	mounted: function () {
@@ -70,6 +75,9 @@ export default {
 		},
 		closeRegister: function () {
 			this.activeRegister = false;
+		},
+		logout: function () {
+			this.$store.commit('logout');
 		}
 	}
 }

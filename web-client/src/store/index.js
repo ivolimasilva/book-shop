@@ -3,6 +3,7 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
+// TODO: Refactor with modules
 export const store = new Vuex.Store({
     state: {
         user: {
@@ -11,7 +12,8 @@ export const store = new Vuex.Store({
             address: '',
             token: ''
         },
-        orders: []
+        orders: [],
+        cart: []
     },
     getters: {
         user: (state) => {
@@ -19,6 +21,9 @@ export const store = new Vuex.Store({
         },
         orders: (state) => {
             return state.orders;
+        },
+        cart: (state) => {
+            return state.cart;
         }
     },
     mutations: {
@@ -44,6 +49,9 @@ export const store = new Vuex.Store({
         },
         order(state, orders) {
             state.orders = orders;
+        },
+        addToCart(state, book) {
+            state.cart.push(book);
         }
     },
     actions: {
