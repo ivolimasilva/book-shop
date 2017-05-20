@@ -31,13 +31,15 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.registerTab = new System.Windows.Forms.TabPage();
             this.loginTab = new System.Windows.Forms.TabPage();
+            this.lblStatusLogin = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtMail = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblMail = new System.Windows.Forms.Label();
-            this.lblStatusLogin = new System.Windows.Forms.Label();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
+            this.registerTab.SuspendLayout();
             this.loginTab.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +62,7 @@
             // 
             // registerTab
             // 
+            this.registerTab.Controls.Add(this.btnRegister);
             this.registerTab.Location = new System.Drawing.Point(4, 4);
             this.registerTab.Name = "registerTab";
             this.registerTab.Padding = new System.Windows.Forms.Padding(4);
@@ -84,6 +87,15 @@
             this.loginTab.TabIndex = 1;
             this.loginTab.Text = "Login";
             this.loginTab.UseVisualStyleBackColor = true;
+            // 
+            // lblStatusLogin
+            // 
+            this.lblStatusLogin.AutoSize = true;
+            this.lblStatusLogin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatusLogin.Location = new System.Drawing.Point(29, 124);
+            this.lblStatusLogin.Name = "lblStatusLogin";
+            this.lblStatusLogin.Size = new System.Drawing.Size(0, 19);
+            this.lblStatusLogin.TabIndex = 5;
             // 
             // btnLogin
             // 
@@ -130,14 +142,16 @@
             this.lblMail.TabIndex = 0;
             this.lblMail.Text = "Mail";
             // 
-            // lblStatusLogin
+            // btnRegister
             // 
-            this.lblStatusLogin.AutoSize = true;
-            this.lblStatusLogin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatusLogin.Location = new System.Drawing.Point(29, 124);
-            this.lblStatusLogin.Name = "lblStatusLogin";
-            this.lblStatusLogin.Size = new System.Drawing.Size(0, 19);
-            this.lblStatusLogin.TabIndex = 5;
+            this.btnRegister.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
+            this.btnRegister.Location = new System.Drawing.Point(107, 155);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(115, 35);
+            this.btnRegister.TabIndex = 0;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // Home
             // 
@@ -151,6 +165,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.tabControl.ResumeLayout(false);
+            this.registerTab.ResumeLayout(false);
             this.loginTab.ResumeLayout(false);
             this.loginTab.PerformLayout();
             this.ResumeLayout(false);
@@ -168,5 +183,6 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblMail;
         private System.Windows.Forms.Label lblStatusLogin;
+        private System.Windows.Forms.Button btnRegister;
     }
 }

@@ -51,9 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Management\Book.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserManagement\User.cs" />
+    <Compile Include="Management\User.cs" />
     <Compile Include="Views\Home.cs">
       <SubType>Form</SubType>
     </Compile>

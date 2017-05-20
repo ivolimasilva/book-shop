@@ -25,7 +25,7 @@ namespace store_client.Views
         {
             UserManagement.User user = new UserManagement.User(txtMail.Text, txtPassword.Text);
 
-            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:9000/auth/login");
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:9000/auth/login");            
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
 
@@ -45,7 +45,7 @@ namespace store_client.Views
                 new Thread(() =>
                 {
                     // TODO: Store doesn't have constructor with user
-                    // Application.Run(new Store(user));
+                    //Application.Run(new Store(user));
                     Application.Run(new Store());
                 }).Start();
                 this.Close();
@@ -73,6 +73,19 @@ namespace store_client.Views
                 var result = streamReader.ReadToEnd();
                 lblStatusLogin.Text = result;  
             }*/
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            // Commented because it's not ready to deploy
+
+            /*
+            
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:9000/auth/register");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
+            
+             */
         }
     }
 }
