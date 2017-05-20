@@ -5,7 +5,7 @@ db.books.insertMany([
         "author": "Mark P. O. Morford",
         "year": 2002,
         "publisher": "Oxford University Press",
-        "imageurl": "http://images.amazon.com/images/P/0195153448.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0195153448.01.LZZZZZZZ.jpg",
         "price": 180,
         "stock": 33
     },
@@ -15,7 +15,7 @@ db.books.insertMany([
         "author": "Richard Bruce Wright",
         "year": 2001,
         "publisher": "HarperFlamingo Canada",
-        "imageurl": "http://images.amazon.com/images/P/0002005018.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0002005018.01.LZZZZZZZ.jpg",
         "price": 39,
         "stock": 31
     },
@@ -25,7 +25,7 @@ db.books.insertMany([
         "author": "Carlo D'Este",
         "year": 1991,
         "publisher": "HarperPerennial",
-        "imageurl": "http://images.amazon.com/images/P/0060973129.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060973129.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 0
     },
@@ -35,7 +35,7 @@ db.books.insertMany([
         "author": "Gina Bari Kolata",
         "year": 1999,
         "publisher": "Farrar Straus Giroux",
-        "imageurl": "http://images.amazon.com/images/P/0374157065.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0374157065.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 15
     },
@@ -45,7 +45,7 @@ db.books.insertMany([
         "author": "E. J. W. Barber",
         "year": 1999,
         "publisher": "W. W. Norton &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0393045218.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0393045218.01.LZZZZZZZ.jpg",
         "price": 120,
         "stock": 36
     },
@@ -55,7 +55,7 @@ db.books.insertMany([
         "author": "Amy Tan",
         "year": 1991,
         "publisher": "Putnam Pub Group",
-        "imageurl": "http://images.amazon.com/images/P/0399135782.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399135782.01.LZZZZZZZ.jpg",
         "price": 66,
         "stock": 36
     },
@@ -65,7 +65,7 @@ db.books.insertMany([
         "author": "Robert Cowley",
         "year": 2000,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425176428.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425176428.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 2
     },
@@ -75,7 +75,7 @@ db.books.insertMany([
         "author": "Scott Turow",
         "year": 1993,
         "publisher": "Audioworks",
-        "imageurl": "http://images.amazon.com/images/P/0671870432.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671870432.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 5
     },
@@ -85,7 +85,7 @@ db.books.insertMany([
         "author": "David Cordingly",
         "year": 1996,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0679425608.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679425608.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 32
     },
@@ -95,7 +95,7 @@ db.books.insertMany([
         "author": "Ann Beattie",
         "year": 2002,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/074322678X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/074322678X.01.LZZZZZZZ.jpg",
         "price": 33,
         "stock": 34
     },
@@ -105,7 +105,7 @@ db.books.insertMany([
         "author": "David Adams Richards",
         "year": 1988,
         "publisher": "Emblem Editions",
-        "imageurl": "http://images.amazon.com/images/P/0771074670.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0771074670.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 6
     },
@@ -115,7 +115,7 @@ db.books.insertMany([
         "author": "Adam Lebor",
         "year": 2000,
         "publisher": "Citadel Press",
-        "imageurl": "http://images.amazon.com/images/P/080652121X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/080652121X.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 21
     },
@@ -125,7 +125,7 @@ db.books.insertMany([
         "author": "Sheila Heti",
         "year": 2004,
         "publisher": "House of Anansi Press",
-        "imageurl": "http://images.amazon.com/images/P/0887841740.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0887841740.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 3
     },
@@ -135,7 +135,7 @@ db.books.insertMany([
         "author": "R. J. Kaiser",
         "year": 1999,
         "publisher": "Mira Books",
-        "imageurl": "http://images.amazon.com/images/P/1552041778.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1552041778.01.LZZZZZZZ.jpg",
         "price": 181,
         "stock": 0
     },
@@ -145,7 +145,7 @@ db.books.insertMany([
         "author": "Jack Canfield",
         "year": 1998,
         "publisher": "Health Communications",
-        "imageurl": "http://images.amazon.com/images/P/1558746218.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1558746218.01.LZZZZZZZ.jpg",
         "price": 85,
         "stock": 29
     },
@@ -155,7 +155,7 @@ db.books.insertMany([
         "author": "Loren D. Estleman",
         "year": 1998,
         "publisher": "Brilliance Audio - Trade",
-        "imageurl": "http://images.amazon.com/images/P/1567407781.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1567407781.01.LZZZZZZZ.jpg",
         "price": 5,
         "stock": 36
     },
@@ -165,7 +165,7 @@ db.books.insertMany([
         "author": "Robert Hendrickson",
         "year": 1999,
         "publisher": "Kensington Publishing Corp.",
-        "imageurl": "http://images.amazon.com/images/P/1575663937.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1575663937.01.LZZZZZZZ.jpg",
         "price": 151,
         "stock": 34
     },
@@ -175,7 +175,7 @@ db.books.insertMany([
         "author": "Julia Oliver",
         "year": 1994,
         "publisher": "River City Pub",
-        "imageurl": "http://images.amazon.com/images/P/1881320189.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1881320189.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 28
     },
@@ -185,7 +185,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1999,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440234743.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440234743.01.LZZZZZZZ.jpg",
         "price": 172,
         "stock": 26
     },
@@ -195,7 +195,7 @@ db.books.insertMany([
         "author": "Toni Morrison",
         "year": 1994,
         "publisher": "Plume",
-        "imageurl": "http://images.amazon.com/images/P/0452264464.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0452264464.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 30
     },
@@ -205,7 +205,7 @@ db.books.insertMany([
         "author": "The Onion",
         "year": 1999,
         "publisher": "Three Rivers Press",
-        "imageurl": "http://images.amazon.com/images/P/0609804618.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0609804618.01.LZZZZZZZ.jpg",
         "price": 163,
         "stock": 2
     },
@@ -215,7 +215,7 @@ db.books.insertMany([
         "author": "Celia Brooks Brown",
         "year": 2001,
         "publisher": "Ryland Peters &amp; Small Ltd",
-        "imageurl": "http://images.amazon.com/images/P/1841721522.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1841721522.01.LZZZZZZZ.jpg",
         "price": 53,
         "stock": 39
     },
@@ -225,7 +225,7 @@ db.books.insertMany([
         "author": "J. R. Parrish",
         "year": 2003,
         "publisher": "Cypress House",
-        "imageurl": "http://images.amazon.com/images/P/1879384493.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1879384493.01.LZZZZZZZ.jpg",
         "price": 27,
         "stock": 9
     },
@@ -235,7 +235,7 @@ db.books.insertMany([
         "author": "Mary-Kate &amp; Ashley Olsen",
         "year": 2000,
         "publisher": "HarperEntertainment",
-        "imageurl": "http://images.amazon.com/images/P/0061076031.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061076031.01.LZZZZZZZ.jpg",
         "price": 100,
         "stock": 27
     },
@@ -245,7 +245,7 @@ db.books.insertMany([
         "author": "Robynn Clairday",
         "year": 1999,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0439095026.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439095026.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 8
     },
@@ -255,7 +255,7 @@ db.books.insertMany([
         "author": "Kathleen Duey",
         "year": 1998,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/0689821166.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0689821166.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 15
     },
@@ -265,7 +265,7 @@ db.books.insertMany([
         "author": "Rich Shapero",
         "year": 2004,
         "publisher": "Too Far",
-        "imageurl": "http://images.amazon.com/images/P/0971880107.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0971880107.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 10
     },
@@ -275,7 +275,7 @@ db.books.insertMany([
         "author": "Michael Crichton",
         "year": 1997,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345402871.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345402871.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 33
     },
@@ -285,7 +285,7 @@ db.books.insertMany([
         "author": "MICHAEL CRICHTON",
         "year": 2000,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345417623.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345417623.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 13
     },
@@ -295,7 +295,7 @@ db.books.insertMany([
         "author": "C.S. Lewis",
         "year": 1996,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0684823802.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684823802.01.LZZZZZZZ.jpg",
         "price": 37,
         "stock": 29
     },
@@ -305,7 +305,7 @@ db.books.insertMany([
         "author": "ARTHUR PHILLIPS",
         "year": 2003,
         "publisher": "Random House Trade Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0375759778.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375759778.01.LZZZZZZZ.jpg",
         "price": 130,
         "stock": 40
     },
@@ -315,7 +315,7 @@ db.books.insertMany([
         "author": "Stephan Jaramillo",
         "year": 1998,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425163091.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425163091.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 30
     },
@@ -325,7 +325,7 @@ db.books.insertMany([
         "author": "Mordecai Richler",
         "year": 2002,
         "publisher": "LÃ?Â¼bbe",
-        "imageurl": "http://images.amazon.com/images/P/3404921038.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3404921038.01.LZZZZZZZ.jpg",
         "price": 168,
         "stock": 23
     },
@@ -335,7 +335,7 @@ db.books.insertMany([
         "author": "Eleanor Cooney",
         "year": 2001,
         "publisher": "Goldmann",
-        "imageurl": "http://images.amazon.com/images/P/3442353866.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3442353866.01.LZZZZZZZ.jpg",
         "price": 47,
         "stock": 34
     },
@@ -345,7 +345,7 @@ db.books.insertMany([
         "author": "Charlotte Link",
         "year": 1991,
         "publisher": "Goldmann",
-        "imageurl": "http://images.amazon.com/images/P/3442410665.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3442410665.01.LZZZZZZZ.jpg",
         "price": 60,
         "stock": 33
     },
@@ -355,7 +355,7 @@ db.books.insertMany([
         "author": "Richard North Patterson",
         "year": 2000,
         "publisher": "Goldmann",
-        "imageurl": "http://images.amazon.com/images/P/3442446937.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3442446937.01.LZZZZZZZ.jpg",
         "price": 5,
         "stock": 17
     },
@@ -365,7 +365,7 @@ db.books.insertMany([
         "author": "Mark Salzman",
         "year": 2000,
         "publisher": "Alfred A. Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0375406328.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375406328.01.LZZZZZZZ.jpg",
         "price": 28,
         "stock": 4
     },
@@ -375,7 +375,7 @@ db.books.insertMany([
         "author": "Harper Lee",
         "year": 1988,
         "publisher": "Little Brown &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0446310786.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446310786.01.LZZZZZZZ.jpg",
         "price": 136,
         "stock": 16
     },
@@ -385,7 +385,7 @@ db.books.insertMany([
         "author": "LAURA HILLENBRAND",
         "year": 2002,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449005615.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449005615.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 23
     },
@@ -395,7 +395,7 @@ db.books.insertMany([
         "author": "Barbara Kingsolver",
         "year": 1993,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/0060168013.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060168013.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 32
     },
@@ -405,7 +405,7 @@ db.books.insertMany([
         "author": "Jo Dereske",
         "year": 1996,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/038078243X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038078243X.01.LZZZZZZZ.jpg",
         "price": 199,
         "stock": 0
     },
@@ -415,7 +415,7 @@ db.books.insertMany([
         "author": "Jane Austen",
         "year": 1983,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/055321215X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/055321215X.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 19
     },
@@ -425,7 +425,7 @@ db.books.insertMany([
         "author": "Dolores Krieger",
         "year": 1979,
         "publisher": "Fireside",
-        "imageurl": "http://images.amazon.com/images/P/067176537X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/067176537X.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 25
     },
@@ -435,7 +435,7 @@ db.books.insertMany([
         "author": "Anne Rivers Siddons",
         "year": 1995,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/0061099686.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061099686.01.LZZZZZZZ.jpg",
         "price": 49,
         "stock": 1
     },
@@ -445,7 +445,7 @@ db.books.insertMany([
         "author": "Dean R. Koontz",
         "year": 2000,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553582909.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553582909.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 32
     },
@@ -455,7 +455,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 1994,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671888587.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671888587.01.LZZZZZZZ.jpg",
         "price": 76,
         "stock": 30
     },
@@ -465,7 +465,7 @@ db.books.insertMany([
         "author": "Dean Koontz",
         "year": 2001,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553582747.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553582747.01.LZZZZZZZ.jpg",
         "price": 57,
         "stock": 28
     },
@@ -475,7 +475,7 @@ db.books.insertMany([
         "author": "Patricia Cornwell",
         "year": 2002,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425182908.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425182908.01.LZZZZZZZ.jpg",
         "price": 58,
         "stock": 15
     },
@@ -485,7 +485,7 @@ db.books.insertMany([
         "author": "J.D. Robb",
         "year": 2002,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/042518630X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/042518630X.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 29
     },
@@ -495,7 +495,7 @@ db.books.insertMany([
         "author": "Maeve Binchy",
         "year": 1997,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440223571.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440223571.01.LZZZZZZZ.jpg",
         "price": 83,
         "stock": 12
     },
@@ -505,7 +505,7 @@ db.books.insertMany([
         "author": "Laura J. Mixon",
         "year": 1999,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812523873.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812523873.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 11
     },
@@ -515,7 +515,7 @@ db.books.insertMany([
         "author": "Tim Lahaye",
         "year": 2000,
         "publisher": "Tyndale House Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0842342702.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0842342702.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 40
     },
@@ -525,7 +525,7 @@ db.books.insertMany([
         "author": "JOHN GRISHAM",
         "year": 1999,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440225701.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440225701.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 9
     },
@@ -535,7 +535,7 @@ db.books.insertMany([
         "author": "M.D. Bernie S. Siegel",
         "year": 1988,
         "publisher": "HarperCollins Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0060914068.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060914068.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 21
     },
@@ -545,7 +545,7 @@ db.books.insertMany([
         "author": "Robert Penn Warren",
         "year": 1982,
         "publisher": "Harvest Books",
-        "imageurl": "http://images.amazon.com/images/P/0156047624.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0156047624.01.LZZZZZZZ.jpg",
         "price": 107,
         "stock": 37
     },
@@ -555,7 +555,7 @@ db.books.insertMany([
         "author": "Hans Johannes Hoefer",
         "year": 1985,
         "publisher": "Chambers Harrap Publishers Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0245542957.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0245542957.01.LZZZZZZZ.jpg",
         "price": 28,
         "stock": 9
     },
@@ -565,7 +565,7 @@ db.books.insertMany([
         "author": "Mark Helprin",
         "year": 1992,
         "publisher": "Avon Books",
-        "imageurl": "http://images.amazon.com/images/P/0380715899.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380715899.01.LZZZZZZZ.jpg",
         "price": 79,
         "stock": 13
     },
@@ -575,7 +575,7 @@ db.books.insertMany([
         "author": "O. Carol Simonton Md",
         "year": 1992,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553280333.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553280333.01.LZZZZZZZ.jpg",
         "price": 157,
         "stock": 4
     },
@@ -585,7 +585,7 @@ db.books.insertMany([
         "author": "Chuck Hill",
         "year": 1993,
         "publisher": "Speed Graphics",
-        "imageurl": "http://images.amazon.com/images/P/0961769947.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0961769947.01.LZZZZZZZ.jpg",
         "price": 14,
         "stock": 39
     },
@@ -595,7 +595,7 @@ db.books.insertMany([
         "author": "David Iglehart",
         "year": 2002,
         "publisher": "Sunflower Press",
-        "imageurl": "http://images.amazon.com/images/P/0964778319.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0964778319.01.LZZZZZZZ.jpg",
         "price": 136,
         "stock": 20
     },
@@ -605,7 +605,7 @@ db.books.insertMany([
         "author": "Larry McMurtry",
         "year": 1986,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671623249.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671623249.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 0
     },
@@ -615,7 +615,7 @@ db.books.insertMany([
         "author": "SUZANNE FISHER STAPLES",
         "year": 1991,
         "publisher": "Laurel Leaf",
-        "imageurl": "http://images.amazon.com/images/P/0679810307.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679810307.01.LZZZZZZZ.jpg",
         "price": 81,
         "stock": 35
     },
@@ -625,7 +625,7 @@ db.books.insertMany([
         "author": "SUZANNE FISHER STAPLES",
         "year": 1995,
         "publisher": "Laurel Leaf",
-        "imageurl": "http://images.amazon.com/images/P/0679865691.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679865691.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 35
     },
@@ -635,7 +635,7 @@ db.books.insertMany([
         "author": "Michel Tournier",
         "year": 2002,
         "publisher": "Gallimard",
-        "imageurl": "http://images.amazon.com/images/P/2070423204.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2070423204.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 20
     },
@@ -645,7 +645,7 @@ db.books.insertMany([
         "author": "Carl Sagan",
         "year": 1978,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345260317.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345260317.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 32
     },
@@ -655,7 +655,7 @@ db.books.insertMany([
         "author": "Aleksandr Zinoviev",
         "year": 1980,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0394743741.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394743741.01.LZZZZZZZ.jpg",
         "price": 113,
         "stock": 39
     },
@@ -665,7 +665,7 @@ db.books.insertMany([
         "author": "Anne Tyler",
         "year": 1994,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/042511774X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/042511774X.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 30
     },
@@ -675,7 +675,7 @@ db.books.insertMany([
         "author": "Amy Tan",
         "year": 1994,
         "publisher": "Prentice Hall (K-12)",
-        "imageurl": "http://images.amazon.com/images/P/0804106304.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0804106304.01.LZZZZZZZ.jpg",
         "price": 172,
         "stock": 37
     },
@@ -685,7 +685,7 @@ db.books.insertMany([
         "author": "Joseph Conrad",
         "year": 1998,
         "publisher": "NTC/Contemporary Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/1853262404.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1853262404.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 28
     },
@@ -695,7 +695,7 @@ db.books.insertMany([
         "author": "Deepak Chopra",
         "year": 2000,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312970242.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312970242.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 23
     },
@@ -705,7 +705,7 @@ db.books.insertMany([
         "author": "Thomas Hardy",
         "year": 1997,
         "publisher": "NTC/Contemporary Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/1853260053.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1853260053.01.LZZZZZZZ.jpg",
         "price": 153,
         "stock": 5
     },
@@ -715,7 +715,7 @@ db.books.insertMany([
         "author": "Charles Noland",
         "year": 2003,
         "publisher": "1stBooks Library",
-        "imageurl": "http://images.amazon.com/images/P/1414035004.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1414035004.01.LZZZZZZZ.jpg",
         "price": 199,
         "stock": 22
     },
@@ -725,7 +725,7 @@ db.books.insertMany([
         "author": "Valerie Frankel",
         "year": 2003,
         "publisher": "Avon Trade",
-        "imageurl": "http://images.amazon.com/images/P/0060938412.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060938412.01.LZZZZZZZ.jpg",
         "price": 42,
         "stock": 8
     },
@@ -735,7 +735,7 @@ db.books.insertMany([
         "author": "Benjamin Hoff",
         "year": 1983,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140067477.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140067477.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 19
     },
@@ -745,7 +745,7 @@ db.books.insertMany([
         "author": "LAURA HILLENBRAND",
         "year": 2003,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345465083.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345465083.01.LZZZZZZZ.jpg",
         "price": 78,
         "stock": 12
     },
@@ -755,7 +755,7 @@ db.books.insertMany([
         "author": "Niccolo Machiavelli",
         "year": 1952,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451625889.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451625889.01.LZZZZZZZ.jpg",
         "price": 79,
         "stock": 2
     },
@@ -765,7 +765,7 @@ db.books.insertMany([
         "author": "H. Jackson Brown",
         "year": 1991,
         "publisher": "Thomas Nelson",
-        "imageurl": "http://images.amazon.com/images/P/1558531025.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1558531025.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 13
     },
@@ -775,7 +775,7 @@ db.books.insertMany([
         "author": "Robert A. Heinlein",
         "year": 1987,
         "publisher": "Ace Books",
-        "imageurl": "http://images.amazon.com/images/P/0441783589.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0441783589.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 33
     },
@@ -785,7 +785,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 1988,
         "publisher": "Laurel Leaf",
-        "imageurl": "http://images.amazon.com/images/P/0394895894.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394895894.01.LZZZZZZZ.jpg",
         "price": 135,
         "stock": 27
     },
@@ -795,7 +795,7 @@ db.books.insertMany([
         "author": "Anna Sewell",
         "year": 1995,
         "publisher": "Landoll",
-        "imageurl": "http://images.amazon.com/images/P/1569871213.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1569871213.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 22
     },
@@ -805,7 +805,7 @@ db.books.insertMany([
         "author": "MICHAEL ONDAATJE",
         "year": 2000,
         "publisher": "Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0375410538.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375410538.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 26
     },
@@ -815,7 +815,7 @@ db.books.insertMany([
         "author": "Sandra Levy Ceren",
         "year": 1999,
         "publisher": "Andrew Scott Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0966986105.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0966986105.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 4
     },
@@ -825,7 +825,7 @@ db.books.insertMany([
         "author": "P.J. O'Rourke",
         "year": 1990,
         "publisher": "Atlantic Monthly Press",
-        "imageurl": "http://images.amazon.com/images/P/087113375X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/087113375X.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 25
     },
@@ -835,7 +835,7 @@ db.books.insertMany([
         "author": "Mike Gayle",
         "year": 2000,
         "publisher": "Hodder &amp; Stoughton General Division",
-        "imageurl": "http://images.amazon.com/images/P/0340767936.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0340767936.01.LZZZZZZZ.jpg",
         "price": 107,
         "stock": 12
     },
@@ -845,7 +845,7 @@ db.books.insertMany([
         "author": "Stel Pavlou",
         "year": 2002,
         "publisher": "Simon &amp; Schuster (Trade Division)",
-        "imageurl": "http://images.amazon.com/images/P/0743403843.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743403843.01.LZZZZZZZ.jpg",
         "price": 60,
         "stock": 40
     },
@@ -855,7 +855,7 @@ db.books.insertMany([
         "author": "Sarah Payne Stuart",
         "year": 1999,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060930365.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060930365.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 5
     },
@@ -865,7 +865,7 @@ db.books.insertMany([
         "author": "Dan Quayle",
         "year": 1994,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/0060177586.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060177586.01.LZZZZZZZ.jpg",
         "price": 105,
         "stock": 7
     },
@@ -875,7 +875,7 @@ db.books.insertMany([
         "author": "Donald F. Kettl",
         "year": 2003,
         "publisher": "McGraw-Hill",
-        "imageurl": "http://images.amazon.com/images/P/0071416331.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0071416331.01.LZZZZZZZ.jpg",
         "price": 130,
         "stock": 18
     },
@@ -885,7 +885,7 @@ db.books.insertMany([
         "author": "DAVID FRUM",
         "year": 2003,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0375509038.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375509038.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 34
     },
@@ -895,7 +895,7 @@ db.books.insertMany([
         "author": "Louis Lamour",
         "year": 1981,
         "publisher": "Bantam Doubleday Dell",
-        "imageurl": "http://images.amazon.com/images/P/0553062042.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553062042.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 27
     },
@@ -905,7 +905,7 @@ db.books.insertMany([
         "author": "J.D. Salinger",
         "year": 1991,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316769487.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316769487.01.LZZZZZZZ.jpg",
         "price": 103,
         "stock": 30
     },
@@ -915,7 +915,7 @@ db.books.insertMany([
         "author": "J. R. R. Tolkien",
         "year": 2001,
         "publisher": "Minotauro",
-        "imageurl": "http://images.amazon.com/images/P/8445071408.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8445071408.01.LZZZZZZZ.jpg",
         "price": 61,
         "stock": 40
     },
@@ -925,7 +925,7 @@ db.books.insertMany([
         "author": "J. R. R. Tolkien",
         "year": 2001,
         "publisher": "Minotauro",
-        "imageurl": "http://images.amazon.com/images/P/8445071769.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8445071769.01.LZZZZZZZ.jpg",
         "price": 167,
         "stock": 39
     },
@@ -935,7 +935,7 @@ db.books.insertMany([
         "author": "J. R. R. Tolkien",
         "year": 2001,
         "publisher": "Distribooks",
-        "imageurl": "http://images.amazon.com/images/P/8445071777.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8445071777.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 22
     },
@@ -945,7 +945,7 @@ db.books.insertMany([
         "author": "John Berendt",
         "year": 1994,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0679429220.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679429220.01.LZZZZZZZ.jpg",
         "price": 35,
         "stock": 3
     },
@@ -955,7 +955,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 1998,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671867156.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671867156.01.LZZZZZZZ.jpg",
         "price": 35,
         "stock": 10
     },
@@ -965,7 +965,7 @@ db.books.insertMany([
         "author": "Jennifer Crusie",
         "year": 2001,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312252617.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312252617.01.LZZZZZZZ.jpg",
         "price": 135,
         "stock": 32
     },
@@ -975,7 +975,7 @@ db.books.insertMany([
         "author": "Jane Heller",
         "year": 2001,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312261594.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312261594.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 20
     },
@@ -985,7 +985,7 @@ db.books.insertMany([
         "author": "Michael Rips",
         "year": 2002,
         "publisher": "Back Bay Books",
-        "imageurl": "http://images.amazon.com/images/P/0316748641.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316748641.01.LZZZZZZZ.jpg",
         "price": 129,
         "stock": 14
     },
@@ -995,7 +995,7 @@ db.books.insertMany([
         "author": "Simon Mawer",
         "year": 2002,
         "publisher": "Back Bay Books",
-        "imageurl": "http://images.amazon.com/images/P/0316973742.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316973742.01.LZZZZZZZ.jpg",
         "price": 179,
         "stock": 9
     },
@@ -1005,7 +1005,7 @@ db.books.insertMany([
         "author": "William Abrahams",
         "year": 1987,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385235941.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385235941.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 15
     },
@@ -1015,7 +1015,7 @@ db.books.insertMany([
         "author": "Robert T. Kiyosaki",
         "year": 2000,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446677450.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446677450.01.LZZZZZZZ.jpg",
         "price": 79,
         "stock": 29
     },
@@ -1025,7 +1025,7 @@ db.books.insertMany([
         "author": "Ken Follett",
         "year": 1996,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451166892.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451166892.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 38
     },
@@ -1035,7 +1035,7 @@ db.books.insertMany([
         "author": "John F. Love",
         "year": 1995,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553347594.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553347594.01.LZZZZZZZ.jpg",
         "price": 155,
         "stock": 8
     },
@@ -1045,7 +1045,7 @@ db.books.insertMany([
         "author": "Robert G. Allen",
         "year": 1986,
         "publisher": "Fireside",
-        "imageurl": "http://images.amazon.com/images/P/0671621009.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671621009.01.LZZZZZZZ.jpg",
         "price": 71,
         "stock": 29
     },
@@ -1055,7 +1055,7 @@ db.books.insertMany([
         "author": "LOUIS DE BERNIERES",
         "year": 1995,
         "publisher": "Vintage",
-        "imageurl": "http://images.amazon.com/images/P/067976397X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/067976397X.01.LZZZZZZZ.jpg",
         "price": 115,
         "stock": 7
     },
@@ -1065,7 +1065,7 @@ db.books.insertMany([
         "author": "Pam Proctor",
         "year": 1996,
         "publisher": "Fireside",
-        "imageurl": "http://images.amazon.com/images/P/0684822733.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684822733.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 9
     },
@@ -1075,7 +1075,7 @@ db.books.insertMany([
         "author": "Mitch Albom",
         "year": 2003,
         "publisher": "Hyperion",
-        "imageurl": "http://images.amazon.com/images/P/0786868716.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786868716.01.LZZZZZZZ.jpg",
         "price": 187,
         "stock": 5
     },
@@ -1085,7 +1085,7 @@ db.books.insertMany([
         "author": "Irene Gonzalez Frei",
         "year": 2002,
         "publisher": "Tusquets",
-        "imageurl": "http://images.amazon.com/images/P/8472238822.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8472238822.01.LZZZZZZZ.jpg",
         "price": 60,
         "stock": 38
     },
@@ -1095,7 +1095,7 @@ db.books.insertMany([
         "author": "Michael Jan Friedman",
         "year": 1992,
         "publisher": "Star Trek",
-        "imageurl": "http://images.amazon.com/images/P/0671864769.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671864769.01.LZZZZZZZ.jpg",
         "price": 83,
         "stock": 26
     },
@@ -1105,7 +1105,7 @@ db.books.insertMany([
         "author": "Glendon Swarthout",
         "year": 1995,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671521519.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671521519.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 16
     },
@@ -1115,7 +1115,7 @@ db.books.insertMany([
         "author": "Neal Barrett Jr.",
         "year": 1996,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440222303.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440222303.01.LZZZZZZZ.jpg",
         "price": 101,
         "stock": 33
     },
@@ -1125,7 +1125,7 @@ db.books.insertMany([
         "author": "David Morrell",
         "year": 1994,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312953453.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312953453.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 34
     },
@@ -1135,7 +1135,7 @@ db.books.insertMany([
         "author": "Sandra Brown",
         "year": 2000,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446608653.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446608653.01.LZZZZZZZ.jpg",
         "price": 8,
         "stock": 33
     },
@@ -1145,7 +1145,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 2003,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446612545.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446612545.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 22
     },
@@ -1155,7 +1155,7 @@ db.books.insertMany([
         "author": "Sandra Brown",
         "year": 2003,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446612618.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446612618.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 21
     },
@@ -1165,7 +1165,7 @@ db.books.insertMany([
         "author": "Stuart Woods",
         "year": 2003,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451208080.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451208080.01.LZZZZZZZ.jpg",
         "price": 144,
         "stock": 14
     },
@@ -1175,7 +1175,7 @@ db.books.insertMany([
         "author": "IRIS JOHANSEN",
         "year": 2004,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553584383.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553584383.01.LZZZZZZZ.jpg",
         "price": 137,
         "stock": 0
     },
@@ -1185,7 +1185,7 @@ db.books.insertMany([
         "author": "Dan Brown",
         "year": 2001,
         "publisher": "Pocket Star",
-        "imageurl": "http://images.amazon.com/images/P/0671027360.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671027360.01.LZZZZZZZ.jpg",
         "price": 130,
         "stock": 35
     },
@@ -1195,7 +1195,7 @@ db.books.insertMany([
         "author": "Joe Hutsko",
         "year": 2000,
         "publisher": "Tor Books (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0812575954.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812575954.01.LZZZZZZZ.jpg",
         "price": 35,
         "stock": 37
     },
@@ -1205,7 +1205,7 @@ db.books.insertMany([
         "author": "Anita Shreve",
         "year": 2004,
         "publisher": "Back Bay Books",
-        "imageurl": "http://images.amazon.com/images/P/0316735736.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316735736.01.LZZZZZZZ.jpg",
         "price": 168,
         "stock": 27
     },
@@ -1215,7 +1215,7 @@ db.books.insertMany([
         "author": "Ann Rule",
         "year": 2002,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0743439740.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743439740.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 0
     },
@@ -1225,7 +1225,7 @@ db.books.insertMany([
         "author": "LEWIS GRIZZARD",
         "year": 1991,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345372700.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345372700.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 27
     },
@@ -1235,7 +1235,7 @@ db.books.insertMany([
         "author": "Paul Theroux",
         "year": 1990,
         "publisher": "Harper Mass Market Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0380619458.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380619458.01.LZZZZZZZ.jpg",
         "price": 40,
         "stock": 13
     },
@@ -1245,7 +1245,7 @@ db.books.insertMany([
         "author": "Lewis Grizzard",
         "year": 1994,
         "publisher": "Warner Books (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0446325805.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446325805.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 27
     },
@@ -1255,7 +1255,7 @@ db.books.insertMany([
         "author": "Charles Hickey",
         "year": 1996,
         "publisher": "Onyx Books",
-        "imageurl": "http://images.amazon.com/images/P/0451406923.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451406923.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 33
     },
@@ -1265,7 +1265,7 @@ db.books.insertMany([
         "author": "Stephen King",
         "year": 2000,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671042858.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671042858.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 26
     },
@@ -1275,7 +1275,7 @@ db.books.insertMany([
         "author": "Ben Mezrich",
         "year": 2003,
         "publisher": "Free Press",
-        "imageurl": "http://images.amazon.com/images/P/0743249992.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743249992.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 25
     },
@@ -1285,7 +1285,7 @@ db.books.insertMany([
         "author": "Bill Hand",
         "year": 1992,
         "publisher": "Thomas Nelson Inc",
-        "imageurl": "http://images.amazon.com/images/P/0840734530.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0840734530.01.LZZZZZZZ.jpg",
         "price": 149,
         "stock": 33
     },
@@ -1295,7 +1295,7 @@ db.books.insertMany([
         "author": "Tom Clancy",
         "year": 2002,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425184226.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425184226.01.LZZZZZZZ.jpg",
         "price": 118,
         "stock": 33
     },
@@ -1305,7 +1305,7 @@ db.books.insertMany([
         "author": "DANA REEVE",
         "year": 1999,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0375500766.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375500766.01.LZZZZZZZ.jpg",
         "price": 190,
         "stock": 10
     },
@@ -1315,7 +1315,7 @@ db.books.insertMany([
         "author": "Roy",
         "year": 1998,
         "publisher": "Edicoes Asa",
-        "imageurl": "http://images.amazon.com/images/P/9724119378.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/9724119378.01.LZZZZZZZ.jpg",
         "price": 13,
         "stock": 31
     },
@@ -1325,7 +1325,7 @@ db.books.insertMany([
         "author": "Barbara Metzger",
         "year": 2002,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451205197.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451205197.01.LZZZZZZZ.jpg",
         "price": 91,
         "stock": 34
     },
@@ -1335,7 +1335,7 @@ db.books.insertMany([
         "author": "Gabriel Garcia Marquez",
         "year": 1998,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060929790.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060929790.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 26
     },
@@ -1345,7 +1345,7 @@ db.books.insertMany([
         "author": "Rebecca Wells",
         "year": 1996,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060976845.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060976845.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 40
     },
@@ -1355,7 +1355,7 @@ db.books.insertMany([
         "author": "Tony Hillerman",
         "year": 1992,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/0061099325.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061099325.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 19
     },
@@ -1365,7 +1365,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 2001,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671004573.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671004573.01.LZZZZZZZ.jpg",
         "price": 71,
         "stock": 6
     },
@@ -1375,7 +1375,7 @@ db.books.insertMany([
         "author": "Robert James Waller",
         "year": 1994,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446601640.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446601640.01.LZZZZZZZ.jpg",
         "price": 184,
         "stock": 5
     },
@@ -1385,7 +1385,7 @@ db.books.insertMany([
         "author": "Rachel Harris",
         "year": 2001,
         "publisher": "Pan Macmillan",
-        "imageurl": "http://images.amazon.com/images/P/0330484516.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0330484516.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 40
     },
@@ -1395,7 +1395,7 @@ db.books.insertMany([
         "author": "IAN MCEWAN",
         "year": 2003,
         "publisher": "Anchor",
-        "imageurl": "http://images.amazon.com/images/P/038572179X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038572179X.01.LZZZZZZZ.jpg",
         "price": 81,
         "stock": 35
     },
@@ -1405,7 +1405,7 @@ db.books.insertMany([
         "author": "Michael Lewis",
         "year": 2001,
         "publisher": "W.W. Norton &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0393020371.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0393020371.01.LZZZZZZZ.jpg",
         "price": 29,
         "stock": 12
     },
@@ -1415,7 +1415,7 @@ db.books.insertMany([
         "author": "Richard Zimler",
         "year": 1999,
         "publisher": "Arcadia Books",
-        "imageurl": "http://images.amazon.com/images/P/1900850303.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1900850303.01.LZZZZZZZ.jpg",
         "price": 39,
         "stock": 36
     },
@@ -1425,7 +1425,7 @@ db.books.insertMany([
         "author": "Norman Jetmundsen",
         "year": 2000,
         "publisher": "John Hunt Publishing, Ltd.",
-        "imageurl": "http://images.amazon.com/images/P/1903019699.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1903019699.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 31
     },
@@ -1435,7 +1435,7 @@ db.books.insertMany([
         "author": "Lorenzo Carcaterra",
         "year": 2002,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0345425294.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345425294.01.LZZZZZZZ.jpg",
         "price": 101,
         "stock": 0
     },
@@ -1445,7 +1445,7 @@ db.books.insertMany([
         "author": "Anne Frasier",
         "year": 2002,
         "publisher": "Onyx Books",
-        "imageurl": "http://images.amazon.com/images/P/0451410319.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451410319.01.LZZZZZZZ.jpg",
         "price": 167,
         "stock": 36
     },
@@ -1455,7 +1455,7 @@ db.books.insertMany([
         "author": "Kay Hooper",
         "year": 2002,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553583468.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553583468.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 15
     },
@@ -1465,7 +1465,7 @@ db.books.insertMany([
         "author": "Soren Kierkegaard",
         "year": 2001,
         "publisher": "Alianza",
-        "imageurl": "http://images.amazon.com/images/P/8420639133.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8420639133.01.LZZZZZZZ.jpg",
         "price": 195,
         "stock": 27
     },
@@ -1475,7 +1475,7 @@ db.books.insertMany([
         "author": "Jose Ortega Y Gaset",
         "year": 2001,
         "publisher": "Downtown Book Center",
-        "imageurl": "http://images.amazon.com/images/P/8476409419.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8476409419.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 37
     },
@@ -1485,7 +1485,7 @@ db.books.insertMany([
         "author": "Daphne Du Maurier",
         "year": 1994,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380778556.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380778556.01.LZZZZZZZ.jpg",
         "price": 53,
         "stock": 3
     },
@@ -1495,7 +1495,7 @@ db.books.insertMany([
         "author": "Nathaniel Hawthorne",
         "year": 1993,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451525221.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451525221.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 36
     },
@@ -1505,7 +1505,7 @@ db.books.insertMany([
         "author": "Nick Page",
         "year": 1999,
         "publisher": "Trafalgar Square",
-        "imageurl": "http://images.amazon.com/images/P/0002740230.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0002740230.01.LZZZZZZZ.jpg",
         "price": 64,
         "stock": 8
     },
@@ -1515,7 +1515,7 @@ db.books.insertMany([
         "author": "Laura Wolf",
         "year": 2003,
         "publisher": "Delta",
-        "imageurl": "http://images.amazon.com/images/P/0385336772.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385336772.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 38
     },
@@ -1525,7 +1525,7 @@ db.books.insertMany([
         "author": "LOIS DUNCAN",
         "year": 1986,
         "publisher": "Laure Leaf",
-        "imageurl": "http://images.amazon.com/images/P/0440949424.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440949424.01.LZZZZZZZ.jpg",
         "price": 15,
         "stock": 10
     },
@@ -1535,7 +1535,7 @@ db.books.insertMany([
         "author": "Susan Grant",
         "year": 2002,
         "publisher": "Love Spell",
-        "imageurl": "http://images.amazon.com/images/P/0505524996.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0505524996.01.LZZZZZZZ.jpg",
         "price": 37,
         "stock": 8
     },
@@ -1545,7 +1545,7 @@ db.books.insertMany([
         "author": "Barbara Vine",
         "year": 1997,
         "publisher": "Penguin Books Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0140252800.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140252800.01.LZZZZZZZ.jpg",
         "price": 83,
         "stock": 28
     },
@@ -1555,7 +1555,7 @@ db.books.insertMany([
         "author": "Shirley Rousseau Murphy",
         "year": 1993,
         "publisher": "Roc",
-        "imageurl": "http://images.amazon.com/images/P/0451452755.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451452755.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 15
     },
@@ -1565,7 +1565,7 @@ db.books.insertMany([
         "author": "Jane Lindskold",
         "year": 2002,
         "publisher": "Tor Fantasy",
-        "imageurl": "http://images.amazon.com/images/P/0812575482.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812575482.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 37
     },
@@ -1575,7 +1575,7 @@ db.books.insertMany([
         "author": "Robert James Waller",
         "year": 1995,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/044651747X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/044651747X.01.LZZZZZZZ.jpg",
         "price": 80,
         "stock": 19
     },
@@ -1585,7 +1585,7 @@ db.books.insertMany([
         "author": "Betty Smith",
         "year": 1988,
         "publisher": "Harpercollins Publisher",
-        "imageurl": "http://images.amazon.com/images/P/0060801263.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060801263.01.LZZZZZZZ.jpg",
         "price": 37,
         "stock": 26
     },
@@ -1595,7 +1595,7 @@ db.books.insertMany([
         "author": "Cybill Shepherd",
         "year": 2001,
         "publisher": "Avon Books",
-        "imageurl": "http://images.amazon.com/images/P/0061030147.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061030147.01.LZZZZZZZ.jpg",
         "price": 9,
         "stock": 2
     },
@@ -1605,7 +1605,7 @@ db.books.insertMany([
         "author": "Stewart O'Nan",
         "year": 1995,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140250964.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140250964.01.LZZZZZZZ.jpg",
         "price": 37,
         "stock": 23
     },
@@ -1615,7 +1615,7 @@ db.books.insertMany([
         "author": "David Baldacci",
         "year": 2000,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446527165.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446527165.01.LZZZZZZZ.jpg",
         "price": 81,
         "stock": 4
     },
@@ -1625,7 +1625,7 @@ db.books.insertMany([
         "author": "Douglas Adams",
         "year": 1982,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671461494.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671461494.01.LZZZZZZZ.jpg",
         "price": 153,
         "stock": 2
     },
@@ -1635,7 +1635,7 @@ db.books.insertMany([
         "author": "Mary Lawson",
         "year": 2003,
         "publisher": "Delta",
-        "imageurl": "http://images.amazon.com/images/P/0385337639.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385337639.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 30
     },
@@ -1645,7 +1645,7 @@ db.books.insertMany([
         "author": "Willa Cather",
         "year": 1995,
         "publisher": "Mariner Books",
-        "imageurl": "http://images.amazon.com/images/P/039575514X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039575514X.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 27
     },
@@ -1655,7 +1655,7 @@ db.books.insertMany([
         "author": "Olivia Goldsmith",
         "year": 2002,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451206673.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451206673.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 37
     },
@@ -1665,7 +1665,7 @@ db.books.insertMany([
         "author": "Helen Fielding",
         "year": 1997,
         "publisher": "Picador (UK)",
-        "imageurl": "http://images.amazon.com/images/P/0330332775.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0330332775.01.LZZZZZZZ.jpg",
         "price": 60,
         "stock": 21
     },
@@ -1675,7 +1675,7 @@ db.books.insertMany([
         "author": "Jane Austen",
         "year": 1995,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486284735.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486284735.01.LZZZZZZZ.jpg",
         "price": 26,
         "stock": 37
     },
@@ -1685,7 +1685,7 @@ db.books.insertMany([
         "author": "Franklin W. Dixon",
         "year": 1998,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/0671021745.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671021745.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 10
     },
@@ -1695,7 +1695,7 @@ db.books.insertMany([
         "author": "Franklin W. Dixon",
         "year": 2000,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/0671047612.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671047612.01.LZZZZZZZ.jpg",
         "price": 9,
         "stock": 2
     },
@@ -1705,7 +1705,7 @@ db.books.insertMany([
         "author": "Franklin W. Dixon",
         "year": 1995,
         "publisher": "Simon Pulse",
-        "imageurl": "http://images.amazon.com/images/P/0671504282.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671504282.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 13
     },
@@ -1715,7 +1715,7 @@ db.books.insertMany([
         "author": "Lilian Jackson Braun",
         "year": 1994,
         "publisher": "Putnam Pub Group",
-        "imageurl": "http://images.amazon.com/images/P/0399138684.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399138684.01.LZZZZZZZ.jpg",
         "price": 121,
         "stock": 5
     },
@@ -1725,7 +1725,7 @@ db.books.insertMany([
         "author": "Holly Virden",
         "year": 2003,
         "publisher": "Nelson Books",
-        "imageurl": "http://images.amazon.com/images/P/0785263292.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0785263292.01.LZZZZZZZ.jpg",
         "price": 72,
         "stock": 26
     },
@@ -1735,7 +1735,7 @@ db.books.insertMany([
         "author": "H. Norman Wright",
         "year": 1989,
         "publisher": "Regal Books",
-        "imageurl": "http://images.amazon.com/images/P/0830714014.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0830714014.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 10
     },
@@ -1745,7 +1745,7 @@ db.books.insertMany([
         "author": "Piers Anthony",
         "year": 1990,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/0345354931.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345354931.01.LZZZZZZZ.jpg",
         "price": 194,
         "stock": 9
     },
@@ -1755,7 +1755,7 @@ db.books.insertMany([
         "author": "RAY BRADBURY",
         "year": 1984,
         "publisher": "Spectra",
-        "imageurl": "http://images.amazon.com/images/P/0553278223.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553278223.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 31
     },
@@ -1765,7 +1765,7 @@ db.books.insertMany([
         "author": "Schiller",
         "year": 0,
         "publisher": "Philipp Reclam, Jun Verlag GmbH",
-        "imageurl": "http://images.amazon.com/images/P/3150000335.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3150000335.01.LZZZZZZZ.jpg",
         "price": 98,
         "stock": 1
     },
@@ -1775,7 +1775,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 2002,
         "publisher": "Diogenes",
-        "imageurl": "http://images.amazon.com/images/P/3257203659.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257203659.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 4
     },
@@ -1785,7 +1785,7 @@ db.books.insertMany([
         "author": "Raymond Chandler",
         "year": 1980,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257207522.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257207522.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 24
     },
@@ -1795,7 +1795,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 1994,
         "publisher": "Distribooks Inc",
-        "imageurl": "http://images.amazon.com/images/P/3257208626.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257208626.01.LZZZZZZZ.jpg",
         "price": 174,
         "stock": 3
     },
@@ -1805,7 +1805,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 1981,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257208634.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257208634.01.LZZZZZZZ.jpg",
         "price": 166,
         "stock": 33
     },
@@ -1815,7 +1815,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 2003,
         "publisher": "Diogenes",
-        "imageurl": "http://images.amazon.com/images/P/3257208669.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257208669.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 18
     },
@@ -1825,7 +1825,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 1999,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257210450.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257210450.01.LZZZZZZZ.jpg",
         "price": 142,
         "stock": 22
     },
@@ -1835,7 +1835,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 2000,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257212054.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257212054.01.LZZZZZZZ.jpg",
         "price": 136,
         "stock": 25
     },
@@ -1845,7 +1845,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 2000,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257212429.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257212429.01.LZZZZZZZ.jpg",
         "price": 91,
         "stock": 36
     },
@@ -1855,7 +1855,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 2000,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257214154.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257214154.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 34
     },
@@ -1865,7 +1865,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 1988,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257216416.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257216416.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 16
     },
@@ -1875,7 +1875,7 @@ db.books.insertMany([
         "author": "Paolo Coelho",
         "year": 2002,
         "publisher": "Distribooks",
-        "imageurl": "http://images.amazon.com/images/P/3257233051.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257233051.01.LZZZZZZZ.jpg",
         "price": 142,
         "stock": 38
     },
@@ -1885,7 +1885,7 @@ db.books.insertMany([
         "author": "Gabriel Garcia Marquez",
         "year": 0,
         "publisher": "Deutscher Taschenbuch Verlag (DTV)",
-        "imageurl": "http://images.amazon.com/images/P/342311360X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/342311360X.01.LZZZZZZZ.jpg",
         "price": 157,
         "stock": 0
     },
@@ -1895,7 +1895,7 @@ db.books.insertMany([
         "author": "Fay Weldon",
         "year": 1993,
         "publisher": "Dtv",
-        "imageurl": "http://images.amazon.com/images/P/3423116714.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3423116714.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 27
     },
@@ -1905,7 +1905,7 @@ db.books.insertMany([
         "author": "Arabella Weir",
         "year": 1998,
         "publisher": "Dtv",
-        "imageurl": "http://images.amazon.com/images/P/3423241489.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3423241489.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 8
     },
@@ -1915,7 +1915,7 @@ db.books.insertMany([
         "author": "Kiana Davenport",
         "year": 1996,
         "publisher": "Droemersche Verlagsanstalt Th. Knaur Nachf., GmbH &amp; Co.",
-        "imageurl": "http://images.amazon.com/images/P/3426605686.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3426605686.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 38
     },
@@ -1925,7 +1925,7 @@ db.books.insertMany([
         "author": "Sue Townsend",
         "year": 2002,
         "publisher": "Heyne",
-        "imageurl": "http://images.amazon.com/images/P/3453212150.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3453212150.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 33
     },
@@ -1935,7 +1935,7 @@ db.books.insertMany([
         "author": "Renan Demirkan",
         "year": 1991,
         "publisher": "Kiepenheuer &amp; Witsch",
-        "imageurl": "http://images.amazon.com/images/P/3462021095.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3462021095.01.LZZZZZZZ.jpg",
         "price": 38,
         "stock": 19
     },
@@ -1945,7 +1945,7 @@ db.books.insertMany([
         "author": "Michael Moore",
         "year": 2003,
         "publisher": "Piper",
-        "imageurl": "http://images.amazon.com/images/P/3492045642.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3492045642.01.LZZZZZZZ.jpg",
         "price": 62,
         "stock": 39
     },
@@ -1955,7 +1955,7 @@ db.books.insertMany([
         "author": "Jonathan Franzen",
         "year": 2002,
         "publisher": "Rowohlt, Reinbek",
-        "imageurl": "http://images.amazon.com/images/P/3498020862.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3498020862.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 23
     },
@@ -1965,7 +1965,7 @@ db.books.insertMany([
         "author": "Jerome D. Salinger",
         "year": 1968,
         "publisher": "Rowohlt Tb.",
-        "imageurl": "http://images.amazon.com/images/P/3499110695.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3499110695.01.LZZZZZZZ.jpg",
         "price": 164,
         "stock": 35
     },
@@ -1975,7 +1975,7 @@ db.books.insertMany([
         "author": "Jerome D. Salinger",
         "year": 1998,
         "publisher": "Rowohlt Tb.",
-        "imageurl": "http://images.amazon.com/images/P/3499151502.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3499151502.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 0
     },
@@ -1985,7 +1985,7 @@ db.books.insertMany([
         "author": "James Joyce",
         "year": 1981,
         "publisher": "Suhrkamp",
-        "imageurl": "http://images.amazon.com/images/P/3518111000.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3518111000.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 37
     },
@@ -1995,7 +1995,7 @@ db.books.insertMany([
         "author": "Joanna Trollope",
         "year": 2002,
         "publisher": "Ullstein Tb",
-        "imageurl": "http://images.amazon.com/images/P/3548254268.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3548254268.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 3
     },
@@ -2005,7 +2005,7 @@ db.books.insertMany([
         "author": "Sue Townsend",
         "year": 2002,
         "publisher": "Bertelsmann, MÃ?Â¼nchen",
-        "imageurl": "http://images.amazon.com/images/P/3570300099.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3570300099.01.LZZZZZZZ.jpg",
         "price": 5,
         "stock": 6
     },
@@ -2015,7 +2015,7 @@ db.books.insertMany([
         "author": "Milan Kundera",
         "year": 2000,
         "publisher": "Fischer (Tb.), Frankfurt",
-        "imageurl": "http://images.amazon.com/images/P/3596292646.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3596292646.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 14
     },
@@ -2025,7 +2025,7 @@ db.books.insertMany([
         "author": "Arundhati Roy",
         "year": 1998,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060977493.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060977493.01.LZZZZZZZ.jpg",
         "price": 73,
         "stock": 20
     },
@@ -2035,7 +2035,7 @@ db.books.insertMany([
         "author": "Robert S. Levinson",
         "year": 2000,
         "publisher": "St Martins Pr",
-        "imageurl": "http://images.amazon.com/images/P/0312872682.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312872682.01.LZZZZZZZ.jpg",
         "price": 179,
         "stock": 13
     },
@@ -2045,7 +2045,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 2003,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316602906.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316602906.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 11
     },
@@ -2055,7 +2055,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 2002,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316693006.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316693006.01.LZZZZZZZ.jpg",
         "price": 38,
         "stock": 5
     },
@@ -2065,7 +2065,7 @@ db.books.insertMany([
         "author": "Richard North Patterson",
         "year": 1994,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345311396.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345311396.01.LZZZZZZZ.jpg",
         "price": 97,
         "stock": 0
     },
@@ -2075,7 +2075,7 @@ db.books.insertMany([
         "author": "Michael Crichton",
         "year": 1995,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345378490.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345378490.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 20
     },
@@ -2085,7 +2085,7 @@ db.books.insertMany([
         "author": "Richard North Patterson",
         "year": 2001,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345404793.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345404793.01.LZZZZZZZ.jpg",
         "price": 19,
         "stock": 29
     },
@@ -2095,7 +2095,7 @@ db.books.insertMany([
         "author": "Lorna Landvik",
         "year": 1999,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345433173.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345433173.01.LZZZZZZZ.jpg",
         "price": 90,
         "stock": 5
     },
@@ -2105,7 +2105,7 @@ db.books.insertMany([
         "author": "Arthur Golden",
         "year": 1997,
         "publisher": "Alfred A. Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0375400117.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375400117.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 26
     },
@@ -2115,7 +2115,7 @@ db.books.insertMany([
         "author": "KENT HARUF",
         "year": 2000,
         "publisher": "Vintage",
-        "imageurl": "http://images.amazon.com/images/P/0375705856.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375705856.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 26
     },
@@ -2125,7 +2125,7 @@ db.books.insertMany([
         "author": "Patricia D. Cornwell",
         "year": 1992,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380717018.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380717018.01.LZZZZZZZ.jpg",
         "price": 151,
         "stock": 27
     },
@@ -2135,7 +2135,7 @@ db.books.insertMany([
         "author": "Patricia D. Cornwell",
         "year": 1993,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380718332.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380718332.01.LZZZZZZZ.jpg",
         "price": 171,
         "stock": 14
     },
@@ -2145,7 +2145,7 @@ db.books.insertMany([
         "author": "Carol J. Farley",
         "year": 1988,
         "publisher": "Avon Books",
-        "imageurl": "http://images.amazon.com/images/P/0380754509.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380754509.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 33
     },
@@ -2155,7 +2155,7 @@ db.books.insertMany([
         "author": "Kathleen E. Woodiwiss",
         "year": 1997,
         "publisher": "Avon Trade",
-        "imageurl": "http://images.amazon.com/images/P/038076654X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038076654X.01.LZZZZZZZ.jpg",
         "price": 29,
         "stock": 38
     },
@@ -2165,7 +2165,7 @@ db.books.insertMany([
         "author": "Kathleen E. Woodiwiss",
         "year": 1999,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380807866.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380807866.01.LZZZZZZZ.jpg",
         "price": 173,
         "stock": 32
     },
@@ -2175,7 +2175,7 @@ db.books.insertMany([
         "author": "Belva Plain",
         "year": 1998,
         "publisher": "Bantam Dell Pub Group",
-        "imageurl": "http://images.amazon.com/images/P/0385316895.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385316895.01.LZZZZZZZ.jpg",
         "price": 71,
         "stock": 4
     },
@@ -2185,7 +2185,7 @@ db.books.insertMany([
         "author": "JOHN GRISHAM",
         "year": 2000,
         "publisher": "Doubleday",
-        "imageurl": "http://images.amazon.com/images/P/0385497466.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385497466.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 12
     },
@@ -2195,7 +2195,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 2003,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385508042.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385508042.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 36
     },
@@ -2205,7 +2205,7 @@ db.books.insertMany([
         "author": "MARK HADDON",
         "year": 2003,
         "publisher": "Doubleday",
-        "imageurl": "http://images.amazon.com/images/P/0385509456.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385509456.01.LZZZZZZZ.jpg",
         "price": 131,
         "stock": 21
     },
@@ -2215,7 +2215,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 2003,
         "publisher": "Doubleday",
-        "imageurl": "http://images.amazon.com/images/P/0385511612.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385511612.01.LZZZZZZZ.jpg",
         "price": 144,
         "stock": 24
     },
@@ -2225,7 +2225,7 @@ db.books.insertMany([
         "author": "ANN BRASHARES",
         "year": 2003,
         "publisher": "Delacorte Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/0385730586.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385730586.01.LZZZZZZZ.jpg",
         "price": 42,
         "stock": 11
     },
@@ -2235,7 +2235,7 @@ db.books.insertMany([
         "author": "Erich Segal",
         "year": 1998,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425164403.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425164403.01.LZZZZZZZ.jpg",
         "price": 5,
         "stock": 5
     },
@@ -2245,7 +2245,7 @@ db.books.insertMany([
         "author": "Elizabeth Adler",
         "year": 2000,
         "publisher": "Island",
-        "imageurl": "http://images.amazon.com/images/P/0440234964.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440234964.01.LZZZZZZZ.jpg",
         "price": 187,
         "stock": 6
     },
@@ -2255,7 +2255,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 2001,
         "publisher": "Warner Vision",
-        "imageurl": "http://images.amazon.com/images/P/0446605484.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446605484.01.LZZZZZZZ.jpg",
         "price": 92,
         "stock": 3
     },
@@ -2265,7 +2265,7 @@ db.books.insertMany([
         "author": "Nicholas Sparks",
         "year": 2001,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446610399.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446610399.01.LZZZZZZZ.jpg",
         "price": 165,
         "stock": 40
     },
@@ -2275,7 +2275,7 @@ db.books.insertMany([
         "author": "JOHN SAUL",
         "year": 2002,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449006522.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449006522.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 2
     },
@@ -2285,7 +2285,7 @@ db.books.insertMany([
         "author": "LORNA LANDVIK",
         "year": 1996,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449911004.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449911004.01.LZZZZZZZ.jpg",
         "price": 12,
         "stock": 35
     },
@@ -2295,7 +2295,7 @@ db.books.insertMany([
         "author": "Stephen King",
         "year": 1994,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451162072.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451162072.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 4
     },
@@ -2305,7 +2305,7 @@ db.books.insertMany([
         "author": "Steve Thayer",
         "year": 2000,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451186648.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451186648.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 5
     },
@@ -2315,7 +2315,7 @@ db.books.insertMany([
         "author": "Tracy Chevalier",
         "year": 2001,
         "publisher": "Plume Books",
-        "imageurl": "http://images.amazon.com/images/P/0452282152.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0452282152.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 35
     },
@@ -2325,7 +2325,7 @@ db.books.insertMany([
         "author": "Judith Kelman",
         "year": 2002,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/051513290X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/051513290X.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 15
     },
@@ -2335,7 +2335,7 @@ db.books.insertMany([
         "author": "Michael Palmer",
         "year": 2001,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553580388.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553580388.01.LZZZZZZZ.jpg",
         "price": 80,
         "stock": 14
     },
@@ -2345,7 +2345,7 @@ db.books.insertMany([
         "author": "Francine Hughes",
         "year": 1995,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590598848.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590598848.01.LZZZZZZZ.jpg",
         "price": 82,
         "stock": 35
     },
@@ -2355,7 +2355,7 @@ db.books.insertMany([
         "author": "Norman Bridwell",
         "year": 1996,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590629719.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590629719.01.LZZZZZZZ.jpg",
         "price": 188,
         "stock": 5
     },
@@ -2365,7 +2365,7 @@ db.books.insertMany([
         "author": "Patricia Cornwell",
         "year": 1998,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671023616.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671023616.01.LZZZZZZZ.jpg",
         "price": 53,
         "stock": 6
     },
@@ -2375,7 +2375,7 @@ db.books.insertMany([
         "author": "Dan Brown",
         "year": 2002,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671027387.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671027387.01.LZZZZZZZ.jpg",
         "price": 132,
         "stock": 29
     },
@@ -2385,7 +2385,7 @@ db.books.insertMany([
         "author": "Frank McCourt",
         "year": 1999,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0684848783.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684848783.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 1
     },
@@ -2395,7 +2395,7 @@ db.books.insertMany([
         "author": "Dan Brown",
         "year": 2003,
         "publisher": "Atria",
-        "imageurl": "http://images.amazon.com/images/P/0743486226.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743486226.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 29
     },
@@ -2405,7 +2405,7 @@ db.books.insertMany([
         "author": "Malachy McCourt",
         "year": 1998,
         "publisher": "Hyperion",
-        "imageurl": "http://images.amazon.com/images/P/0786863986.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786863986.01.LZZZZZZZ.jpg",
         "price": 85,
         "stock": 4
     },
@@ -2415,7 +2415,7 @@ db.books.insertMany([
         "author": "Mari Sandoz",
         "year": 1961,
         "publisher": "University of Nebraska Press",
-        "imageurl": "http://images.amazon.com/images/P/0803251718.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0803251718.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 24
     },
@@ -2425,7 +2425,7 @@ db.books.insertMany([
         "author": "Anne Perry",
         "year": 1998,
         "publisher": "Ivy Books",
-        "imageurl": "http://images.amazon.com/images/P/0804117934.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0804117934.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 25
     },
@@ -2435,7 +2435,7 @@ db.books.insertMany([
         "author": "ALEXANDER MCCALL SMITH",
         "year": 2004,
         "publisher": "Anchor",
-        "imageurl": "http://images.amazon.com/images/P/140003180X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/140003180X.01.LZZZZZZZ.jpg",
         "price": 102,
         "stock": 7
     },
@@ -2445,7 +2445,7 @@ db.books.insertMany([
         "author": "Jack Canfield",
         "year": 1993,
         "publisher": "Health Communications",
-        "imageurl": "http://images.amazon.com/images/P/155874262X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/155874262X.01.LZZZZZZZ.jpg",
         "price": 150,
         "stock": 40
     },
@@ -2455,7 +2455,7 @@ db.books.insertMany([
         "author": "Gregory Maguire",
         "year": 1996,
         "publisher": "Regan Books",
-        "imageurl": "http://images.amazon.com/images/P/0060987103.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060987103.01.LZZZZZZZ.jpg",
         "price": 82,
         "stock": 19
     },
@@ -2465,7 +2465,7 @@ db.books.insertMany([
         "author": "Yann Martel",
         "year": 2002,
         "publisher": "Harcourt",
-        "imageurl": "http://images.amazon.com/images/P/0151008116.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0151008116.01.LZZZZZZZ.jpg",
         "price": 46,
         "stock": 36
     },
@@ -2475,7 +2475,7 @@ db.books.insertMany([
         "author": "Ruth Rendell",
         "year": 2000,
         "publisher": "Vintage Books USA",
-        "imageurl": "http://images.amazon.com/images/P/0375704965.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375704965.01.LZZZZZZZ.jpg",
         "price": 57,
         "stock": 31
     },
@@ -2485,7 +2485,7 @@ db.books.insertMany([
         "author": "Al Franken",
         "year": 2003,
         "publisher": "Dutton Books",
-        "imageurl": "http://images.amazon.com/images/P/0525947647.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0525947647.01.LZZZZZZZ.jpg",
         "price": 85,
         "stock": 10
     },
@@ -2495,7 +2495,7 @@ db.books.insertMany([
         "author": "DONNA TARTT",
         "year": 1993,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0804111359.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0804111359.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 8
     },
@@ -2505,7 +2505,7 @@ db.books.insertMany([
         "author": "Jack Canfield",
         "year": 1996,
         "publisher": "Health Communications",
-        "imageurl": "http://images.amazon.com/images/P/1558744150.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1558744150.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 36
     },
@@ -2515,7 +2515,7 @@ db.books.insertMany([
         "author": "John Milne",
         "year": 1995,
         "publisher": "Delta Systems",
-        "imageurl": "http://images.amazon.com/images/P/0435272683.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0435272683.01.LZZZZZZZ.jpg",
         "price": 121,
         "stock": 18
     },
@@ -2525,7 +2525,7 @@ db.books.insertMany([
         "author": "Anita Shreve",
         "year": 2001,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316782505.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316782505.01.LZZZZZZZ.jpg",
         "price": 92,
         "stock": 21
     },
@@ -2535,7 +2535,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 2002,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/006102063X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/006102063X.01.LZZZZZZZ.jpg",
         "price": 180,
         "stock": 20
     },
@@ -2545,7 +2545,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 2002,
         "publisher": "HarperCollins",
-        "imageurl": "http://images.amazon.com/images/P/0060013117.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060013117.01.LZZZZZZZ.jpg",
         "price": 25,
         "stock": 35
     },
@@ -2555,7 +2555,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 2001,
         "publisher": "HarperCollins Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0060199563.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060199563.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 7
     },
@@ -2565,7 +2565,7 @@ db.books.insertMany([
         "author": "E. B. White",
         "year": 2003,
         "publisher": "HarperFestival",
-        "imageurl": "http://images.amazon.com/images/P/006052779X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/006052779X.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 20
     },
@@ -2575,7 +2575,7 @@ db.books.insertMany([
         "author": "J. M. Barrie",
         "year": 2003,
         "publisher": "HarperFestival",
-        "imageurl": "http://images.amazon.com/images/P/0060563079.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060563079.01.LZZZZZZZ.jpg",
         "price": 183,
         "stock": 15
     },
@@ -2585,7 +2585,7 @@ db.books.insertMany([
         "author": "Mary O'Hara",
         "year": 1988,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060809027.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060809027.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 22
     },
@@ -2595,7 +2595,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 2001,
         "publisher": "HarperCollins",
-        "imageurl": "http://images.amazon.com/images/P/0061040967.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061040967.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 13
     },
@@ -2605,7 +2605,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 1998,
         "publisher": "HarperPrism",
-        "imageurl": "http://images.amazon.com/images/P/0061050474.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061050474.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 20
     },
@@ -2615,7 +2615,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 1997,
         "publisher": "HarperPrism",
-        "imageurl": "http://images.amazon.com/images/P/0061052515.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061052515.01.LZZZZZZZ.jpg",
         "price": 107,
         "stock": 1
     },
@@ -2625,7 +2625,7 @@ db.books.insertMany([
         "author": "Terry Pratchett",
         "year": 1997,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/0061052523.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061052523.01.LZZZZZZZ.jpg",
         "price": 154,
         "stock": 8
     },
@@ -2635,7 +2635,7 @@ db.books.insertMany([
         "author": "Louise Rennison",
         "year": 2002,
         "publisher": "HarperTempest",
-        "imageurl": "http://images.amazon.com/images/P/0064472264.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0064472264.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 39
     },
@@ -2645,7 +2645,7 @@ db.books.insertMany([
         "author": "Jane Austen",
         "year": 1994,
         "publisher": "Penguin Books Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0140620664.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140620664.01.LZZZZZZZ.jpg",
         "price": 58,
         "stock": 19
     },
@@ -2655,7 +2655,7 @@ db.books.insertMany([
         "author": "Kenneth Grahame",
         "year": 1996,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312148267.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312148267.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 26
     },
@@ -2665,7 +2665,7 @@ db.books.insertMany([
         "author": "Bernard Cornwell",
         "year": 1997,
         "publisher": "St. Martin's Griffin",
-        "imageurl": "http://images.amazon.com/images/P/0312156960.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312156960.01.LZZZZZZZ.jpg",
         "price": 135,
         "stock": 16
     },
@@ -2675,7 +2675,7 @@ db.books.insertMany([
         "author": "Charles de Lint",
         "year": 1994,
         "publisher": "Orb Books",
-        "imageurl": "http://images.amazon.com/images/P/0312890044.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312890044.01.LZZZZZZZ.jpg",
         "price": 6,
         "stock": 26
     },
@@ -2685,7 +2685,7 @@ db.books.insertMany([
         "author": "Edward John Moreton Drax Plunkett Dunsany",
         "year": 1999,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/034543191X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/034543191X.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 36
     },
@@ -2695,7 +2695,7 @@ db.books.insertMany([
         "author": "Georgette Heyer",
         "year": 2004,
         "publisher": "Harlequin",
-        "imageurl": "http://images.amazon.com/images/P/0373836023.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373836023.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 38
     },
@@ -2705,7 +2705,7 @@ db.books.insertMany([
         "author": "OSCAR WILDE",
         "year": 1998,
         "publisher": "Modern Library",
-        "imageurl": "http://images.amazon.com/images/P/0375751513.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375751513.01.LZZZZZZZ.jpg",
         "price": 47,
         "stock": 32
     },
@@ -2715,7 +2715,7 @@ db.books.insertMany([
         "author": "Ted Hughes",
         "year": 1999,
         "publisher": "Knopf Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/0375801677.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375801677.01.LZZZZZZZ.jpg",
         "price": 28,
         "stock": 10
     },
@@ -2725,7 +2725,7 @@ db.books.insertMany([
         "author": "ROALD DAHL",
         "year": 2002,
         "publisher": "Knopf Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/0375814248.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375814248.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 33
     },
@@ -2735,7 +2735,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 2002,
         "publisher": "Knopf Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/0375823352.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375823352.01.LZZZZZZZ.jpg",
         "price": 29,
         "stock": 36
     },
@@ -2745,7 +2745,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 2002,
         "publisher": "Knopf Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/037582345X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/037582345X.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 16
     },
@@ -2755,7 +2755,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 2002,
         "publisher": "Knopf Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/0375823468.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375823468.01.LZZZZZZZ.jpg",
         "price": 145,
         "stock": 8
     },
@@ -2765,7 +2765,7 @@ db.books.insertMany([
         "author": "Sue Townsend",
         "year": 1997,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0380730448.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380730448.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 15
     },
@@ -2775,7 +2775,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 1997,
         "publisher": "William Morrow",
-        "imageurl": "http://images.amazon.com/images/P/0380973839.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380973839.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 25
     },
@@ -2785,7 +2785,7 @@ db.books.insertMany([
         "author": "Donna Jo Napoli",
         "year": 2003,
         "publisher": "Wendy Lamb Books",
-        "imageurl": "http://images.amazon.com/images/P/0385327773.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385327773.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 34
     },
@@ -2795,7 +2795,7 @@ db.books.insertMany([
         "author": "A. S. Byatt",
         "year": 1990,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0394586239.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394586239.01.LZZZZZZZ.jpg",
         "price": 141,
         "stock": 32
     },
@@ -2805,7 +2805,7 @@ db.books.insertMany([
         "author": "Tanuja Desai Hidier",
         "year": 2003,
         "publisher": "Push",
-        "imageurl": "http://images.amazon.com/images/P/0439510112.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439510112.01.LZZZZZZZ.jpg",
         "price": 42,
         "stock": 15
     },
@@ -2815,7 +2815,7 @@ db.books.insertMany([
         "author": "SOPHIE KINSELLA",
         "year": 2003,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440241413.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440241413.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 36
     },
@@ -2825,7 +2825,7 @@ db.books.insertMany([
         "author": "Isabel Wolff",
         "year": 2000,
         "publisher": "Onyx Books",
-        "imageurl": "http://images.amazon.com/images/P/0451409256.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451409256.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 9
     },
@@ -2835,7 +2835,7 @@ db.books.insertMany([
         "author": "Louisa May Alcott",
         "year": 1988,
         "publisher": "Signet Classics",
-        "imageurl": "http://images.amazon.com/images/P/0451523415.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451523415.01.LZZZZZZZ.jpg",
         "price": 153,
         "stock": 28
     },
@@ -2845,7 +2845,7 @@ db.books.insertMany([
         "author": "Jane Austen",
         "year": 1996,
         "publisher": "Signet Classics",
-        "imageurl": "http://images.amazon.com/images/P/0451526279.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451526279.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 30
     },
@@ -2855,7 +2855,7 @@ db.books.insertMany([
         "author": "George Orwell",
         "year": 2004,
         "publisher": "Signet",
-        "imageurl": "http://images.amazon.com/images/P/0451526341.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451526341.01.LZZZZZZZ.jpg",
         "price": 142,
         "stock": 31
     },
@@ -2865,7 +2865,7 @@ db.books.insertMany([
         "author": "Charles Dickens",
         "year": 2001,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486415864.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486415864.01.LZZZZZZZ.jpg",
         "price": 27,
         "stock": 34
     },
@@ -2875,7 +2875,7 @@ db.books.insertMany([
         "author": "Isabel Allende",
         "year": 1989,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553280589.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553280589.01.LZZZZZZZ.jpg",
         "price": 74,
         "stock": 19
     },
@@ -2885,7 +2885,7 @@ db.books.insertMany([
         "author": "Barbara Kingsolver",
         "year": 0,
         "publisher": "Faber Faber Inc",
-        "imageurl": "http://images.amazon.com/images/P/0571197639.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0571197639.01.LZZZZZZZ.jpg",
         "price": 55,
         "stock": 36
     },
@@ -2895,7 +2895,7 @@ db.books.insertMany([
         "author": "Ellen Datlow",
         "year": 2002,
         "publisher": "Viking Juvenile",
-        "imageurl": "http://images.amazon.com/images/P/0670035262.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670035262.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 38
     },
@@ -2905,7 +2905,7 @@ db.books.insertMany([
         "author": "Charles Dickens",
         "year": 1993,
         "publisher": "Alfred A. Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0679423079.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679423079.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 30
     },
@@ -2915,7 +2915,7 @@ db.books.insertMany([
         "author": "A.S. BYATT",
         "year": 1994,
         "publisher": "Vintage",
-        "imageurl": "http://images.amazon.com/images/P/0679751343.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679751343.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 6
     },
@@ -2925,7 +2925,7 @@ db.books.insertMany([
         "author": "Joseph Heller",
         "year": 1996,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0684833395.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684833395.01.LZZZZZZZ.jpg",
         "price": 29,
         "stock": 12
     },
@@ -2935,7 +2935,7 @@ db.books.insertMany([
         "author": "John Galsworthy",
         "year": 2002,
         "publisher": "Touchstone",
-        "imageurl": "http://images.amazon.com/images/P/0743245024.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743245024.01.LZZZZZZZ.jpg",
         "price": 153,
         "stock": 40
     },
@@ -2945,7 +2945,7 @@ db.books.insertMany([
         "author": "Enid Blyton",
         "year": 2002,
         "publisher": "Egmont Childrens Books",
-        "imageurl": "http://images.amazon.com/images/P/0749748001.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0749748001.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 27
     },
@@ -2955,7 +2955,7 @@ db.books.insertMany([
         "author": "Enid Blyton",
         "year": 2002,
         "publisher": "Egmont Childrens Books",
-        "imageurl": "http://images.amazon.com/images/P/0749748028.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0749748028.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 19
     },
@@ -2965,7 +2965,7 @@ db.books.insertMany([
         "author": "Neil Gaiman",
         "year": 1993,
         "publisher": "Dreamhaven Books",
-        "imageurl": "http://images.amazon.com/images/P/0963094424.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0963094424.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 16
     },
@@ -2975,7 +2975,7 @@ db.books.insertMany([
         "author": "Alan Moore",
         "year": 2003,
         "publisher": "DC Comics",
-        "imageurl": "http://images.amazon.com/images/P/1401201172.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1401201172.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 5
     },
@@ -2985,7 +2985,7 @@ db.books.insertMany([
         "author": "Neil Gaiman",
         "year": 1998,
         "publisher": "DC Comics",
-        "imageurl": "http://images.amazon.com/images/P/1563892278.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1563892278.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 33
     },
@@ -2995,7 +2995,7 @@ db.books.insertMany([
         "author": "Alan Moore",
         "year": 2002,
         "publisher": "DC Comics",
-        "imageurl": "http://images.amazon.com/images/P/1563898586.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1563898586.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 29
     },
@@ -3005,7 +3005,7 @@ db.books.insertMany([
         "author": "Neil Gaiman",
         "year": 2002,
         "publisher": "Dark Horse Comics",
-        "imageurl": "http://images.amazon.com/images/P/156971620X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/156971620X.01.LZZZZZZZ.jpg",
         "price": 186,
         "stock": 13
     },
@@ -3015,7 +3015,7 @@ db.books.insertMany([
         "author": "Trudy Suggs",
         "year": 2003,
         "publisher": "Alpha Books",
-        "imageurl": "http://images.amazon.com/images/P/1592571301.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1592571301.01.LZZZZZZZ.jpg",
         "price": 93,
         "stock": 38
     },
@@ -3025,7 +3025,7 @@ db.books.insertMany([
         "author": "Tom Wolfe",
         "year": 1998,
         "publisher": "Farrar Straus &amp; Giroux",
-        "imageurl": "http://images.amazon.com/images/P/0374270325.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0374270325.01.LZZZZZZZ.jpg",
         "price": 97,
         "stock": 9
     },
@@ -3035,7 +3035,7 @@ db.books.insertMany([
         "author": "Brady Udall",
         "year": 2002,
         "publisher": "Vintage Books USA",
-        "imageurl": "http://images.amazon.com/images/P/0375719180.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375719180.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 26
     },
@@ -3045,7 +3045,7 @@ db.books.insertMany([
         "author": "Homer Hickam",
         "year": 1999,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440235502.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440235502.01.LZZZZZZZ.jpg",
         "price": 136,
         "stock": 1
     },
@@ -3055,7 +3055,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 2001,
         "publisher": "Dell Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/044023722X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/044023722X.01.LZZZZZZZ.jpg",
         "price": 35,
         "stock": 32
     },
@@ -3065,7 +3065,7 @@ db.books.insertMany([
         "author": "Pearl Abraham",
         "year": 1996,
         "publisher": "Riverhead Books",
-        "imageurl": "http://images.amazon.com/images/P/1573225487.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1573225487.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 37
     },
@@ -3075,7 +3075,7 @@ db.books.insertMany([
         "author": "Thomas Hardy",
         "year": 1997,
         "publisher": "NTC/Contemporary Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/1853260673.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1853260673.01.LZZZZZZZ.jpg",
         "price": 56,
         "stock": 14
     },
@@ -3085,7 +3085,7 @@ db.books.insertMany([
         "author": "Sebastian Junger",
         "year": 1999,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060977477.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060977477.01.LZZZZZZZ.jpg",
         "price": 141,
         "stock": 33
     },
@@ -3095,7 +3095,7 @@ db.books.insertMany([
         "author": "Karen Armstrong",
         "year": 2001,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345391691.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345391691.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 11
     },
@@ -3105,7 +3105,7 @@ db.books.insertMany([
         "author": "Mary Barnard",
         "year": 1958,
         "publisher": "University of California Press",
-        "imageurl": "http://images.amazon.com/images/P/0520011171.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0520011171.01.LZZZZZZZ.jpg",
         "price": 15,
         "stock": 0
     },
@@ -3115,7 +3115,7 @@ db.books.insertMany([
         "author": "David Brin",
         "year": 1990,
         "publisher": "Spectra Books",
-        "imageurl": "http://images.amazon.com/images/P/0553278746.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553278746.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 17
     },
@@ -3125,7 +3125,7 @@ db.books.insertMany([
         "author": "T. Coraghessan Boyle",
         "year": 1995,
         "publisher": "Viking Books",
-        "imageurl": "http://images.amazon.com/images/P/0670856045.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670856045.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 16
     },
@@ -3135,7 +3135,7 @@ db.books.insertMany([
         "author": "Paul Woodruff",
         "year": 1989,
         "publisher": "Hackett Pub Co Inc",
-        "imageurl": "http://images.amazon.com/images/P/0872200760.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0872200760.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 20
     },
@@ -3145,7 +3145,7 @@ db.books.insertMany([
         "author": "Lynda Madaras",
         "year": 1987,
         "publisher": "W W Norton &amp; Co",
-        "imageurl": "http://images.amazon.com/images/P/0937858994.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0937858994.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 5
     },
@@ -3155,7 +3155,7 @@ db.books.insertMany([
         "author": "Stephen McCauley",
         "year": 1988,
         "publisher": "Washington Square Press",
-        "imageurl": "http://images.amazon.com/images/P/0671649949.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671649949.01.LZZZZZZZ.jpg",
         "price": 91,
         "stock": 28
     },
@@ -3165,7 +3165,7 @@ db.books.insertMany([
         "author": "Isabelle Holland",
         "year": 1993,
         "publisher": "Scholastic Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0590431110.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590431110.01.LZZZZZZZ.jpg",
         "price": 115,
         "stock": 8
     },
@@ -3175,7 +3175,7 @@ db.books.insertMany([
         "author": "Pam Conrad",
         "year": 1990,
         "publisher": "Harpercollins Juvenile Books",
-        "imageurl": "http://images.amazon.com/images/P/0064470113.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0064470113.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 19
     },
@@ -3185,7 +3185,7 @@ db.books.insertMany([
         "author": "Lurlene McDaniel",
         "year": 2000,
         "publisher": "Starfire",
-        "imageurl": "http://images.amazon.com/images/P/0553571486.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553571486.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 11
     },
@@ -3195,7 +3195,7 @@ db.books.insertMany([
         "author": "Brian Kaufman",
         "year": 2002,
         "publisher": "Last Knight Pub Co",
-        "imageurl": "http://images.amazon.com/images/P/0972044205.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0972044205.01.LZZZZZZZ.jpg",
         "price": 34,
         "stock": 36
     },
@@ -3205,7 +3205,7 @@ db.books.insertMany([
         "author": "John Darnton",
         "year": 1997,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312963009.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312963009.01.LZZZZZZZ.jpg",
         "price": 52,
         "stock": 14
     },
@@ -3215,7 +3215,7 @@ db.books.insertMany([
         "author": "Martin Schenk",
         "year": 1999,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345430476.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345430476.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 10
     },
@@ -3225,7 +3225,7 @@ db.books.insertMany([
         "author": "DAVID EDDINGS",
         "year": 1999,
         "publisher": "Del Rey",
-        "imageurl": "http://images.amazon.com/images/P/0345435869.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345435869.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 3
     },
@@ -3235,7 +3235,7 @@ db.books.insertMany([
         "author": "Paul Reiser",
         "year": 1998,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380728729.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380728729.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 19
     },
@@ -3245,7 +3245,7 @@ db.books.insertMany([
         "author": "David G. Hartwell",
         "year": 2001,
         "publisher": "Eos",
-        "imageurl": "http://images.amazon.com/images/P/038081840X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038081840X.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 0
     },
@@ -3255,7 +3255,7 @@ db.books.insertMany([
         "author": "Dave Barry",
         "year": 1997,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449912302.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449912302.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 25
     },
@@ -3265,7 +3265,7 @@ db.books.insertMany([
         "author": "John R. Holt",
         "year": 1997,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/055329198X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/055329198X.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 0
     },
@@ -3275,7 +3275,7 @@ db.books.insertMany([
         "author": "Theodore Beale",
         "year": 2000,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671018930.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671018930.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 35
     },
@@ -3285,7 +3285,7 @@ db.books.insertMany([
         "author": "Frank M. Robinson",
         "year": 2000,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812541642.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812541642.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 24
     },
@@ -3295,7 +3295,7 @@ db.books.insertMany([
         "author": "Mary Jane Clark",
         "year": 2004,
         "publisher": "St. Martin's Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0312988699.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312988699.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 3
     },
@@ -3305,7 +3305,7 @@ db.books.insertMany([
         "author": "Mary Wollstonecraft Shelley",
         "year": 1994,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486282112.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486282112.01.LZZZZZZZ.jpg",
         "price": 60,
         "stock": 6
     },
@@ -3315,7 +3315,7 @@ db.books.insertMany([
         "author": "Isabel-Clara SimÃ³",
         "year": 1999,
         "publisher": "Columna",
-        "imageurl": "http://images.amazon.com/images/P/8483007010.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8483007010.01.LZZZZZZZ.jpg",
         "price": 192,
         "stock": 23
     },
@@ -3325,7 +3325,7 @@ db.books.insertMany([
         "author": "Robert Westall",
         "year": 1987,
         "publisher": "Viking Children's Books",
-        "imageurl": "http://images.amazon.com/images/P/0670815373.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670815373.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 3
     },
@@ -3335,7 +3335,7 @@ db.books.insertMany([
         "author": "Robert B. Parker",
         "year": 1994,
         "publisher": "Delacorte Press",
-        "imageurl": "http://images.amazon.com/images/P/0385313748.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385313748.01.LZZZZZZZ.jpg",
         "price": 11,
         "stock": 1
     },
@@ -3345,7 +3345,7 @@ db.books.insertMany([
         "author": "Rita Chapman Works",
         "year": 1999,
         "publisher": "Reader's Digest",
-        "imageurl": "http://images.amazon.com/images/P/1575843366.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1575843366.01.LZZZZZZZ.jpg",
         "price": 88,
         "stock": 24
     },
@@ -3355,7 +3355,7 @@ db.books.insertMany([
         "author": "Patricia Cornwell",
         "year": 1992,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0684193957.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684193957.01.LZZZZZZZ.jpg",
         "price": 55,
         "stock": 3
     },
@@ -3365,7 +3365,7 @@ db.books.insertMany([
         "author": "Douglas Adams",
         "year": 1992,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345371984.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345371984.01.LZZZZZZZ.jpg",
         "price": 40,
         "stock": 28
     },
@@ -3375,7 +3375,7 @@ db.books.insertMany([
         "author": "A. Manette Ansay",
         "year": 1998,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0380730138.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380730138.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 32
     },
@@ -3385,7 +3385,7 @@ db.books.insertMany([
         "author": "Sarah Waters",
         "year": 2002,
         "publisher": "Riverhead Books",
-        "imageurl": "http://images.amazon.com/images/P/1573228737.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1573228737.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 14
     },
@@ -3395,7 +3395,7 @@ db.books.insertMany([
         "author": "Anne Frank",
         "year": 2000,
         "publisher": "Editores Mexicanos Unidos, S.A.",
-        "imageurl": "http://images.amazon.com/images/P/9681500555.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/9681500555.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 18
     },
@@ -3405,7 +3405,7 @@ db.books.insertMany([
         "author": "Barry Lopez",
         "year": 1990,
         "publisher": "Quill (HarperCollins)",
-        "imageurl": "http://images.amazon.com/images/P/0380711109.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380711109.01.LZZZZZZZ.jpg",
         "price": 15,
         "stock": 29
     },
@@ -3415,7 +3415,7 @@ db.books.insertMany([
         "author": "Greg Palast",
         "year": 2003,
         "publisher": "Plume Books",
-        "imageurl": "http://images.amazon.com/images/P/0452283914.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0452283914.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 35
     },
@@ -3425,7 +3425,7 @@ db.books.insertMany([
         "author": "Tom Clancy",
         "year": 1990,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425120279.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425120279.01.LZZZZZZZ.jpg",
         "price": 79,
         "stock": 29
     },
@@ -3435,7 +3435,7 @@ db.books.insertMany([
         "author": "Andrea Kane",
         "year": 1998,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/067153484X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/067153484X.01.LZZZZZZZ.jpg",
         "price": 139,
         "stock": 4
     },
@@ -3445,7 +3445,7 @@ db.books.insertMany([
         "author": "Nevada Barr",
         "year": 2000,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380728273.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380728273.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 35
     },
@@ -3455,7 +3455,7 @@ db.books.insertMany([
         "author": "Paul Auster",
         "year": 1996,
         "publisher": "Anagrama",
-        "imageurl": "http://images.amazon.com/images/P/8433914545.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8433914545.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 6
     },
@@ -3465,7 +3465,7 @@ db.books.insertMany([
         "author": "Stephen King",
         "year": 2002,
         "publisher": "Distribooks",
-        "imageurl": "http://images.amazon.com/images/P/8484509141.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8484509141.01.LZZZZZZZ.jpg",
         "price": 58,
         "stock": 9
     },
@@ -3475,7 +3475,7 @@ db.books.insertMany([
         "author": "Margaret Maron",
         "year": 1999,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446606197.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446606197.01.LZZZZZZZ.jpg",
         "price": 172,
         "stock": 37
     },
@@ -3485,7 +3485,7 @@ db.books.insertMany([
         "author": "EDNA BARKER",
         "year": 2002,
         "publisher": "Douglas Gibson Books",
-        "imageurl": "http://images.amazon.com/images/P/0771076002.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0771076002.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 13
     },
@@ -3495,7 +3495,7 @@ db.books.insertMany([
         "author": "Muriel Whitaker",
         "year": 1997,
         "publisher": "McClelland &amp; Stewart",
-        "imageurl": "http://images.amazon.com/images/P/0771088191.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0771088191.01.LZZZZZZZ.jpg",
         "price": 49,
         "stock": 27
     },
@@ -3505,7 +3505,7 @@ db.books.insertMany([
         "author": "John Irving",
         "year": 1996,
         "publisher": "Arcade Publishing",
-        "imageurl": "http://images.amazon.com/images/P/1559703237.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1559703237.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 22
     },
@@ -3515,7 +3515,7 @@ db.books.insertMany([
         "author": "Golding",
         "year": 0,
         "publisher": "Fischer Taschenbuch Verlag GmbH",
-        "imageurl": "http://images.amazon.com/images/P/3596214629.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3596214629.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 30
     },
@@ -3525,7 +3525,7 @@ db.books.insertMany([
         "author": "HarperReference",
         "year": 1993,
         "publisher": "Access Press (HarperCollins)",
-        "imageurl": "http://images.amazon.com/images/P/0062770500.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0062770500.01.LZZZZZZZ.jpg",
         "price": 102,
         "stock": 5
     },
@@ -3535,7 +3535,7 @@ db.books.insertMany([
         "author": "LTD",
         "year": 1993,
         "publisher": "John Wiley &amp; Sons Inc",
-        "imageurl": "http://images.amazon.com/images/P/0671847546.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671847546.01.LZZZZZZZ.jpg",
         "price": 94,
         "stock": 36
     },
@@ -3545,7 +3545,7 @@ db.books.insertMany([
         "author": "Ann Patchett",
         "year": 2001,
         "publisher": "HarperCollins Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0060188731.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060188731.01.LZZZZZZZ.jpg",
         "price": 157,
         "stock": 20
     },
@@ -3555,7 +3555,7 @@ db.books.insertMany([
         "author": "Roald Dahl",
         "year": 2000,
         "publisher": "Penguin USA (Paper)",
-        "imageurl": "http://images.amazon.com/images/P/0140374248.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140374248.01.LZZZZZZZ.jpg",
         "price": 42,
         "stock": 8
     },
@@ -3565,7 +3565,7 @@ db.books.insertMany([
         "author": "Sue Monk Kidd",
         "year": 2003,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0142001740.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0142001740.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 11
     },
@@ -3575,7 +3575,7 @@ db.books.insertMany([
         "author": "Bob Thiele",
         "year": 1995,
         "publisher": "Oxford University Press",
-        "imageurl": "http://images.amazon.com/images/P/0195086295.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0195086295.01.LZZZZZZZ.jpg",
         "price": 173,
         "stock": 11
     },
@@ -3585,7 +3585,7 @@ db.books.insertMany([
         "author": "Dan Brown",
         "year": 2003,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312995423.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312995423.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 16
     },
@@ -3595,7 +3595,7 @@ db.books.insertMany([
         "author": "Colleen McCullough",
         "year": 1988,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380704587.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380704587.01.LZZZZZZZ.jpg",
         "price": 190,
         "stock": 13
     },
@@ -3605,7 +3605,7 @@ db.books.insertMany([
         "author": "Joanne Harris",
         "year": 2001,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0380815923.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380815923.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 37
     },
@@ -3615,7 +3615,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1991,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385416342.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385416342.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 40
     },
@@ -3625,7 +3625,7 @@ db.books.insertMany([
         "author": "Thomas Cahill",
         "year": 1996,
         "publisher": "Anchor",
-        "imageurl": "http://images.amazon.com/images/P/0385418493.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385418493.01.LZZZZZZZ.jpg",
         "price": 194,
         "stock": 19
     },
@@ -3635,7 +3635,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1993,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/038542471X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038542471X.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 18
     },
@@ -3645,7 +3645,7 @@ db.books.insertMany([
         "author": "Michael Hudson",
         "year": 1987,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425098109.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425098109.01.LZZZZZZZ.jpg",
         "price": 149,
         "stock": 20
     },
@@ -3655,7 +3655,7 @@ db.books.insertMany([
         "author": "Jane Smiley",
         "year": 2001,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449005410.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449005410.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 36
     },
@@ -3665,7 +3665,7 @@ db.books.insertMany([
         "author": "Dick Francis",
         "year": 1985,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449202631.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449202631.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 2
     },
@@ -3675,7 +3675,7 @@ db.books.insertMany([
         "author": "Dick Francis",
         "year": 1990,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449207544.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449207544.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 29
     },
@@ -3685,7 +3685,7 @@ db.books.insertMany([
         "author": "Nora Roberts",
         "year": 2000,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/0515128554.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0515128554.01.LZZZZZZZ.jpg",
         "price": 48,
         "stock": 11
     },
@@ -3695,7 +3695,7 @@ db.books.insertMany([
         "author": "Douglas Adams",
         "year": 1992,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0517577402.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0517577402.01.LZZZZZZZ.jpg",
         "price": 128,
         "stock": 30
     },
@@ -3705,7 +3705,7 @@ db.books.insertMany([
         "author": "Jean Marzollo",
         "year": 1992,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590450875.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590450875.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 23
     },
@@ -3715,7 +3715,7 @@ db.books.insertMany([
         "author": "Walter Wick",
         "year": 1996,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590481371.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590481371.01.LZZZZZZZ.jpg",
         "price": 101,
         "stock": 9
     },
@@ -3725,7 +3725,7 @@ db.books.insertMany([
         "author": "Barbara Delinsky",
         "year": 2000,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/067103619X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/067103619X.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 14
     },
@@ -3735,7 +3735,7 @@ db.books.insertMany([
         "author": "P. D. James",
         "year": 1982,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0684177730.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684177730.01.LZZZZZZZ.jpg",
         "price": 172,
         "stock": 19
     },
@@ -3745,7 +3745,7 @@ db.books.insertMany([
         "author": "Arthur William Upfield",
         "year": 1983,
         "publisher": "Scribner Paper Fiction",
-        "imageurl": "http://images.amazon.com/images/P/0684180200.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684180200.01.LZZZZZZZ.jpg",
         "price": 127,
         "stock": 10
     },
@@ -3755,7 +3755,7 @@ db.books.insertMany([
         "author": "Barbara Delinsky",
         "year": 2003,
         "publisher": "Pocket Books",
-        "imageurl": "http://images.amazon.com/images/P/0743411269.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743411269.01.LZZZZZZZ.jpg",
         "price": 74,
         "stock": 8
     },
@@ -3765,7 +3765,7 @@ db.books.insertMany([
         "author": "Christopher Rice",
         "year": 2004,
         "publisher": "Pocket Star",
-        "imageurl": "http://images.amazon.com/images/P/0743470389.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743470389.01.LZZZZZZZ.jpg",
         "price": 35,
         "stock": 28
     },
@@ -3775,7 +3775,7 @@ db.books.insertMany([
         "author": "Rex Stout",
         "year": 2000,
         "publisher": "Readers Digest Assn",
-        "imageurl": "http://images.amazon.com/images/P/076218857X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/076218857X.01.LZZZZZZZ.jpg",
         "price": 78,
         "stock": 34
     },
@@ -3785,7 +3785,7 @@ db.books.insertMany([
         "author": "Joan Anderson",
         "year": 2000,
         "publisher": "Broadway Books",
-        "imageurl": "http://images.amazon.com/images/P/0767905938.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0767905938.01.LZZZZZZZ.jpg",
         "price": 157,
         "stock": 19
     },
@@ -3795,7 +3795,7 @@ db.books.insertMany([
         "author": "Vance Havner",
         "year": 1974,
         "publisher": "F. H. Revell",
-        "imageurl": "http://images.amazon.com/images/P/0800706544.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0800706544.01.LZZZZZZZ.jpg",
         "price": 26,
         "stock": 20
     },
@@ -3805,7 +3805,7 @@ db.books.insertMany([
         "author": "Warren W. Wiersbe",
         "year": 1984,
         "publisher": "Baker Book House",
-        "imageurl": "http://images.amazon.com/images/P/0801096677.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0801096677.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 7
     },
@@ -3815,7 +3815,7 @@ db.books.insertMany([
         "author": "Max Lucado",
         "year": 1997,
         "publisher": "W Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0849953014.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0849953014.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 3
     },
@@ -3825,7 +3825,7 @@ db.books.insertMany([
         "author": "Lawrence J Crabb",
         "year": 1988,
         "publisher": "NavPress",
-        "imageurl": "http://images.amazon.com/images/P/0891091963.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0891091963.01.LZZZZZZZ.jpg",
         "price": 187,
         "stock": 31
     },
@@ -3835,7 +3835,7 @@ db.books.insertMany([
         "author": "Barry Neil Kaufman",
         "year": 1994,
         "publisher": "Pub Group West",
-        "imageurl": "http://images.amazon.com/images/P/0915811537.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0915811537.01.LZZZZZZZ.jpg",
         "price": 50,
         "stock": 35
     },
@@ -3845,7 +3845,7 @@ db.books.insertMany([
         "author": "Bob Sjogren",
         "year": 1988,
         "publisher": "YWAM Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0927545373.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0927545373.01.LZZZZZZZ.jpg",
         "price": 193,
         "stock": 2
     },
@@ -3855,7 +3855,7 @@ db.books.insertMany([
         "author": "Frederick J. Moody",
         "year": 1997,
         "publisher": "F.J. Moody",
-        "imageurl": "http://images.amazon.com/images/P/1575024179.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1575024179.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 18
     },
@@ -3865,7 +3865,7 @@ db.books.insertMany([
         "author": "Neal Pirolo",
         "year": 1991,
         "publisher": "Emmaus Road Intl",
-        "imageurl": "http://images.amazon.com/images/P/1880185008.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1880185008.01.LZZZZZZZ.jpg",
         "price": 103,
         "stock": 26
     },
@@ -3875,7 +3875,7 @@ db.books.insertMany([
         "author": "William Sleator",
         "year": 1991,
         "publisher": "Puffin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140345809.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140345809.01.LZZZZZZZ.jpg",
         "price": 22,
         "stock": 17
     },
@@ -3885,7 +3885,7 @@ db.books.insertMany([
         "author": "Antoine de Saint-ExupÃ©ry",
         "year": 1968,
         "publisher": "Harcourt",
-        "imageurl": "http://images.amazon.com/images/P/0156528207.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0156528207.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 18
     },
@@ -3895,7 +3895,7 @@ db.books.insertMany([
         "author": "Richard Bach",
         "year": 1976,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380012863.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380012863.01.LZZZZZZZ.jpg",
         "price": 143,
         "stock": 37
     },
@@ -3905,7 +3905,7 @@ db.books.insertMany([
         "author": "Kevin Sullivan",
         "year": 1996,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451154916.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451154916.01.LZZZZZZZ.jpg",
         "price": 78,
         "stock": 17
     },
@@ -3915,7 +3915,7 @@ db.books.insertMany([
         "author": "Michele Morgan",
         "year": 2002,
         "publisher": "Castle Books",
-        "imageurl": "http://images.amazon.com/images/P/0785815147.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0785815147.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 25
     },
@@ -3925,7 +3925,7 @@ db.books.insertMany([
         "author": "Scott, Cunningham",
         "year": 1989,
         "publisher": "Llewellyn Publications",
-        "imageurl": "http://images.amazon.com/images/P/0875421288.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0875421288.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 20
     },
@@ -3935,7 +3935,7 @@ db.books.insertMany([
         "author": "David Allen Hulse",
         "year": 2000,
         "publisher": "Llewellyn Publications",
-        "imageurl": "http://images.amazon.com/images/P/1567184294.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1567184294.01.LZZZZZZZ.jpg",
         "price": 186,
         "stock": 37
     },
@@ -3945,7 +3945,7 @@ db.books.insertMany([
         "author": "Richard Webster",
         "year": 1998,
         "publisher": "Llewellyn Publications",
-        "imageurl": "http://images.amazon.com/images/P/156718796X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/156718796X.01.LZZZZZZZ.jpg",
         "price": 43,
         "stock": 32
     },
@@ -3955,7 +3955,7 @@ db.books.insertMany([
         "author": "Bernard King",
         "year": 2000,
         "publisher": "Harper Collins - UK",
-        "imageurl": "http://images.amazon.com/images/P/1862047626.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1862047626.01.LZZZZZZZ.jpg",
         "price": 150,
         "stock": 6
     },
@@ -3965,7 +3965,7 @@ db.books.insertMany([
         "author": "Pat Hutchins",
         "year": 1971,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/0020437501.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0020437501.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 22
     },
@@ -3975,7 +3975,7 @@ db.books.insertMany([
         "author": "William Shakespeare",
         "year": 2001,
         "publisher": "Oxford University Press",
-        "imageurl": "http://images.amazon.com/images/P/0198320264.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0198320264.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 4
     },
@@ -3985,7 +3985,7 @@ db.books.insertMany([
         "author": "Melissa McClone",
         "year": 2003,
         "publisher": "Silhouette",
-        "imageurl": "http://images.amazon.com/images/P/0373196989.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373196989.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 37
     },
@@ -3995,7 +3995,7 @@ db.books.insertMany([
         "author": "Cheryl St. John",
         "year": 2003,
         "publisher": "Silhouette",
-        "imageurl": "http://images.amazon.com/images/P/0373245580.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373245580.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 16
     },
@@ -4005,7 +4005,7 @@ db.books.insertMany([
         "author": "Lewis Carroll",
         "year": 2000,
         "publisher": "Signet Classics",
-        "imageurl": "http://images.amazon.com/images/P/0451527747.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451527747.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 22
     },
@@ -4015,7 +4015,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 1997,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671867113.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671867113.01.LZZZZZZZ.jpg",
         "price": 174,
         "stock": 28
     },
@@ -4025,7 +4025,7 @@ db.books.insertMany([
         "author": "Mark Twain",
         "year": 1989,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812504208.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812504208.01.LZZZZZZZ.jpg",
         "price": 71,
         "stock": 24
     },
@@ -4035,7 +4035,7 @@ db.books.insertMany([
         "author": "Rebecca Wells",
         "year": 1996,
         "publisher": "HarperCollins",
-        "imageurl": "http://images.amazon.com/images/P/0060173289.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060173289.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 21
     },
@@ -4045,7 +4045,7 @@ db.books.insertMany([
         "author": "Dog Mary Crow",
         "year": 1991,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060973897.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060973897.01.LZZZZZZZ.jpg",
         "price": 79,
         "stock": 16
     },
@@ -4055,7 +4055,7 @@ db.books.insertMany([
         "author": "Sebastian Junger",
         "year": 1998,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/006101351X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/006101351X.01.LZZZZZZZ.jpg",
         "price": 83,
         "stock": 6
     },
@@ -4065,7 +4065,7 @@ db.books.insertMany([
         "author": "Linda Gordon",
         "year": 1989,
         "publisher": "Penguin USA",
-        "imageurl": "http://images.amazon.com/images/P/0140104682.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140104682.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 30
     },
@@ -4075,7 +4075,7 @@ db.books.insertMany([
         "author": "Florence King",
         "year": 1996,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312143370.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312143370.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 5
     },
@@ -4085,7 +4085,7 @@ db.books.insertMany([
         "author": "Alice Sebold",
         "year": 2002,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316666343.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316666343.01.LZZZZZZZ.jpg",
         "price": 97,
         "stock": 3
     },
@@ -4095,7 +4095,7 @@ db.books.insertMany([
         "author": "Spalding Gray",
         "year": 1992,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/039456894X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039456894X.01.LZZZZZZZ.jpg",
         "price": 55,
         "stock": 22
     },
@@ -4105,7 +4105,7 @@ db.books.insertMany([
         "author": "Thomas Harris",
         "year": 2000,
         "publisher": "Dell Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0440224675.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440224675.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 23
     },
@@ -4115,7 +4115,7 @@ db.books.insertMany([
         "author": "EDWARD RUTHERFURD",
         "year": 1998,
         "publisher": "Fawcett",
-        "imageurl": "http://images.amazon.com/images/P/0449002632.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449002632.01.LZZZZZZZ.jpg",
         "price": 199,
         "stock": 33
     },
@@ -4125,7 +4125,7 @@ db.books.insertMany([
         "author": "Margaret Atwood",
         "year": 1990,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449213773.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449213773.01.LZZZZZZZ.jpg",
         "price": 138,
         "stock": 11
     },
@@ -4135,7 +4135,7 @@ db.books.insertMany([
         "author": "Dorothy Allison",
         "year": 1999,
         "publisher": "Plume Books",
-        "imageurl": "http://images.amazon.com/images/P/0452279690.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0452279690.01.LZZZZZZZ.jpg",
         "price": 37,
         "stock": 38
     },
@@ -4145,7 +4145,7 @@ db.books.insertMany([
         "author": "Margaret Atwood",
         "year": 1995,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553569058.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553569058.01.LZZZZZZZ.jpg",
         "price": 170,
         "stock": 34
     },
@@ -4155,7 +4155,7 @@ db.books.insertMany([
         "author": "MAYA ANGELOU",
         "year": 1993,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0679427430.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679427430.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 22
     },
@@ -4165,7 +4165,7 @@ db.books.insertMany([
         "author": "Edith Wharton",
         "year": 1990,
         "publisher": "Vintage Books USA",
-        "imageurl": "http://images.amazon.com/images/P/0679725393.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679725393.01.LZZZZZZZ.jpg",
         "price": 13,
         "stock": 4
     },
@@ -4175,7 +4175,7 @@ db.books.insertMany([
         "author": "Mary Brave Bird",
         "year": 1993,
         "publisher": "Pub Group West",
-        "imageurl": "http://images.amazon.com/images/P/0802114369.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0802114369.01.LZZZZZZZ.jpg",
         "price": 101,
         "stock": 37
     },
@@ -4185,7 +4185,7 @@ db.books.insertMany([
         "author": "John G. Neihardt",
         "year": 1988,
         "publisher": "University of Nebraska Press",
-        "imageurl": "http://images.amazon.com/images/P/0803233019.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0803233019.01.LZZZZZZZ.jpg",
         "price": 28,
         "stock": 38
     },
@@ -4195,7 +4195,7 @@ db.books.insertMany([
         "author": "Roland Warren",
         "year": 1987,
         "publisher": "University Press of America",
-        "imageurl": "http://images.amazon.com/images/P/0819154946.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0819154946.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 11
     },
@@ -4205,7 +4205,7 @@ db.books.insertMany([
         "author": "Johnny Molloy",
         "year": 1997,
         "publisher": "Globe Pequot Pr",
-        "imageurl": "http://images.amazon.com/images/P/0897322339.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0897322339.01.LZZZZZZZ.jpg",
         "price": 102,
         "stock": 33
     },
@@ -4215,7 +4215,7 @@ db.books.insertMany([
         "author": "James McCourt",
         "year": 2002,
         "publisher": "New York Review of Books",
-        "imageurl": "http://images.amazon.com/images/P/0940322978.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0940322978.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 16
     },
@@ -4225,7 +4225,7 @@ db.books.insertMany([
         "author": "Elizabeth Wurtzel",
         "year": 1997,
         "publisher": "Riverhead Books",
-        "imageurl": "http://images.amazon.com/images/P/1573225126.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1573225126.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 20
     },
@@ -4235,7 +4235,7 @@ db.books.insertMany([
         "author": "Bill Bradley",
         "year": 2000,
         "publisher": "Artisan Publishers",
-        "imageurl": "http://images.amazon.com/images/P/1579651658.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1579651658.01.LZZZZZZZ.jpg",
         "price": 50,
         "stock": 7
     },
@@ -4245,7 +4245,7 @@ db.books.insertMany([
         "author": "Don Miguel Ruiz",
         "year": 1997,
         "publisher": "Amber-Allen Publishing",
-        "imageurl": "http://images.amazon.com/images/P/1878424319.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1878424319.01.LZZZZZZZ.jpg",
         "price": 10,
         "stock": 15
     },
@@ -4255,7 +4255,7 @@ db.books.insertMany([
         "author": "Luis Racionero",
         "year": 1986,
         "publisher": "Plaza &amp; JanÃ©s",
-        "imageurl": "http://images.amazon.com/images/P/8401351421.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8401351421.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 15
     },
@@ -4265,7 +4265,7 @@ db.books.insertMany([
         "author": "Eugeni Perea SimÃ³n",
         "year": 1994,
         "publisher": "Destino",
-        "imageurl": "http://images.amazon.com/images/P/8423324311.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8423324311.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 34
     },
@@ -4275,7 +4275,7 @@ db.books.insertMany([
         "author": "Thomas Hauser",
         "year": 1982,
         "publisher": "Lectorum Pubns (J)",
-        "imageurl": "http://images.amazon.com/images/P/8427007450.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8427007450.01.LZZZZZZZ.jpg",
         "price": 81,
         "stock": 19
     },
@@ -4285,7 +4285,7 @@ db.books.insertMany([
         "author": "VicenÃ§ Villatoro",
         "year": 1992,
         "publisher": "Edicions 62",
-        "imageurl": "http://images.amazon.com/images/P/8429734996.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8429734996.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 11
     },
@@ -4295,7 +4295,7 @@ db.books.insertMany([
         "author": "VÃ­ctor Mora",
         "year": 1993,
         "publisher": "Edicions 62",
-        "imageurl": "http://images.amazon.com/images/P/8429736131.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8429736131.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 21
     },
@@ -4305,7 +4305,7 @@ db.books.insertMany([
         "author": "Elena Castedo",
         "year": 1991,
         "publisher": "Editiones B, Grupo Zeta",
-        "imageurl": "http://images.amazon.com/images/P/8440616252.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8440616252.01.LZZZZZZZ.jpg",
         "price": 66,
         "stock": 39
     },
@@ -4315,7 +4315,7 @@ db.books.insertMany([
         "author": "OfÃ¨lia Dracs",
         "year": 1983,
         "publisher": "Laia",
-        "imageurl": "http://images.amazon.com/images/P/8472224260.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8472224260.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 1
     },
@@ -4325,7 +4325,7 @@ db.books.insertMany([
         "author": "OfÃ¨lia Dracs",
         "year": 1985,
         "publisher": "Editorial Laia",
-        "imageurl": "http://images.amazon.com/images/P/8472227421.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8472227421.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 13
     },
@@ -4335,7 +4335,7 @@ db.books.insertMany([
         "author": "Antoni Serra",
         "year": 1987,
         "publisher": "Edicions de la Magrana",
-        "imageurl": "http://images.amazon.com/images/P/8474103347.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8474103347.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 32
     },
@@ -4345,7 +4345,7 @@ db.books.insertMany([
         "author": "M. Carme Junyent",
         "year": 1986,
         "publisher": "Editorial EmpÃºries",
-        "imageurl": "http://images.amazon.com/images/P/8475960936.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8475960936.01.LZZZZZZZ.jpg",
         "price": 71,
         "stock": 4
     },
@@ -4355,7 +4355,7 @@ db.books.insertMany([
         "author": "Jaume CapÃ³",
         "year": 1987,
         "publisher": "Area",
-        "imageurl": "http://images.amazon.com/images/P/8477830029.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8477830029.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 6
     },
@@ -4365,7 +4365,7 @@ db.books.insertMany([
         "author": "MÃ rius Serra",
         "year": 1990,
         "publisher": "Columna",
-        "imageurl": "http://images.amazon.com/images/P/8478091246.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8478091246.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 27
     },
@@ -4375,7 +4375,7 @@ db.books.insertMany([
         "author": "Ferran Torrent",
         "year": 1995,
         "publisher": "Columna",
-        "imageurl": "http://images.amazon.com/images/P/8478097732.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8478097732.01.LZZZZZZZ.jpg",
         "price": 54,
         "stock": 34
     },
@@ -4385,7 +4385,7 @@ db.books.insertMany([
         "author": "Joan Agut",
         "year": 1995,
         "publisher": "Columna",
-        "imageurl": "http://images.amazon.com/images/P/8478098267.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8478098267.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 9
     },
@@ -4395,7 +4395,7 @@ db.books.insertMany([
         "author": "Carmen Rico-Godoy",
         "year": 1990,
         "publisher": "Ediciones Temas de Hoy",
-        "imageurl": "http://images.amazon.com/images/P/8478800336.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8478800336.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 38
     },
@@ -4405,7 +4405,7 @@ db.books.insertMany([
         "author": "Maeve Binchy",
         "year": 1999,
         "publisher": "Salamandra",
-        "imageurl": "http://images.amazon.com/images/P/8478884963.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8478884963.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 14
     },
@@ -4415,7 +4415,7 @@ db.books.insertMany([
         "author": "Ferran Torrent",
         "year": 1997,
         "publisher": "Columna",
-        "imageurl": "http://images.amazon.com/images/P/8483002523.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8483002523.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 28
     },
@@ -4425,7 +4425,7 @@ db.books.insertMany([
         "author": "Maria JaÃ©n",
         "year": 1986,
         "publisher": "Columna",
-        "imageurl": "http://images.amazon.com/images/P/8486433193.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8486433193.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 28
     },
@@ -4435,7 +4435,7 @@ db.books.insertMany([
         "author": "Paul Lester",
         "year": 1995,
         "publisher": "Hal Leonard Corp",
-        "imageurl": "http://images.amazon.com/images/P/0600586898.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0600586898.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 0
     },
@@ -4445,7 +4445,7 @@ db.books.insertMany([
         "author": "Leo Tolstoy",
         "year": 1997,
         "publisher": "NTC/Contemporary Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/1853260622.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1853260622.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 26
     },
@@ -4455,7 +4455,7 @@ db.books.insertMany([
         "author": "Simon Nye",
         "year": 1996,
         "publisher": "Trafalgar Square",
-        "imageurl": "http://images.amazon.com/images/P/1857938011.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1857938011.01.LZZZZZZZ.jpg",
         "price": 103,
         "stock": 9
     },
@@ -4465,7 +4465,7 @@ db.books.insertMany([
         "author": "Robert A Johnson",
         "year": 1977,
         "publisher": "Harpercollins Publisher",
-        "imageurl": "http://images.amazon.com/images/P/0060804157.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060804157.01.LZZZZZZZ.jpg",
         "price": 65,
         "stock": 36
     },
@@ -4475,7 +4475,7 @@ db.books.insertMany([
         "author": "Horacio Vazquez-Rial",
         "year": 2002,
         "publisher": "Ediciones B",
-        "imageurl": "http://images.amazon.com/images/P/8466601090.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8466601090.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 23
     },
@@ -4485,7 +4485,7 @@ db.books.insertMany([
         "author": "Marc Gascoigne",
         "year": 1996,
         "publisher": "Puffin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140382658.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140382658.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 17
     },
@@ -4495,7 +4495,7 @@ db.books.insertMany([
         "author": "Stephanie Maze",
         "year": 1997,
         "publisher": "Harcourt",
-        "imageurl": "http://images.amazon.com/images/P/0152012966.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0152012966.01.LZZZZZZZ.jpg",
         "price": 82,
         "stock": 34
     },
@@ -4505,7 +4505,7 @@ db.books.insertMany([
         "author": "Sandra Dallas",
         "year": 2001,
         "publisher": "St. Martin's Griffin",
-        "imageurl": "http://images.amazon.com/images/P/0312283784.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312283784.01.LZZZZZZZ.jpg",
         "price": 157,
         "stock": 20
     },
@@ -4515,7 +4515,7 @@ db.books.insertMany([
         "author": "Piers Anthony",
         "year": 1982,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345297709.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345297709.01.LZZZZZZZ.jpg",
         "price": 26,
         "stock": 17
     },
@@ -4525,7 +4525,7 @@ db.books.insertMany([
         "author": "Piers Anthony",
         "year": 1985,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345313097.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345313097.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 2
     },
@@ -4535,7 +4535,7 @@ db.books.insertMany([
         "author": "Anne McCaffrey",
         "year": 1991,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/0345335465.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345335465.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 21
     },
@@ -4545,7 +4545,7 @@ db.books.insertMany([
         "author": "David Gemmell",
         "year": 1997,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/0345416848.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345416848.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 33
     },
@@ -4555,7 +4555,7 @@ db.books.insertMany([
         "author": "Laura Zigman",
         "year": 2000,
         "publisher": "Dial Books",
-        "imageurl": "http://images.amazon.com/images/P/0385333404.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385333404.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 37
     },
@@ -4565,7 +4565,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1992,
         "publisher": "Bantam Dell Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/044021145X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/044021145X.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 9
     },
@@ -4575,7 +4575,7 @@ db.books.insertMany([
         "author": "Margaret Truman",
         "year": 1990,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449212084.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449212084.01.LZZZZZZZ.jpg",
         "price": 37,
         "stock": 4
     },
@@ -4585,7 +4585,7 @@ db.books.insertMany([
         "author": "Nic Kynaston",
         "year": 2000,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553582682.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553582682.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 30
     },
@@ -4595,7 +4595,7 @@ db.books.insertMany([
         "author": "Paula Danziger",
         "year": 1997,
         "publisher": "Jump at the Sun",
-        "imageurl": "http://images.amazon.com/images/P/0590947257.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590947257.01.LZZZZZZZ.jpg",
         "price": 52,
         "stock": 8
     },
@@ -4605,7 +4605,7 @@ db.books.insertMany([
         "author": "Richard A. Lupoff",
         "year": 2003,
         "publisher": "I Books",
-        "imageurl": "http://images.amazon.com/images/P/074345829X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/074345829X.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 19
     },
@@ -4615,7 +4615,7 @@ db.books.insertMany([
         "author": "Carrie Bebris",
         "year": 2001,
         "publisher": "Wizards of the Coast",
-        "imageurl": "http://images.amazon.com/images/P/0786913878.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786913878.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 8
     },
@@ -4625,7 +4625,7 @@ db.books.insertMany([
         "author": "Ellen Carol Dubois",
         "year": 1980,
         "publisher": "Cornell University Press",
-        "imageurl": "http://images.amazon.com/images/P/0801491827.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0801491827.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 19
     },
@@ -4635,7 +4635,7 @@ db.books.insertMany([
         "author": "Candice F. Ransom",
         "year": 1993,
         "publisher": "Troll Communications Llc",
-        "imageurl": "http://images.amazon.com/images/P/0816729913.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0816729913.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 0
     },
@@ -4645,7 +4645,7 @@ db.books.insertMany([
         "author": "Sam Bobrick",
         "year": 1994,
         "publisher": "Price Stern Sloan",
-        "imageurl": "http://images.amazon.com/images/P/0843136685.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0843136685.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 14
     },
@@ -4655,7 +4655,7 @@ db.books.insertMany([
         "author": "Anna Sewell",
         "year": 2000,
         "publisher": "Playmore Inc. Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0866119531.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0866119531.01.LZZZZZZZ.jpg",
         "price": 141,
         "stock": 14
     },
@@ -4665,7 +4665,7 @@ db.books.insertMany([
         "author": "Charles Dickens",
         "year": 1989,
         "publisher": "Playmore Inc. Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0866119566.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0866119566.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 12
     },
@@ -4675,7 +4675,7 @@ db.books.insertMany([
         "author": "Donna K Grosvenor",
         "year": 1975,
         "publisher": "National Geographic Society",
-        "imageurl": "http://images.amazon.com/images/P/0870441663.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0870441663.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 23
     },
@@ -4685,7 +4685,7 @@ db.books.insertMany([
         "author": "Mary Wollstonecraft Shelley",
         "year": 1992,
         "publisher": "Kidsbooks.Com",
-        "imageurl": "http://images.amazon.com/images/P/1561561428.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1561561428.01.LZZZZZZZ.jpg",
         "price": 154,
         "stock": 4
     },
@@ -4695,7 +4695,7 @@ db.books.insertMany([
         "author": "NATHANIEL HAWTHORNE",
         "year": 1965,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553210092.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553210092.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 40
     },
@@ -4705,7 +4705,7 @@ db.books.insertMany([
         "author": "Anne McCaffrey",
         "year": 1977,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553258524.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553258524.01.LZZZZZZZ.jpg",
         "price": 38,
         "stock": 29
     },
@@ -4715,7 +4715,7 @@ db.books.insertMany([
         "author": "Robert Westall",
         "year": 1998,
         "publisher": "HarperTrophy",
-        "imageurl": "http://images.amazon.com/images/P/0688163726.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0688163726.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 6
     },
@@ -4725,7 +4725,7 @@ db.books.insertMany([
         "author": "Valerie Block",
         "year": 1998,
         "publisher": "Soho Press",
-        "imageurl": "http://images.amazon.com/images/P/1569471096.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1569471096.01.LZZZZZZZ.jpg",
         "price": 13,
         "stock": 30
     },
@@ -4735,7 +4735,7 @@ db.books.insertMany([
         "author": "Luanne Rice",
         "year": 2000,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/055358099X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/055358099X.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 31
     },
@@ -4745,7 +4745,7 @@ db.books.insertMany([
         "author": "Alice Sebold",
         "year": 2004,
         "publisher": "Back Bay Books",
-        "imageurl": "http://images.amazon.com/images/P/0316168815.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316168815.01.LZZZZZZZ.jpg",
         "price": 129,
         "stock": 21
     },
@@ -4755,7 +4755,7 @@ db.books.insertMany([
         "author": "T. Coraghessan Boyle",
         "year": 1996,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/014023828X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/014023828X.01.LZZZZZZZ.jpg",
         "price": 178,
         "stock": 33
     },
@@ -4765,7 +4765,7 @@ db.books.insertMany([
         "author": "Ellen Gilchrist",
         "year": 1998,
         "publisher": "Back Bay Books",
-        "imageurl": "http://images.amazon.com/images/P/0316314927.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316314927.01.LZZZZZZZ.jpg",
         "price": 189,
         "stock": 2
     },
@@ -4775,7 +4775,7 @@ db.books.insertMany([
         "author": "JOHN IRVING",
         "year": 1999,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345424719.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345424719.01.LZZZZZZZ.jpg",
         "price": 142,
         "stock": 12
     },
@@ -4785,7 +4785,7 @@ db.books.insertMany([
         "author": "TIM GAUTREAUX",
         "year": 2003,
         "publisher": "Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0375414746.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375414746.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 19
     },
@@ -4795,7 +4795,7 @@ db.books.insertMany([
         "author": "Richard Russo",
         "year": 2002,
         "publisher": "Vintage Books USA",
-        "imageurl": "http://images.amazon.com/images/P/0375726403.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375726403.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 34
     },
@@ -4805,7 +4805,7 @@ db.books.insertMany([
         "author": "Margaret Atwood",
         "year": 2003,
         "publisher": "Nan A. Talese",
-        "imageurl": "http://images.amazon.com/images/P/0385503857.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385503857.01.LZZZZZZZ.jpg",
         "price": 179,
         "stock": 15
     },
@@ -4815,7 +4815,7 @@ db.books.insertMany([
         "author": "Jostein Gaarder",
         "year": 1997,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425156842.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425156842.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 8
     },
@@ -4825,7 +4825,7 @@ db.books.insertMany([
         "author": "ANNA QUINDLEN",
         "year": 1999,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440226104.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440226104.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 1
     },
@@ -4835,7 +4835,7 @@ db.books.insertMany([
         "author": "Diane Johnson",
         "year": 1997,
         "publisher": "Plume Books",
-        "imageurl": "http://images.amazon.com/images/P/0452277337.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0452277337.01.LZZZZZZZ.jpg",
         "price": 50,
         "stock": 27
     },
@@ -4845,7 +4845,7 @@ db.books.insertMany([
         "author": "DEAN KOONTZ",
         "year": 2003,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553802488.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553802488.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 5
     },
@@ -4855,7 +4855,7 @@ db.books.insertMany([
         "author": "Wally Lamb",
         "year": 1998,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671021001.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671021001.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 15
     },
@@ -4865,7 +4865,7 @@ db.books.insertMany([
         "author": "Adeline Yen Mah",
         "year": 1999,
         "publisher": "Broadway Books",
-        "imageurl": "http://images.amazon.com/images/P/0767903579.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0767903579.01.LZZZZZZZ.jpg",
         "price": 198,
         "stock": 30
     },
@@ -4875,7 +4875,7 @@ db.books.insertMany([
         "author": "Barbara Ehrenreich",
         "year": 2002,
         "publisher": "Owl Books",
-        "imageurl": "http://images.amazon.com/images/P/0805063897.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0805063897.01.LZZZZZZZ.jpg",
         "price": 74,
         "stock": 23
     },
@@ -4885,7 +4885,7 @@ db.books.insertMany([
         "author": "DOROTHY DUNNETT",
         "year": 1997,
         "publisher": "Vintage",
-        "imageurl": "http://images.amazon.com/images/P/0679777431.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679777431.01.LZZZZZZZ.jpg",
         "price": 11,
         "stock": 2
     },
@@ -4895,7 +4895,7 @@ db.books.insertMany([
         "author": "JOHN LE CARRE",
         "year": 1990,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553285343.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553285343.01.LZZZZZZZ.jpg",
         "price": 163,
         "stock": 27
     },
@@ -4905,7 +4905,7 @@ db.books.insertMany([
         "author": "A. C. Gordon",
         "year": 1995,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486285529.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486285529.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 3
     },
@@ -4915,7 +4915,7 @@ db.books.insertMany([
         "author": "Olivia Goldsmith",
         "year": 1996,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671002481.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671002481.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 1
     },
@@ -4925,7 +4925,7 @@ db.books.insertMany([
         "author": "Emily Dickinson",
         "year": 1995,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812523385.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812523385.01.LZZZZZZZ.jpg",
         "price": 118,
         "stock": 4
     },
@@ -4935,7 +4935,7 @@ db.books.insertMany([
         "author": "Hazel Harrison",
         "year": 1993,
         "publisher": "Readers Digest",
-        "imageurl": "http://images.amazon.com/images/P/0895774666.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0895774666.01.LZZZZZZZ.jpg",
         "price": 61,
         "stock": 26
     },
@@ -4945,7 +4945,7 @@ db.books.insertMany([
         "author": "Joseph Girzone",
         "year": 1993,
         "publisher": "Simon Schuster Trade",
-        "imageurl": "http://images.amazon.com/images/P/0020199090.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0020199090.01.LZZZZZZZ.jpg",
         "price": 145,
         "stock": 11
     },
@@ -4955,7 +4955,7 @@ db.books.insertMany([
         "author": "JOSEPH GIRZONE",
         "year": 2002,
         "publisher": "Image",
-        "imageurl": "http://images.amazon.com/images/P/0385495145.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385495145.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 15
     },
@@ -4965,7 +4965,7 @@ db.books.insertMany([
         "author": "Lorraine Anderson",
         "year": 1991,
         "publisher": "Vintage Books USA",
-        "imageurl": "http://images.amazon.com/images/P/0679733825.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679733825.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 35
     },
@@ -4975,7 +4975,7 @@ db.books.insertMany([
         "author": "Tim Lahaye",
         "year": 1996,
         "publisher": "Tyndale House Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0842329129.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0842329129.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 7
     },
@@ -4985,7 +4985,7 @@ db.books.insertMany([
         "author": "AD HUDLER",
         "year": 2002,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345451260.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345451260.01.LZZZZZZZ.jpg",
         "price": 120,
         "stock": 24
     },
@@ -4995,7 +4995,7 @@ db.books.insertMany([
         "author": "Josephine Carlton",
         "year": 2002,
         "publisher": "Andrews McMeel Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0740700235.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0740700235.01.LZZZZZZZ.jpg",
         "price": 193,
         "stock": 26
     },
@@ -5005,7 +5005,7 @@ db.books.insertMany([
         "author": "Ted L. Nancy",
         "year": 1999,
         "publisher": "William Morrow",
-        "imageurl": "http://images.amazon.com/images/P/0380973545.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380973545.01.LZZZZZZZ.jpg",
         "price": 186,
         "stock": 29
     },
@@ -5015,7 +5015,7 @@ db.books.insertMany([
         "author": "Francis Wheen",
         "year": 2001,
         "publisher": "W.W. Norton &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0393321576.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0393321576.01.LZZZZZZZ.jpg",
         "price": 34,
         "stock": 11
     },
@@ -5025,7 +5025,7 @@ db.books.insertMany([
         "author": "Stephen King",
         "year": 2001,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0743424425.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743424425.01.LZZZZZZZ.jpg",
         "price": 188,
         "stock": 16
     },
@@ -5035,7 +5035,7 @@ db.books.insertMany([
         "author": "Joyce Reardon",
         "year": 2001,
         "publisher": "Hyperion",
-        "imageurl": "http://images.amazon.com/images/P/0786868015.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786868015.01.LZZZZZZZ.jpg",
         "price": 183,
         "stock": 6
     },
@@ -5045,7 +5045,7 @@ db.books.insertMany([
         "author": "Sidney Sheldon",
         "year": 2001,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446610178.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446610178.01.LZZZZZZZ.jpg",
         "price": 25,
         "stock": 20
     },
@@ -5055,7 +5055,7 @@ db.books.insertMany([
         "author": "Christopher Moore",
         "year": 1998,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0684854953.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684854953.01.LZZZZZZZ.jpg",
         "price": 192,
         "stock": 2
     },
@@ -5065,7 +5065,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 2002,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0743229878.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743229878.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 6
     },
@@ -5075,7 +5075,7 @@ db.books.insertMany([
         "author": "Robert Lacey",
         "year": 1983,
         "publisher": "Harper Mass Market Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0380617625.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380617625.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 22
     },
@@ -5085,7 +5085,7 @@ db.books.insertMany([
         "author": "Tim Dorsey",
         "year": 2000,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/0380732335.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380732335.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 3
     },
@@ -5095,7 +5095,7 @@ db.books.insertMany([
         "author": "JODI COMPTON",
         "year": 2003,
         "publisher": "Delacorte Press",
-        "imageurl": "http://images.amazon.com/images/P/0385337132.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385337132.01.LZZZZZZZ.jpg",
         "price": 49,
         "stock": 11
     },
@@ -5105,7 +5105,7 @@ db.books.insertMany([
         "author": "Elmore Leonard",
         "year": 2000,
         "publisher": "Dell Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0440235057.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440235057.01.LZZZZZZZ.jpg",
         "price": 21,
         "stock": 24
     },
@@ -5115,7 +5115,7 @@ db.books.insertMany([
         "author": "Elmore Leonard",
         "year": 1986,
         "publisher": "Warner Books (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0445402040.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0445402040.01.LZZZZZZZ.jpg",
         "price": 51,
         "stock": 32
     },
@@ -5125,7 +5125,7 @@ db.books.insertMany([
         "author": "Lynn Coady",
         "year": 2002,
         "publisher": "Houghton Mifflin Company",
-        "imageurl": "http://images.amazon.com/images/P/0618119760.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0618119760.01.LZZZZZZZ.jpg",
         "price": 94,
         "stock": 37
     },
@@ -5135,7 +5135,7 @@ db.books.insertMany([
         "author": "John Lawton",
         "year": 2003,
         "publisher": "Atlantic Monthly Press",
-        "imageurl": "http://images.amazon.com/images/P/0871138646.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0871138646.01.LZZZZZZZ.jpg",
         "price": 165,
         "stock": 21
     },
@@ -5145,7 +5145,7 @@ db.books.insertMany([
         "author": "Eileen Yin-Fei Lo",
         "year": 1995,
         "publisher": "MacMillan Publishing Company.",
-        "imageurl": "http://images.amazon.com/images/P/0026329859.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0026329859.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 8
     },
@@ -5155,7 +5155,7 @@ db.books.insertMany([
         "author": "Tilden H. Edwards",
         "year": 1988,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/0060621257.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060621257.01.LZZZZZZZ.jpg",
         "price": 81,
         "stock": 22
     },
@@ -5165,7 +5165,7 @@ db.books.insertMany([
         "author": "Barbara Kingsolver",
         "year": 1989,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060915544.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060915544.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 33
     },
@@ -5175,7 +5175,7 @@ db.books.insertMany([
         "author": "Barbara Kingsolver",
         "year": 1990,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060917016.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060917016.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 38
     },
@@ -5185,7 +5185,7 @@ db.books.insertMany([
         "author": "Vikram Seth",
         "year": 1994,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060925000.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060925000.01.LZZZZZZZ.jpg",
         "price": 49,
         "stock": 29
     },
@@ -5195,7 +5195,7 @@ db.books.insertMany([
         "author": "Isabel Allende",
         "year": 2000,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060932759.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060932759.01.LZZZZZZZ.jpg",
         "price": 195,
         "stock": 30
     },
@@ -5205,7 +5205,7 @@ db.books.insertMany([
         "author": "Tony Hillerman",
         "year": 1990,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/0061000280.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061000280.01.LZZZZZZZ.jpg",
         "price": 131,
         "stock": 16
     },
@@ -5215,7 +5215,7 @@ db.books.insertMany([
         "author": "Elizabeth Gaskell",
         "year": 1982,
         "publisher": "Oxford University Press",
-        "imageurl": "http://images.amazon.com/images/P/0192815318.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0192815318.01.LZZZZZZZ.jpg",
         "price": 137,
         "stock": 32
     },
@@ -5225,7 +5225,7 @@ db.books.insertMany([
         "author": "Anita Diamant",
         "year": 1998,
         "publisher": "Picador USA",
-        "imageurl": "http://images.amazon.com/images/P/0312195516.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312195516.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 28
     },
@@ -5235,7 +5235,7 @@ db.books.insertMany([
         "author": "Lauren Haney",
         "year": 1997,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380792664.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380792664.01.LZZZZZZZ.jpg",
         "price": 181,
         "stock": 20
     },
@@ -5245,7 +5245,7 @@ db.books.insertMany([
         "author": "Gerald Stern",
         "year": 2000,
         "publisher": "W.W. Norton &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0393048977.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0393048977.01.LZZZZZZZ.jpg",
         "price": 192,
         "stock": 0
     },
@@ -5255,7 +5255,7 @@ db.books.insertMany([
         "author": "Lilian Jackson Braun",
         "year": 1992,
         "publisher": "Putnam Pub Group",
-        "imageurl": "http://images.amazon.com/images/P/0399137807.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399137807.01.LZZZZZZZ.jpg",
         "price": 93,
         "stock": 14
     },
@@ -5265,7 +5265,7 @@ db.books.insertMany([
         "author": "Patricia Daniels Cornwell",
         "year": 2001,
         "publisher": "Putnam Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/039914739X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039914739X.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 26
     },
@@ -5275,7 +5275,7 @@ db.books.insertMany([
         "author": "Maeve Binchy",
         "year": 2001,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451203046.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451203046.01.LZZZZZZZ.jpg",
         "price": 98,
         "stock": 40
     },
@@ -5285,7 +5285,7 @@ db.books.insertMany([
         "author": "Martha Grimes",
         "year": 2002,
         "publisher": "Onyx Books",
-        "imageurl": "http://images.amazon.com/images/P/0451410556.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451410556.01.LZZZZZZZ.jpg",
         "price": 197,
         "stock": 4
     },
@@ -5295,7 +5295,7 @@ db.books.insertMany([
         "author": "Henry James",
         "year": 1978,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451523318.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451523318.01.LZZZZZZZ.jpg",
         "price": 10,
         "stock": 40
     },
@@ -5305,7 +5305,7 @@ db.books.insertMany([
         "author": "Sarah Orne Jewett",
         "year": 1994,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486281965.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486281965.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 40
     },
@@ -5315,7 +5315,7 @@ db.books.insertMany([
         "author": "William Carlos Williams",
         "year": 1997,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486292940.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486292940.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 37
     },
@@ -5325,7 +5325,7 @@ db.books.insertMany([
         "author": "Anthony Trollope",
         "year": 1986,
         "publisher": "Random House Value Publishing",
-        "imageurl": "http://images.amazon.com/images/P/051762639X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/051762639X.01.LZZZZZZZ.jpg",
         "price": 104,
         "stock": 35
     },
@@ -5335,7 +5335,7 @@ db.books.insertMany([
         "author": "Edith Wharton",
         "year": 1996,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0684824442.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684824442.01.LZZZZZZZ.jpg",
         "price": 95,
         "stock": 31
     },
@@ -5345,7 +5345,7 @@ db.books.insertMany([
         "author": "Harry Kemelman",
         "year": 2003,
         "publisher": "I Books",
-        "imageurl": "http://images.amazon.com/images/P/0743458303.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743458303.01.LZZZZZZZ.jpg",
         "price": 130,
         "stock": 19
     },
@@ -5355,7 +5355,7 @@ db.books.insertMany([
         "author": "Mil Millington",
         "year": 2003,
         "publisher": "Villard Books",
-        "imageurl": "http://images.amazon.com/images/P/081296666X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/081296666X.01.LZZZZZZZ.jpg",
         "price": 56,
         "stock": 40
     },
@@ -5365,7 +5365,7 @@ db.books.insertMany([
         "author": "Suzanne G. Farnham",
         "year": 1991,
         "publisher": "Morehouse Group",
-        "imageurl": "http://images.amazon.com/images/P/0819215635.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0819215635.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 0
     },
@@ -5375,7 +5375,7 @@ db.books.insertMany([
         "author": "Czeslaw Milosz",
         "year": 1987,
         "publisher": "Ecco Press",
-        "imageurl": "http://images.amazon.com/images/P/0880011025.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0880011025.01.LZZZZZZZ.jpg",
         "price": 135,
         "stock": 6
     },
@@ -5385,7 +5385,7 @@ db.books.insertMany([
         "author": "Margaret Guenther",
         "year": 1998,
         "publisher": "Cowley Publications",
-        "imageurl": "http://images.amazon.com/images/P/1561011525.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1561011525.01.LZZZZZZZ.jpg",
         "price": 163,
         "stock": 19
     },
@@ -5395,7 +5395,7 @@ db.books.insertMany([
         "author": "Roberto Juarroz",
         "year": 1992,
         "publisher": "White Pine Press (NY)",
-        "imageurl": "http://images.amazon.com/images/P/1877727083.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1877727083.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 11
     },
@@ -5405,7 +5405,7 @@ db.books.insertMany([
         "author": "Akiba Rubinstein",
         "year": 1941,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486206173.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486206173.01.LZZZZZZZ.jpg",
         "price": 181,
         "stock": 15
     },
@@ -5415,7 +5415,7 @@ db.books.insertMany([
         "author": "Emma McLaughlin",
         "year": 2002,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312278586.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312278586.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 33
     },
@@ -5425,7 +5425,7 @@ db.books.insertMany([
         "author": "P Coelho",
         "year": 0,
         "publisher": "Fabbri - RCS Libri",
-        "imageurl": "http://images.amazon.com/images/P/8845229041.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8845229041.01.LZZZZZZZ.jpg",
         "price": 93,
         "stock": 34
     },
@@ -5435,7 +5435,7 @@ db.books.insertMany([
         "author": "Elena Ferrante",
         "year": 2002,
         "publisher": "Edizioni E/O",
-        "imageurl": "http://images.amazon.com/images/P/887641486X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/887641486X.01.LZZZZZZZ.jpg",
         "price": 76,
         "stock": 20
     },
@@ -5445,7 +5445,7 @@ db.books.insertMany([
         "author": "Paul Jennings",
         "year": 1995,
         "publisher": "Puffin",
-        "imageurl": "http://images.amazon.com/images/P/0140370900.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140370900.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 16
     },
@@ -5455,7 +5455,7 @@ db.books.insertMany([
         "author": "Mark E., Jr. Neely",
         "year": 1993,
         "publisher": "Harvard University Press",
-        "imageurl": "http://images.amazon.com/images/P/0674511255.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0674511255.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 16
     },
@@ -5465,7 +5465,7 @@ db.books.insertMany([
         "author": "Stephen J. Weininger",
         "year": 1994,
         "publisher": "Saunders College Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0030096189.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0030096189.01.LZZZZZZZ.jpg",
         "price": 164,
         "stock": 40
     },
@@ -5475,7 +5475,7 @@ db.books.insertMany([
         "author": "Larry Katzenstein",
         "year": 1998,
         "publisher": "St. Martin's Press",
-        "imageurl": "http://images.amazon.com/images/P/0312965745.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312965745.01.LZZZZZZZ.jpg",
         "price": 164,
         "stock": 22
     },
@@ -5485,7 +5485,7 @@ db.books.insertMany([
         "author": "David Steinman",
         "year": 1992,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345374657.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345374657.01.LZZZZZZZ.jpg",
         "price": 121,
         "stock": 29
     },
@@ -5495,7 +5495,7 @@ db.books.insertMany([
         "author": "Alfie Kohn",
         "year": 1995,
         "publisher": "Houghton Mifflin",
-        "imageurl": "http://images.amazon.com/images/P/0395710901.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0395710901.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 30
     },
@@ -5505,7 +5505,7 @@ db.books.insertMany([
         "author": "Paula Polk Lillard",
         "year": 1996,
         "publisher": "Schocken Books",
-        "imageurl": "http://images.amazon.com/images/P/080521061X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/080521061X.01.LZZZZZZZ.jpg",
         "price": 19,
         "stock": 29
     },
@@ -5515,7 +5515,7 @@ db.books.insertMany([
         "author": "David Lewis",
         "year": 1983,
         "publisher": "Watson-Guptill Publications",
-        "imageurl": "http://images.amazon.com/images/P/0823032612.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0823032612.01.LZZZZZZZ.jpg",
         "price": 136,
         "stock": 32
     },
@@ -5525,7 +5525,7 @@ db.books.insertMany([
         "author": "Billie Livingston",
         "year": 1999,
         "publisher": "Random House Canada",
-        "imageurl": "http://images.amazon.com/images/P/0679310002.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679310002.01.LZZZZZZZ.jpg",
         "price": 160,
         "stock": 19
     },
@@ -5535,7 +5535,7 @@ db.books.insertMany([
         "author": "Adele Lang",
         "year": 2002,
         "publisher": "Thomas Dunne Books",
-        "imageurl": "http://images.amazon.com/images/P/0312288115.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312288115.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 10
     },
@@ -5545,7 +5545,7 @@ db.books.insertMany([
         "author": "Jen Banbury",
         "year": 1998,
         "publisher": "Little Brown &amp; Co",
-        "imageurl": "http://images.amazon.com/images/P/0316171107.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316171107.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 18
     },
@@ -5555,7 +5555,7 @@ db.books.insertMany([
         "author": "Patricia Daniels Cornwell",
         "year": 1993,
         "publisher": "Harper Mass Market Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0380710218.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380710218.01.LZZZZZZZ.jpg",
         "price": 46,
         "stock": 24
     },
@@ -5565,7 +5565,7 @@ db.books.insertMany([
         "author": "Catherine Coulter",
         "year": 1996,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/0515118656.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0515118656.01.LZZZZZZZ.jpg",
         "price": 93,
         "stock": 24
     },
@@ -5575,7 +5575,7 @@ db.books.insertMany([
         "author": "Dominick Dunne",
         "year": 1991,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553289063.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553289063.01.LZZZZZZZ.jpg",
         "price": 180,
         "stock": 20
     },
@@ -5585,7 +5585,7 @@ db.books.insertMany([
         "author": "Clive Cussler",
         "year": 1996,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671000306.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671000306.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 9
     },
@@ -5595,7 +5595,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 1990,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671673688.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671673688.01.LZZZZZZZ.jpg",
         "price": 20,
         "stock": 20
     },
@@ -5605,7 +5605,7 @@ db.books.insertMany([
         "author": "John Pascal",
         "year": 1995,
         "publisher": "Noble House",
-        "imageurl": "http://images.amazon.com/images/P/1561672033.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1561672033.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 27
     },
@@ -5615,7 +5615,7 @@ db.books.insertMany([
         "author": "Carl Hiaasen",
         "year": 2001,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425178242.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425178242.01.LZZZZZZZ.jpg",
         "price": 61,
         "stock": 33
     },
@@ -5625,7 +5625,7 @@ db.books.insertMany([
         "author": "Jonathan Safran Foer",
         "year": 2002,
         "publisher": "Houghton Mifflin Company",
-        "imageurl": "http://images.amazon.com/images/P/0618173870.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0618173870.01.LZZZZZZZ.jpg",
         "price": 88,
         "stock": 15
     },
@@ -5635,7 +5635,7 @@ db.books.insertMany([
         "author": "Yann Martel",
         "year": 2003,
         "publisher": "Harvest Books",
-        "imageurl": "http://images.amazon.com/images/P/0156027321.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0156027321.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 28
     },
@@ -5645,7 +5645,7 @@ db.books.insertMany([
         "author": "Francesca Marciano",
         "year": 1998,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0375403582.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375403582.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 26
     },
@@ -5655,7 +5655,7 @@ db.books.insertMany([
         "author": "JULIA GLASS",
         "year": 2003,
         "publisher": "Anchor",
-        "imageurl": "http://images.amazon.com/images/P/0385721420.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385721420.01.LZZZZZZZ.jpg",
         "price": 199,
         "stock": 5
     },
@@ -5665,7 +5665,7 @@ db.books.insertMany([
         "author": "Tawni O'Dell",
         "year": 2001,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451202341.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451202341.01.LZZZZZZZ.jpg",
         "price": 145,
         "stock": 15
     },
@@ -5675,7 +5675,7 @@ db.books.insertMany([
         "author": "Jennifer Weiner",
         "year": 2002,
         "publisher": "Atria Books",
-        "imageurl": "http://images.amazon.com/images/P/0743418190.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743418190.01.LZZZZZZZ.jpg",
         "price": 149,
         "stock": 39
     },
@@ -5685,7 +5685,7 @@ db.books.insertMany([
         "author": "Danielle Steel",
         "year": 2001,
         "publisher": "Delacorte Press",
-        "imageurl": "http://images.amazon.com/images/P/0385335407.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385335407.01.LZZZZZZZ.jpg",
         "price": 132,
         "stock": 13
     },
@@ -5695,7 +5695,7 @@ db.books.insertMany([
         "author": "Leon Hale",
         "year": 1997,
         "publisher": "Winedale Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0965746828.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0965746828.01.LZZZZZZZ.jpg",
         "price": 55,
         "stock": 0
     },
@@ -5705,7 +5705,7 @@ db.books.insertMany([
         "author": "Russell Banks",
         "year": 1992,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060923245.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060923245.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 26
     },
@@ -5715,7 +5715,7 @@ db.books.insertMany([
         "author": "Samuel Taylor Coleridge",
         "year": 1992,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486272664.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486272664.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 16
     },
@@ -5725,7 +5725,7 @@ db.books.insertMany([
         "author": "Bradley Warshauer",
         "year": 2003,
         "publisher": "Pinnacle Books",
-        "imageurl": "http://images.amazon.com/images/P/0786015276.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786015276.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 27
     },
@@ -5735,7 +5735,7 @@ db.books.insertMany([
         "author": "Bobbie Ann Mason",
         "year": 1986,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060913509.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060913509.01.LZZZZZZZ.jpg",
         "price": 168,
         "stock": 36
     },
@@ -5745,7 +5745,7 @@ db.books.insertMany([
         "author": "Nora Roberts",
         "year": 1996,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553272837.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553272837.01.LZZZZZZZ.jpg",
         "price": 53,
         "stock": 2
     },
@@ -5755,7 +5755,7 @@ db.books.insertMany([
         "author": "Karen Robards",
         "year": 2001,
         "publisher": "Dell Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0440225078.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440225078.01.LZZZZZZZ.jpg",
         "price": 142,
         "stock": 15
     },
@@ -5765,7 +5765,7 @@ db.books.insertMany([
         "author": "Emma Lathen",
         "year": 1996,
         "publisher": "St Martins Pr",
-        "imageurl": "http://images.amazon.com/images/P/0312145543.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312145543.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 11
     },
@@ -5775,7 +5775,7 @@ db.books.insertMany([
         "author": "Dean R. Koontz",
         "year": 2002,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425181111.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425181111.01.LZZZZZZZ.jpg",
         "price": 143,
         "stock": 27
     },
@@ -5785,7 +5785,7 @@ db.books.insertMany([
         "author": "Faye Kellerman",
         "year": 2002,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380732688.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380732688.01.LZZZZZZZ.jpg",
         "price": 115,
         "stock": 3
     },
@@ -5795,7 +5795,7 @@ db.books.insertMany([
         "author": "Jacquelyn Mitchard",
         "year": 1999,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140286276.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140286276.01.LZZZZZZZ.jpg",
         "price": 173,
         "stock": 3
     },
@@ -5805,7 +5805,7 @@ db.books.insertMany([
         "author": "Nora Roberts",
         "year": 2000,
         "publisher": "Silhouette",
-        "imageurl": "http://images.amazon.com/images/P/0373484100.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373484100.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 20
     },
@@ -5815,7 +5815,7 @@ db.books.insertMany([
         "author": "JANE SMILEY",
         "year": 1992,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449907481.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449907481.01.LZZZZZZZ.jpg",
         "price": 104,
         "stock": 25
     },
@@ -5825,7 +5825,7 @@ db.books.insertMany([
         "author": "DIANE MOTT DAVIDSON",
         "year": 2002,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553107305.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553107305.01.LZZZZZZZ.jpg",
         "price": 18,
         "stock": 26
     },
@@ -5835,7 +5835,7 @@ db.books.insertMany([
         "author": "Candace Bushnell",
         "year": 2001,
         "publisher": "Grove Press",
-        "imageurl": "http://images.amazon.com/images/P/080213825X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/080213825X.01.LZZZZZZZ.jpg",
         "price": 40,
         "stock": 19
     },
@@ -5845,7 +5845,7 @@ db.books.insertMany([
         "author": "Nora Roberts",
         "year": 2003,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/0515127833.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0515127833.01.LZZZZZZZ.jpg",
         "price": 64,
         "stock": 3
     },
@@ -5855,7 +5855,7 @@ db.books.insertMany([
         "author": "KRISTIN HANNAH",
         "year": 2002,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345441133.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345441133.01.LZZZZZZZ.jpg",
         "price": 151,
         "stock": 9
     },
@@ -5865,7 +5865,7 @@ db.books.insertMany([
         "author": "Michael Marshall",
         "year": 2002,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/0515134279.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0515134279.01.LZZZZZZZ.jpg",
         "price": 187,
         "stock": 5
     },
@@ -5875,7 +5875,7 @@ db.books.insertMany([
         "author": "Allen Widome",
         "year": 1989,
         "publisher": "Editech Pr",
-        "imageurl": "http://images.amazon.com/images/P/0945586051.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0945586051.01.LZZZZZZZ.jpg",
         "price": 197,
         "stock": 9
     },
@@ -5885,7 +5885,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1998,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385490992.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385490992.01.LZZZZZZZ.jpg",
         "price": 199,
         "stock": 5
     },
@@ -5895,7 +5895,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1994,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385424728.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385424728.01.LZZZZZZZ.jpg",
         "price": 22,
         "stock": 0
     },
@@ -5905,7 +5905,7 @@ db.books.insertMany([
         "author": "Wilbur Smith",
         "year": 2002,
         "publisher": "St. Martin's Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0312980388.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312980388.01.LZZZZZZZ.jpg",
         "price": 102,
         "stock": 33
     },
@@ -5915,7 +5915,7 @@ db.books.insertMany([
         "author": "Mike Thaler",
         "year": 1989,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590419625.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590419625.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 25
     },
@@ -5925,7 +5925,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1997,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385472951.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385472951.01.LZZZZZZZ.jpg",
         "price": 48,
         "stock": 18
     },
@@ -5935,7 +5935,7 @@ db.books.insertMany([
         "author": "Michael Slade",
         "year": 1998,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451195663.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451195663.01.LZZZZZZZ.jpg",
         "price": 152,
         "stock": 21
     },
@@ -5945,7 +5945,7 @@ db.books.insertMany([
         "author": "John Sandford",
         "year": 2004,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425182878.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425182878.01.LZZZZZZZ.jpg",
         "price": 16,
         "stock": 1
     },
@@ -5955,7 +5955,7 @@ db.books.insertMany([
         "author": "TAMI HOAG",
         "year": 1997,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553564528.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553564528.01.LZZZZZZZ.jpg",
         "price": 170,
         "stock": 20
     },
@@ -5965,7 +5965,7 @@ db.books.insertMany([
         "author": "TAMI HOAG",
         "year": 1995,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/055356451X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/055356451X.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 7
     },
@@ -5975,7 +5975,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 2004,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0743412621.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743412621.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 4
     },
@@ -5985,7 +5985,7 @@ db.books.insertMany([
         "author": "Ted Dekker",
         "year": 2003,
         "publisher": "WestBow Press",
-        "imageurl": "http://images.amazon.com/images/P/0849943728.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0849943728.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 2
     },
@@ -5995,7 +5995,7 @@ db.books.insertMany([
         "author": "Angela Elwell Hunt",
         "year": 2003,
         "publisher": "WestBow Press",
-        "imageurl": "http://images.amazon.com/images/P/0849943450.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0849943450.01.LZZZZZZZ.jpg",
         "price": 184,
         "stock": 27
     },
@@ -6005,7 +6005,7 @@ db.books.insertMany([
         "author": "Ted Dekker",
         "year": 2003,
         "publisher": "WestBow Press",
-        "imageurl": "http://images.amazon.com/images/P/084994371X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/084994371X.01.LZZZZZZZ.jpg",
         "price": 155,
         "stock": 23
     },
@@ -6015,7 +6015,7 @@ db.books.insertMany([
         "author": "C. S. Lewis",
         "year": 1988,
         "publisher": "Scholastic Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0590406019.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590406019.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 0
     },
@@ -6025,7 +6025,7 @@ db.books.insertMany([
         "author": "C. S. Lewis",
         "year": 1970,
         "publisher": "MacMillan Publishing Company.",
-        "imageurl": "http://images.amazon.com/images/P/0020442408.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0020442408.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 8
     },
@@ -6035,7 +6035,7 @@ db.books.insertMany([
         "author": "William Eisner",
         "year": 1986,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553225987.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553225987.01.LZZZZZZZ.jpg",
         "price": 57,
         "stock": 31
     },
@@ -6045,7 +6045,7 @@ db.books.insertMany([
         "author": "Robin Cook",
         "year": 2000,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/042517736X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/042517736X.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 33
     },
@@ -6055,7 +6055,7 @@ db.books.insertMany([
         "author": "Ann Rule",
         "year": 2000,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671868713.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671868713.01.LZZZZZZZ.jpg",
         "price": 38,
         "stock": 29
     },
@@ -6065,7 +6065,7 @@ db.books.insertMany([
         "author": "E. LYNN HARRIS",
         "year": 2001,
         "publisher": "Anchor",
-        "imageurl": "http://images.amazon.com/images/P/038549825X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038549825X.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 12
     },
@@ -6075,7 +6075,7 @@ db.books.insertMany([
         "author": "Linda Goodman",
         "year": 1981,
         "publisher": "Bantam Doubleday Dell",
-        "imageurl": "http://images.amazon.com/images/P/0553202294.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553202294.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 36
     },
@@ -6085,7 +6085,7 @@ db.books.insertMany([
         "author": "ANNE RICE",
         "year": 1986,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345313860.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345313860.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 20
     },
@@ -6095,7 +6095,7 @@ db.books.insertMany([
         "author": "Anne Rice",
         "year": 1991,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345369947.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345369947.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 37
     },
@@ -6105,7 +6105,7 @@ db.books.insertMany([
         "author": "Judith Rossner",
         "year": 1991,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/067170124X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/067170124X.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 17
     },
@@ -6115,7 +6115,7 @@ db.books.insertMany([
         "author": "Marilyn French",
         "year": 1990,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345353625.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345353625.01.LZZZZZZZ.jpg",
         "price": 90,
         "stock": 38
     },
@@ -6125,7 +6125,7 @@ db.books.insertMany([
         "author": "Wayne W. Dyer",
         "year": 1976,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/0308102282.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0308102282.01.LZZZZZZZ.jpg",
         "price": 172,
         "stock": 21
     },
@@ -6135,7 +6135,7 @@ db.books.insertMany([
         "author": "Armistead Maupin",
         "year": 2000,
         "publisher": "HarperCollins Publishers",
-        "imageurl": "http://images.amazon.com/images/P/006017143X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/006017143X.01.LZZZZZZZ.jpg",
         "price": 139,
         "stock": 3
     },
@@ -6145,7 +6145,7 @@ db.books.insertMany([
         "author": "Julie Morgenstern",
         "year": 1998,
         "publisher": "Henry Holt &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0805056491.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0805056491.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 39
     },
@@ -6155,7 +6155,7 @@ db.books.insertMany([
         "author": "Peter Straub",
         "year": 1996,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0679401377.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679401377.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 9
     },
@@ -6165,7 +6165,7 @@ db.books.insertMany([
         "author": "Jack",
         "year": 1993,
         "publisher": "Hyperion Books",
-        "imageurl": "http://images.amazon.com/images/P/1562827049.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1562827049.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 34
     },
@@ -6175,7 +6175,7 @@ db.books.insertMany([
         "author": "Danielle Steel",
         "year": 1993,
         "publisher": "Delacorte Press",
-        "imageurl": "http://images.amazon.com/images/P/0385306032.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385306032.01.LZZZZZZZ.jpg",
         "price": 15,
         "stock": 1
     },
@@ -6185,7 +6185,7 @@ db.books.insertMany([
         "author": "Barbara Taylor Bradford",
         "year": 1991,
         "publisher": "Thorndike Pr",
-        "imageurl": "http://images.amazon.com/images/P/0816152446.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0816152446.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 17
     },
@@ -6195,7 +6195,7 @@ db.books.insertMany([
         "author": "Lisa Jackson",
         "year": 2004,
         "publisher": "Zebra Books",
-        "imageurl": "http://images.amazon.com/images/P/0821772953.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0821772953.01.LZZZZZZZ.jpg",
         "price": 85,
         "stock": 24
     },
@@ -6205,7 +6205,7 @@ db.books.insertMany([
         "author": "SHARYN MCCRUMB",
         "year": 1992,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345379454.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345379454.01.LZZZZZZZ.jpg",
         "price": 51,
         "stock": 26
     },
@@ -6215,7 +6215,7 @@ db.books.insertMany([
         "author": "Kay Hooper",
         "year": 2000,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553576925.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553576925.01.LZZZZZZZ.jpg",
         "price": 50,
         "stock": 6
     },
@@ -6225,7 +6225,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 2002,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0743206053.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743206053.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 39
     },
@@ -6235,7 +6235,7 @@ db.books.insertMany([
         "author": "Cokie Roberts",
         "year": 2000,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0688169678.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0688169678.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 31
     },
@@ -6245,7 +6245,7 @@ db.books.insertMany([
         "author": "Shana Corey",
         "year": 2001,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0439319552.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439319552.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 16
     },
@@ -6255,7 +6255,7 @@ db.books.insertMany([
         "author": "Jesse S. Ostrow",
         "year": 1994,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590870157.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590870157.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 27
     },
@@ -6265,7 +6265,7 @@ db.books.insertMany([
         "author": "Justine Korman",
         "year": 1996,
         "publisher": "Golden Books Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0307001164.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0307001164.01.LZZZZZZZ.jpg",
         "price": 131,
         "stock": 39
     },
@@ -6275,7 +6275,7 @@ db.books.insertMany([
         "author": "PATRICIA REILLY GIFF",
         "year": 1987,
         "publisher": "Yearling",
-        "imageurl": "http://images.amazon.com/images/P/0440441501.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440441501.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 27
     },
@@ -6285,7 +6285,7 @@ db.books.insertMany([
         "author": "Beverly Cleary",
         "year": 2000,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590687301.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590687301.01.LZZZZZZZ.jpg",
         "price": 94,
         "stock": 19
     },
@@ -6295,7 +6295,7 @@ db.books.insertMany([
         "author": "K. A. Applegate",
         "year": 1999,
         "publisher": "Apple Signature (Scholastic)",
-        "imageurl": "http://images.amazon.com/images/P/0439061644.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439061644.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 32
     },
@@ -6305,7 +6305,7 @@ db.books.insertMany([
         "author": "Jane Yolen",
         "year": 2003,
         "publisher": "Scholastic, Inc.",
-        "imageurl": "http://images.amazon.com/images/P/0439569842.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439569842.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 8
     },
@@ -6315,7 +6315,7 @@ db.books.insertMany([
         "author": "Dinah L. Moche",
         "year": 1997,
         "publisher": "Golden Books",
-        "imageurl": "http://images.amazon.com/images/P/0307118703.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0307118703.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 32
     },
@@ -6325,7 +6325,7 @@ db.books.insertMany([
         "author": "Marvin Miller",
         "year": 1989,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590418858.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590418858.01.LZZZZZZZ.jpg",
         "price": 177,
         "stock": 40
     },
@@ -6335,7 +6335,7 @@ db.books.insertMany([
         "author": "Craig Boldman",
         "year": 1983,
         "publisher": "Golden Books",
-        "imageurl": "http://images.amazon.com/images/P/030720152X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/030720152X.01.LZZZZZZZ.jpg",
         "price": 179,
         "stock": 0
     },
@@ -6345,7 +6345,7 @@ db.books.insertMany([
         "author": "H. G. Wells",
         "year": 1992,
         "publisher": "Troll Communications Llc",
-        "imageurl": "http://images.amazon.com/images/P/0816728739.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0816728739.01.LZZZZZZZ.jpg",
         "price": 9,
         "stock": 37
     },
@@ -6355,7 +6355,7 @@ db.books.insertMany([
         "author": "Bobbie Kalman",
         "year": 1985,
         "publisher": "Crabtree Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0865050880.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0865050880.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 13
     },
@@ -6365,7 +6365,7 @@ db.books.insertMany([
         "author": "Mercedes Lackey",
         "year": 1995,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812519655.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812519655.01.LZZZZZZZ.jpg",
         "price": 173,
         "stock": 32
     },
@@ -6375,7 +6375,7 @@ db.books.insertMany([
         "author": "Mercedes Lackey",
         "year": 1992,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812524853.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812524853.01.LZZZZZZZ.jpg",
         "price": 118,
         "stock": 17
     },
@@ -6385,7 +6385,7 @@ db.books.insertMany([
         "author": "Dorothy Gilman",
         "year": 1997,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449211770.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449211770.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 1
     },
@@ -6395,7 +6395,7 @@ db.books.insertMany([
         "author": "Moveon",
         "year": 2004,
         "publisher": "Inner Ocean Publishing",
-        "imageurl": "http://images.amazon.com/images/P/193072229X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/193072229X.01.LZZZZZZZ.jpg",
         "price": 34,
         "stock": 34
     },
@@ -6405,7 +6405,7 @@ db.books.insertMany([
         "author": "Mercedes Lackey",
         "year": 1990,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812521129.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812521129.01.LZZZZZZZ.jpg",
         "price": 64,
         "stock": 12
     },
@@ -6415,7 +6415,7 @@ db.books.insertMany([
         "author": "Christopher Finch",
         "year": 0,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345251733.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345251733.01.LZZZZZZZ.jpg",
         "price": 56,
         "stock": 28
     },
@@ -6425,7 +6425,7 @@ db.books.insertMany([
         "author": "CHARLES FRAZIER",
         "year": 2003,
         "publisher": "Vintage",
-        "imageurl": "http://images.amazon.com/images/P/1400077826.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1400077826.01.LZZZZZZZ.jpg",
         "price": 155,
         "stock": 0
     },
@@ -6435,7 +6435,7 @@ db.books.insertMany([
         "author": "Julia Spencer-Fleming",
         "year": 2004,
         "publisher": "St. Martin's Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0312995431.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312995431.01.LZZZZZZZ.jpg",
         "price": 33,
         "stock": 25
     },
@@ -6445,7 +6445,7 @@ db.books.insertMany([
         "author": "Julia Spencer-Fleming",
         "year": 2004,
         "publisher": "St. Martin's Minotaur",
-        "imageurl": "http://images.amazon.com/images/P/0312312628.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312312628.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 14
     },
@@ -6455,7 +6455,7 @@ db.books.insertMany([
         "author": "Fannie Flagg",
         "year": 1992,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446394521.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446394521.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 8
     },
@@ -6465,7 +6465,7 @@ db.books.insertMany([
         "author": "Laura Ingall Wilder",
         "year": 0,
         "publisher": "Scholastic Inc",
-        "imageurl": "http://images.amazon.com/images/P/0590021117.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590021117.01.LZZZZZZZ.jpg",
         "price": 61,
         "stock": 26
     },
@@ -6475,7 +6475,7 @@ db.books.insertMany([
         "author": "Frank McCourt",
         "year": 1999,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/068484267X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/068484267X.01.LZZZZZZZ.jpg",
         "price": 156,
         "stock": 6
     },
@@ -6485,7 +6485,7 @@ db.books.insertMany([
         "author": "LISA GARDNER",
         "year": 2002,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553578693.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553578693.01.LZZZZZZZ.jpg",
         "price": 186,
         "stock": 34
     },
@@ -6495,7 +6495,7 @@ db.books.insertMany([
         "author": "Beverly Cleary",
         "year": 1990,
         "publisher": "HarperTrophy",
-        "imageurl": "http://images.amazon.com/images/P/0380709260.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380709260.01.LZZZZZZZ.jpg",
         "price": 197,
         "stock": 29
     },
@@ -6505,7 +6505,7 @@ db.books.insertMany([
         "author": "Gertrude Chandler Warner",
         "year": 1996,
         "publisher": "Albert Whitman &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0807565288.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0807565288.01.LZZZZZZZ.jpg",
         "price": 130,
         "stock": 37
     },
@@ -6515,7 +6515,7 @@ db.books.insertMany([
         "author": "Julia Spencer-Fleming",
         "year": 2003,
         "publisher": "St. Martin's Minotaur",
-        "imageurl": "http://images.amazon.com/images/P/0312986769.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312986769.01.LZZZZZZZ.jpg",
         "price": 6,
         "stock": 16
     },
@@ -6525,7 +6525,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 2001,
         "publisher": "Del Rey",
-        "imageurl": "http://images.amazon.com/images/P/0345413377.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345413377.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 20
     },
@@ -6535,7 +6535,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 1998,
         "publisher": "Del Rey",
-        "imageurl": "http://images.amazon.com/images/P/0345413369.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345413369.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 39
     },
@@ -6545,7 +6545,7 @@ db.books.insertMany([
         "author": "PHILIP PULLMAN",
         "year": 1998,
         "publisher": "Knopf Books for Young Readers",
-        "imageurl": "http://images.amazon.com/images/P/0679893105.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679893105.01.LZZZZZZZ.jpg",
         "price": 131,
         "stock": 31
     },
@@ -6555,7 +6555,7 @@ db.books.insertMany([
         "author": "Lynn S. Hightower",
         "year": 1997,
         "publisher": "Harper Mass Market Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0061096091.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061096091.01.LZZZZZZZ.jpg",
         "price": 170,
         "stock": 23
     },
@@ -6565,7 +6565,7 @@ db.books.insertMany([
         "author": "Sharyn McCrumb",
         "year": 1991,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0345369068.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345369068.01.LZZZZZZZ.jpg",
         "price": 48,
         "stock": 19
     },
@@ -6575,7 +6575,7 @@ db.books.insertMany([
         "author": "Sharyn McCrumb",
         "year": 1997,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451184718.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451184718.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 2
     },
@@ -6585,7 +6585,7 @@ db.books.insertMany([
         "author": "Dorothy Gilman",
         "year": 1992,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449209121.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449209121.01.LZZZZZZZ.jpg",
         "price": 122,
         "stock": 31
     },
@@ -6595,7 +6595,7 @@ db.books.insertMany([
         "author": "Eric Schlosser",
         "year": 2002,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060938455.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060938455.01.LZZZZZZZ.jpg",
         "price": 92,
         "stock": 14
     },
@@ -6605,7 +6605,7 @@ db.books.insertMany([
         "author": "Suzanne Brockmann",
         "year": 2000,
         "publisher": "Ivy Books",
-        "imageurl": "http://images.amazon.com/images/P/080411952X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/080411952X.01.LZZZZZZZ.jpg",
         "price": 25,
         "stock": 26
     },
@@ -6615,7 +6615,7 @@ db.books.insertMany([
         "author": "Gail Carson Levine",
         "year": 2004,
         "publisher": "Eos",
-        "imageurl": "http://images.amazon.com/images/P/0060575808.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060575808.01.LZZZZZZZ.jpg",
         "price": 85,
         "stock": 2
     },
@@ -6625,7 +6625,7 @@ db.books.insertMany([
         "author": "Gail Carson Levine",
         "year": 2004,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0060558865.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060558865.01.LZZZZZZZ.jpg",
         "price": 18,
         "stock": 26
     },
@@ -6635,7 +6635,7 @@ db.books.insertMany([
         "author": "FRANCES KUFFEL",
         "year": 2004,
         "publisher": "Broadway",
-        "imageurl": "http://images.amazon.com/images/P/0767912918.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0767912918.01.LZZZZZZZ.jpg",
         "price": 14,
         "stock": 18
     },
@@ -6645,7 +6645,7 @@ db.books.insertMany([
         "author": "Susan Conant",
         "year": 1994,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553298860.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553298860.01.LZZZZZZZ.jpg",
         "price": 83,
         "stock": 7
     },
@@ -6655,7 +6655,7 @@ db.books.insertMany([
         "author": "DAVID SCHICKLER",
         "year": 2002,
         "publisher": "Delta",
-        "imageurl": "http://images.amazon.com/images/P/0385335679.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385335679.01.LZZZZZZZ.jpg",
         "price": 42,
         "stock": 9
     },
@@ -6665,7 +6665,7 @@ db.books.insertMany([
         "author": "Maeve Binchy",
         "year": 1989,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440122090.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440122090.01.LZZZZZZZ.jpg",
         "price": 80,
         "stock": 17
     },
@@ -6675,7 +6675,7 @@ db.books.insertMany([
         "author": "Judith McNaught",
         "year": 2003,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671525832.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671525832.01.LZZZZZZZ.jpg",
         "price": 135,
         "stock": 1
     },
@@ -6685,7 +6685,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 1989,
         "publisher": "Spectra Books",
-        "imageurl": "http://images.amazon.com/images/P/0553279572.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553279572.01.LZZZZZZZ.jpg",
         "price": 83,
         "stock": 25
     },
@@ -6695,7 +6695,7 @@ db.books.insertMany([
         "author": "Janet Evanovich",
         "year": 1995,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/0061009059.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061009059.01.LZZZZZZZ.jpg",
         "price": 173,
         "stock": 17
     },
@@ -6705,7 +6705,7 @@ db.books.insertMany([
         "author": "Sylvia Plath",
         "year": 2000,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060930187.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060930187.01.LZZZZZZZ.jpg",
         "price": 12,
         "stock": 4
     },
@@ -6715,7 +6715,7 @@ db.books.insertMany([
         "author": "Ilona Koidahl",
         "year": 1974,
         "publisher": "Childrens Press",
-        "imageurl": "http://images.amazon.com/images/P/0516076272.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0516076272.01.LZZZZZZZ.jpg",
         "price": 103,
         "stock": 6
     },
@@ -6725,7 +6725,7 @@ db.books.insertMany([
         "author": "Richard North Patterson",
         "year": 1999,
         "publisher": "Alfred A. Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0679450432.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679450432.01.LZZZZZZZ.jpg",
         "price": 148,
         "stock": 11
     },
@@ -6735,7 +6735,7 @@ db.books.insertMany([
         "author": "Fern Michaels",
         "year": 2003,
         "publisher": "Zebra Books",
-        "imageurl": "http://images.amazon.com/images/P/0821775863.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0821775863.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 3
     },
@@ -6745,7 +6745,7 @@ db.books.insertMany([
         "author": "Fern Michaels",
         "year": 2003,
         "publisher": "Zebra Books",
-        "imageurl": "http://images.amazon.com/images/P/0821770209.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0821770209.01.LZZZZZZZ.jpg",
         "price": 61,
         "stock": 8
     },
@@ -6755,7 +6755,7 @@ db.books.insertMany([
         "author": "Betsy Byars",
         "year": 1995,
         "publisher": "Viking Books",
-        "imageurl": "http://images.amazon.com/images/P/0670855758.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670855758.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 33
     },
@@ -6765,7 +6765,7 @@ db.books.insertMany([
         "author": "Bruce Sterling",
         "year": 1994,
         "publisher": "Spectra Books",
-        "imageurl": "http://images.amazon.com/images/P/0553562819.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553562819.01.LZZZZZZZ.jpg",
         "price": 170,
         "stock": 35
     },
@@ -6775,7 +6775,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 1993,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446364193.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446364193.01.LZZZZZZZ.jpg",
         "price": 163,
         "stock": 8
     },
@@ -6785,7 +6785,7 @@ db.books.insertMany([
         "author": "Sarah Ban Breathnach",
         "year": 1995,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446519138.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446519138.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 31
     },
@@ -6795,7 +6795,7 @@ db.books.insertMany([
         "author": "Alice Hoffman",
         "year": 2001,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425179672.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425179672.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 3
     },
@@ -6805,7 +6805,7 @@ db.books.insertMany([
         "author": "Lisa Scottoline",
         "year": 1994,
         "publisher": "HarperTorch",
-        "imageurl": "http://images.amazon.com/images/P/0061042943.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061042943.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 3
     },
@@ -6815,7 +6815,7 @@ db.books.insertMany([
         "author": "Spencer Johnson",
         "year": 1998,
         "publisher": "Putnam Pub Group (Paper)",
-        "imageurl": "http://images.amazon.com/images/P/0399144463.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399144463.01.LZZZZZZZ.jpg",
         "price": 38,
         "stock": 32
     },
@@ -6825,7 +6825,7 @@ db.books.insertMany([
         "author": "Ian McEwan",
         "year": 2002,
         "publisher": "Nan A. Talese",
-        "imageurl": "http://images.amazon.com/images/P/0965404560.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0965404560.01.LZZZZZZZ.jpg",
         "price": 119,
         "stock": 12
     },
@@ -6835,7 +6835,7 @@ db.books.insertMany([
         "author": "David Feldman",
         "year": 1987,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/006015781X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/006015781X.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 11
     },
@@ -6845,7 +6845,7 @@ db.books.insertMany([
         "author": "Richard Bausch",
         "year": 2000,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060930705.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060930705.01.LZZZZZZZ.jpg",
         "price": 113,
         "stock": 30
     },
@@ -6855,7 +6855,7 @@ db.books.insertMany([
         "author": "Katie Fforde",
         "year": 1999,
         "publisher": "Griffin Trade Paperback",
-        "imageurl": "http://images.amazon.com/images/P/0312206763.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312206763.01.LZZZZZZZ.jpg",
         "price": 81,
         "stock": 25
     },
@@ -6865,7 +6865,7 @@ db.books.insertMany([
         "author": "James Burke",
         "year": 1996,
         "publisher": "Little Brown &amp; Co",
-        "imageurl": "http://images.amazon.com/images/P/0316116025.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316116025.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 0
     },
@@ -6875,7 +6875,7 @@ db.books.insertMany([
         "author": "Bliss Broyard",
         "year": 2000,
         "publisher": "Harvest Books",
-        "imageurl": "http://images.amazon.com/images/P/0156013967.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0156013967.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 35
     },
@@ -6885,7 +6885,7 @@ db.books.insertMany([
         "author": "Sara Paretsky",
         "year": 1996,
         "publisher": "Bantam Dell Pub Group",
-        "imageurl": "http://images.amazon.com/images/P/0385314019.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385314019.01.LZZZZZZZ.jpg",
         "price": 85,
         "stock": 26
     },
@@ -6895,7 +6895,7 @@ db.books.insertMany([
         "author": "Charles Webb",
         "year": 2002,
         "publisher": "Washington Square Press",
-        "imageurl": "http://images.amazon.com/images/P/0743444167.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743444167.01.LZZZZZZZ.jpg",
         "price": 118,
         "stock": 15
     },
@@ -6905,7 +6905,7 @@ db.books.insertMany([
         "author": "Elizabeth Benedict",
         "year": 2002,
         "publisher": "Mariner Books",
-        "imageurl": "http://images.amazon.com/images/P/0618231617.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0618231617.01.LZZZZZZZ.jpg",
         "price": 82,
         "stock": 6
     },
@@ -6915,7 +6915,7 @@ db.books.insertMany([
         "author": "Stanley Morison",
         "year": 1999,
         "publisher": "David R. Godine Publisher",
-        "imageurl": "http://images.amazon.com/images/P/1567920047.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1567920047.01.LZZZZZZZ.jpg",
         "price": 195,
         "stock": 10
     },
@@ -6925,7 +6925,7 @@ db.books.insertMany([
         "author": "Henry Miller",
         "year": 1962,
         "publisher": "New Directions Publishing Corporation",
-        "imageurl": "http://images.amazon.com/images/P/0811203220.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0811203220.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 15
     },
@@ -6935,7 +6935,7 @@ db.books.insertMany([
         "author": "David Whyte",
         "year": 2002,
         "publisher": "Riverhead Books",
-        "imageurl": "http://images.amazon.com/images/P/1573229148.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1573229148.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 10
     },
@@ -6945,7 +6945,7 @@ db.books.insertMany([
         "author": "Warren  Bennis",
         "year": 2001,
         "publisher": "Jossey-Bass",
-        "imageurl": "http://images.amazon.com/images/P/0787955671.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0787955671.01.LZZZZZZZ.jpg",
         "price": 154,
         "stock": 1
     },
@@ -6955,7 +6955,7 @@ db.books.insertMany([
         "author": "Martha Beck",
         "year": 2000,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425174484.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425174484.01.LZZZZZZZ.jpg",
         "price": 26,
         "stock": 30
     },
@@ -6965,7 +6965,7 @@ db.books.insertMany([
         "author": "Desmond Mpilo Tutu",
         "year": 2000,
         "publisher": "Image",
-        "imageurl": "http://images.amazon.com/images/P/0385496907.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385496907.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 30
     },
@@ -6975,7 +6975,7 @@ db.books.insertMany([
         "author": "Kris Shepard",
         "year": 2001,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446523992.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446523992.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 27
     },
@@ -6985,7 +6985,7 @@ db.books.insertMany([
         "author": "Jack Kerouac",
         "year": 1998,
         "publisher": "Penguin USA (Paper)",
-        "imageurl": "http://images.amazon.com/images/P/0140185216.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140185216.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 20
     },
@@ -6995,7 +6995,7 @@ db.books.insertMany([
         "author": "Martin Buber",
         "year": 1971,
         "publisher": "Free Press",
-        "imageurl": "http://images.amazon.com/images/P/0684717255.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684717255.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 23
     },
@@ -7005,7 +7005,7 @@ db.books.insertMany([
         "author": "NiccolÃ² Machiavelli",
         "year": 1992,
         "publisher": "Dover Publications",
-        "imageurl": "http://images.amazon.com/images/P/0486272745.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0486272745.01.LZZZZZZZ.jpg",
         "price": 105,
         "stock": 30
     },
@@ -7015,7 +7015,7 @@ db.books.insertMany([
         "author": "Gianfranco Bettin",
         "year": 1994,
         "publisher": "Feltrinelli",
-        "imageurl": "http://images.amazon.com/images/P/8807120194.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8807120194.01.LZZZZZZZ.jpg",
         "price": 175,
         "stock": 3
     },
@@ -7025,7 +7025,7 @@ db.books.insertMany([
         "author": "Paul Monette",
         "year": 1993,
         "publisher": "HarperSanFrancisco",
-        "imageurl": "http://images.amazon.com/images/P/0062507249.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0062507249.01.LZZZZZZZ.jpg",
         "price": 186,
         "stock": 24
     },
@@ -7035,7 +7035,7 @@ db.books.insertMany([
         "author": "Ernest Hemingway",
         "year": 1995,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0684801221.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684801221.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 40
     },
@@ -7045,7 +7045,7 @@ db.books.insertMany([
         "author": "Melody Carlson",
         "year": 2000,
         "publisher": "Multnomah",
-        "imageurl": "http://images.amazon.com/images/P/1576737357.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1576737357.01.LZZZZZZZ.jpg",
         "price": 177,
         "stock": 0
     },
@@ -7055,7 +7055,7 @@ db.books.insertMany([
         "author": "Alisa Kwitney",
         "year": 2002,
         "publisher": "Avon Trade",
-        "imageurl": "http://images.amazon.com/images/P/0060083298.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060083298.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 31
     },
@@ -7065,7 +7065,7 @@ db.books.insertMany([
         "author": "Billie Letts",
         "year": 1998,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446672211.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446672211.01.LZZZZZZZ.jpg",
         "price": 20,
         "stock": 6
     },
@@ -7075,7 +7075,7 @@ db.books.insertMany([
         "author": "Melissa Bank",
         "year": 2000,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140293248.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140293248.01.LZZZZZZZ.jpg",
         "price": 95,
         "stock": 19
     },
@@ -7085,7 +7085,7 @@ db.books.insertMany([
         "author": "Rena Kornreich Gelissen",
         "year": 1996,
         "publisher": "Beacon Press",
-        "imageurl": "http://images.amazon.com/images/P/0807070718.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0807070718.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 36
     },
@@ -7095,7 +7095,7 @@ db.books.insertMany([
         "author": "Moon Unit Zappa",
         "year": 2001,
         "publisher": "Touchstone",
-        "imageurl": "http://images.amazon.com/images/P/0743213831.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743213831.01.LZZZZZZZ.jpg",
         "price": 143,
         "stock": 33
     },
@@ -7105,7 +7105,7 @@ db.books.insertMany([
         "author": "Ted Mooney",
         "year": 1982,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345305477.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345305477.01.LZZZZZZZ.jpg",
         "price": 150,
         "stock": 16
     },
@@ -7115,7 +7115,7 @@ db.books.insertMany([
         "author": "Susan Wiggs",
         "year": 1993,
         "publisher": "Harper Mass Market Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0061080519.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061080519.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 3
     },
@@ -7125,7 +7125,7 @@ db.books.insertMany([
         "author": "Gwyn Hyman Rubio",
         "year": 2001,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0142000205.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0142000205.01.LZZZZZZZ.jpg",
         "price": 143,
         "stock": 31
     },
@@ -7135,7 +7135,7 @@ db.books.insertMany([
         "author": "Elisabeth Robinson",
         "year": 2004,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316735027.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316735027.01.LZZZZZZZ.jpg",
         "price": 113,
         "stock": 3
     },
@@ -7145,7 +7145,7 @@ db.books.insertMany([
         "author": "Audrey Niffenegger",
         "year": 2003,
         "publisher": "MacAdam/Cage Publishing",
-        "imageurl": "http://images.amazon.com/images/P/193156146X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/193156146X.01.LZZZZZZZ.jpg",
         "price": 137,
         "stock": 12
     },
@@ -7155,7 +7155,7 @@ db.books.insertMany([
         "author": "Anita Shreve",
         "year": 1999,
         "publisher": "Harvest Books",
-        "imageurl": "http://images.amazon.com/images/P/015600710X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/015600710X.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 25
     },
@@ -7165,7 +7165,7 @@ db.books.insertMany([
         "author": "Tim Farrington",
         "year": 2002,
         "publisher": "HarperSanFrancisco",
-        "imageurl": "http://images.amazon.com/images/P/0062517856.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0062517856.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 21
     },
@@ -7175,7 +7175,7 @@ db.books.insertMany([
         "author": "Mark Salzman",
         "year": 1996,
         "publisher": "Vintage Books USA",
-        "imageurl": "http://images.amazon.com/images/P/0679767789.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679767789.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 9
     },
@@ -7185,7 +7185,7 @@ db.books.insertMany([
         "author": "Chaim Potok",
         "year": 1996,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449911683.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449911683.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 7
     },
@@ -7195,7 +7195,7 @@ db.books.insertMany([
         "author": "Scott Spencer",
         "year": 2000,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425169626.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425169626.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 8
     },
@@ -7205,7 +7205,7 @@ db.books.insertMany([
         "author": "Chaim Potok",
         "year": 1990,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449207757.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449207757.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 40
     },
@@ -7215,7 +7215,7 @@ db.books.insertMany([
         "author": "Chaim Potok",
         "year": 1997,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449245691.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449245691.01.LZZZZZZZ.jpg",
         "price": 180,
         "stock": 4
     },
@@ -7225,7 +7225,7 @@ db.books.insertMany([
         "author": "V. S. Naipaul",
         "year": 1992,
         "publisher": "Penguin USA",
-        "imageurl": "http://images.amazon.com/images/P/0140029400.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140029400.01.LZZZZZZZ.jpg",
         "price": 58,
         "stock": 36
     },
@@ -7235,7 +7235,7 @@ db.books.insertMany([
         "author": "V.S. Naipaul",
         "year": 1993,
         "publisher": "Penguin USA",
-        "imageurl": "http://images.amazon.com/images/P/0140021566.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140021566.01.LZZZZZZZ.jpg",
         "price": 46,
         "stock": 13
     },
@@ -7245,7 +7245,7 @@ db.books.insertMany([
         "author": "Jean Giono",
         "year": 1987,
         "publisher": "LGF",
-        "imageurl": "http://images.amazon.com/images/P/2253004022.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2253004022.01.LZZZZZZZ.jpg",
         "price": 165,
         "stock": 4
     },
@@ -7255,7 +7255,7 @@ db.books.insertMany([
         "author": "Alain-Fournier",
         "year": 2000,
         "publisher": "Distribooks Inc",
-        "imageurl": "http://images.amazon.com/images/P/2253005274.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2253005274.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 11
     },
@@ -7265,7 +7265,7 @@ db.books.insertMany([
         "author": "Erich Maria Remarque",
         "year": 1973,
         "publisher": "LGF",
-        "imageurl": "http://images.amazon.com/images/P/225300670X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/225300670X.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 22
     },
@@ -7275,7 +7275,7 @@ db.books.insertMany([
         "author": "Lewis",
         "year": 2000,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/2266084372.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2266084372.01.LZZZZZZZ.jpg",
         "price": 93,
         "stock": 11
     },
@@ -7285,7 +7285,7 @@ db.books.insertMany([
         "author": "Rene Barjavel",
         "year": 0,
         "publisher": "Gallimard French",
-        "imageurl": "http://images.amazon.com/images/P/2070362388.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2070362388.01.LZZZZZZZ.jpg",
         "price": 178,
         "stock": 24
     },
@@ -7295,7 +7295,7 @@ db.books.insertMany([
         "author": "Alexandra David-NÃ?Â©el",
         "year": 1989,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/2266029460.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2266029460.01.LZZZZZZZ.jpg",
         "price": 136,
         "stock": 9
     },
@@ -7305,7 +7305,7 @@ db.books.insertMany([
         "author": "C. Baudelaire",
         "year": 1972,
         "publisher": "Livre De Poche French",
-        "imageurl": "http://images.amazon.com/images/P/2253007102.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2253007102.01.LZZZZZZZ.jpg",
         "price": 190,
         "stock": 12
     },
@@ -7315,7 +7315,7 @@ db.books.insertMany([
         "author": "Ray Bradbury",
         "year": 2002,
         "publisher": "Gallimard",
-        "imageurl": "http://images.amazon.com/images/P/2070417743.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2070417743.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 24
     },
@@ -7325,7 +7325,7 @@ db.books.insertMany([
         "author": "Raymond Radiguet",
         "year": 0,
         "publisher": "Presses Pocket French",
-        "imageurl": "http://images.amazon.com/images/P/2266033689.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2266033689.01.LZZZZZZZ.jpg",
         "price": 184,
         "stock": 38
     },
@@ -7335,7 +7335,7 @@ db.books.insertMany([
         "author": "Emile Zola",
         "year": 1991,
         "publisher": "Gallimard",
-        "imageurl": "http://images.amazon.com/images/P/2070384349.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2070384349.01.LZZZZZZZ.jpg",
         "price": 22,
         "stock": 40
     },
@@ -7345,7 +7345,7 @@ db.books.insertMany([
         "author": "Jean Giono",
         "year": 2002,
         "publisher": "Distribooks Inc",
-        "imageurl": "http://images.amazon.com/images/P/207053880X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/207053880X.01.LZZZZZZZ.jpg",
         "price": 94,
         "stock": 11
     },
@@ -7355,7 +7355,7 @@ db.books.insertMany([
         "author": "Pergaud",
         "year": 0,
         "publisher": "Livre de Poche",
-        "imageurl": "http://images.amazon.com/images/P/2070334368.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2070334368.01.LZZZZZZZ.jpg",
         "price": 195,
         "stock": 40
     },
@@ -7365,7 +7365,7 @@ db.books.insertMany([
         "author": "Collectif",
         "year": 2001,
         "publisher": "J'ai lu",
-        "imageurl": "http://images.amazon.com/images/P/2290314951.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2290314951.01.LZZZZZZZ.jpg",
         "price": 137,
         "stock": 18
     },
@@ -7375,7 +7375,7 @@ db.books.insertMany([
         "author": "Robert A. Heinlein",
         "year": 1999,
         "publisher": "J'ai lu",
-        "imageurl": "http://images.amazon.com/images/P/229000510X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/229000510X.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 6
     },
@@ -7385,7 +7385,7 @@ db.books.insertMany([
         "author": "Sten Nadolny",
         "year": 1987,
         "publisher": "Piper",
-        "imageurl": "http://images.amazon.com/images/P/3492207006.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3492207006.01.LZZZZZZZ.jpg",
         "price": 58,
         "stock": 8
     },
@@ -7395,7 +7395,7 @@ db.books.insertMany([
         "author": "Cheryl Benard",
         "year": 1984,
         "publisher": "Rowohlt",
-        "imageurl": "http://images.amazon.com/images/P/3499177757.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3499177757.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 13
     },
@@ -7405,7 +7405,7 @@ db.books.insertMany([
         "author": "Christa Wichterich",
         "year": 1995,
         "publisher": "Lamuv",
-        "imageurl": "http://images.amazon.com/images/P/3889774016.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3889774016.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 18
     },
@@ -7415,7 +7415,7 @@ db.books.insertMany([
         "author": "John. Blofeld",
         "year": 1999,
         "publisher": "O. W. Barth Bei Scherz",
-        "imageurl": "http://images.amazon.com/images/P/3502670005.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3502670005.01.LZZZZZZZ.jpg",
         "price": 101,
         "stock": 17
     },
@@ -7425,7 +7425,7 @@ db.books.insertMany([
         "author": "Christine Obbo",
         "year": 1980,
         "publisher": "Palgrave-Macmillan",
-        "imageurl": "http://images.amazon.com/images/P/0905762487.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0905762487.01.LZZZZZZZ.jpg",
         "price": 153,
         "stock": 15
     },
@@ -7435,7 +7435,7 @@ db.books.insertMany([
         "author": "Christa Wichterich",
         "year": 1998,
         "publisher": "Rowohlt",
-        "imageurl": "http://images.amazon.com/images/P/3499222604.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3499222604.01.LZZZZZZZ.jpg",
         "price": 21,
         "stock": 19
     },
@@ -7445,7 +7445,7 @@ db.books.insertMany([
         "author": "Peter B Heim",
         "year": 1994,
         "publisher": "Aufbau Taschenbuch Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3746670055.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3746670055.01.LZZZZZZZ.jpg",
         "price": 74,
         "stock": 26
     },
@@ -7455,7 +7455,7 @@ db.books.insertMany([
         "author": "Jane Austen",
         "year": 1994,
         "publisher": "Penguin Books Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0140620427.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140620427.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 0
     },
@@ -7465,7 +7465,7 @@ db.books.insertMany([
         "author": "Hera Lind",
         "year": 1999,
         "publisher": "Fischer (Tb.), Frankfurt",
-        "imageurl": "http://images.amazon.com/images/P/3596144434.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3596144434.01.LZZZZZZZ.jpg",
         "price": 141,
         "stock": 9
     },
@@ -7475,7 +7475,7 @@ db.books.insertMany([
         "author": "Arundhati Roy",
         "year": 1999,
         "publisher": "btb",
-        "imageurl": "http://images.amazon.com/images/P/3442724686.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3442724686.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 26
     },
@@ -7485,7 +7485,7 @@ db.books.insertMany([
         "author": "Dan Brown",
         "year": 2003,
         "publisher": "Doubleday",
-        "imageurl": "http://images.amazon.com/images/P/0385504209.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385504209.01.LZZZZZZZ.jpg",
         "price": 157,
         "stock": 31
     },
@@ -7495,7 +7495,7 @@ db.books.insertMany([
         "author": "Nicholas Sparks",
         "year": 2000,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446525502.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446525502.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 31
     },
@@ -7505,7 +7505,7 @@ db.books.insertMany([
         "author": "Jane Hamilton",
         "year": 1999,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385500769.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385500769.01.LZZZZZZZ.jpg",
         "price": 29,
         "stock": 19
     },
@@ -7515,7 +7515,7 @@ db.books.insertMany([
         "author": "Jack Higgins",
         "year": 2001,
         "publisher": "Putnam Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0399147012.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399147012.01.LZZZZZZZ.jpg",
         "price": 142,
         "stock": 36
     },
@@ -7525,7 +7525,7 @@ db.books.insertMany([
         "author": "Helen Fielding",
         "year": 2000,
         "publisher": "Viking Books",
-        "imageurl": "http://images.amazon.com/images/P/0670892963.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670892963.01.LZZZZZZZ.jpg",
         "price": 183,
         "stock": 24
     },
@@ -7535,7 +7535,7 @@ db.books.insertMany([
         "author": "A. Manette Ansay",
         "year": 1999,
         "publisher": "HarperCollins",
-        "imageurl": "http://images.amazon.com/images/P/0688180639.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0688180639.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 5
     },
@@ -7545,7 +7545,7 @@ db.books.insertMany([
         "author": "Anita Shreve",
         "year": 1999,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316789089.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316789089.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 22
     },
@@ -7555,7 +7555,7 @@ db.books.insertMany([
         "author": "Max Allan Collins",
         "year": 1998,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451197275.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451197275.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 26
     },
@@ -7565,7 +7565,7 @@ db.books.insertMany([
         "author": "Dave Barry",
         "year": 2002,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425184129.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425184129.01.LZZZZZZZ.jpg",
         "price": 49,
         "stock": 10
     },
@@ -7575,7 +7575,7 @@ db.books.insertMany([
         "author": "David Guterson",
         "year": 1994,
         "publisher": "Harcourt",
-        "imageurl": "http://images.amazon.com/images/P/0151001006.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0151001006.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 23
     },
@@ -7585,7 +7585,7 @@ db.books.insertMany([
         "author": "JOHN GRISHAM",
         "year": 2001,
         "publisher": "Doubleday",
-        "imageurl": "http://images.amazon.com/images/P/0385505833.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385505833.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 13
     },
@@ -7595,7 +7595,7 @@ db.books.insertMany([
         "author": "Bernhard Schlink",
         "year": 1997,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/0679442790.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679442790.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 15
     },
@@ -7605,7 +7605,7 @@ db.books.insertMany([
         "author": "Eric Jerome Dickey",
         "year": 1999,
         "publisher": "Dutton Books",
-        "imageurl": "http://images.amazon.com/images/P/0525943862.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0525943862.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 35
     },
@@ -7615,7 +7615,7 @@ db.books.insertMany([
         "author": "KRISTIN HANNAH",
         "year": 2000,
         "publisher": "Crown",
-        "imageurl": "http://images.amazon.com/images/P/0609605925.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0609605925.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 33
     },
@@ -7625,7 +7625,7 @@ db.books.insertMany([
         "author": "Patricia Gaffney",
         "year": 1999,
         "publisher": "HarperCollins",
-        "imageurl": "http://images.amazon.com/images/P/0060191929.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060191929.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 30
     },
@@ -7635,7 +7635,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 2002,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0743206045.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743206045.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 24
     },
@@ -7645,7 +7645,7 @@ db.books.insertMany([
         "author": "Barbara Delinsky",
         "year": 2000,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0684864843.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684864843.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 37
     },
@@ -7655,7 +7655,7 @@ db.books.insertMany([
         "author": "Richard Paul Evans",
         "year": 1999,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0684867818.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684867818.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 5
     },
@@ -7665,7 +7665,7 @@ db.books.insertMany([
         "author": "Marc Levy",
         "year": 2000,
         "publisher": "Atria",
-        "imageurl": "http://images.amazon.com/images/P/0743406176.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743406176.01.LZZZZZZZ.jpg",
         "price": 62,
         "stock": 29
     },
@@ -7675,7 +7675,7 @@ db.books.insertMany([
         "author": "Laney Katz Becker",
         "year": 2000,
         "publisher": "William Morrow &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0380978539.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380978539.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 5
     },
@@ -7685,7 +7685,7 @@ db.books.insertMany([
         "author": "John Irving",
         "year": 1999,
         "publisher": "Modern Library",
-        "imageurl": "http://images.amazon.com/images/P/0679603352.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679603352.01.LZZZZZZZ.jpg",
         "price": 67,
         "stock": 15
     },
@@ -7695,7 +7695,7 @@ db.books.insertMany([
         "author": "VLADIMIR NABOKOV",
         "year": 1993,
         "publisher": "Everyman's Library",
-        "imageurl": "http://images.amazon.com/images/P/0679410430.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679410430.01.LZZZZZZZ.jpg",
         "price": 72,
         "stock": 35
     },
@@ -7705,7 +7705,7 @@ db.books.insertMany([
         "author": "Nicholas Sparks",
         "year": 1998,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446523569.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446523569.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 22
     },
@@ -7715,7 +7715,7 @@ db.books.insertMany([
         "author": "Jennifer Lauck",
         "year": 2000,
         "publisher": "Atria",
-        "imageurl": "http://images.amazon.com/images/P/0671042556.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671042556.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 24
     },
@@ -7725,7 +7725,7 @@ db.books.insertMany([
         "author": "Richard North Patterson",
         "year": 2000,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0679450440.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679450440.01.LZZZZZZZ.jpg",
         "price": 168,
         "stock": 22
     },
@@ -7735,7 +7735,7 @@ db.books.insertMany([
         "author": "Joe Keenan",
         "year": 1988,
         "publisher": "Penguin Books",
-        "imageurl": "http://images.amazon.com/images/P/0140107649.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140107649.01.LZZZZZZZ.jpg",
         "price": 127,
         "stock": 3
     },
@@ -7745,7 +7745,7 @@ db.books.insertMany([
         "author": "Jeanne Ray",
         "year": 2000,
         "publisher": "Harmony",
-        "imageurl": "http://images.amazon.com/images/P/0609606727.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0609606727.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 9
     },
@@ -7755,7 +7755,7 @@ db.books.insertMany([
         "author": "Nicholas Sparks",
         "year": 2003,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446527793.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446527793.01.LZZZZZZZ.jpg",
         "price": 127,
         "stock": 15
     },
@@ -7765,7 +7765,7 @@ db.books.insertMany([
         "author": "Nicholas Sparks",
         "year": 2002,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446531332.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446531332.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 13
     },
@@ -7775,7 +7775,7 @@ db.books.insertMany([
         "author": "Tony Parsons",
         "year": 2001,
         "publisher": "Sourcebooks Landmark",
-        "imageurl": "http://images.amazon.com/images/P/1570717257.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1570717257.01.LZZZZZZZ.jpg",
         "price": 47,
         "stock": 17
     },
@@ -7785,7 +7785,7 @@ db.books.insertMany([
         "author": "Jane McCafferty",
         "year": 1999,
         "publisher": "HarperCollins Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0060192631.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060192631.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 4
     },
@@ -7795,7 +7795,7 @@ db.books.insertMany([
         "author": "Laura Esquivel",
         "year": 1992,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385420161.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385420161.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 29
     },
@@ -7805,7 +7805,7 @@ db.books.insertMany([
         "author": "J.R.R. TOLKIEN",
         "year": 1986,
         "publisher": "Del Rey",
-        "imageurl": "http://images.amazon.com/images/P/0345339711.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345339711.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 0
     },
@@ -7815,7 +7815,7 @@ db.books.insertMany([
         "author": "Venise T. Berry",
         "year": 2000,
         "publisher": "Dutton Books",
-        "imageurl": "http://images.amazon.com/images/P/052594463X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/052594463X.01.LZZZZZZZ.jpg",
         "price": 92,
         "stock": 25
     },
@@ -7825,7 +7825,7 @@ db.books.insertMany([
         "author": "Sebastian Junger",
         "year": 1997,
         "publisher": "Little Brown and Company",
-        "imageurl": "http://images.amazon.com/images/P/039304016X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039304016X.01.LZZZZZZZ.jpg",
         "price": 30,
         "stock": 33
     },
@@ -7835,7 +7835,7 @@ db.books.insertMany([
         "author": "Nora Roberts",
         "year": 2001,
         "publisher": "Putnam Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0399147128.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399147128.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 20
     },
@@ -7845,7 +7845,7 @@ db.books.insertMany([
         "author": "Jan Karon",
         "year": 2002,
         "publisher": "Viking Books",
-        "imageurl": "http://images.amazon.com/images/P/0670031046.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670031046.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 21
     },
@@ -7855,7 +7855,7 @@ db.books.insertMany([
         "author": "Cormac McCarthy",
         "year": 1992,
         "publisher": "Alfred A. Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0394574745.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394574745.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 23
     },
@@ -7865,7 +7865,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 2001,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316969443.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316969443.01.LZZZZZZZ.jpg",
         "price": 128,
         "stock": 33
     },
@@ -7875,7 +7875,7 @@ db.books.insertMany([
         "author": "Mary Higgins Clark",
         "year": 2001,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0743230051.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743230051.01.LZZZZZZZ.jpg",
         "price": 120,
         "stock": 32
     },
@@ -7885,7 +7885,7 @@ db.books.insertMany([
         "author": "James Patterson",
         "year": 2002,
         "publisher": "Little, Brown",
-        "imageurl": "http://images.amazon.com/images/P/0316693200.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316693200.01.LZZZZZZZ.jpg",
         "price": 192,
         "stock": 22
     },
@@ -7895,7 +7895,7 @@ db.books.insertMany([
         "author": "Richard Paul Evans",
         "year": 2000,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0684868911.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684868911.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 32
     },
@@ -7905,7 +7905,7 @@ db.books.insertMany([
         "author": "Travis Thrasher",
         "year": 2000,
         "publisher": "Tyndale House Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0842336214.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0842336214.01.LZZZZZZZ.jpg",
         "price": 183,
         "stock": 30
     },
@@ -7915,7 +7915,7 @@ db.books.insertMany([
         "author": "John McEnroe",
         "year": 2002,
         "publisher": "Putnam Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0399148582.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0399148582.01.LZZZZZZZ.jpg",
         "price": 167,
         "stock": 10
     },
@@ -7925,7 +7925,7 @@ db.books.insertMany([
         "author": "Barbara Delinsky",
         "year": 1999,
         "publisher": "Simon &amp; Schuster",
-        "imageurl": "http://images.amazon.com/images/P/0684864320.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0684864320.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 9
     },
@@ -7935,7 +7935,7 @@ db.books.insertMany([
         "author": "Eric Jerome Dickey",
         "year": 2000,
         "publisher": "Dutton Books",
-        "imageurl": "http://images.amazon.com/images/P/0525944834.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0525944834.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 33
     },
@@ -7945,7 +7945,7 @@ db.books.insertMany([
         "author": "Sally Mandel",
         "year": 2000,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345428900.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345428900.01.LZZZZZZZ.jpg",
         "price": 8,
         "stock": 35
     },
@@ -7955,7 +7955,7 @@ db.books.insertMany([
         "author": "Linda Lay Shuler",
         "year": 1993,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451176812.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451176812.01.LZZZZZZZ.jpg",
         "price": 151,
         "stock": 23
     },
@@ -7965,7 +7965,7 @@ db.books.insertMany([
         "author": "Paul Theroux",
         "year": 1984,
         "publisher": "Pocket Books",
-        "imageurl": "http://images.amazon.com/images/P/0671525794.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671525794.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 16
     },
@@ -7975,7 +7975,7 @@ db.books.insertMany([
         "author": "Dick Francis",
         "year": 0,
         "publisher": "Michael Joseph Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0718144538.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0718144538.01.LZZZZZZZ.jpg",
         "price": 144,
         "stock": 17
     },
@@ -7985,7 +7985,7 @@ db.books.insertMany([
         "author": "Janet Dailey",
         "year": 1995,
         "publisher": "Warner Vision",
-        "imageurl": "http://images.amazon.com/images/P/0446602086.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446602086.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 39
     },
@@ -7995,7 +7995,7 @@ db.books.insertMany([
         "author": "Claude Lanzmann",
         "year": 1985,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0394551427.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394551427.01.LZZZZZZZ.jpg",
         "price": 197,
         "stock": 38
     },
@@ -8005,7 +8005,7 @@ db.books.insertMany([
         "author": "Lemony Snicket",
         "year": 1999,
         "publisher": "HarperCollins",
-        "imageurl": "http://images.amazon.com/images/P/0064407667.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0064407667.01.LZZZZZZZ.jpg",
         "price": 50,
         "stock": 15
     },
@@ -8015,7 +8015,7 @@ db.books.insertMany([
         "author": "Matthew Thomas",
         "year": 2001,
         "publisher": "Trafalgar Square",
-        "imageurl": "http://images.amazon.com/images/P/0007100221.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0007100221.01.LZZZZZZZ.jpg",
         "price": 11,
         "stock": 6
     },
@@ -8025,7 +8025,7 @@ db.books.insertMany([
         "author": "Boris Vian",
         "year": 1999,
         "publisher": "LGF",
-        "imageurl": "http://images.amazon.com/images/P/2253148539.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2253148539.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 1
     },
@@ -8035,7 +8035,7 @@ db.books.insertMany([
         "author": "Gabriel Garcia Marquez",
         "year": 1987,
         "publisher": "LGF",
-        "imageurl": "http://images.amazon.com/images/P/2253043974.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2253043974.01.LZZZZZZZ.jpg",
         "price": 29,
         "stock": 19
     },
@@ -8045,7 +8045,7 @@ db.books.insertMany([
         "author": "Luis SepÃ?Âºlveda",
         "year": 1998,
         "publisher": "Seuil",
-        "imageurl": "http://images.amazon.com/images/P/2020315491.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2020315491.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 24
     },
@@ -8055,7 +8055,7 @@ db.books.insertMany([
         "author": "Hubert Selby",
         "year": 2000,
         "publisher": "Bloomsbury Pub Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0747549923.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0747549923.01.LZZZZZZZ.jpg",
         "price": 8,
         "stock": 6
     },
@@ -8065,7 +8065,7 @@ db.books.insertMany([
         "author": "Jacob Weisberg",
         "year": 2002,
         "publisher": "Simon &amp; Schuster (Trade Division)",
-        "imageurl": "http://images.amazon.com/images/P/0743462335.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743462335.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 40
     },
@@ -8075,7 +8075,7 @@ db.books.insertMany([
         "author": "David Lodge",
         "year": 1996,
         "publisher": "Penguin Putnam~trade",
-        "imageurl": "http://images.amazon.com/images/P/0140253580.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140253580.01.LZZZZZZZ.jpg",
         "price": 159,
         "stock": 30
     },
@@ -8085,7 +8085,7 @@ db.books.insertMany([
         "author": "Judy Hamilton",
         "year": 1999,
         "publisher": "Lomond Books",
-        "imageurl": "http://images.amazon.com/images/P/0947782141.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0947782141.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 26
     },
@@ -8095,7 +8095,7 @@ db.books.insertMany([
         "author": "Philip Ardagh",
         "year": 2000,
         "publisher": "Faber Children's Books",
-        "imageurl": "http://images.amazon.com/images/P/057120354X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/057120354X.01.LZZZZZZZ.jpg",
         "price": 194,
         "stock": 33
     },
@@ -8105,7 +8105,7 @@ db.books.insertMany([
         "author": "Iain Banks",
         "year": 0,
         "publisher": "Abacus",
-        "imageurl": "http://images.amazon.com/images/P/0349101779.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0349101779.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 23
     },
@@ -8115,7 +8115,7 @@ db.books.insertMany([
         "author": "Jacob Weisberg",
         "year": 2001,
         "publisher": "Fireside",
-        "imageurl": "http://images.amazon.com/images/P/0743222229.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743222229.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 40
     },
@@ -8125,7 +8125,7 @@ db.books.insertMany([
         "author": "David Crombie",
         "year": 2000,
         "publisher": "Michael O'Mara Books",
-        "imageurl": "http://images.amazon.com/images/P/185479549X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/185479549X.01.LZZZZZZZ.jpg",
         "price": 132,
         "stock": 39
     },
@@ -8135,7 +8135,7 @@ db.books.insertMany([
         "author": "John Steinbeck",
         "year": 2001,
         "publisher": "Penguin Books Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0140292918.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140292918.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 24
     },
@@ -8145,7 +8145,7 @@ db.books.insertMany([
         "author": "Michael O'Mara",
         "year": 2000,
         "publisher": "Michael O'Mara Books",
-        "imageurl": "http://images.amazon.com/images/P/1854795554.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1854795554.01.LZZZZZZZ.jpg",
         "price": 10,
         "stock": 16
     },
@@ -8155,7 +8155,7 @@ db.books.insertMany([
         "author": "Richard Brassey",
         "year": 2003,
         "publisher": "Trafalgar Square Books",
-        "imageurl": "http://images.amazon.com/images/P/1858813093.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1858813093.01.LZZZZZZZ.jpg",
         "price": 18,
         "stock": 36
     },
@@ -8165,7 +8165,7 @@ db.books.insertMany([
         "author": "Jean Van Hamme",
         "year": 1999,
         "publisher": "Dargaud",
-        "imageurl": "http://images.amazon.com/images/P/2871290911.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2871290911.01.LZZZZZZZ.jpg",
         "price": 10,
         "stock": 27
     },
@@ -8175,7 +8175,7 @@ db.books.insertMany([
         "author": "R. W. Holder",
         "year": 2003,
         "publisher": "Oxford University Press",
-        "imageurl": "http://images.amazon.com/images/P/0198604025.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0198604025.01.LZZZZZZZ.jpg",
         "price": 42,
         "stock": 13
     },
@@ -8185,7 +8185,7 @@ db.books.insertMany([
         "author": "Valerie Ferguson",
         "year": 2000,
         "publisher": "Southwater Publishing",
-        "imageurl": "http://images.amazon.com/images/P/1842151053.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1842151053.01.LZZZZZZZ.jpg",
         "price": 92,
         "stock": 32
     },
@@ -8195,7 +8195,7 @@ db.books.insertMany([
         "author": "Bernard Werber",
         "year": 2002,
         "publisher": "LGF",
-        "imageurl": "http://images.amazon.com/images/P/2253063339.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2253063339.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 5
     },
@@ -8205,7 +8205,7 @@ db.books.insertMany([
         "author": "Andy Sloss",
         "year": 0,
         "publisher": "Brockhampton Press",
-        "imageurl": "http://images.amazon.com/images/P/1860198597.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1860198597.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 38
     },
@@ -8215,7 +8215,7 @@ db.books.insertMany([
         "author": "ALLAN ZOLA KRONZEK",
         "year": 2001,
         "publisher": "Broadway",
-        "imageurl": "http://images.amazon.com/images/P/0767908473.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0767908473.01.LZZZZZZZ.jpg",
         "price": 145,
         "stock": 8
     },
@@ -8225,7 +8225,7 @@ db.books.insertMany([
         "author": "Charles L. Squire",
         "year": 2000,
         "publisher": "Lomond Books",
-        "imageurl": "http://images.amazon.com/images/P/1842040154.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1842040154.01.LZZZZZZZ.jpg",
         "price": 177,
         "stock": 12
     },
@@ -8235,7 +8235,7 @@ db.books.insertMany([
         "author": "Gordon Jarvie",
         "year": 1997,
         "publisher": "Penguin Books Ltd",
-        "imageurl": "http://images.amazon.com/images/P/0140622063.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0140622063.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 1
     },
@@ -8245,7 +8245,7 @@ db.books.insertMany([
         "author": "Philip Ardagh",
         "year": 2002,
         "publisher": "Faber Children's Books",
-        "imageurl": "http://images.amazon.com/images/P/0571209521.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0571209521.01.LZZZZZZZ.jpg",
         "price": 78,
         "stock": 10
     },
@@ -8255,7 +8255,7 @@ db.books.insertMany([
         "author": "Boris Vian",
         "year": 1978,
         "publisher": "Union gÃ©nÃ©rale d'Ã©ditions",
-        "imageurl": "http://images.amazon.com/images/P/2264009306.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2264009306.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 24
     },
@@ -8265,7 +8265,7 @@ db.books.insertMany([
         "author": "Alan Spence",
         "year": 2002,
         "publisher": "Canongate Books Ltd",
-        "imageurl": "http://images.amazon.com/images/P/1841952931.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1841952931.01.LZZZZZZZ.jpg",
         "price": 77,
         "stock": 3
     },
@@ -8275,7 +8275,7 @@ db.books.insertMany([
         "author": "Helene Siegel",
         "year": 1995,
         "publisher": "Celestial Arts",
-        "imageurl": "http://images.amazon.com/images/P/0890877564.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0890877564.01.LZZZZZZZ.jpg",
         "price": 90,
         "stock": 18
     },
@@ -8285,7 +8285,7 @@ db.books.insertMany([
         "author": "E.H. Shepard",
         "year": 2002,
         "publisher": "Egmont Childrens Books",
-        "imageurl": "http://images.amazon.com/images/P/1405200677.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1405200677.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 30
     },
@@ -8295,7 +8295,7 @@ db.books.insertMany([
         "author": "Alan Alexander Milne",
         "year": 1999,
         "publisher": "Routledge",
-        "imageurl": "http://images.amazon.com/images/P/0416196772.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0416196772.01.LZZZZZZZ.jpg",
         "price": 28,
         "stock": 10
     },
@@ -8305,7 +8305,7 @@ db.books.insertMany([
         "author": "Eric Thompson",
         "year": 1998,
         "publisher": "Bloomsbury Publishing PLC",
-        "imageurl": "http://images.amazon.com/images/P/0747538069.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0747538069.01.LZZZZZZZ.jpg",
         "price": 133,
         "stock": 25
     },
@@ -8315,7 +8315,7 @@ db.books.insertMany([
         "author": "Elizabeth Strout",
         "year": 1999,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0375501347.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0375501347.01.LZZZZZZZ.jpg",
         "price": 121,
         "stock": 7
     },
@@ -8325,7 +8325,7 @@ db.books.insertMany([
         "author": "Russell Banks",
         "year": 1996,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060927240.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060927240.01.LZZZZZZZ.jpg",
         "price": 166,
         "stock": 40
     },
@@ -8335,7 +8335,7 @@ db.books.insertMany([
         "author": "David Sedaris",
         "year": 2001,
         "publisher": "Back Bay Books",
-        "imageurl": "http://images.amazon.com/images/P/0316776963.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0316776963.01.LZZZZZZZ.jpg",
         "price": 156,
         "stock": 6
     },
@@ -8345,7 +8345,7 @@ db.books.insertMany([
         "author": "Leslie Feinberg",
         "year": 1993,
         "publisher": "Firebrand Books",
-        "imageurl": "http://images.amazon.com/images/P/156341029X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/156341029X.01.LZZZZZZZ.jpg",
         "price": 166,
         "stock": 5
     },
@@ -8355,7 +8355,7 @@ db.books.insertMany([
         "author": "Neil Gaiman",
         "year": 2001,
         "publisher": "Perennial",
-        "imageurl": "http://images.amazon.com/images/P/0060934719.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060934719.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 24
     },
@@ -8365,7 +8365,7 @@ db.books.insertMany([
         "author": "Chris Anne Wolfe",
         "year": 2001,
         "publisher": "Windstorm Creative",
-        "imageurl": "http://images.amazon.com/images/P/1886383421.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1886383421.01.LZZZZZZZ.jpg",
         "price": 141,
         "stock": 9
     },
@@ -8375,7 +8375,7 @@ db.books.insertMany([
         "author": "Lauren Sanders",
         "year": 2000,
         "publisher": "Akashic Books",
-        "imageurl": "http://images.amazon.com/images/P/1888451084.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1888451084.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 7
     },
@@ -8385,7 +8385,7 @@ db.books.insertMany([
         "author": "Gael Baudino",
         "year": 1993,
         "publisher": "New Amer Library",
-        "imageurl": "http://images.amazon.com/images/P/0451450256.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451450256.01.LZZZZZZZ.jpg",
         "price": 173,
         "stock": 31
     },
@@ -8395,7 +8395,7 @@ db.books.insertMany([
         "author": "Lauren Maddison",
         "year": 2001,
         "publisher": "Alyson Books",
-        "imageurl": "http://images.amazon.com/images/P/1555835953.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1555835953.01.LZZZZZZZ.jpg",
         "price": 90,
         "stock": 30
     },
@@ -8405,7 +8405,7 @@ db.books.insertMany([
         "author": "Carol Anshaw",
         "year": 1997,
         "publisher": "Mariner Books",
-        "imageurl": "http://images.amazon.com/images/P/0395877563.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0395877563.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 24
     },
@@ -8415,7 +8415,7 @@ db.books.insertMany([
         "author": "Jean Stewart",
         "year": 1992,
         "publisher": "Rising Tide Press (AZ)",
-        "imageurl": "http://images.amazon.com/images/P/0962893862.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0962893862.01.LZZZZZZZ.jpg",
         "price": 115,
         "stock": 22
     },
@@ -8425,7 +8425,7 @@ db.books.insertMany([
         "author": "Emma Donoghue",
         "year": 1998,
         "publisher": "Alyson Publications",
-        "imageurl": "http://images.amazon.com/images/P/1555834531.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1555834531.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 1
     },
@@ -8435,7 +8435,7 @@ db.books.insertMany([
         "author": "Deborah McDowell",
         "year": 1998,
         "publisher": "W. W. Norton &amp; Company",
-        "imageurl": "http://images.amazon.com/images/P/0393318435.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0393318435.01.LZZZZZZZ.jpg",
         "price": 115,
         "stock": 34
     },
@@ -8445,7 +8445,7 @@ db.books.insertMany([
         "author": "Karen X. Tulchinsky",
         "year": 1998,
         "publisher": "Press Gang Publishers",
-        "imageurl": "http://images.amazon.com/images/P/0889740828.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0889740828.01.LZZZZZZZ.jpg",
         "price": 164,
         "stock": 33
     },
@@ -8455,7 +8455,7 @@ db.books.insertMany([
         "author": "Dorothy Allison",
         "year": 1994,
         "publisher": "Firebrand Books",
-        "imageurl": "http://images.amazon.com/images/P/1563410443.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1563410443.01.LZZZZZZZ.jpg",
         "price": 197,
         "stock": 23
     },
@@ -8465,7 +8465,7 @@ db.books.insertMany([
         "author": "Jill Thompson",
         "year": 2003,
         "publisher": "DC Comics",
-        "imageurl": "http://images.amazon.com/images/P/1563899388.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1563899388.01.LZZZZZZZ.jpg",
         "price": 126,
         "stock": 9
     },
@@ -8475,7 +8475,7 @@ db.books.insertMany([
         "author": "Jody Seay",
         "year": 1999,
         "publisher": "Firebrand Books",
-        "imageurl": "http://images.amazon.com/images/P/1563411148.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1563411148.01.LZZZZZZZ.jpg",
         "price": 194,
         "stock": 8
     },
@@ -8485,7 +8485,7 @@ db.books.insertMany([
         "author": "Manda Scott",
         "year": 1999,
         "publisher": "Crimeline",
-        "imageurl": "http://images.amazon.com/images/P/0553579681.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553579681.01.LZZZZZZZ.jpg",
         "price": 57,
         "stock": 14
     },
@@ -8495,7 +8495,7 @@ db.books.insertMany([
         "author": "Manda Scott",
         "year": 1999,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553579673.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553579673.01.LZZZZZZZ.jpg",
         "price": 166,
         "stock": 10
     },
@@ -8505,7 +8505,7 @@ db.books.insertMany([
         "author": "Dean R. Koontz",
         "year": 1994,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451181379.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451181379.01.LZZZZZZZ.jpg",
         "price": 180,
         "stock": 21
     },
@@ -8515,7 +8515,7 @@ db.books.insertMany([
         "author": "Jeff Foxworthy",
         "year": 1997,
         "publisher": "Warner Books (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0786889160.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786889160.01.LZZZZZZZ.jpg",
         "price": 114,
         "stock": 28
     },
@@ -8525,7 +8525,7 @@ db.books.insertMany([
         "author": "Terry Brooks",
         "year": 1993,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/0345370740.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345370740.01.LZZZZZZZ.jpg",
         "price": 111,
         "stock": 2
     },
@@ -8535,7 +8535,7 @@ db.books.insertMany([
         "author": "A.C. Crispin",
         "year": 1998,
         "publisher": "Spectra Books",
-        "imageurl": "http://images.amazon.com/images/P/0553574175.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553574175.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 38
     },
@@ -8545,7 +8545,7 @@ db.books.insertMany([
         "author": "A. C. Crispin",
         "year": 1998,
         "publisher": "Bantam Books",
-        "imageurl": "http://images.amazon.com/images/P/0553574167.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553574167.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 14
     },
@@ -8555,7 +8555,7 @@ db.books.insertMany([
         "author": "A. C. Crispin",
         "year": 1998,
         "publisher": "Spectra Books",
-        "imageurl": "http://images.amazon.com/images/P/0553574159.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553574159.01.LZZZZZZZ.jpg",
         "price": 145,
         "stock": 2
     },
@@ -8565,7 +8565,7 @@ db.books.insertMany([
         "author": "Madelyn Arnold",
         "year": 2002,
         "publisher": "Stonewall Inn Editions",
-        "imageurl": "http://images.amazon.com/images/P/0312287240.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312287240.01.LZZZZZZZ.jpg",
         "price": 129,
         "stock": 23
     },
@@ -8575,7 +8575,7 @@ db.books.insertMany([
         "author": "Tamora Pierce",
         "year": 1989,
         "publisher": "Random House Children's Books",
-        "imageurl": "http://images.amazon.com/images/P/0679801146.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0679801146.01.LZZZZZZZ.jpg",
         "price": 44,
         "stock": 19
     },
@@ -8585,7 +8585,7 @@ db.books.insertMany([
         "author": "Carolyn Chute",
         "year": 1986,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446300101.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446300101.01.LZZZZZZZ.jpg",
         "price": 198,
         "stock": 27
     },
@@ -8595,7 +8595,7 @@ db.books.insertMany([
         "author": "Sara Orwig",
         "year": 1995,
         "publisher": "Zebra Books",
-        "imageurl": "http://images.amazon.com/images/P/0821750410.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0821750410.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 27
     },
@@ -8605,7 +8605,7 @@ db.books.insertMany([
         "author": "Dean R. Koontz",
         "year": 1994,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425142485.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425142485.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 34
     },
@@ -8615,7 +8615,7 @@ db.books.insertMany([
         "author": "Melisa Michaels",
         "year": 1997,
         "publisher": "Roc",
-        "imageurl": "http://images.amazon.com/images/P/0451456548.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451456548.01.LZZZZZZZ.jpg",
         "price": 103,
         "stock": 17
     },
@@ -8625,7 +8625,7 @@ db.books.insertMany([
         "author": "Isobel Bird",
         "year": 2001,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0060006048.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0060006048.01.LZZZZZZZ.jpg",
         "price": 57,
         "stock": 3
     },
@@ -8635,7 +8635,7 @@ db.books.insertMany([
         "author": "Frederik Pohl",
         "year": 1987,
         "publisher": "St Martins Pr",
-        "imageurl": "http://images.amazon.com/images/P/0312906552.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312906552.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 29
     },
@@ -8645,7 +8645,7 @@ db.books.insertMany([
         "author": "VONDA MCINTYRE",
         "year": 1986,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440117291.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440117291.01.LZZZZZZZ.jpg",
         "price": 47,
         "stock": 40
     },
@@ -8655,7 +8655,7 @@ db.books.insertMany([
         "author": "John Varley",
         "year": 1980,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425049981.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425049981.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 28
     },
@@ -8665,7 +8665,7 @@ db.books.insertMany([
         "author": "Nancy Garden",
         "year": 1999,
         "publisher": "Farrar Straus Giroux",
-        "imageurl": "http://images.amazon.com/images/P/0374386676.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0374386676.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 29
     },
@@ -8675,7 +8675,7 @@ db.books.insertMany([
         "author": "Christopher Rice",
         "year": 2001,
         "publisher": "Miramax",
-        "imageurl": "http://images.amazon.com/images/P/0786886463.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786886463.01.LZZZZZZZ.jpg",
         "price": 63,
         "stock": 13
     },
@@ -8685,7 +8685,7 @@ db.books.insertMany([
         "author": "Nicola Griffith",
         "year": 1996,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345395379.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345395379.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 7
     },
@@ -8695,7 +8695,7 @@ db.books.insertMany([
         "author": "Jane Lindskold",
         "year": 1998,
         "publisher": "Eos",
-        "imageurl": "http://images.amazon.com/images/P/0380788497.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380788497.01.LZZZZZZZ.jpg",
         "price": 39,
         "stock": 26
     },
@@ -8705,7 +8705,7 @@ db.books.insertMany([
         "author": "Julie Campbell",
         "year": 1977,
         "publisher": "Random House Childrens Books",
-        "imageurl": "http://images.amazon.com/images/P/0307215342.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0307215342.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 5
     },
@@ -8715,7 +8715,7 @@ db.books.insertMany([
         "author": "Nancy Garden",
         "year": 1991,
         "publisher": "Farrar Straus &amp; Giroux",
-        "imageurl": "http://images.amazon.com/images/P/0374343381.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0374343381.01.LZZZZZZZ.jpg",
         "price": 158,
         "stock": 10
     },
@@ -8725,7 +8725,7 @@ db.books.insertMany([
         "author": "LEE SMITH",
         "year": 1996,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345403339.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345403339.01.LZZZZZZZ.jpg",
         "price": 64,
         "stock": 40
     },
@@ -8735,7 +8735,7 @@ db.books.insertMany([
         "author": "JACQUELINE WOODSON",
         "year": 2000,
         "publisher": "Laurel Leaf",
-        "imageurl": "http://images.amazon.com/images/P/0440226694.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440226694.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 2
     },
@@ -8745,7 +8745,7 @@ db.books.insertMany([
         "author": "Jacqueline Woodson",
         "year": 1995,
         "publisher": "Laurel-Leaf Books",
-        "imageurl": "http://images.amazon.com/images/P/0440219604.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440219604.01.LZZZZZZZ.jpg",
         "price": 134,
         "stock": 37
     },
@@ -8755,7 +8755,7 @@ db.books.insertMany([
         "author": "Pat Head Summitt",
         "year": 1998,
         "publisher": "Broadway Books",
-        "imageurl": "http://images.amazon.com/images/P/0767903285.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0767903285.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 28
     },
@@ -8765,7 +8765,7 @@ db.books.insertMany([
         "author": "Richard Belzer",
         "year": 1999,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345429176.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345429176.01.LZZZZZZZ.jpg",
         "price": 124,
         "stock": 28
     },
@@ -8775,7 +8775,7 @@ db.books.insertMany([
         "author": "Thomas Harris",
         "year": 1999,
         "publisher": "Del Sol Press",
-        "imageurl": "http://images.amazon.com/images/P/038529929X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038529929X.01.LZZZZZZZ.jpg",
         "price": 137,
         "stock": 4
     },
@@ -8785,7 +8785,7 @@ db.books.insertMany([
         "author": "Nick Hornby",
         "year": 2002,
         "publisher": "Riverhead Books",
-        "imageurl": "http://images.amazon.com/images/P/1573229571.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1573229571.01.LZZZZZZZ.jpg",
         "price": 125,
         "stock": 25
     },
@@ -8795,7 +8795,7 @@ db.books.insertMany([
         "author": "Douglas Adams",
         "year": 2000,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345418778.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345418778.01.LZZZZZZZ.jpg",
         "price": 51,
         "stock": 21
     },
@@ -8805,7 +8805,7 @@ db.books.insertMany([
         "author": "Colleen McCullough",
         "year": 1998,
         "publisher": "Wings",
-        "imageurl": "http://images.amazon.com/images/P/0517201658.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0517201658.01.LZZZZZZZ.jpg",
         "price": 118,
         "stock": 20
     },
@@ -8815,7 +8815,7 @@ db.books.insertMany([
         "author": "Stephen King",
         "year": 2001,
         "publisher": "Scribner",
-        "imageurl": "http://images.amazon.com/images/P/0743211383.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743211383.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 18
     },
@@ -8825,7 +8825,7 @@ db.books.insertMany([
         "author": "Robert B. Parker",
         "year": 1998,
         "publisher": "Putnam Pub Group",
-        "imageurl": "http://images.amazon.com/images/P/039914370X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039914370X.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 28
     },
@@ -8835,7 +8835,7 @@ db.books.insertMany([
         "author": "Andrew L. Johnson",
         "year": 1999,
         "publisher": "Manning Publications",
-        "imageurl": "http://images.amazon.com/images/P/1884777805.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1884777805.01.LZZZZZZZ.jpg",
         "price": 176,
         "stock": 3
     },
@@ -8845,7 +8845,7 @@ db.books.insertMany([
         "author": "Marian Babson",
         "year": 2002,
         "publisher": "St. Martin's Minotaur",
-        "imageurl": "http://images.amazon.com/images/P/0312977905.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312977905.01.LZZZZZZZ.jpg",
         "price": 145,
         "stock": 13
     },
@@ -8855,7 +8855,7 @@ db.books.insertMany([
         "author": "W. Michael Gear",
         "year": 1992,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0812521331.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812521331.01.LZZZZZZZ.jpg",
         "price": 181,
         "stock": 37
     },
@@ -8865,7 +8865,7 @@ db.books.insertMany([
         "author": "Dean R. Koontz",
         "year": 2002,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451205421.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451205421.01.LZZZZZZZ.jpg",
         "price": 140,
         "stock": 32
     },
@@ -8875,7 +8875,7 @@ db.books.insertMany([
         "author": "Paul Phifer",
         "year": 1999,
         "publisher": "Ferguson Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0894342789.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0894342789.01.LZZZZZZZ.jpg",
         "price": 192,
         "stock": 24
     },
@@ -8885,7 +8885,7 @@ db.books.insertMany([
         "author": "Peter Hoeg",
         "year": 1997,
         "publisher": "Island",
-        "imageurl": "http://images.amazon.com/images/P/0440218535.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440218535.01.LZZZZZZZ.jpg",
         "price": 104,
         "stock": 40
     },
@@ -8895,7 +8895,7 @@ db.books.insertMany([
         "author": "Erma Bombeck",
         "year": 1988,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449207595.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449207595.01.LZZZZZZZ.jpg",
         "price": 87,
         "stock": 10
     },
@@ -8905,7 +8905,7 @@ db.books.insertMany([
         "author": "Roberto Vecchioni",
         "year": 1996,
         "publisher": "Einaudi",
-        "imageurl": "http://images.amazon.com/images/P/8806142267.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/8806142267.01.LZZZZZZZ.jpg",
         "price": 95,
         "stock": 37
     },
@@ -8915,7 +8915,7 @@ db.books.insertMany([
         "author": "John Mortimer",
         "year": 1992,
         "publisher": "Penguin USA",
-        "imageurl": "http://images.amazon.com/images/P/0670844594.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0670844594.01.LZZZZZZZ.jpg",
         "price": 53,
         "stock": 31
     },
@@ -8925,7 +8925,7 @@ db.books.insertMany([
         "author": "E. L. Doctorow",
         "year": 1989,
         "publisher": "Random House",
-        "imageurl": "http://images.amazon.com/images/P/039457513X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039457513X.01.LZZZZZZZ.jpg",
         "price": 38,
         "stock": 29
     },
@@ -8935,7 +8935,7 @@ db.books.insertMany([
         "author": "Simon Schama",
         "year": 1989,
         "publisher": "Random House Inc",
-        "imageurl": "http://images.amazon.com/images/P/0394559487.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394559487.01.LZZZZZZZ.jpg",
         "price": 23,
         "stock": 40
     },
@@ -8945,7 +8945,7 @@ db.books.insertMany([
         "author": "Frank Waters",
         "year": 1970,
         "publisher": "Ohio University Press",
-        "imageurl": "http://images.amazon.com/images/P/0804001944.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0804001944.01.LZZZZZZZ.jpg",
         "price": 99,
         "stock": 9
     },
@@ -8955,7 +8955,7 @@ db.books.insertMany([
         "author": "Karen Hesse",
         "year": 1998,
         "publisher": "Hyperion Books for Children",
-        "imageurl": "http://images.amazon.com/images/P/0590897985.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590897985.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 23
     },
@@ -8965,7 +8965,7 @@ db.books.insertMany([
         "author": "Kenneth Oppel",
         "year": 2001,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/0689832877.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0689832877.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 20
     },
@@ -8975,7 +8975,7 @@ db.books.insertMany([
         "author": "Carol Ryrie Brink",
         "year": 1999,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/0689829698.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0689829698.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 0
     },
@@ -8985,7 +8985,7 @@ db.books.insertMany([
         "author": "K. A. Applegate",
         "year": 1998,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0439042917.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439042917.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 11
     },
@@ -8995,7 +8995,7 @@ db.books.insertMany([
         "author": "C. S. Lewis",
         "year": 2000,
         "publisher": "HarperTrophy",
-        "imageurl": "http://images.amazon.com/images/P/0064409457.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0064409457.01.LZZZZZZZ.jpg",
         "price": 196,
         "stock": 31
     },
@@ -9005,7 +9005,7 @@ db.books.insertMany([
         "author": "C. S. Lewis",
         "year": 1994,
         "publisher": "HarperTrophy",
-        "imageurl": "http://images.amazon.com/images/P/0064405052.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0064405052.01.LZZZZZZZ.jpg",
         "price": 84,
         "stock": 1
     },
@@ -9015,7 +9015,7 @@ db.books.insertMany([
         "author": "Shelly R. Roberts",
         "year": 2001,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/043922165X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/043922165X.01.LZZZZZZZ.jpg",
         "price": 40,
         "stock": 25
     },
@@ -9025,7 +9025,7 @@ db.books.insertMany([
         "author": "Diane Duane",
         "year": 2001,
         "publisher": "Magic Carpet Books",
-        "imageurl": "http://images.amazon.com/images/P/0152162445.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0152162445.01.LZZZZZZZ.jpg",
         "price": 192,
         "stock": 34
     },
@@ -9035,7 +9035,7 @@ db.books.insertMany([
         "author": "Diane Duane",
         "year": 2001,
         "publisher": "Magic Carpet Books",
-        "imageurl": "http://images.amazon.com/images/P/0152162577.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0152162577.01.LZZZZZZZ.jpg",
         "price": 190,
         "stock": 26
     },
@@ -9045,7 +9045,7 @@ db.books.insertMany([
         "author": "Diane Duane",
         "year": 2001,
         "publisher": "Magic Carpet Books",
-        "imageurl": "http://images.amazon.com/images/P/015216250X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/015216250X.01.LZZZZZZZ.jpg",
         "price": 103,
         "stock": 25
     },
@@ -9055,7 +9055,7 @@ db.books.insertMany([
         "author": "Carolee Brockmann",
         "year": 1999,
         "publisher": "Pleasant Company Publications",
-        "imageurl": "http://images.amazon.com/images/P/1562477528.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1562477528.01.LZZZZZZZ.jpg",
         "price": 104,
         "stock": 1
     },
@@ -9065,7 +9065,7 @@ db.books.insertMany([
         "author": "Rachel Roberts",
         "year": 2001,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0439221676.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439221676.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 39
     },
@@ -9075,7 +9075,7 @@ db.books.insertMany([
         "author": "Rachel Roberts",
         "year": 2001,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0439221684.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439221684.01.LZZZZZZZ.jpg",
         "price": 130,
         "stock": 18
     },
@@ -9085,7 +9085,7 @@ db.books.insertMany([
         "author": "Rachel Roberts",
         "year": 2000,
         "publisher": "Scholastic Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0439221714.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439221714.01.LZZZZZZZ.jpg",
         "price": 9,
         "stock": 19
     },
@@ -9095,7 +9095,7 @@ db.books.insertMany([
         "author": "Rachel Roberts",
         "year": 2002,
         "publisher": "Scholastic Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0439221706.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439221706.01.LZZZZZZZ.jpg",
         "price": 18,
         "stock": 18
     },
@@ -9105,7 +9105,7 @@ db.books.insertMany([
         "author": "Rachel Roberts",
         "year": 2002,
         "publisher": "Scholastic Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0439221730.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0439221730.01.LZZZZZZZ.jpg",
         "price": 164,
         "stock": 5
     },
@@ -9115,7 +9115,7 @@ db.books.insertMany([
         "author": "Lensey Namioka",
         "year": 2000,
         "publisher": "Laurel-Leaf Books",
-        "imageurl": "http://images.amazon.com/images/P/0440415993.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440415993.01.LZZZZZZZ.jpg",
         "price": 51,
         "stock": 34
     },
@@ -9125,7 +9125,7 @@ db.books.insertMany([
         "author": "Jackie Eileen Behrend",
         "year": 1998,
         "publisher": "John F. Blair Publisher",
-        "imageurl": "http://images.amazon.com/images/P/0895872102.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0895872102.01.LZZZZZZZ.jpg",
         "price": 108,
         "stock": 29
     },
@@ -9135,7 +9135,7 @@ db.books.insertMany([
         "author": "Andrew Clements",
         "year": 2001,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/068983585X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/068983585X.01.LZZZZZZZ.jpg",
         "price": 15,
         "stock": 27
     },
@@ -9145,7 +9145,7 @@ db.books.insertMany([
         "author": "Douglas Adams",
         "year": 1995,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345391802.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345391802.01.LZZZZZZZ.jpg",
         "price": 131,
         "stock": 32
     },
@@ -9155,7 +9155,7 @@ db.books.insertMany([
         "author": "LOIS LOWRY",
         "year": 1994,
         "publisher": "Laure Leaf",
-        "imageurl": "http://images.amazon.com/images/P/0440219078.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440219078.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 9
     },
@@ -9165,7 +9165,7 @@ db.books.insertMany([
         "author": "Paul Hattaway",
         "year": 2003,
         "publisher": "Monarch Books",
-        "imageurl": "http://images.amazon.com/images/P/185424597X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/185424597X.01.LZZZZZZZ.jpg",
         "price": 58,
         "stock": 7
     },
@@ -9175,7 +9175,7 @@ db.books.insertMany([
         "author": "Alain Stella",
         "year": 2001,
         "publisher": "Flammarion",
-        "imageurl": "http://images.amazon.com/images/P/2080105434.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/2080105434.01.LZZZZZZZ.jpg",
         "price": 41,
         "stock": 28
     },
@@ -9185,7 +9185,7 @@ db.books.insertMany([
         "author": "Milena Moser",
         "year": 1993,
         "publisher": "Rowohlt Tb.",
-        "imageurl": "http://images.amazon.com/images/P/349913358X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/349913358X.01.LZZZZZZZ.jpg",
         "price": 70,
         "stock": 12
     },
@@ -9195,7 +9195,7 @@ db.books.insertMany([
         "author": "Patricia Highsmith",
         "year": 1974,
         "publisher": "Diogenes Verlag",
-        "imageurl": "http://images.amazon.com/images/P/3257201761.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3257201761.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 14
     },
@@ -9205,7 +9205,7 @@ db.books.insertMany([
         "author": "Ken Follett",
         "year": 1994,
         "publisher": "LÃ?Â¼bbe",
-        "imageurl": "http://images.amazon.com/images/P/3404121686.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3404121686.01.LZZZZZZZ.jpg",
         "price": 65,
         "stock": 15
     },
@@ -9215,7 +9215,7 @@ db.books.insertMany([
         "author": "Ken Follett",
         "year": 1992,
         "publisher": "LÃ?Â¼bbe",
-        "imageurl": "http://images.amazon.com/images/P/3404118960.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3404118960.01.LZZZZZZZ.jpg",
         "price": 62,
         "stock": 0
     },
@@ -9225,7 +9225,7 @@ db.books.insertMany([
         "author": "Stephen Donaldson",
         "year": 1990,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/0345356578.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345356578.01.LZZZZZZZ.jpg",
         "price": 110,
         "stock": 25
     },
@@ -9235,7 +9235,7 @@ db.books.insertMany([
         "author": "STEPHEN R. DONALDSON",
         "year": 1987,
         "publisher": "Del Rey",
-        "imageurl": "http://images.amazon.com/images/P/0345346971.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345346971.01.LZZZZZZZ.jpg",
         "price": 8,
         "stock": 38
     },
@@ -9245,7 +9245,7 @@ db.books.insertMany([
         "author": "Bernhard Schlink",
         "year": 0,
         "publisher": "Phoenix Books",
-        "imageurl": "http://images.amazon.com/images/P/0753804700.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0753804700.01.LZZZZZZZ.jpg",
         "price": 8,
         "stock": 2
     },
@@ -9255,7 +9255,7 @@ db.books.insertMany([
         "author": "Stephen King",
         "year": 2004,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451155750.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451155750.01.LZZZZZZZ.jpg",
         "price": 93,
         "stock": 13
     },
@@ -9265,7 +9265,7 @@ db.books.insertMany([
         "author": "Ellen Rimbauer",
         "year": 2002,
         "publisher": "Hyperion Press",
-        "imageurl": "http://images.amazon.com/images/P/0786890436.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0786890436.01.LZZZZZZZ.jpg",
         "price": 89,
         "stock": 12
     },
@@ -9275,7 +9275,7 @@ db.books.insertMany([
         "author": "Todd Herzog",
         "year": 2000,
         "publisher": "Routledge",
-        "imageurl": "http://images.amazon.com/images/P/0415928087.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0415928087.01.LZZZZZZZ.jpg",
         "price": 62,
         "stock": 4
     },
@@ -9285,7 +9285,7 @@ db.books.insertMany([
         "author": "John Borneman",
         "year": 1992,
         "publisher": "Cambridge University Press",
-        "imageurl": "http://images.amazon.com/images/P/0521427150.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0521427150.01.LZZZZZZZ.jpg",
         "price": 180,
         "stock": 22
     },
@@ -9295,7 +9295,7 @@ db.books.insertMany([
         "author": "ROBERT S. MCELVAINE",
         "year": 1993,
         "publisher": "Three Rivers Press",
-        "imageurl": "http://images.amazon.com/images/P/0812923278.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0812923278.01.LZZZZZZZ.jpg",
         "price": 116,
         "stock": 18
     },
@@ -9305,7 +9305,7 @@ db.books.insertMany([
         "author": "Bram Stoker",
         "year": 1989,
         "publisher": "Amereon Limited",
-        "imageurl": "http://images.amazon.com/images/P/0884111342.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0884111342.01.LZZZZZZZ.jpg",
         "price": 151,
         "stock": 39
     },
@@ -9315,7 +9315,7 @@ db.books.insertMany([
         "author": "Michael A. Stackpole",
         "year": 2000,
         "publisher": "Del Rey Books",
-        "imageurl": "http://images.amazon.com/images/P/0345428544.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345428544.01.LZZZZZZZ.jpg",
         "price": 167,
         "stock": 25
     },
@@ -9325,7 +9325,7 @@ db.books.insertMany([
         "author": "Douglas Adams",
         "year": 1990,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671694049.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671694049.01.LZZZZZZZ.jpg",
         "price": 24,
         "stock": 13
     },
@@ -9335,7 +9335,7 @@ db.books.insertMany([
         "author": "Langston Hughes",
         "year": 1995,
         "publisher": "Hill &amp; Wang",
-        "imageurl": "http://images.amazon.com/images/P/080901582X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/080901582X.01.LZZZZZZZ.jpg",
         "price": 147,
         "stock": 25
     },
@@ -9345,7 +9345,7 @@ db.books.insertMany([
         "author": "Anne Perry",
         "year": 2001,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0449006557.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449006557.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 1
     },
@@ -9355,7 +9355,7 @@ db.books.insertMany([
         "author": "Carol Matthews",
         "year": 2003,
         "publisher": "Red Dress Ink",
-        "imageurl": "http://images.amazon.com/images/P/0373250339.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373250339.01.LZZZZZZZ.jpg",
         "price": 106,
         "stock": 6
     },
@@ -9365,7 +9365,7 @@ db.books.insertMany([
         "author": "Carole Matthews",
         "year": 2002,
         "publisher": "Avon Trade",
-        "imageurl": "http://images.amazon.com/images/P/0380820447.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380820447.01.LZZZZZZZ.jpg",
         "price": 190,
         "stock": 36
     },
@@ -9375,7 +9375,7 @@ db.books.insertMany([
         "author": "Jacqueline L. Tobin",
         "year": 2000,
         "publisher": "Anchor Pub",
-        "imageurl": "http://images.amazon.com/images/P/0385497679.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385497679.01.LZZZZZZZ.jpg",
         "price": 190,
         "stock": 16
     },
@@ -9385,7 +9385,7 @@ db.books.insertMany([
         "author": "Marion Zimmer Bradley",
         "year": 1995,
         "publisher": "Roc",
-        "imageurl": "http://images.amazon.com/images/P/0451454243.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451454243.01.LZZZZZZZ.jpg",
         "price": 117,
         "stock": 24
     },
@@ -9395,7 +9395,7 @@ db.books.insertMany([
         "author": "Andrei Codrescu",
         "year": 1988,
         "publisher": "Four Walls Eight Windows",
-        "imageurl": "http://images.amazon.com/images/P/0941423042.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0941423042.01.LZZZZZZZ.jpg",
         "price": 161,
         "stock": 27
     },
@@ -9405,7 +9405,7 @@ db.books.insertMany([
         "author": "Carolyne Aarsen",
         "year": 2001,
         "publisher": "Steeple Hill",
-        "imageurl": "http://images.amazon.com/images/P/0373871562.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373871562.01.LZZZZZZZ.jpg",
         "price": 144,
         "stock": 2
     },
@@ -9415,7 +9415,7 @@ db.books.insertMany([
         "author": "Louis L'Amour",
         "year": 1996,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553101439.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553101439.01.LZZZZZZZ.jpg",
         "price": 54,
         "stock": 14
     },
@@ -9425,7 +9425,7 @@ db.books.insertMany([
         "author": "Jack Chapman",
         "year": 1987,
         "publisher": "Ten Speed Pr",
-        "imageurl": "http://images.amazon.com/images/P/0898151910.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0898151910.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 3
     },
@@ -9435,7 +9435,7 @@ db.books.insertMany([
         "author": "Anthony J Alessandra",
         "year": 1981,
         "publisher": "Reston Pub. Co",
-        "imageurl": "http://images.amazon.com/images/P/0835949362.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0835949362.01.LZZZZZZZ.jpg",
         "price": 90,
         "stock": 29
     },
@@ -9445,7 +9445,7 @@ db.books.insertMany([
         "author": "Charles R. Swindoll",
         "year": 1985,
         "publisher": "Word Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0880701102.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0880701102.01.LZZZZZZZ.jpg",
         "price": 21,
         "stock": 32
     },
@@ -9455,7 +9455,7 @@ db.books.insertMany([
         "author": "Tom Clancy",
         "year": 2000,
         "publisher": "G. P. Putnam's Sons",
-        "imageurl": "http://images.amazon.com/images/P/039914563X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/039914563X.01.LZZZZZZZ.jpg",
         "price": 171,
         "stock": 1
     },
@@ -9465,7 +9465,7 @@ db.books.insertMany([
         "author": "Orson Scott Card",
         "year": 1992,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0312853238.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0312853238.01.LZZZZZZZ.jpg",
         "price": 187,
         "stock": 17
     },
@@ -9475,7 +9475,7 @@ db.books.insertMany([
         "author": "V. A Howard",
         "year": 1986,
         "publisher": "W. Morrow",
-        "imageurl": "http://images.amazon.com/images/P/0688048730.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0688048730.01.LZZZZZZZ.jpg",
         "price": 45,
         "stock": 8
     },
@@ -9485,7 +9485,7 @@ db.books.insertMany([
         "author": "Tom Clancy",
         "year": 1999,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425161722.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425161722.01.LZZZZZZZ.jpg",
         "price": 35,
         "stock": 20
     },
@@ -9495,7 +9495,7 @@ db.books.insertMany([
         "author": "John Grisham",
         "year": 1999,
         "publisher": "Doubleday Books",
-        "imageurl": "http://images.amazon.com/images/P/0385493800.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385493800.01.LZZZZZZZ.jpg",
         "price": 31,
         "stock": 11
     },
@@ -9505,7 +9505,7 @@ db.books.insertMany([
         "author": "Walter P. Wilson",
         "year": 2000,
         "publisher": "W Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0849916399.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0849916399.01.LZZZZZZZ.jpg",
         "price": 76,
         "stock": 24
     },
@@ -9515,7 +9515,7 @@ db.books.insertMany([
         "author": "Bruce Fries",
         "year": 2000,
         "publisher": "Teamcom Books",
-        "imageurl": "http://images.amazon.com/images/P/1928791107.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1928791107.01.LZZZZZZZ.jpg",
         "price": 128,
         "stock": 13
     },
@@ -9525,7 +9525,7 @@ db.books.insertMany([
         "author": "Rush H., III Limbaugh",
         "year": 1992,
         "publisher": "Pocket Books",
-        "imageurl": "http://images.amazon.com/images/P/067175145X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/067175145X.01.LZZZZZZZ.jpg",
         "price": 39,
         "stock": 2
     },
@@ -9535,7 +9535,7 @@ db.books.insertMany([
         "author": "JOHN GRISHAM",
         "year": 1992,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440211727.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440211727.01.LZZZZZZZ.jpg",
         "price": 88,
         "stock": 25
     },
@@ -9545,7 +9545,7 @@ db.books.insertMany([
         "author": "Anne Dingus",
         "year": 1995,
         "publisher": "Gulf Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0877192820.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0877192820.01.LZZZZZZZ.jpg",
         "price": 25,
         "stock": 40
     },
@@ -9555,7 +9555,7 @@ db.books.insertMany([
         "author": "Kate Chopin",
         "year": 1982,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380002450.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380002450.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 8
     },
@@ -9565,7 +9565,7 @@ db.books.insertMany([
         "author": "Kirk Kazanjian",
         "year": 1999,
         "publisher": "Dearborn Financial Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0793133955.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0793133955.01.LZZZZZZZ.jpg",
         "price": 170,
         "stock": 23
     },
@@ -9575,7 +9575,7 @@ db.books.insertMany([
         "author": "Donald Merriam Allen",
         "year": 1974,
         "publisher": "Grove Press",
-        "imageurl": "http://images.amazon.com/images/P/0394178017.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394178017.01.LZZZZZZZ.jpg",
         "price": 187,
         "stock": 40
     },
@@ -9585,7 +9585,7 @@ db.books.insertMany([
         "author": "Tom Clancy",
         "year": 1992,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425134350.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425134350.01.LZZZZZZZ.jpg",
         "price": 43,
         "stock": 14
     },
@@ -9595,7 +9595,7 @@ db.books.insertMany([
         "author": "William Maples",
         "year": 1995,
         "publisher": "Main Street Books",
-        "imageurl": "http://images.amazon.com/images/P/0385479689.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0385479689.01.LZZZZZZZ.jpg",
         "price": 178,
         "stock": 10
     },
@@ -9605,7 +9605,7 @@ db.books.insertMany([
         "author": "Carl Hausman",
         "year": 1991,
         "publisher": "Harpercollins",
-        "imageurl": "http://images.amazon.com/images/P/0380754851.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380754851.01.LZZZZZZZ.jpg",
         "price": 17,
         "stock": 12
     },
@@ -9615,7 +9615,7 @@ db.books.insertMany([
         "author": "Richard Peck",
         "year": 1981,
         "publisher": "Harper Mass Market Paperbacks (Mm)",
-        "imageurl": "http://images.amazon.com/images/P/0380538504.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380538504.01.LZZZZZZZ.jpg",
         "price": 36,
         "stock": 40
     },
@@ -9625,7 +9625,7 @@ db.books.insertMany([
         "author": "Michael Connelly",
         "year": 2003,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/044661162X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/044661162X.01.LZZZZZZZ.jpg",
         "price": 68,
         "stock": 23
     },
@@ -9635,7 +9635,7 @@ db.books.insertMany([
         "author": "Judith McNaught",
         "year": 1991,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671742566.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671742566.01.LZZZZZZZ.jpg",
         "price": 55,
         "stock": 30
     },
@@ -9645,7 +9645,7 @@ db.books.insertMany([
         "author": "Lilian Jackson Braun",
         "year": 1998,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/0515122408.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0515122408.01.LZZZZZZZ.jpg",
         "price": 172,
         "stock": 30
     },
@@ -9655,7 +9655,7 @@ db.books.insertMany([
         "author": "John T. Lescroart",
         "year": 1998,
         "publisher": "Island",
-        "imageurl": "http://images.amazon.com/images/P/0440222818.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440222818.01.LZZZZZZZ.jpg",
         "price": 113,
         "stock": 25
     },
@@ -9665,7 +9665,7 @@ db.books.insertMany([
         "author": "John Jakes",
         "year": 2001,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451204050.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451204050.01.LZZZZZZZ.jpg",
         "price": 154,
         "stock": 6
     },
@@ -9675,7 +9675,7 @@ db.books.insertMany([
         "author": "Alice McDermott",
         "year": 1999,
         "publisher": "Delta",
-        "imageurl": "http://images.amazon.com/images/P/038533334X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/038533334X.01.LZZZZZZZ.jpg",
         "price": 128,
         "stock": 35
     },
@@ -9685,7 +9685,7 @@ db.books.insertMany([
         "author": "Hilary Bailey",
         "year": 1986,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449131548.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449131548.01.LZZZZZZZ.jpg",
         "price": 96,
         "stock": 24
     },
@@ -9695,7 +9695,7 @@ db.books.insertMany([
         "author": "Howard Fast",
         "year": 1991,
         "publisher": "Dell Publishing Company",
-        "imageurl": "http://images.amazon.com/images/P/0440120470.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440120470.01.LZZZZZZZ.jpg",
         "price": 32,
         "stock": 23
     },
@@ -9705,7 +9705,7 @@ db.books.insertMany([
         "author": "Jessica Fletcher",
         "year": 1996,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451188209.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451188209.01.LZZZZZZZ.jpg",
         "price": 50,
         "stock": 24
     },
@@ -9715,7 +9715,7 @@ db.books.insertMany([
         "author": "Belva Plain",
         "year": 1987,
         "publisher": "Dell",
-        "imageurl": "http://images.amazon.com/images/P/0440130913.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440130913.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 20
     },
@@ -9725,7 +9725,7 @@ db.books.insertMany([
         "author": "Margaret Truman",
         "year": 2001,
         "publisher": "Fawcett Books",
-        "imageurl": "http://images.amazon.com/images/P/0449001954.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0449001954.01.LZZZZZZZ.jpg",
         "price": 109,
         "stock": 30
     },
@@ -9735,7 +9735,7 @@ db.books.insertMany([
         "author": "RICHARD NORTH PATTERSON",
         "year": 1999,
         "publisher": "Ballantine Books",
-        "imageurl": "http://images.amazon.com/images/P/0345404777.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0345404777.01.LZZZZZZZ.jpg",
         "price": 79,
         "stock": 40
     },
@@ -9745,7 +9745,7 @@ db.books.insertMany([
         "author": "Eileen Goudge",
         "year": 1999,
         "publisher": "Signet Book",
-        "imageurl": "http://images.amazon.com/images/P/0451185277.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0451185277.01.LZZZZZZZ.jpg",
         "price": 112,
         "stock": 7
     },
@@ -9755,7 +9755,7 @@ db.books.insertMany([
         "author": "DANIELLE STEEL",
         "year": 2000,
         "publisher": "Random House, Inc.",
-        "imageurl": "http://images.amazon.com/images/P/0440224829.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0440224829.01.LZZZZZZZ.jpg",
         "price": 127,
         "stock": 32
     },
@@ -9765,7 +9765,7 @@ db.books.insertMany([
         "author": "Arnette Lamb",
         "year": 1993,
         "publisher": "Pocket",
-        "imageurl": "http://images.amazon.com/images/P/0671779338.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0671779338.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 29
     },
@@ -9775,7 +9775,7 @@ db.books.insertMany([
         "author": "Catherine Coulter",
         "year": 2004,
         "publisher": "Jove Books",
-        "imageurl": "http://images.amazon.com/images/P/0515134368.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0515134368.01.LZZZZZZZ.jpg",
         "price": 73,
         "stock": 19
     },
@@ -9785,7 +9785,7 @@ db.books.insertMany([
         "author": "Piers Anthony",
         "year": 1992,
         "publisher": "Eos",
-        "imageurl": "http://images.amazon.com/images/P/0380759497.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380759497.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 38
     },
@@ -9795,7 +9795,7 @@ db.books.insertMany([
         "author": "Anne Rice",
         "year": 1992,
         "publisher": "Goldmann",
-        "imageurl": "http://images.amazon.com/images/P/3442098424.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/3442098424.01.LZZZZZZZ.jpg",
         "price": 14,
         "stock": 36
     },
@@ -9805,7 +9805,7 @@ db.books.insertMany([
         "author": "WALTER CRONKITE",
         "year": 1996,
         "publisher": "Knopf",
-        "imageurl": "http://images.amazon.com/images/P/0394578791.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0394578791.01.LZZZZZZZ.jpg",
         "price": 86,
         "stock": 37
     },
@@ -9815,7 +9815,7 @@ db.books.insertMany([
         "author": "Tom Mula",
         "year": 1995,
         "publisher": "Adams Media Corp",
-        "imageurl": "http://images.amazon.com/images/P/1558505377.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1558505377.01.LZZZZZZZ.jpg",
         "price": 162,
         "stock": 26
     },
@@ -9825,7 +9825,7 @@ db.books.insertMany([
         "author": "Lois Faye Dyer",
         "year": 2003,
         "publisher": "Silhouette",
-        "imageurl": "http://images.amazon.com/images/P/0373245696.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373245696.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 15
     },
@@ -9835,7 +9835,7 @@ db.books.insertMany([
         "author": "Sharon Lamb",
         "year": 2002,
         "publisher": "Free Press",
-        "imageurl": "http://images.amazon.com/images/P/0743201078.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0743201078.01.LZZZZZZZ.jpg",
         "price": 60,
         "stock": 33
     },
@@ -9845,7 +9845,7 @@ db.books.insertMany([
         "author": "Sir Arthur Conan Doyle",
         "year": 2000,
         "publisher": "Aladdin",
-        "imageurl": "http://images.amazon.com/images/P/068983571X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/068983571X.01.LZZZZZZZ.jpg",
         "price": 75,
         "stock": 24
     },
@@ -9855,7 +9855,7 @@ db.books.insertMany([
         "author": "AGATHA CHRISTIE",
         "year": 1983,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553256785.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553256785.01.LZZZZZZZ.jpg",
         "price": 10,
         "stock": 25
     },
@@ -9865,7 +9865,7 @@ db.books.insertMany([
         "author": "Mark Cohen",
         "year": 2004,
         "publisher": "Mysterious Press",
-        "imageurl": "http://images.amazon.com/images/P/0892967994.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0892967994.01.LZZZZZZZ.jpg",
         "price": 101,
         "stock": 18
     },
@@ -9875,7 +9875,7 @@ db.books.insertMany([
         "author": "Sherry Shahan",
         "year": 1997,
         "publisher": "Harpercollins Juvenile Books",
-        "imageurl": "http://images.amazon.com/images/P/0061064505.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0061064505.01.LZZZZZZZ.jpg",
         "price": 182,
         "stock": 1
     },
@@ -9885,7 +9885,7 @@ db.books.insertMany([
         "author": "Helen Myers",
         "year": 2002,
         "publisher": "Mira",
-        "imageurl": "http://images.amazon.com/images/P/1551668785.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/1551668785.01.LZZZZZZZ.jpg",
         "price": 124,
         "stock": 19
     },
@@ -9895,7 +9895,7 @@ db.books.insertMany([
         "author": "Della Rowland",
         "year": 1994,
         "publisher": "Andrews McMeel Publishing",
-        "imageurl": "http://images.amazon.com/images/P/0836230868.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0836230868.01.LZZZZZZZ.jpg",
         "price": 191,
         "stock": 32
     },
@@ -9905,7 +9905,7 @@ db.books.insertMany([
         "author": "Irving. Adler",
         "year": 1974,
         "publisher": "Harpercollins Library",
-        "imageurl": "http://images.amazon.com/images/P/0381999866.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0381999866.01.LZZZZZZZ.jpg",
         "price": 33,
         "stock": 0
     },
@@ -9915,7 +9915,7 @@ db.books.insertMany([
         "author": "Elizabeth Peters",
         "year": 2002,
         "publisher": "Avon",
-        "imageurl": "http://images.amazon.com/images/P/0380817144.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380817144.01.LZZZZZZZ.jpg",
         "price": 25,
         "stock": 20
     },
@@ -9925,7 +9925,7 @@ db.books.insertMany([
         "author": "Shirlee Busbee",
         "year": 1991,
         "publisher": "Harper Mass Market Paperbacks",
-        "imageurl": "http://images.amazon.com/images/P/0380752115.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0380752115.01.LZZZZZZZ.jpg",
         "price": 123,
         "stock": 40
     },
@@ -9935,7 +9935,7 @@ db.books.insertMany([
         "author": "EMILY BRONTE",
         "year": 1983,
         "publisher": "Bantam",
-        "imageurl": "http://images.amazon.com/images/P/0553212583.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0553212583.01.LZZZZZZZ.jpg",
         "price": 69,
         "stock": 36
     },
@@ -9945,7 +9945,7 @@ db.books.insertMany([
         "author": "Sidney Sheldon",
         "year": 1993,
         "publisher": "Warner Books",
-        "imageurl": "http://images.amazon.com/images/P/0446364762.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0446364762.01.LZZZZZZZ.jpg",
         "price": 185,
         "stock": 21
     },
@@ -9955,7 +9955,7 @@ db.books.insertMany([
         "author": "Robin Cook",
         "year": 1999,
         "publisher": "Berkley Publishing Group",
-        "imageurl": "http://images.amazon.com/images/P/0425166619.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0425166619.01.LZZZZZZZ.jpg",
         "price": 59,
         "stock": 24
     },
@@ -9965,7 +9965,7 @@ db.books.insertMany([
         "author": "Frank E. Peretti",
         "year": 1999,
         "publisher": "Sagebrush Bound",
-        "imageurl": "http://images.amazon.com/images/P/061312975X.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/061312975X.01.LZZZZZZZ.jpg",
         "price": 48,
         "stock": 33
     },
@@ -9975,7 +9975,7 @@ db.books.insertMany([
         "author": "John A. Keel",
         "year": 2002,
         "publisher": "Tor Books",
-        "imageurl": "http://images.amazon.com/images/P/0765341972.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0765341972.01.LZZZZZZZ.jpg",
         "price": 169,
         "stock": 30
     },
@@ -9985,7 +9985,7 @@ db.books.insertMany([
         "author": "Stefanie Scott",
         "year": 1998,
         "publisher": "Scholastic",
-        "imageurl": "http://images.amazon.com/images/P/0590514776.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0590514776.01.LZZZZZZZ.jpg",
         "price": 177,
         "stock": 10
     },
@@ -9995,7 +9995,7 @@ db.books.insertMany([
         "author": "Rebecca Winters",
         "year": 2003,
         "publisher": "Harlequin",
-        "imageurl": "http://images.amazon.com/images/P/0373037430.01.LZZZZZZZ.jpg",
+        "image": "http://images.amazon.com/images/P/0373037430.01.LZZZZZZZ.jpg",
         "price": 146,
         "stock": 28
     }

@@ -1,8 +1,7 @@
 'use strict'
 
-var validator = require('node-mongoose-validator'),
-    mongoose = require('mongoose'),
-    schema = new mongoose.Schema({
+var Mongoose = require('mongoose'),
+    schema = new Mongoose.Schema({
         isbn: {
             type: String,
             required: true,
@@ -24,7 +23,7 @@ var validator = require('node-mongoose-validator'),
             type: String,
             required: true
         },
-        imageurl: {
+        image: {
             type: String
         },
         price: {
@@ -36,6 +35,6 @@ var validator = require('node-mongoose-validator'),
         }
     });
 
-var item = mongoose.model('Book', schema);
+var item = Mongoose.model('Book', schema);
 
 module.exports = schema;

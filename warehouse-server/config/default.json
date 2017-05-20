@@ -1,6 +1,6 @@
 {
     "server": {
-        "port": 9000
+        "port": 9090
     },
     "database": {
         "uri": "mongodb://localhost:27017/warehouse"

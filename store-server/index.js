@@ -31,7 +31,7 @@ mongoose.Promise = require('bluebird');
 // Connect to MongoDB database
 mongoose.connect(Config.database.uri);
 
-// Load models
+// Load schemas
 require('schemas')();
 
 // Log (to console & file) configuration

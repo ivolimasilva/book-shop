@@ -1,7 +1,8 @@
 'use strict'
 
 var Hapi = require('hapi'),
-    Config = require('config');
+    Config = require('config'),
+    Mongoose = require('mongoose');
 
 // Create a server with validation
 var server = new Hapi.Server({
@@ -23,6 +24,15 @@ server.connection({
         }
     }
 });
+
+// Use Bluebird as Promise Engine for Mongoose
+Mongoose.Promise = require('bluebird');
+
+// Connect to MongoDB database
+Mongoose.connect(Config.database.uri);
+
+// Load schemas
+require('schemas')();
 
 // Log (to console & file) configuration
 const options = {
@@ -58,7 +68,7 @@ const options = {
 };
 
 // Routes
-// require('routes')(server);
+require('routes')(server);
 
 // Register and if no errors start the server
 server.register({
