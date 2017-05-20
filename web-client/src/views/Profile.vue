@@ -50,7 +50,7 @@ export default {
             return this.$store.getters.user;
         },
         orders: function () {
-            return this.$store.getters.orders;
+            return this.$store.getters.orders.slice().reverse();
         }
     },
     mounted: function () {

@@ -67,18 +67,37 @@
                 </section>
             </section>
         </div>
+        <checkout v-bind:is-active="active" v-bind:order="order" v-on:close="close"></checkout>
     </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
 
+import Checkout from '../components/Modals/Checkout.vue';
+
 export default {
     name: 'cart',
+    data: function () {
+        return {
+            order: {
+                books: [],
+                user: {
+                    name: '',
+                    address: '',
+                    email: ''
+                }
+            },
+            active: false
+        }
+    },
     computed: mapGetters([
         'user',
         'cart',
     ]),
+    components: {
+        'checkout': Checkout
+    },
     methods: {
         checkout: function () {
             Axios.post(Server + '/order', {
@@ -88,11 +107,21 @@ export default {
                     withCredentials: true
                 })
                 .then((response) => {
-                    console.log(response.data);
+                    // Pass order to checkout
+                    this.order = response.data;
+                    // Add this order to Vuex
+                    this.$store.commit('addOrder', response.data);
+                    // Open Checkout Modal
+                    this.active = true;
+                    // Clear shopping cart
+                    this.$store.commit('clearCart');
                 })
                 .catch((error) => {
                     console.log(error);
                 });
+        },
+        close: function () {
+            this.active = false;
         }
     }
 }

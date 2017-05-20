@@ -61,6 +61,9 @@ export const store = new Vuex.Store({
         order(state, orders) {
             state.orders = orders;
         },
+        addOrder(state, order) {
+            state.orders.push(order);
+        },
         addToCart(state, book) {
             // Increment quantity
             state.cart.quantity++;
@@ -74,6 +77,14 @@ export const store = new Vuex.Store({
                 book.quantity = 1;
                 state.cart.items.push(book);
             }
+        },
+        clearCart(state) {
+            // Clear cart
+            state.cart = {
+                total: 0,
+                quantity: 0,
+                items: []
+            };
         }
     },
     actions: {

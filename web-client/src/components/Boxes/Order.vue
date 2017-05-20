@@ -13,10 +13,10 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th>28/09/1993</th>
+                            <th>{{ date }}</th>
                             <td>{{ order.user.address }}</td>
                             <td>{{ order.total }}€</td>
-                            <td>{{ order.state }}</td>
+                            <td>{{ order.status }}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -63,6 +63,11 @@ export default {
     data: function () {
         return {
             open: false
+        }
+    },
+    computed: {
+        date: function () {
+            return new Date(this.order.date).toLocaleDateString();
         }
     },
     methods: {
