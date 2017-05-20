@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port": 9000
+    },
+    "database": {
+        "uri": "mongodb://localhost:27017/store"
+    },
+    "secret": "SPAGHETTI CODE IS THE BEST CODE",
+    "saltRounds": 10,
+    "email": {
+        "service": "Gmail",
+        "user": "yeoldbookshop@gmail.com",
+        "password": "tdin2017"
+    }
+}
