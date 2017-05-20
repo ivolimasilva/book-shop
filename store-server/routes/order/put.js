@@ -1,27 +1,75 @@
 'use strict'
 
+var Joi = require('joi'),
+    Boom = require('boom'),
+    Config = require('config'),
+    Jwt = require('utils/jwt'),
+    Promise = require('bluebird'),
+    Mongoose = require('mongoose'),
+    Order = Mongoose.model('Order');
+
 module.exports = function (server) {
 
-    /*
-     * Route to get books by (optional) filter
-     * Method:  GET
-     * Params:  _id - Book's ID (not required)
-     *          year - Book's Year (not required)
-     *          ...
-     *          (doesn't work with queries other than equal, like 'less than' (<), 'greater than' (>), ...)
-     *          (no filter returns all the books)
-     *
-     * Returns: the book's information
+	/*
+	 * Route for change order status
+	 * Method:  PUT
+	 * Params:  order._id - status Object id 
+	 *          status - status intended
+	 *
+	 * Returns: change successful ...
      */
 
     server.route({
         path: '/order/{id}',
         method: 'PUT',
         config: {
+            description: 'Update specific order status',
+            notes: 'Update specific user data',
+
+            // Joi api validation
+            /* validate: {
+                 /*  params: {
+                       //`id` is required field and can only accept string data
+                       id: Joi.string().required()
+                   },
+                 payload: {
+                     status: Joi.string().required()
+                 }
+             },*/
+            validate: {
+                params: {
+                    //`id` is required field and can only accept string data
+                    id: Joi.string().required()
+                },
+                payload: {
+                    status: Joi.string().required()
+                }
+            },
             handler: function (request, reply) {
+
                 console.log(request.params.id);
+                Order.findByIdAndUpdate(request.params.id, request.payload, {
+                    safe: true,
+                    upsert: true,
+                    new: true
+                }, function (error, data) {
+                    if (error) {
+                        reply({
+                            statusCode: 503,
+                            message: 'Failed to get data',
+                            data: error
+                        });
+                    } else {
+                        console.log(data);
+                        reply({
+                            statusCode: 200,
+                            message: 'Order Updated Successfully',
+                            data: data
+                        });
+                    }
+                });
             }
         }
     });
 
-}
+};
