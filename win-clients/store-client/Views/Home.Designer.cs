@@ -162,7 +162,6 @@
         private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage registerTab;
         private System.Windows.Forms.TabPage loginTab;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtMail;

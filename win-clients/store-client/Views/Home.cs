@@ -5,7 +5,10 @@ using System.IO;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.Net.Http;
+using System.Web.Script.Serialization;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
 
 namespace store_client.Views
 {
@@ -18,70 +21,57 @@ namespace store_client.Views
             InitializeComponent();
         }
 
-        private async void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-      /*      var values = new Dictionary<string, string>
-            {
-               { "mail", txtMail.Text },
-               { "password", txtPassword.Text }
-            };
-
-            var content = new FormUrlEncodedContent(values);
-
-            var response = await client.PostAsync("http://localhost:9000/auth/login", content);
-
-            var responseString = await response.Content.ReadAsStringAsync();*/
-
-            
-            WebRequest request = WebRequest.Create("http://localhost:9000/auth/login");
-            request.Method = "POST";
-
             UserManagement.User user = new UserManagement.User(txtMail.Text, txtPassword.Text);
-            
-            string jsonData = JsonConvert.SerializeObject(user);
-            byte[] byteArray = Encoding.UTF8.GetBytes(jsonData);
-            // Set the ContentType property of the WebRequest.  
-            request.ContentType = "application/x-www-form-urlencoded";
-            // Set the ContentLength property of the WebRequest.  
-            request.ContentLength = byteArray.Length;
-            // Get the request stream.  
-            Stream dataStream = request.GetRequestStream();
-            // Write the data to the request stream.  
-            dataStream.Write(byteArray, 0, byteArray.Length);
-            // Close the Stream object.  
-            dataStream.Close();
 
-            // Get the response.  
-            WebResponse response = request.GetResponse();
-            // Display the status.  
-            Console.WriteLine(((HttpWebResponse)response).StatusDescription);
-            // Get the stream containing content returned by the server.  
-            dataStream = response.GetResponseStream();
-            // Open the stream using a StreamReader for easy access.  
-            StreamReader reader = new StreamReader(dataStream);
-            // Read the content.  
-            string responseFromServer = reader.ReadToEnd();
-            // Display the content.  
-            Console.WriteLine(responseFromServer);
-            // Clean up the streams.  
-            reader.Close();
-            dataStream.Close();
-            response.Close();
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:9000/auth/login");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
 
-
-
-        /*    if (user == null)
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
-                lblStatusLogin.Text = "Login failed, try again.";
+                string jsonData = JsonConvert.SerializeObject(user);
+                streamWriter.Write(jsonData);
+                streamWriter.Flush();
+                streamWriter.Close();
             }
-            else
+
+            try
             {
-                // Open chatroom
+                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                lblStatusLogin.Text = "Success";
+                // Open chatroom        
                 new Thread(() =>
                 {
-                    Application.Run(new Dashboard(user));
+                    // TODO: Store doesn't have constructor with user
+                    // Application.Run(new Store(user));
+                    Application.Run(new Store());
                 }).Start();
                 this.Close();
+            }
+            catch (WebException ex)
+            {
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    //Console.WriteLine(reader.ReadToEnd());
+                    lblStatusLogin.Text = "Login failed, try again.";
+                }
+            }
+            catch (Exception ex)
+            {
+                // Something more serious happened
+                // like for example you don't have network access
+                // we cannot talk about a server exception here as
+                // the server probably was never reached
+            }
+
+            /*
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                var result = streamReader.ReadToEnd();
+                lblStatusLogin.Text = result;  
             }*/
         }
     }
