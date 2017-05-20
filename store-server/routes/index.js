@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (server) {
+module.exports = function (server, transporter) {
 
 	/*
 	 * Routes for authentication
@@ -29,7 +29,7 @@ module.exports = function (server) {
 	 * 	POST /order
 	 */
 
-	require('routes/order')(server);
+	require('routes/order')(server, transporter);
 
 	/*
 	 * Routes for user information

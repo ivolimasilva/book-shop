@@ -2,7 +2,8 @@
 
 var Hapi = require('hapi'),
 	Config = require('config'),
-	mongoose = require('mongoose');
+	mongoose = require('mongoose'),
+	Nodemailer = require('nodemailer');
 
 // Create a server with validation
 var server = new Hapi.Server({
@@ -10,6 +11,17 @@ var server = new Hapi.Server({
 		validation: {
 			allowUnknown: true
 		}
+	}
+});
+
+
+// Start transporter
+
+var transporter = Nodemailer.createTransport({
+	service: Config.email.service,
+	auth: {
+		user: Config.email.user,
+		pass: Config.email.password
 	}
 });
 
@@ -68,7 +80,7 @@ const options = {
 };
 
 // Routes
-require('routes')(server);
+require('routes')(server, transporter);
 
 // Register and if no errors start the server
 server.register({
