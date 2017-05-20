@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace store_client
+namespace store_client.Views
 {
-    public partial class Form1 : Form
+    public partial class Store : Form
     {
-        public Form1()
+        public Store()
         {
             InitializeComponent();
         }

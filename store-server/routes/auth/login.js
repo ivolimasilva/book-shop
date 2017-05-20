@@ -21,6 +21,7 @@ module.exports = function (server) {
         path: '/auth/login',
         method: 'POST',
         config: {
+            /*
             // Validate payload params before handler gets the load
             validate: {
                 payload: {
@@ -28,7 +29,10 @@ module.exports = function (server) {
                     password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required()
                 }
             },
+            */
             handler: function (request, reply) {
+
+                console.log(request.payload);
 
                 User.findOne({
                     email: request.payload.email
