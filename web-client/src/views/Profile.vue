@@ -28,11 +28,6 @@
                     </div>
                 </div>
             </div>
-            <div class="has-text-centered">
-                <a class="button is-danger" v-on:click="logout">
-                    Logout
-                </a>
-            </div>
             <hr>
             <h1 class="title">Orders</h1>
             <div v-for="order in orders">
@@ -61,11 +56,6 @@ export default {
     mounted: function () {
         // Update orders
         this.$store.dispatch('loadOrder');
-    },
-    methods: {
-        logout: function () {
-            this.$store.commit('logout');
-        }
     }
 }
 </script>

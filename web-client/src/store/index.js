@@ -3,6 +3,7 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
+// TODO: Refactor with modules
 export const store = new Vuex.Store({
     state: {
         user: {
@@ -11,7 +12,12 @@ export const store = new Vuex.Store({
             address: '',
             token: ''
         },
-        orders: []
+        orders: [],
+        cart: {
+            total: 0,
+            quantity: 0,
+            items: []
+        }
     },
     getters: {
         user: (state) => {
@@ -19,6 +25,9 @@ export const store = new Vuex.Store({
         },
         orders: (state) => {
             return state.orders;
+        },
+        cart: (state) => {
+            return state.cart;
         }
     },
     mutations: {
@@ -32,18 +41,39 @@ export const store = new Vuex.Store({
             });
         },
         logout(state) {
+            // Clear cookie
             Vue.cookie.delete('session');
 
+            // Clear user
             state.user = {
                 email: '',
                 name: '',
                 address: '',
                 token: ''
             };
+
+            // Clear orders
             state.orders = [];
+
+            // Clear cart
+            state.cart = [];
         },
         order(state, orders) {
             state.orders = orders;
+        },
+        addToCart(state, book) {
+            // Increment quantity
+            state.cart.quantity++;
+
+            // Increment total
+            state.cart.total += book.price;
+
+            if (state.cart.items.indexOf(book) > -1) {
+                state.cart.items[state.cart.items.indexOf(book)].quantity++;
+            } else {
+                book.quantity = 1;
+                state.cart.items.push(book);
+            }
         }
     },
     actions: {
