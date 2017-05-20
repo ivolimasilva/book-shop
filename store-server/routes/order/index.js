@@ -10,4 +10,5 @@ module.exports = function (server) {
      */
 	require('routes/order/post')(server);
 	require('routes/order/get')(server);
+	require('routes/order/put')(server);
 };
