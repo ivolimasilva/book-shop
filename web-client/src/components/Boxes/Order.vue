@@ -16,7 +16,7 @@
                             <th>{{ date }}</th>
                             <td>{{ order.user.address }}</td>
                             <td>{{ order.total }}€</td>
-                            <td>{{ order.state }}</td>
+                            <td>{{ order.status }}</td>
                         </tr>
                     </tbody>
                 </table>
