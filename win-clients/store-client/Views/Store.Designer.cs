@@ -42,10 +42,13 @@
             this.year = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pageOrder = new System.Windows.Forms.TabPage();
             this.listViewOrders = new System.Windows.Forms.ListView();
-            this.state = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.status = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.date = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.total = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.email = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnRefreshOrders = new System.Windows.Forms.Button();
+            this.name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.totalBooks = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl.SuspendLayout();
             this.stockPage.SuspendLayout();
             this.pageOrder.SuspendLayout();
@@ -164,9 +167,12 @@
             // listViewOrders
             // 
             this.listViewOrders.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.state,
+            this.status,
+            this.date,
             this.total,
-            this.email});
+            this.email,
+            this.name,
+            this.totalBooks});
             this.listViewOrders.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listViewOrders.FullRowSelect = true;
             this.listViewOrders.Location = new System.Drawing.Point(34, 8);
@@ -175,11 +181,18 @@
             this.listViewOrders.TabIndex = 3;
             this.listViewOrders.UseCompatibleStateImageBehavior = false;
             this.listViewOrders.View = System.Windows.Forms.View.Details;
+            this.listViewOrders.Click += new System.EventHandler(this.listViewOrders_Click);
             // 
-            // state
+            // status
             // 
-            this.state.Text = "State";
-            this.state.Width = 200;
+            this.status.Text = "Status";
+            this.status.Width = 240;
+            // 
+            // date
+            // 
+            this.date.Text = "Date";
+            this.date.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.date.Width = 120;
             // 
             // total
             // 
@@ -202,6 +215,18 @@
             this.btnRefreshOrders.TabIndex = 2;
             this.btnRefreshOrders.UseVisualStyleBackColor = true;
             this.btnRefreshOrders.Click += new System.EventHandler(this.btnRefreshOrders_Click);
+            // 
+            // name
+            // 
+            this.name.Text = "Name";
+            this.name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.name.Width = 120;
+            // 
+            // totalBooks
+            // 
+            this.totalBooks.Text = "Total Books";
+            this.totalBooks.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.totalBooks.Width = 120;
             // 
             // Store
             // 
@@ -235,8 +260,11 @@
         private System.Windows.Forms.Button btnRefreshStock;
         private System.Windows.Forms.Button btnRefreshOrders;
         private System.Windows.Forms.ListView listViewOrders;
-        private System.Windows.Forms.ColumnHeader state;
+        private System.Windows.Forms.ColumnHeader status;
         private System.Windows.Forms.ColumnHeader total;
         private System.Windows.Forms.ColumnHeader email;
+        private System.Windows.Forms.ColumnHeader date;
+        private System.Windows.Forms.ColumnHeader name;
+        private System.Windows.Forms.ColumnHeader totalBooks;
     }
 }

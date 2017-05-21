@@ -33,6 +33,8 @@ namespace store_client.Views
         {
             InitializeComponent();
             user = _user;
+            updateBookList();
+            updateOrdersList();
         }
 
         private async void updateBookList()
@@ -63,22 +65,34 @@ namespace store_client.Views
         private async void updateOrdersList()
         {
             listViewOrders.Items.Clear();
-            HttpClient httpClient = new HttpClient();
-            ListViewItem itm;
+            //HttpClient httpClient = new HttpClient();
+
+            Uri uri = new Uri("http://localhost:9000/order");
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.CookieContainer = new CookieContainer();            
+            handler.CookieContainer.Add(uri, new Cookie("session", user.token)); // Adding a Cookie
+            HttpClient httpClient = new HttpClient(handler);
             Task<String> ordersInfo = getOrdersList("http://localhost:9000/order", httpClient);
+            CookieCollection collection = handler.CookieContainer.GetCookies(uri); // Retrieving a Cookie   
+
+            ListViewItem itm;
             await ordersInfo;
             orders = JsonConvert.DeserializeObject<List<Orders>>(ordersInfo.Result);
 
             foreach (Orders order in orders)
             {
-                string[] arr = new string[3];
-                arr[0] = order.state;
-                arr[1] = order.total.ToString();
-                arr[2] = order.user.email;
+                string[] arr = new string[6];
+                arr[0] = order.status;
+                arr[1] = order.date;
+                arr[2] = order.total.ToString();
+                arr[3] = order.user.email;
+                arr[4] = order.user.name;
+                arr[5] = order.books.Count.ToString();
+
                 itm = new ListViewItem(arr);
                 listViewOrders.Items.Add(itm);
             }
-        }
+        }        
 
         private async Task<String> getBookList(string url , HttpClient client)
         {
@@ -88,8 +102,8 @@ namespace store_client.Views
         }
 
         private async Task<String> getOrdersList(string url, HttpClient client)
-        {
-            String getInfo = await client.GetStringAsync(url);
+        {            
+            String getInfo = await client.GetStringAsync(url);            
 
             return getInfo;
         }
@@ -133,6 +147,21 @@ namespace store_client.Views
                     Application.Run(new RequestStock(isbn, stockNo, title));
                 }).Start();
             }                           
+        }
+
+        private void listViewOrders_Click(object sender, EventArgs e)
+        {
+           /* if (listViewOrders.SelectedItems.Count > 0)
+            {
+                //MessageBox.Show(listView.SelectedItems[0].SubItems[0].Text);
+                String isbn = listViewOrders.SelectedItems[0].SubItems[0].Text;
+                String stockNo = listViewOrders.SelectedItems[0].SubItems[1].Text;
+                String title = listViewOrders.SelectedItems[0].SubItems[2].Text;
+                new Thread(() =>
+                {
+                    Application.Run(new RequestStock(isbn, stockNo, title));
+                }).Start();
+            }*/
         }
     }
 }
