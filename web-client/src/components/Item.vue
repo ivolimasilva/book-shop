@@ -2,7 +2,7 @@
     <div class="item">
         <a v-bind:href="uri">
             <figure class="image">
-                <img class="small-margin-bottom" v-bind:src="book.imageurl">
+                <img class="small-margin-bottom" v-bind:src="book.image">
             </figure>
             <p class="title is-5 is-bold">{{ book.title }}</p>
         </a>
