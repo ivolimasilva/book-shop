@@ -105,7 +105,6 @@ module.exports = function (server, transporter) {
                                         return a + `<tr>
                                                         <th>`+ item.isbn + `</th>
                                                         <td>`+ item.title + `</td>
-                                                        <td>`+ item.author + `</td>
                                                         <td>`+ item.quantity + `</td>
                                                         <td>`+ item.price + `€</td>
                                                         <td>`+ item.quantity * item.price + `€</td>
@@ -132,13 +131,8 @@ module.exports = function (server, transporter) {
 								<tr>
 									<td class="content-block">
 										<h1>` + newOrder.total + `€ Paid</h1>
-                                        <h2> <b>Status of order </b>` + newOrder.status + `</h2>
+                                        <h2> <b>Status of order: </b>` + newOrder.status + `</h2>
                                         
-									</td>
-								</tr>
-								<tr>
-									<td class="content-block">
-										<h2>Thanketh thee for using Ye Old Book Shop inc.</h2>
 									</td>
 								</tr>
 								<tr>
@@ -155,7 +149,6 @@ module.exports = function (server, transporter) {
                                                     <tr>
                                                         <th>ISBN</th>
                                                         <th>Title</th>
-                                                        <th>Author</th>
                                                         <th>Quantity</th>
                                                         <th>Price (unitary)</th>
                                                         <th>Price (total)</th>
@@ -189,12 +182,17 @@ module.exports = function (server, transporter) {
                                                         text-align: center;
                                                         text-decoration: none;
                                                         display: inline-block;
-                                                        font-size: 16px;" href="http://localhost:8080/profile">View in browser</a>
+                                                        font-size: 16px;" href="http://localhost:8080/profile">Check You Order!</a>
                                    </td>
 								</tr>
 								<tr>
 									<td class="content-block">
-										Rua das Roberto Frias 
+										<h2>Thanketh thee for using Ye Old Book Shop inc.</h2>
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										Rua das Carmelitas, 144 4050-161 Porto Portugal.
 									</td>
 								</tr>
 							</table>
