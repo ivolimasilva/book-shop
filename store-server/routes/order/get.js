@@ -25,7 +25,7 @@ module.exports = function (server) {
         config: {
             handler: function (request, reply) {
 
-           // Verify if token is valid and returns user's ID
+                // Verify if token is valid and returns user's ID
                 Jwt.verify(request.state.session)
                     .then((decoded) => {
                         Order.find({ 'user._id': new Mongoose.Types.ObjectId(decoded._id) }, (err, orders) => {
@@ -33,7 +33,6 @@ module.exports = function (server) {
                         });
 
                     })
-
                     .catch((err) => {
                         return reply(Boom.unauthorized('Invalid token.'));
                     });

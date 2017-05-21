@@ -2,7 +2,7 @@
 	"name": "book-shop",
 	"version": "1.0.0",
 	"scripts": {
-		"start": "cross-env NODE_PATH=. node index.js",
+		"start": "cross-env NODE_PATH=. NODE_ENV=development node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -44,6 +44,7 @@
 		"joi": "^10.4.2",
 		"jsonwebtoken": "^7.4.0",
 		"mongoose": "^4.9.8",
-		"node-mongoose-validator": "^1.2.0"
+		"node-mongoose-validator": "^1.2.0",
+		"rsmq": "^0.8.2"
 	}
 }

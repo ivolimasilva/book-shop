@@ -2,7 +2,13 @@
 
 var Hapi = require('hapi'),
 	Config = require('config'),
-	mongoose = require('mongoose');
+	mongoose = require('mongoose'),
+	RedisSMQ = require('rsmq'),
+	rsmq = new RedisSMQ({
+		host: Config.redis.host,
+		port: Config.redis.port,
+		ns: Config.redis.ns
+	});
 
 // Create a server with validation
 var server = new Hapi.Server({
@@ -21,6 +27,26 @@ server.connection({
 			origin: ['*'],
 			// headers: ['*'],
 			credentials: true
+		}
+	}
+});
+
+// Check if the desirable queue is created
+rsmq.listQueues((err, queues) => {
+	if (err) {
+		console.error(err);
+	} else {
+		console.log('Active queues: ' + queues.join(', '));
+		if (queues.indexOf(Config.redis.name) < 0) {
+			rsmq.createQueue({ qname: Config.redis.name }, (err, code) => {
+				if (code) {
+					console.log('Queue \'' + Config.redis.name + '\' created.');
+				} else {
+					console.log('Error creating queue with name \'' + Config.redis.name + '\'.');
+				}
+			});
+		} else {
+			console.log('Queue with name \'' + Config.redis.name + '\' already exists, using that one.');
 		}
 	}
 });
