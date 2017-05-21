@@ -61,6 +61,12 @@
     <Compile Include="Views\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\RequestStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\RequestStock.Designer.cs">
+      <DependentUpon>RequestStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Store.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <EmbeddedResource Include="Views\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RequestStock.resx">
+      <DependentUpon>RequestStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Store.resx">
       <DependentUpon>Store.cs</DependentUpon>

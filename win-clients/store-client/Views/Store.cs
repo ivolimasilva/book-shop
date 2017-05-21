@@ -12,17 +12,21 @@ using System.Net;
 using System.Net.Http;
 using store_client.Management;
 using Newtonsoft.Json;
+using System.Threading;
 
 namespace store_client.Views
 {
     public partial class Store : Form
     {
-        User user;        
+        User user;
+        List<Book> books = null;
+        List<Orders> orders = null;
 
         public Store()
         {
             InitializeComponent();
             updateBookList();
+            updateOrdersList();
         }
 
         public Store(User _user)
@@ -33,22 +37,13 @@ namespace store_client.Views
 
         private async void updateBookList()
         {
-            listView.Items.Clear();
+            listViewStock.Items.Clear();
             HttpClient httpClient = new HttpClient();
             ListViewItem itm;
-            //Book book;
             Task<String> bookInfo = getBookList("http://localhost:9000/book", httpClient);
             await bookInfo;
-            List<Book> books = JsonConvert.DeserializeObject<List<Book>>(bookInfo.Result);
-            // Book book = new Management.Book(bookInfo.Result);
-            // Return a named reference type with a multi-line statement lambda.
-            /*  Task<Test> task2 = Task<Test>.Factory.StartNew(() =>
-              {
-                  string s = ".NET";
-                  double d = 4.0;
-                  return new Test { Name = s, Number = d };
-              });
-              Test test = task2.Result;*/
+            books = JsonConvert.DeserializeObject<List<Book>>(bookInfo.Result);
+
             foreach (Book book in books)
             {
                 string[] arr = new string[8];
@@ -60,23 +55,28 @@ namespace store_client.Views
                 arr[5] = book.price.ToString();
                 arr[6] = book.year.ToString();
                 itm = new ListViewItem(arr);
-                listView.Items.Add(itm);
+                listViewStock.Items.Add(itm);
             }
-       /*     string[] arr = new string[8];
-            arr[0] = books[0].isbn;
-            arr[1] = books[0].stock.ToString();
-            arr[2] = books[0].title;
-            arr[3] = books[0].author;
-            arr[4] = books[0].publisher;
-            arr[5] = books[0].price.ToString();
-            arr[6] = books[0].year.ToString();
-            itm = new ListViewItem(arr);
-            listView.Items.Add(itm);*/
+            changeColorStock();
+        }
+
+        private async void updateOrdersList()
+        {
+            listViewOrders.Items.Clear();
+            HttpClient httpClient = new HttpClient();
+            ListViewItem itm;
         }
 
         private async Task<String> getBookList(string url , HttpClient client)
         {
             String getInfo = await client.GetStringAsync(url);            
+
+            return getInfo;
+        }
+
+        private async Task<String> getOrderList(string url, HttpClient client)
+        {
+            String getInfo = await client.GetStringAsync(url);
 
             return getInfo;
         }
@@ -89,6 +89,37 @@ namespace store_client.Views
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             updateBookList();
+        }
+
+        private void btnRefreshOrders_Click(object sender, EventArgs e)
+        {
+            updateOrdersList();
+        }
+
+        private void changeColorStock()
+        {
+           foreach (ListViewItem lvw in listViewStock.Items)
+            {                                             
+                if (Int32.Parse(lvw.SubItems[1].Text) < 10)
+                {
+                    lvw.BackColor = Color.Red;
+                }
+            }
+        }
+
+        private void listViewStock_Click(object sender, EventArgs e)
+        {
+            if (listViewStock.SelectedItems.Count > 0)
+            {
+                //MessageBox.Show(listView.SelectedItems[0].SubItems[0].Text);
+                String isbn = listViewStock.SelectedItems[0].SubItems[0].Text;
+                String stockNo = listViewStock.SelectedItems[0].SubItems[1].Text;
+                String title = listViewStock.SelectedItems[0].SubItems[2].Text;
+                new Thread(() =>
+                {
+                    Application.Run(new RequestStock(isbn, stockNo, title));
+                }).Start();
+            }                           
         }
     }
 }
