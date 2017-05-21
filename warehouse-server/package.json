@@ -1,5 +1,5 @@
 {
-	"name": "book-shop",
+	"name": "warehouse-server",
 	"version": "1.0.0",
 	"scripts": {
 		"start": "cross-env NODE_PATH=. NODE_ENV=development node index.js",
@@ -32,19 +32,17 @@
 		"cross-env": "^4.0.0"
 	},
 	"dependencies": {
-		"bcrypt": "^1.0.2",
 		"bluebird": "^3.5.0",
 		"boom": "^4.3.1",
-		"config": "^1.25.1",
-		"good": "^7.1.0",
+		"config": "^1.26.1",
+		"good": "^7.2.0",
 		"good-console": "^6.4.0",
 		"good-file": "^6.0.1",
 		"good-squeeze": "^5.0.2",
 		"hapi": "^16.1.1",
-		"joi": "^10.4.2",
-		"jsonwebtoken": "^7.4.0",
-		"mongoose": "^4.9.8",
-		"node-mongoose-validator": "^1.2.0",
-		"rsmq": "^0.8.2"
+		"joi": "^10.5.0",
+		"mongoose": "^4.10.0",
+		"rsmq": "^0.8.2",
+		"rsmq-worker": "^0.5.2"
 	}
 }

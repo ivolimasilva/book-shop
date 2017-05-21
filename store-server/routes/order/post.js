@@ -4,12 +4,13 @@ var Joi = require('joi'),
     Boom = require('boom'),
     Config = require('config'),
     Jwt = require('utils/jwt'),
+    RedisSMQ = require('rsmq'),
     Promise = require('bluebird'),
     Mongoose = require('mongoose'),
     Book = Mongoose.model('Book'),
     Order = Mongoose.model('Order');
 
-module.exports = function (server) {
+module.exports = function (server, _rsmq) {
 
 	/*
 	 * Route for register order
@@ -31,6 +32,23 @@ module.exports = function (server) {
                 }
             },
             handler: function (request, reply) {
+
+                // Message Queue Client
+                var rsmq = new RedisSMQ({ client: _rsmq });
+
+                /* Message example
+                 *
+                    rsmq.sendMessage({
+                        qname: Config.redis.name,
+                        message: 'Hello Warehouse!'
+                    }, (err, id) => {
+                        if (id) {
+                            console.log('Message sent: ID: ' + id);
+                        }
+                    });
+                 * 
+                 */
+
                 Jwt.verify(request.payload.user.token)
                     .then((decoded) => {
 
