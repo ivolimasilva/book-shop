@@ -3,7 +3,13 @@
 var Hapi = require('hapi'),
 	Config = require('config'),
 	mongoose = require('mongoose'),
-	Nodemailer = require('nodemailer');
+	Nodemailer = require('nodemailer'),
+	RedisSMQ = require('rsmq'),
+	rsmq = new RedisSMQ({
+		host: Config.redis.host,
+		port: Config.redis.port,
+		ns: Config.redis.ns
+	});
 
 // Create a server with validation
 var server = new Hapi.Server({
@@ -14,9 +20,7 @@ var server = new Hapi.Server({
 	}
 });
 
-
-// Start transporter
-
+// Configure transporter
 var transporter = Nodemailer.createTransport({
 	service: Config.email.service,
 	auth: {
@@ -37,13 +41,37 @@ server.connection({
 	}
 });
 
+// Check if the desirable queue is created and creates it if not
+rsmq.listQueues((err, queues) => {
+	if (err) {
+		console.error(err);
+	} else {
+
+		// Display all active queues
+		console.log('Active queues: ' + queues.join(', '));
+
+		if (queues.indexOf(Config.redis.name) < 0) {
+			rsmq.createQueue({ qname: Config.redis.name }, (err, code) => {
+				if (code) {
+					console.log('Queue \'' + Config.redis.name + '\' created.');
+				} else {
+					console.log('Error creating queue with name \'' + Config.redis.name + '\'.');
+				}
+			});
+		} else {
+			console.log('Queue with name \'' + Config.redis.name + '\' already exists, using that one.');
+		}
+
+	}
+});
+
 // Use Bluebird as Promise Engine for Mongoose
 mongoose.Promise = require('bluebird');
 
 // Connect to MongoDB database
 mongoose.connect(Config.database.uri);
 
-// Load models
+// Load schemas
 require('schemas')();
 
 // Log (to console & file) configuration
@@ -80,7 +108,7 @@ const options = {
 };
 
 // Routes
-require('routes')(server, transporter);
+require('routes')(server, transporter, rsmq);
 
 // Register and if no errors start the server
 server.register({

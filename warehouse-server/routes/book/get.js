@@ -2,7 +2,6 @@
 
 var Joi = require('joi'),
     Boom = require('boom'),
-    Config = require('config'),
     Mongoose = require('mongoose'),
     Book = Mongoose.model('Book');
 
@@ -29,15 +28,11 @@ module.exports = function (server) {
                     if (err) {
                         return reply(Boom.badRequest(err));
                     } else if (books) {
-                        if (books.length > 1) {
-                            return reply(books);
-                        } else {
-                            return reply(books[0]);
-                        }
+                        return reply(books[0]);
                     } else {
                         return reply(Boom.badRequest('Book not found.'));
                     }
-                });
+                })
             }
         }
     });
