@@ -20,7 +20,7 @@ module.exports = function (server, rsmq) {
 	 * 	GET /book
 	 */
 
-	require('routes/book')(server, rsmq);
+	require('routes/book')(server);
 
 	/*
 	 * Routes for Orders management
@@ -29,7 +29,7 @@ module.exports = function (server, rsmq) {
 	 * 	POST /order
 	 */
 
-	require('routes/order')(server);
+	require('routes/order')(server, rsmq);
 
 	/*
 	 * Routes for user information
