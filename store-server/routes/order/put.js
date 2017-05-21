@@ -25,6 +25,17 @@ module.exports = function (server) {
         config: {
             description: 'Update specific order status',
             notes: 'Update specific user data',
+
+            // Joi api validation
+            /* validate: {
+                 /*  params: {
+                       //`id` is required field and can only accept string data
+                       id: Joi.string().required()
+                   },
+                 payload: {
+                     status: Joi.string().required()
+                 }
+             },*/
             validate: {
                 params: {
                     //`id` is required field and can only accept string data

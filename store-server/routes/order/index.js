@@ -1,4 +1,4 @@
-module.exports = function (server, transporter) {
+module.exports = function (server) {
 
     /*
      * Route for login
@@ -8,7 +8,7 @@ module.exports = function (server, transporter) {
      *
      * Returns: the user's token to save (as cookie or localStorage idk yet)
      */
-	require('routes/order/post')(server, transporter);
+	require('routes/order/post')(server);
 	require('routes/order/get')(server);
 	require('routes/order/put')(server);
 };
