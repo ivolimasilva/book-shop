@@ -19,6 +19,10 @@ var validator = require('node-mongoose-validator'),
         address: {
             type: String,
             required: true
+        },
+        security_level: {
+            type: Number,
+            default: 0
         }
     });
 

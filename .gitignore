@@ -374,3 +374,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+### Config ###
+store-server/config/*
+!store-server/config/default.json
+warehouse-server/config/*
+!warehouse-server/config/default.json

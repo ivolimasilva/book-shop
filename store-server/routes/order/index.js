@@ -1,4 +1,4 @@
-module.exports = function (server, rsmq) {
+module.exports = function (server, transporter, rsmq) {
 
     /*
      * Route for login
@@ -8,7 +8,8 @@ module.exports = function (server, rsmq) {
      *
      * Returns: the user's token to save (as cookie or localStorage idk yet)
      */
-    require('routes/order/post')(server, rsmq);
+
+    require('routes/order/post')(server, transporter, rsmq);
     require('routes/order/get')(server);
     require('routes/order/put')(server);
 

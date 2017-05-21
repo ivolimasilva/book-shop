@@ -3,6 +3,7 @@
 var Hapi = require('hapi'),
 	Config = require('config'),
 	mongoose = require('mongoose'),
+	Nodemailer = require('nodemailer'),
 	RedisSMQ = require('rsmq'),
 	rsmq = new RedisSMQ({
 		host: Config.redis.host,
@@ -16,6 +17,15 @@ var server = new Hapi.Server({
 		validation: {
 			allowUnknown: true
 		}
+	}
+});
+
+// Configure transporter
+var transporter = Nodemailer.createTransport({
+	service: Config.email.service,
+	auth: {
+		user: Config.email.user,
+		pass: Config.email.password
 	}
 });
 
@@ -98,7 +108,7 @@ const options = {
 };
 
 // Routes
-require('routes')(server, rsmq);
+require('routes')(server, transporter, rsmq);
 
 // Register and if no errors start the server
 server.register({
