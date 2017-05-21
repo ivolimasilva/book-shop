@@ -26,7 +26,6 @@ server.connection({
     routes: {
         cors: {
             origin: ['*'],
-            // headers: ['*'],
             credentials: true
         }
     }
@@ -91,6 +90,9 @@ const options = {
 
 // Routes
 require('routes')(server);
+
+// Queues
+require('queues')();
 
 // Register and if no errors start the server
 server.register({
