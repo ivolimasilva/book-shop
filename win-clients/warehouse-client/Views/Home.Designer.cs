@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.pageStock = new System.Windows.Forms.TabPage();
+            this.pageBooks = new System.Windows.Forms.TabPage();
             this.listStock = new System.Windows.Forms.ListView();
             this.columnISBN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnTitle = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -40,12 +40,12 @@
             this.columnStock = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pageOrders = new System.Windows.Forms.TabPage();
             this.tabControl.SuspendLayout();
-            this.pageStock.SuspendLayout();
+            this.pageBooks.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
             // 
-            this.tabControl.Controls.Add(this.pageStock);
+            this.tabControl.Controls.Add(this.pageBooks);
             this.tabControl.Controls.Add(this.pageOrders);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Location = new System.Drawing.Point(0, 0);
@@ -55,16 +55,16 @@
             this.tabControl.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.tabControl.TabIndex = 0;
             // 
-            // pageStock
+            // pageBooks
             // 
-            this.pageStock.Controls.Add(this.listStock);
-            this.pageStock.Location = new System.Drawing.Point(4, 27);
-            this.pageStock.Name = "pageStock";
-            this.pageStock.Padding = new System.Windows.Forms.Padding(3);
-            this.pageStock.Size = new System.Drawing.Size(1256, 650);
-            this.pageStock.TabIndex = 0;
-            this.pageStock.Text = "Stock";
-            this.pageStock.UseVisualStyleBackColor = true;
+            this.pageBooks.Controls.Add(this.listStock);
+            this.pageBooks.Location = new System.Drawing.Point(4, 27);
+            this.pageBooks.Name = "pageBooks";
+            this.pageBooks.Padding = new System.Windows.Forms.Padding(3);
+            this.pageBooks.Size = new System.Drawing.Size(1256, 650);
+            this.pageBooks.TabIndex = 0;
+            this.pageBooks.Text = "Books";
+            this.pageBooks.UseVisualStyleBackColor = true;
             // 
             // listStock
             // 
@@ -143,7 +143,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.tabControl.ResumeLayout(false);
-            this.pageStock.ResumeLayout(false);
+            this.pageBooks.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -151,7 +151,7 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl;
-        private System.Windows.Forms.TabPage pageStock;
+        private System.Windows.Forms.TabPage pageBooks;
         private System.Windows.Forms.TabPage pageOrders;
         private System.Windows.Forms.ListView listStock;
         private System.Windows.Forms.ColumnHeader columnISBN;
