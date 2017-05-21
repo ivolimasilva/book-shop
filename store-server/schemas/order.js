@@ -56,6 +56,10 @@ var validator = require('node-mongoose-validator'),
                     type: Number,
                     required: true
                 },
+                ready: {
+                    type: Boolean,
+                    default: false
+                },
                 total: {
                     type: Number,
                     required: true

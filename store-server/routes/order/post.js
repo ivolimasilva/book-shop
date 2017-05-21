@@ -38,24 +38,9 @@ module.exports = function (server, transporter, _rsmq) {
                 // Message Queue Client
                 var rsmq = new RedisSMQ({ client: _rsmq });
 
-                /* Message example
-                 *
-                    rsmq.sendMessage({
-                        qname: Config.redis.name,
-                        message: 'Hello Warehouse!' 
-                        // criar objeto
-                        // 
-                    }, (err, id) => {
-                        if (id) {
-                            console.log('Message sent: ID: ' + id);
-                        }
-                    });
-                 * 
-                 */
-
                 Jwt.verify(request.payload.user.token)
                     .then((decoded) => {
-                
+
                         User.findOne({
                             'email': request.payload.user.email
                         }, function (err, userx) {
@@ -80,7 +65,18 @@ module.exports = function (server, transporter, _rsmq) {
                                 // Iterate over requested books to update order object's books
                                 Promise.each(request.payload.books, function (book) {
                                     return Book.findById(book._id).exec((err, bookfound) => {
+
                                         if (!err && bookfound) {
+                                        var ready = false;
+                                            
+                                            if (bookfound.stock >= book.quantity) {
+                                                bookfound.stock = bookfound.stock - book.quantity;
+                                                ready = true;
+                                                bookfound.save();
+                                            } else {
+                                                //MAKE ORDER TO WAREHOUSE
+                                                canBeDispatched = false;
+                                            }
 
                                             // Update order's books' array
                                             order.books.push({
@@ -89,39 +85,32 @@ module.exports = function (server, transporter, _rsmq) {
                                                 isbn: bookfound.isbn,
                                                 quantity: book.quantity,
                                                 price: bookfound.price,
+                                                ready: ready,
                                                 total: book.quantity * bookfound.price
                                             });
 
                                             // Update order's total cost
                                             order.total += book.quantity * bookfound.price;
 
-                                            if (bookfound.stock >= book.quantity) {
-                                                bookfound.stock = bookfound.stock - book.quantity;
-                                                bookfound.save();
-                                            }
-                                            else {
-                                                //MAKE ORDER TO WAREHOUSE
-                                                canBeDispatched = false;
-                                            }
                                         }
                                     });
                                 }).then(function () {
                                     if (canBeDispatched) {
-                                        var today = new Date();
-                                        var dd = today.getDate();
-                                        var mm = today.getMonth() + 1;
-                                        var yyyy = today.getFullYear();
-
-                                        if (dd < 10) {
-                                            dd = '0' + dd
-                                        }
-
-                                        if (mm < 10) {
-                                            mm = '0' + mm
-                                        }
-
-                                        today = dd + '/' + mm + '/' + yyyy;
-                                        order.status = 'Dispatched at ' + today;
+                                        var today = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+                                        /*   var dd = today.getDate();
+                                           var mm = today.getMonth() + 1;
+                                           var yyyy = today.getFullYear();
+   
+                                           if (dd < 10) {
+                                               dd = '0' + dd
+                                           }
+   
+                                           if (mm < 10) {
+                                               mm = '0' + mm
+                                           }
+   
+                                           today = dd + '/' + mm + '/' + yyyy;*/
+                                        order.status = 'Dispatched at ' + today.toLocaleDateString('pt-PT');
                                     }
 
                                     // Save new Order in DB
@@ -254,6 +243,23 @@ module.exports = function (server, transporter, _rsmq) {
                                                     //return reply({ statusCode: 200 });
                                                 }
                                             });
+
+
+                                            /* Message example
+                                             *
+                                                rsmq.sendMessage({
+                                                    qname: Config.redis.name,
+                                                    message: 'Hello Warehouse!' 
+                                                    // criar objeto
+                                                    // 
+                                                }, (err, id) => {
+                                                    if (id) {
+                                                        console.log('Message sent: ID: ' + id);
+                                                    }
+                                                });
+                                             * 
+                                             */
+
 
                                             // Delete user's ID just to be safe
                                             newOrder.user._id = undefined;
