@@ -46,7 +46,7 @@ namespace store_client.Views
 
             foreach (Book book in books)
             {
-                string[] arr = new string[8];
+                string[] arr = new string[7];
                 arr[0] = book.isbn;
                 arr[1] = book.stock.ToString();
                 arr[2] = book.title;
@@ -65,6 +65,19 @@ namespace store_client.Views
             listViewOrders.Items.Clear();
             HttpClient httpClient = new HttpClient();
             ListViewItem itm;
+            Task<String> ordersInfo = getOrdersList("http://localhost:9000/order", httpClient);
+            await ordersInfo;
+            orders = JsonConvert.DeserializeObject<List<Orders>>(ordersInfo.Result);
+
+            foreach (Orders order in orders)
+            {
+                string[] arr = new string[3];
+                arr[0] = order.state;
+                arr[1] = order.total.ToString();
+                arr[2] = order.user.email;
+                itm = new ListViewItem(arr);
+                listViewOrders.Items.Add(itm);
+            }
         }
 
         private async Task<String> getBookList(string url , HttpClient client)
@@ -74,7 +87,7 @@ namespace store_client.Views
             return getInfo;
         }
 
-        private async Task<String> getOrderList(string url, HttpClient client)
+        private async Task<String> getOrdersList(string url, HttpClient client)
         {
             String getInfo = await client.GetStringAsync(url);
 

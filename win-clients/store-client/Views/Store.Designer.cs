@@ -41,13 +41,11 @@
             this.unit_Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.year = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pageOrder = new System.Windows.Forms.TabPage();
-            this.btnRefreshOrders = new System.Windows.Forms.Button();
             this.listViewOrders = new System.Windows.Forms.ListView();
             this.state = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.total = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.address = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.email = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnRefreshOrders = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.stockPage.SuspendLayout();
             this.pageOrder.SuspendLayout();
@@ -163,23 +161,11 @@
             this.pageOrder.Text = "Orders";
             this.pageOrder.UseVisualStyleBackColor = true;
             // 
-            // btnRefreshOrders
-            // 
-            this.btnRefreshOrders.Image = ((System.Drawing.Image)(resources.GetObject("btnRefreshOrders.Image")));
-            this.btnRefreshOrders.Location = new System.Drawing.Point(3, 8);
-            this.btnRefreshOrders.Name = "btnRefreshOrders";
-            this.btnRefreshOrders.Size = new System.Drawing.Size(25, 27);
-            this.btnRefreshOrders.TabIndex = 2;
-            this.btnRefreshOrders.UseVisualStyleBackColor = true;
-            this.btnRefreshOrders.Click += new System.EventHandler(this.btnRefreshOrders_Click);
-            // 
             // listViewOrders
             // 
             this.listViewOrders.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.state,
             this.total,
-            this.name,
-            this.address,
             this.email});
             this.listViewOrders.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listViewOrders.FullRowSelect = true;
@@ -193,7 +179,7 @@
             // state
             // 
             this.state.Text = "State";
-            this.state.Width = 120;
+            this.state.Width = 200;
             // 
             // total
             // 
@@ -201,23 +187,21 @@
             this.total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.total.Width = 80;
             // 
-            // name
-            // 
-            this.name.Text = "Name";
-            this.name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.name.Width = 120;
-            // 
-            // address
-            // 
-            this.address.Text = "Address";
-            this.address.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.address.Width = 120;
-            // 
             // email
             // 
             this.email.Text = "email";
             this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.email.Width = 120;
+            this.email.Width = 200;
+            // 
+            // btnRefreshOrders
+            // 
+            this.btnRefreshOrders.Image = ((System.Drawing.Image)(resources.GetObject("btnRefreshOrders.Image")));
+            this.btnRefreshOrders.Location = new System.Drawing.Point(3, 8);
+            this.btnRefreshOrders.Name = "btnRefreshOrders";
+            this.btnRefreshOrders.Size = new System.Drawing.Size(25, 27);
+            this.btnRefreshOrders.TabIndex = 2;
+            this.btnRefreshOrders.UseVisualStyleBackColor = true;
+            this.btnRefreshOrders.Click += new System.EventHandler(this.btnRefreshOrders_Click);
             // 
             // Store
             // 
@@ -253,8 +237,6 @@
         private System.Windows.Forms.ListView listViewOrders;
         private System.Windows.Forms.ColumnHeader state;
         private System.Windows.Forms.ColumnHeader total;
-        private System.Windows.Forms.ColumnHeader name;
-        private System.Windows.Forms.ColumnHeader address;
         private System.Windows.Forms.ColumnHeader email;
     }
 }

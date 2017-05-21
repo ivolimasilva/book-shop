@@ -17,7 +17,7 @@ namespace store_client.Management
         public string publisher { get; set; }
         public float price { get; set; }
         public int  stock { get; set; }
-        public string imageurl { get; set; }
+        public string imageurl { get; set; }        
 
         public Book() { }
 
