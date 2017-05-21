@@ -9,6 +9,7 @@ var Joi = require('joi'),
     Mongoose = require('mongoose'),
     Book = Mongoose.model('Book'),
     Order = Mongoose.model('Order'),
+    User = Mongoose.model('User'),
     inLineCss = require('nodemailer-juice');
 
 module.exports = function (server, transporter, _rsmq) {
@@ -41,7 +42,9 @@ module.exports = function (server, transporter, _rsmq) {
                  *
                     rsmq.sendMessage({
                         qname: Config.redis.name,
-                        message: 'Hello Warehouse!'
+                        message: 'Hello Warehouse!' 
+                        // criar objeto
+                        // 
                     }, (err, id) => {
                         if (id) {
                             console.log('Message sent: ID: ' + id);
@@ -52,90 +55,98 @@ module.exports = function (server, transporter, _rsmq) {
 
                 Jwt.verify(request.payload.user.token)
                     .then((decoded) => {
-                        var canBeDispatched = true;
-                        // Create Order object
-                        var order = new Order({
-                            status: 'Waiting for dispatch',
-                            total: 0,
-                            user: {
-                                _id: decoded,
-                                name: request.payload.user.name,
-                                address: request.payload.user.address,
-                                email: request.payload.user.email
-                            },
-                            books: []
-                        });
+                
+                        User.findOne({
+                            'email': request.payload.user.email
+                        }, function (err, userx) {
+                            if (err) {
+                                return reply({ statusCode: 500 });
+                            } else if (userx) {
 
-                        // Iterate over requested books to update order object's books
-                        Promise.each(request.payload.books, function (book) {
-                            return Book.findById(book._id).exec((err, bookfound) => {
-                                if (!err && bookfound) {
+                                var canBeDispatched = true;
+                                // Create Order object
+                                var order = new Order({
+                                    status: 'Waiting for dispatch',
+                                    total: 0,
+                                    user: {
+                                        _id: userx._id,
+                                        name: request.payload.user.name,
+                                        address: request.payload.user.address,
+                                        email: request.payload.user.email
+                                    },
+                                    books: []
+                                });
 
-                                    // Update order's books' array
-                                    order.books.push({
-                                        _id: bookfound._id,
-                                        title: bookfound.title,
-                                        isbn: bookfound.isbn,
-                                        quantity: book.quantity,
-                                        price: bookfound.price,
-                                        total: book.quantity * bookfound.price
+                                // Iterate over requested books to update order object's books
+                                Promise.each(request.payload.books, function (book) {
+                                    return Book.findById(book._id).exec((err, bookfound) => {
+                                        if (!err && bookfound) {
+
+                                            // Update order's books' array
+                                            order.books.push({
+                                                _id: bookfound._id,
+                                                title: bookfound.title,
+                                                isbn: bookfound.isbn,
+                                                quantity: book.quantity,
+                                                price: bookfound.price,
+                                                total: book.quantity * bookfound.price
+                                            });
+
+                                            // Update order's total cost
+                                            order.total += book.quantity * bookfound.price;
+
+                                            if (bookfound.stock >= book.quantity) {
+                                                bookfound.stock = bookfound.stock - book.quantity;
+                                                bookfound.save();
+                                            }
+                                            else {
+                                                //MAKE ORDER TO WAREHOUSE
+                                                canBeDispatched = false;
+                                            }
+                                        }
                                     });
+                                }).then(function () {
+                                    if (canBeDispatched) {
+                                        var today = new Date();
+                                        var dd = today.getDate();
+                                        var mm = today.getMonth() + 1;
+                                        var yyyy = today.getFullYear();
 
-                                    // Update order's total cost
-                                    order.total += book.quantity * bookfound.price;
+                                        if (dd < 10) {
+                                            dd = '0' + dd
+                                        }
 
-                                    if (bookfound.stock >= book.quantity) {
-                                        bookfound.stock = bookfound.stock - book.quantity;
-                                        bookfound.save();
+                                        if (mm < 10) {
+                                            mm = '0' + mm
+                                        }
+
+                                        today = dd + '/' + mm + '/' + yyyy;
+                                        order.status = 'Dispatched at ' + today;
                                     }
-                                    else {
-                                        //MAKE ORDER TO WAREHOUSE
-                                        canBeDispatched = false;
-                                    }
-                                }
-                            });
-                        }).then(function () {
-                            if (canBeDispatched) {
-                                var today = new Date();
-                                var dd = today.getDate();
-                                var mm = today.getMonth() + 1;
-                                var yyyy = today.getFullYear();
 
-                                if (dd < 10) {
-                                    dd = '0' + dd
-                                }
-
-                                if (mm < 10) {
-                                    mm = '0' + mm
-                                }
-
-                                today = dd + '/' + mm + '/' + yyyy;
-                                order.status = 'Dispatched at ' + today;
-                            }
-
-                            // Save new Order in DB
-                            order.save((err, newOrder) => {
-                                if (err) {
-                                    return reply(Boom.badImplementation('Server error saving order. Derp.'));
-                                }
-                                else {
-                                    var booklist = newOrder.books.reduce(function (a, item) {
-                                        return a + `<tr>
+                                    // Save new Order in DB
+                                    order.save((err, newOrder) => {
+                                        if (err) {
+                                            return reply(Boom.badImplementation('Server error saving order. Derp.'));
+                                        }
+                                        else {
+                                            var booklist = newOrder.books.reduce(function (a, item) {
+                                                return a + `<tr>
                                                         <th>`+ item.isbn + `</th>
                                                         <td>`+ item.title + `</td>
                                                         <td>`+ item.quantity + `</td>
                                                         <td>`+ item.price + `€</td>
                                                         <td>`+ item.quantity * item.price + `€</td>
                                                     </tr>`;
-                                    }, '');
+                                            }, '');
 
-                                    // Email configuration
-                                    var mailOptions = {
-                                        from: 'Ye Old Book Shop',
-                                        to: newOrder.user.email,
-                                        subject: 'Invoices Confirmation',
-                                        html:
-                                        `
+                                            // Email configuration
+                                            var mailOptions = {
+                                                from: 'Ye Old Book Shop',
+                                                to: newOrder.user.email,
+                                                subject: 'Invoices Confirmation',
+                                                html:
+                                                `
 
 <table class="body-wrap">
 	<tr>
@@ -228,31 +239,38 @@ module.exports = function (server, transporter, _rsmq) {
 </body>
 
                                             `,
-                                        text: 'Authentication code: ' + newOrder.total
+                                                text: 'Authentication code: ' + newOrder.total
 
-                                    };
+                                            };
 
 
-                                    transporter.use('compile', inLineCss());
-                                    // Send code by email
-                                    transporter.sendMail(mailOptions, (err, info) => {
-                                        if (err) {
-                                            //return reply(Boom.badImplementation('Error sending email with authentication code.'));
-                                        } else {
-                                            // Return status OK
-                                            //return reply({ statusCode: 200 });
+                                            transporter.use('compile', inLineCss());
+                                            // Send code by email
+                                            transporter.sendMail(mailOptions, (err, info) => {
+                                                if (err) {
+                                                    //return reply(Boom.badImplementation('Error sending email with authentication code.'));
+                                                } else {
+                                                    // Return status OK
+                                                    //return reply({ statusCode: 200 });
+                                                }
+                                            });
+
+                                            // Delete user's ID just to be safe
+                                            newOrder.user._id = undefined;
+                                            // Return Order object
+                                            return reply(newOrder);
                                         }
                                     });
 
-                                    // Delete user's ID just to be safe
-                                    newOrder.user._id = undefined;
-                                    // Return Order object
-                                    return reply(newOrder);
-                                }
-                            });
+                                });
 
+
+                            } else {
+                                console.log("EP3");
+                                return reply(Boom.badRequest('User not found.'));
+                            }
                         });
-
+                        //DECODED ENDS
                     })
                     .catch((err) => {
                         return reply(Boom.unauthorized('Invalid authentication token.'));
