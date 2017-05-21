@@ -15,6 +15,6 @@ var Config = require('config'),
 
 module.exports = function () {
 
-    require('message-queues/stock')(worker);
+    require('queues/stock')(worker);
 
 };

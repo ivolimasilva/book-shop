@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (server) {
+module.exports = function (server, rsmq) {
 
 	/*
 	 * Routes for authentication
@@ -20,7 +20,7 @@ module.exports = function (server) {
 	 * 	GET /book
 	 */
 
-	require('routes/book')(server);
+	require('routes/book')(server, rsmq);
 
 	/*
 	 * Routes for Orders management

@@ -2,10 +2,12 @@
 
 var Joi = require('joi'),
     Boom = require('boom'),
+    Config = require('config'),
     Mongoose = require('mongoose'),
-    Book = Mongoose.model('Book');
+    Book = Mongoose.model('Book'),
+    RedisSMQ = require('rsmq');
 
-module.exports = function (server) {
+module.exports = function (server, _rsmq) {
 
     /*
      * Route to get books by (optional) filter
@@ -24,6 +26,19 @@ module.exports = function (server) {
         method: 'GET',
         config: {
             handler: function (request, reply) {
+
+                var rsmq = new RedisSMQ({ client: _rsmq });
+
+                // TODO: Delete this next bit
+                rsmq.sendMessage({
+                    qname: Config.redis.name,
+                    message: 'Hello Warehouse!'
+                }, (err, id) => {
+                    if (id) {
+                        console.log('Message sent: ID: ' + id);
+                    }
+                });
+
                 Book.find(request.query, (err, books) => {
                     if (err) {
                         return reply(Boom.badRequest(err));
