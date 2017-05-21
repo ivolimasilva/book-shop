@@ -20,7 +20,7 @@ var validator = require('node-mongoose-validator'),
             type: String,
             required: true
         },
-        employee: {
+        security_level: {
             type: Number,
             default: 0
         }
