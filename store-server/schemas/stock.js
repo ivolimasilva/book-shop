@@ -14,6 +14,10 @@ var Mongoose = require('mongoose'),
         quantity: {
             type: Number,
             required: true
+        },
+        replied: {
+            type: Boolean,
+            default: false
         }
     });
 
