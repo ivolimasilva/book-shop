@@ -30,19 +30,18 @@ module.exports = function (server) {
                 Jwt.verify(request.state.session)
                     .then((decoded) => {
                         User.findById(decoded._id, function (err, loggeduser) {
-                            if (loggeduser.security_level > 0) {
-                                Order.find({}, (err, orders) => {
-                                    return reply(orders);
-                                });
+                            if (loggeduser) {
+                                if (loggeduser.security_level > 0) {
+                                    Order.find({}, (err, orders) => {
+                                        return reply(orders);
+                                    });
+                                } else {
+                                    // Finds all orders associated with logged in User 
+                                    Order.find({ 'user.email': loggeduser.email }, (err, orders) => {
+                                        return reply(orders);
+                                    });
+                                }
                             }
-                            else {
-                            //    Order.find({ 'user._id': new Mongoose.Types.ObjectId(decoded._id) }, (err, orders) => {
-                                // Finds all orders associated with logged in User 
-                                Order.find({ 'user.email': loggeduser.email }, (err, orders) => {
-                                    return reply(orders);
-                                });
-                            }
-
                         });
                     })
                     .catch((err) => {

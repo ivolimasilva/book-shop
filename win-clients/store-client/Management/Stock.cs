@@ -2,7 +2,7 @@
 {
     public class Stock
     {
-
+        public string _id { get; set; }
         public string _id_order { get; set; }
         public string isbn { get; set; }
         public int quantity { get; set; }

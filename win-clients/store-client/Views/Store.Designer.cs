@@ -50,6 +50,12 @@
             this.totalBooks = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnRefreshOrders = new System.Windows.Forms.Button();
             this.stockReq = new System.Windows.Forms.TabPage();
+            this.listStock = new System.Windows.Forms.ListView();
+            this.columnID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnOrderID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnISBN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnQuantity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnAccepted = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.sale = new System.Windows.Forms.TabPage();
             this.btnDeleteSaleList = new System.Windows.Forms.Button();
             this.btnRefreshSaleList = new System.Windows.Forms.Button();
@@ -70,11 +76,6 @@
             this.saleStock = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.saleTitle = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.salePrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listStock = new System.Windows.Forms.ListView();
-            this.columnOrderID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnISBN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnQuantity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnAccepted = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl.SuspendLayout();
             this.stockPage.SuspendLayout();
             this.pageOrder.SuspendLayout();
@@ -269,6 +270,47 @@
             this.stockReq.Text = "Stock Requests";
             this.stockReq.UseVisualStyleBackColor = true;
             // 
+            // listStock
+            // 
+            this.listStock.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnID,
+            this.columnOrderID,
+            this.columnISBN,
+            this.columnQuantity,
+            this.columnAccepted});
+            this.listStock.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listStock.Location = new System.Drawing.Point(0, 0);
+            this.listStock.Name = "listStock";
+            this.listStock.Size = new System.Drawing.Size(1256, 694);
+            this.listStock.TabIndex = 0;
+            this.listStock.UseCompatibleStateImageBehavior = false;
+            this.listStock.View = System.Windows.Forms.View.Details;
+            this.listStock.Click += new System.EventHandler(this.listStock_Click);
+            // 
+            // columnID
+            // 
+            this.columnID.Text = "ID";
+            // 
+            // columnOrderID
+            // 
+            this.columnOrderID.Text = "Order ID";
+            this.columnOrderID.Width = 352;
+            // 
+            // columnISBN
+            // 
+            this.columnISBN.Text = "ISBN";
+            this.columnISBN.Width = 371;
+            // 
+            // columnQuantity
+            // 
+            this.columnQuantity.Text = "Quantity";
+            this.columnQuantity.Width = 122;
+            // 
+            // columnAccepted
+            // 
+            this.columnAccepted.Text = "Accepted";
+            this.columnAccepted.Width = 110;
+            // 
             // sale
             // 
             this.sale.Controls.Add(this.btnDeleteSaleList);
@@ -442,41 +484,6 @@
             this.salePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.salePrice.Width = 120;
             // 
-            // listStock
-            // 
-            this.listStock.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnOrderID,
-            this.columnISBN,
-            this.columnQuantity,
-            this.columnAccepted});
-            this.listStock.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listStock.Location = new System.Drawing.Point(0, 0);
-            this.listStock.Name = "listStock";
-            this.listStock.Size = new System.Drawing.Size(1256, 694);
-            this.listStock.TabIndex = 0;
-            this.listStock.UseCompatibleStateImageBehavior = false;
-            this.listStock.View = System.Windows.Forms.View.Details;
-            // 
-            // columnOrderID
-            // 
-            this.columnOrderID.Text = "Order ID";
-            this.columnOrderID.Width = 177;
-            // 
-            // columnISBN
-            // 
-            this.columnISBN.Text = "ISBN";
-            this.columnISBN.Width = 371;
-            // 
-            // columnQuantity
-            // 
-            this.columnQuantity.Text = "Quantity";
-            this.columnQuantity.Width = 122;
-            // 
-            // columnAccepted
-            // 
-            this.columnAccepted.Text = "Accepted";
-            this.columnAccepted.Width = 110;
-            // 
             // Store
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -544,5 +551,6 @@
         private System.Windows.Forms.ColumnHeader columnISBN;
         private System.Windows.Forms.ColumnHeader columnQuantity;
         private System.Windows.Forms.ColumnHeader columnAccepted;
+        private System.Windows.Forms.ColumnHeader columnID;
     }
 }
