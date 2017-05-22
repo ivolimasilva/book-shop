@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Objects\Book.cs" />
+    <Compile Include="Objects\Stock.cs" />
     <Compile Include="Views\Home.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -18,8 +18,7 @@ module.exports = function (server) {
                 }
             },
             handler: function (request, reply) {
-                console.log(request.payload);
-                Stock.findById(request.payload._id, (err, _stock) => {
+                Stock.findOne({ _id_order: request.payload._id }, (err, _stock) => {
 
                     Axios.post('http://localhost:9000' + '/stock', {
                         _id_order: _stock._id_order,
@@ -27,7 +26,10 @@ module.exports = function (server) {
                         quantity: _stock.quantity
                     })
                         .then((response) => {
-                            return reply();
+                            Stock.findOneAndRemove({ _id_order: request.payload._id })
+                                .exec((err) => {
+                                    return reply();
+                                });
                         })
                         .catch((error) => {
                             return reply(error);
