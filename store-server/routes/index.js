@@ -40,4 +40,12 @@ module.exports = function (server, transporter, rsmq) {
 
 	require('routes/user')(server);
 
+	/*
+	 * Routes for stock information
+	 * 
+	 * Routes:
+	 * 	POST /stock
+	 */
+
+	require('routes/stock')(server);
 };

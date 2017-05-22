@@ -75,13 +75,13 @@ module.exports = function (server, transporter, _rsmq) {
                                                 ready = true;
                                                 bookfound.save();
                                             } else {
-                                                
+
                                                 var stock = new Stock({
                                                     isbn: bookfound.isbn,
                                                     _id_order: order._id,
                                                     quantity: book.quantity + 10
                                                 });
-                                           
+
                                                 rsmq.sendMessage({
                                                     qname: Config.redis.name,
                                                     message: JSON.stringify(stock)
@@ -90,8 +90,6 @@ module.exports = function (server, transporter, _rsmq) {
                                                         console.log('Message sent: ID: ' + id);
                                                     }
                                                 });
-                                                stock.save();
-                                          
 
                                                 canBeDispatched = false;
                                             }

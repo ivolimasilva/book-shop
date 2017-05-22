@@ -15,7 +15,7 @@ var Mongoose = require('mongoose'),
             type: Number,
             required: true
         },
-        replied: {
+        accepted: {
             type: Boolean,
             default: false
         }
