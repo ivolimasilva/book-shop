@@ -24,5 +24,15 @@ module.exports = function (server, transporter, rsmq) {
      * Returns:
      */
     require('routes/stock/put')(server, transporter, rsmq);
-
+    /*
+     * Route to get stock
+     * Method:  GET
+     * Params:  _id?order - order of id
+     *          quantity - quantity of order
+     *          accepted - if clerk has acceped package
+     *          (doesn't work with queries other than equal, like 'less than' (<), 'greater than' (>), ...)
+     *          (no filter returns all the books)
+     *
+     * Returns: the stock's information*/
+    require('routes/stock/get')(server);
 };
