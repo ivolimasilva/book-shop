@@ -15,5 +15,6 @@ module.exports = function (server) {
      */
 
     require('routes/stock/get')(server);
+    require('routes/stock/post')(server);
 
 };

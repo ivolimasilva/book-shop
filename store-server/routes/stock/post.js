@@ -31,33 +31,38 @@ module.exports = function (server) {
         config: {
             validate: {
                 payload: {
-                    stock: Joi.object().required()
+                    quantity: Joi.number().required(),
+                    isbn: Joi.string().required(),
+                    _id_order: Joi.string().required()
                 }
             },
             handler: function (request, reply) {
 
                 var stockitem = new Stock({
-                    quantity: stock.quantity,
-                    isbn: stock.isbn,
-                    _id_order: stock._id_order
+                    quantity: request.payload.quantity,
+                    isbn: request.payload.isbn,
+                    _id_order: request.payload._id_order
                 });
+
                 stockitem.save((error, saved) => {
-                    Order.findByIdAndUpdate(saved._id_order, {
-                        status: 'Dispatch should occur at ' + new Date(new Date().getTime() + 48 * 60 * 60 * 1000)
-                    }, {
-                            safe: true,
-                            upsert: true,
-                            new: true
-                        }, (err, order) => {
-                            if (err) {
-                                return reply(Boom.badRequest(err));
-                            }
-                            else {
-                                return reply({
-                                    statusCode: 200
-                                });
-                            }
-                        });
+                    if (error) {
+                        return reply(Boom.badRequest(error));
+                    } else {
+                        Order.findByIdAndUpdate(saved._id_order, {
+                            status: 'Dispatch should occur at ' + new Date(new Date().getTime() + 48 * 60 * 60 * 1000)
+                        }, {
+                                safe: true,
+                                upsert: true,
+                                new: true
+                            }, (err, order) => {
+                                if (err) {
+                                    return reply(Boom.badRequest(err));
+                                }
+                                else {
+                                    return reply();
+                                }
+                            });
+                    }
                 });
 
             }
