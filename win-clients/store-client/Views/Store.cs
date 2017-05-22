@@ -264,9 +264,14 @@ namespace store_client.Views
 
         private void updateListStock(ListView list)
         {
+            list.Items.Clear();
+            list.Update(); // In case there is databinding
+            list.Refresh(); // Redraw items
+
             foreach (Stock stock in stockRequests)
             {
                 string[] row = {
+                    stock._id,
                     stock._id_order,
                     stock.isbn,
                     stock.quantity.ToString(),
@@ -286,6 +291,27 @@ namespace store_client.Views
                 {
                     list.Items.Add(item);
                 }
+            }
+        }
+
+        private void listStock_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Accept stock request?", "Stock request", MessageBoxButtons.OKCancel);
+
+            if (dialogResult == DialogResult.OK)
+            {
+                var stockRequest = new RestRequest("stock", Method.PUT);
+
+                stockRequest.AddParameter("_id", listStock.SelectedItems[0].SubItems[0].Text);
+
+                rClient.ExecuteAsync<List<Book>>(stockRequest, response =>
+                {
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        MessageBox.Show("Stock request accepted.");
+                        updateStock();
+                    }
+                });
             }
         }
     }
