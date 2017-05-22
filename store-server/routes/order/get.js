@@ -6,6 +6,7 @@ var Joi = require('joi'),
     Jwt = require('utils/jwt'),
     Promise = require('bluebird'),
     Mongoose = require('mongoose'),
+    User = Mongoose.model('User'),
     Order = Mongoose.model('Order');
 
 module.exports = function (server) {
@@ -24,14 +25,25 @@ module.exports = function (server) {
         method: 'GET',
         config: {
             handler: function (request, reply) {
-
+                var please = null;
                 // Verify if token is valid and returns user's ID
                 Jwt.verify(request.state.session)
                     .then((decoded) => {
-                        Order.find({ 'user._id': new Mongoose.Types.ObjectId(decoded._id) }, (err, orders) => {
-                            return reply(orders);
-                        });
+                        User.findById(decoded._id, function (err, loggeduser) {
+                            if (loggeduser.security_level > 0) {
+                                Order.find({}, (err, orders) => {
+                                    return reply(orders);
+                                });
+                            }
+                            else {
+                            //    Order.find({ 'user._id': new Mongoose.Types.ObjectId(decoded._id) }, (err, orders) => {
+                                // Finds all orders associated with logged in User 
+                                Order.find({ 'user.email': loggeduser.email }, (err, orders) => {
+                                    return reply(orders);
+                                });
+                            }
 
+                        });
                     })
                     .catch((err) => {
                         return reply(Boom.unauthorized('Invalid token.'));
