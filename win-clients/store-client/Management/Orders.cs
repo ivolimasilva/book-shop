@@ -8,12 +8,11 @@ using System.Threading.Tasks;
 namespace store_client.Management
 {
     [Serializable]
-    class Orders
+    public class Orders
     {
         public string status { get; set; }
         public string date { get; set; }
-        public int total { get; set; }
-        
+        public int total { get; set; }        
         public User user { get; set; }
         public List<Book> books { get; set; }
 

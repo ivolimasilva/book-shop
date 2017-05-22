@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace store_client.Management
 {
     [Serializable]
-    class Book
+    public class Book
     {        
         public string _id { get; set; }
         public string isbn { get; set; }
@@ -18,7 +18,8 @@ namespace store_client.Management
         public string publisher { get; set; }
         public float price { get; set; }
         public int  stock { get; set; }
-        public string imageurl { get; set; }        
+        public string imageurl { get; set; }
+        public int quantity { get; set; }
 
         public Book() { }
 

@@ -217,24 +217,16 @@ namespace store_client.Views
             };
 
             request.AddObject(json);
-
-
-            /*      foreach(var item in listViewSaleOrder.Items)
-                  {
-                      //booksToSell.Add((Book) item);
-                      //booksToSell = books.Where(_book => _book.title == (string)item).ToList();
-                      booksToSell.Add(books.Where(_book => _book.title == item.ToString()).First());
-                  }
-                  string json = JsonConvert.SerializeObject(booksToSell);*/
-
             try
             {
-                rClient.ExecuteAsync<User>(request, response =>
+                rClient.ExecuteAsync<Orders>(request, response =>
                 {
                     if (response.StatusCode == HttpStatusCode.OK)
-                    {
-                        // response.Data
-                        MessageBox.Show("Here");
+                    {                        
+                        new Thread(() =>
+                        {
+                            Application.Run(new Order(response.Data));
+                        }).Start();
                     }
                     else
                     {
