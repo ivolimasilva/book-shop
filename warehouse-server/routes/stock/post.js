@@ -18,7 +18,7 @@ module.exports = function (server) {
                 }
             },
             handler: function (request, reply) {
-
+                console.log(request.payload);
                 Stock.findById(request.payload._id, (err, _stock) => {
 
                     Axios.post('http://localhost:9000' + '/stock', {

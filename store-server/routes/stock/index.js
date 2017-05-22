@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = function (server) {
+module.exports = function (server, transporter, rsmq) {
 
     /*
      * Route to post stock by (optional) filter
@@ -14,5 +14,15 @@ module.exports = function (server) {
      */
 
     require('routes/stock/post')(server);
+
+    /*
+     * Route to update stock and dispatch order if possible
+     * Method:  POST
+
+     * Params:  
+     *
+     * Returns:
+     */
+    require('routes/stock/put')(server, transporter, rsmq);
 
 };

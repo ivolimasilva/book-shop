@@ -47,5 +47,5 @@ module.exports = function (server, transporter, rsmq) {
 	 * 	POST /stock
 	 */
 
-	require('routes/stock')(server);
+	require('routes/stock')(server, transporter, rsmq);
 };
