@@ -10,6 +10,7 @@ var Joi = require('joi'),
     Book = Mongoose.model('Book'),
     Order = Mongoose.model('Order'),
     User = Mongoose.model('User'),
+    Stock = Mongoose.model('Stock'),
     inLineCss = require('nodemailer-juice');
 
 module.exports = function (server, transporter, _rsmq) {
@@ -67,14 +68,31 @@ module.exports = function (server, transporter, _rsmq) {
                                     return Book.findById(book._id).exec((err, bookfound) => {
 
                                         if (!err && bookfound) {
-                                        var ready = false;
-                                            
+                                            var ready = false;
+
                                             if (bookfound.stock >= book.quantity) {
                                                 bookfound.stock = bookfound.stock - book.quantity;
                                                 ready = true;
                                                 bookfound.save();
                                             } else {
-                                                //MAKE ORDER TO WAREHOUSE
+                                                
+                                                var stock = new Stock({
+                                                    isbn: bookfound.isbn,
+                                                    _id_order: order._id,
+                                                    quantity: book.quantity + 10
+                                                });
+                                           
+                                                rsmq.sendMessage({
+                                                    qname: Config.redis.name,
+                                                    message: JSON.stringify(stock)
+                                                }, (err, id) => {
+                                                    if (id) {
+                                                        console.log('Message sent: ID: ' + id);
+                                                    }
+                                                });
+                                                stock.save();
+                                          
+
                                                 canBeDispatched = false;
                                             }
 
@@ -85,7 +103,6 @@ module.exports = function (server, transporter, _rsmq) {
                                                 isbn: bookfound.isbn,
                                                 quantity: book.quantity,
                                                 price: bookfound.price,
-                                                ready: ready,
                                                 total: book.quantity * bookfound.price
                                             });
 
@@ -243,24 +260,6 @@ module.exports = function (server, transporter, _rsmq) {
                                                     //return reply({ statusCode: 200 });
                                                 }
                                             });
-
-
-                                            /* Message example
-                                             *
-                                                rsmq.sendMessage({
-                                                    qname: Config.redis.name,
-                                                    message: 'Hello Warehouse!' 
-                                                    // criar objeto
-                                                    // 
-                                                }, (err, id) => {
-                                                    if (id) {
-                                                        console.log('Message sent: ID: ' + id);
-                                                    }
-                                                });
-                                             * 
-                                             */
-
-
                                             // Delete user's ID just to be safe
                                             newOrder.user._id = undefined;
                                             // Return Order object
