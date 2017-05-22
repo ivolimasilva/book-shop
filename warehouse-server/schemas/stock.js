@@ -8,8 +8,7 @@ var Mongoose = require('mongoose'),
             unique: true
         },
         _id_order: {
-            type: String,
-            required: true
+            type: String
         },
         quantity: {
             type: Number,

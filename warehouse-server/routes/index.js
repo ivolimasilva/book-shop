@@ -9,6 +9,15 @@ module.exports = function (server) {
 	 * 	GET /book
 	 */
 
-    require('routes/book')(server);
+	require('routes/book')(server);
+
+	/*
+	 * Routes for Stock Requests
+	 * 
+	 * Routes:
+	 * 	GET /stock
+	 */
+
+	require('routes/stock')(server);
 
 };
