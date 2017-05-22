@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "store-client", "store-client\store-client.csproj", "{4CC8E007-C377-4F07-9D8F-7AA2B8A29BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "warehouse-client", "warehouse-client\warehouse-client.csproj", "{A4AF928F-FD88-4FA0-9901-11E6F286F9FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4CC8E007-C377-4F07-9D8F-7AA2B8A29BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC8E007-C377-4F07-9D8F-7AA2B8A29BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC8E007-C377-4F07-9D8F-7AA2B8A29BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AF928F-FD88-4FA0-9901-11E6F286F9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AF928F-FD88-4FA0-9901-11E6F286F9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AF928F-FD88-4FA0-9901-11E6F286F9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AF928F-FD88-4FA0-9901-11E6F286F9FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
