@@ -1,16 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using RestSharp;
+using store_client.Management;
+using store_client.UserManagement;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using store_client.UserManagement;
 using System.Net;
 using System.Net.Http;
-using store_client.Management;
-using Newtonsoft.Json;
 using System.Threading;
-using RestSharp;
-using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace store_client.Views
 {
@@ -21,10 +20,15 @@ namespace store_client.Views
         List<Book> books = null;
         List<Orders> orders = null;
         List<BookToSell> booksToSell = new List<BookToSell>();
+        public List<Stock> stockRequests;
 
         public Store()
         {
             InitializeComponent();
+
+            rClient = new RestClient("http://localhost:9000");
+
+            updateStock();
             updateBookList();
             updateOrdersList();
         }
@@ -32,6 +36,9 @@ namespace store_client.Views
         public Store(User _user)
         {
             InitializeComponent();
+            rClient = new RestClient("http://localhost:9000");
+
+            updateStock();
             user = _user;
             updateBookList();
             updateOrdersList();
@@ -204,7 +211,7 @@ namespace store_client.Views
 
         private void btnSale_Click(object sender, EventArgs e)
         {
-            rClient = new RestClient("http://localhost:9000/");
+            // rClient = new RestClient("http://localhost:9000/");
             var request = new RestRequest("order", Method.POST);
 
             rClient.CookieContainer = new CookieContainer();
@@ -222,7 +229,7 @@ namespace store_client.Views
                 rClient.ExecuteAsync<Orders>(request, response =>
                 {
                     if (response.StatusCode == HttpStatusCode.OK)
-                    {                        
+                    {
                         new Thread(() =>
                         {
                             Application.Run(new Order(response.Data));
@@ -243,6 +250,43 @@ namespace store_client.Views
         private void btnDeleteSaleList_Click(object sender, EventArgs e)
         {
             listViewSaleOrder.Items.Clear();
+        }
+
+        private void updateStock()
+        {
+            var _stockRequest = new RestRequest("stock", Method.GET);
+            rClient.ExecuteAsync<List<Stock>>(_stockRequest, _response =>
+            {
+                stockRequests = _response.Data;
+                updateListStock(listStock);
+            });
+        }
+
+        private void updateListStock(ListView list)
+        {
+            foreach (Stock stock in stockRequests)
+            {
+                string[] row = {
+                    stock._id_order,
+                    stock.isbn,
+                    stock.quantity.ToString(),
+                    stock.accepted.ToString()
+                };
+
+                ListViewItem item = new ListViewItem(row);
+
+                if (list.InvokeRequired)
+                {
+                    list.BeginInvoke((MethodInvoker)delegate ()
+                    {
+                        list.Items.Add(item);
+                    });
+                }
+                else
+                {
+                    list.Items.Add(item);
+                }
+            }
         }
     }
 }

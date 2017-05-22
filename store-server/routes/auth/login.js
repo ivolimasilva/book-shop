@@ -30,7 +30,6 @@ module.exports = function (server) {
             },
             handler: function (request, reply) {
 
-                console.log(request.payload);
                 User.findOne({
                     email: request.payload.email
                 }, function (err, user) {

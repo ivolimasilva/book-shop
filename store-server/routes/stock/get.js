@@ -28,13 +28,9 @@ module.exports = function (server) {
                     if (err) {
                         return reply(Boom.badRequest(err));
                     } else if (stocks) {
-                        if (stocks.length > 1) {
-                            return reply(stocks);
-                        } else {
-                            return reply(stocks[0]);
-                        }
+                        return reply(stocks);
                     } else {
-                        return reply(Boom.badRequest('Stok not found.'));
+                        return reply(Boom.badRequest('Stock not found.'));
                     }
                 });
             }

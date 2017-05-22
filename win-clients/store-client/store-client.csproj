@@ -64,6 +64,7 @@
     <Compile Include="Management\Book.cs" />
     <Compile Include="Management\BookToSell.cs" />
     <Compile Include="Management\Orders.cs" />
+    <Compile Include="Management\Stock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Management\User.cs" />
