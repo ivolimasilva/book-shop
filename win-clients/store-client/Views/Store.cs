@@ -10,6 +10,7 @@ using store_client.Management;
 using Newtonsoft.Json;
 using System.Threading;
 using RestSharp;
+using System.Linq;
 
 namespace store_client.Views
 {
@@ -19,6 +20,7 @@ namespace store_client.Views
         private RestClient rClient;
         List<Book> books = null;
         List<Orders> orders = null;
+        List<BookToSell> booksToSell = new List<BookToSell>();
 
         public Store()
         {
@@ -33,6 +35,7 @@ namespace store_client.Views
             user = _user;
             updateBookList();
             updateOrdersList();
+            btnSale.Enabled = false;
         }
 
         private async void updateBookList()
@@ -56,16 +59,17 @@ namespace store_client.Views
                 arr[5] = book.price.ToString();
                 arr[6] = book.year.ToString();
 
-                string[] arr1 = new string[4];
+                string[] arr1 = new string[5];
                 arr1[0] = book.isbn;
                 arr1[1] = book.stock.ToString();
                 arr1[2] = book.title;
                 arr1[3] = book.price.ToString();
+                arr1[4] = book._id;
 
                 itm = new ListViewItem(arr);
                 itm1 = new ListViewItem(arr1);
                 listViewStock.Items.Add(itm);
-                listViewSalesList.Items.Add(itm1);                
+                listViewSalesList.Items.Add(itm1);
             }
 
             changeColorBooks();
@@ -78,7 +82,7 @@ namespace store_client.Views
 
             Uri uri = new Uri("http://localhost:9000/order");
             HttpClientHandler handler = new HttpClientHandler();
-            handler.CookieContainer = new CookieContainer();            
+            handler.CookieContainer = new CookieContainer();
             handler.CookieContainer.Add(uri, new Cookie("session", user.token)); // Adding a Cookie
             HttpClient httpClient = new HttpClient(handler);
             Task<String> ordersInfo = getList("http://localhost:9000/order", httpClient);
@@ -101,11 +105,11 @@ namespace store_client.Views
                 itm = new ListViewItem(arr);
                 listViewOrders.Items.Add(itm);
             }
-        }        
+        }
 
-        private async Task<String> getList(string url , HttpClient client)
+        private async Task<String> getList(string url, HttpClient client)
         {
-            String getInfo = await client.GetStringAsync(url);            
+            String getInfo = await client.GetStringAsync(url);
 
             return getInfo;
         }
@@ -132,14 +136,14 @@ namespace store_client.Views
 
         private void changeColorBooks()
         {
-           foreach (ListViewItem lvw in listViewStock.Items)
-            {                                             
+            foreach (ListViewItem lvw in listViewStock.Items)
+            {
                 if (Int32.Parse(lvw.SubItems[1].Text) < 10)
                 {
                     lvw.BackColor = Color.Red;
                 }
             }
-           foreach (ListViewItem lvw in listViewSalesList.Items)
+            foreach (ListViewItem lvw in listViewSalesList.Items)
             {
                 if (Int32.Parse(lvw.SubItems[1].Text) < 10)
                 {
@@ -160,11 +164,11 @@ namespace store_client.Views
                 {
                     Application.Run(new RequestStock(isbn, stockNo, title));
                 }).Start();
-            }                           
+            }
         }
 
         private void listViewSalesList_Click(object sender, EventArgs e)
-        {            
+        {
             if (listViewSalesList.SelectedItems.Count > 0)
             {
                 ListViewItem itm;
@@ -175,12 +179,18 @@ namespace store_client.Views
                 arr[3] = (Int32.Parse(arr[2]) * Int32.Parse(arr[1])).ToString();
                 itm = new ListViewItem(arr);
                 listViewSaleOrder.Items.Add(itm);
-                /*ListView.SelectedListViewItemCollection selectedItems = this.listViewSalesList.SelectedItems;               
-                foreach (ListViewItem item in selectedItems)
-                {                
-                   CopySelectedItems(listViewSalesList, listViewSaleOrder);
-                }*/
+
+                /* if (txtboxSaleMail.Text.Length > 0 && txtboxSaleName.Text.Length > 0 && txtboxSaleAddress.Text.Length > 0)
+                 {
+                     btnSale.Enabled = true;
+                 }*/
+                btnSale.Enabled = true;
+
+                // booksToSell = books.Where(_book => _book.title == bookTitle).ToList();
+                var _book = new BookToSell(listViewSalesList.SelectedItems[0].SubItems[4].Text, 1);
+                booksToSell.Add(_book);
             }
+
         }
 
         // http://stackoverflow.com/questions/2340439/how-to-copy-the-selected-items-from-one-listview-to-another-on-button-click-in-c
@@ -199,22 +209,36 @@ namespace store_client.Views
 
             rClient.CookieContainer = new CookieContainer();
             request.AddCookie("session", user.token);
-            request.RequestFormat = DataFormat.Json;
-            request.AddBody(new {
-                email = txtboxSaleMail,
-                name = txtboxSaleName,
-                address = txtboxSaleAddress}); 
+
+            var json = new
+            {
+                user = JsonConvert.SerializeObject(new User(txtboxSaleMail.Text, txtboxSaleName.Text, txtboxSaleAddress.Text, user.token, 0)),
+                books = JsonConvert.SerializeObject(booksToSell)
+            };
+
+            request.AddObject(json);
+
+
+            /*      foreach(var item in listViewSaleOrder.Items)
+                  {
+                      //booksToSell.Add((Book) item);
+                      //booksToSell = books.Where(_book => _book.title == (string)item).ToList();
+                      booksToSell.Add(books.Where(_book => _book.title == item.ToString()).First());
+                  }
+                  string json = JsonConvert.SerializeObject(booksToSell);*/
+
             try
             {
                 rClient.ExecuteAsync<User>(request, response =>
                 {
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
+                        // response.Data
                         MessageBox.Show("Here");
                     }
                     else
                     {
-                        MessageBox.Show("Sale failed, try again.");   
+                        MessageBox.Show("Sale failed, try again.");
                     }
                 });
             }
@@ -226,7 +250,7 @@ namespace store_client.Views
 
         private void btnDeleteSaleList_Click(object sender, EventArgs e)
         {
-            listViewSaleOrder.Items.Clear();            
+            listViewSaleOrder.Items.Clear();
         }
     }
 }

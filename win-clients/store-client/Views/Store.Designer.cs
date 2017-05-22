@@ -51,6 +51,7 @@
             this.btnRefreshOrders = new System.Windows.Forms.Button();
             this.stockReq = new System.Windows.Forms.TabPage();
             this.sale = new System.Windows.Forms.TabPage();
+            this.btnDeleteSaleList = new System.Windows.Forms.Button();
             this.btnRefreshSaleList = new System.Windows.Forms.Button();
             this.btnSale = new System.Windows.Forms.Button();
             this.listViewSaleOrder = new System.Windows.Forms.ListView();
@@ -69,7 +70,6 @@
             this.saleStock = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.saleTitle = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.salePrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDeleteSaleList = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.stockPage.SuspendLayout();
             this.pageOrder.SuspendLayout();
@@ -283,6 +283,16 @@
             this.sale.Text = "Store Sale";
             this.sale.UseVisualStyleBackColor = true;
             // 
+            // btnDeleteSaleList
+            // 
+            this.btnDeleteSaleList.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteSaleList.Image")));
+            this.btnDeleteSaleList.Location = new System.Drawing.Point(522, 41);
+            this.btnDeleteSaleList.Name = "btnDeleteSaleList";
+            this.btnDeleteSaleList.Size = new System.Drawing.Size(25, 27);
+            this.btnDeleteSaleList.TabIndex = 10;
+            this.btnDeleteSaleList.UseVisualStyleBackColor = true;
+            this.btnDeleteSaleList.Click += new System.EventHandler(this.btnDeleteSaleList_Click);
+            // 
             // btnRefreshSaleList
             // 
             this.btnRefreshSaleList.Image = ((System.Drawing.Image)(resources.GetObject("btnRefreshSaleList.Image")));
@@ -424,16 +434,6 @@
             this.salePrice.Text = "Price (Unit)";
             this.salePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.salePrice.Width = 120;
-            // 
-            // btnDeleteSaleList
-            // 
-            this.btnDeleteSaleList.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteSaleList.Image")));
-            this.btnDeleteSaleList.Location = new System.Drawing.Point(522, 41);
-            this.btnDeleteSaleList.Name = "btnDeleteSaleList";
-            this.btnDeleteSaleList.Size = new System.Drawing.Size(25, 27);
-            this.btnDeleteSaleList.TabIndex = 10;
-            this.btnDeleteSaleList.UseVisualStyleBackColor = true;
-            this.btnDeleteSaleList.Click += new System.EventHandler(this.btnDeleteSaleList_Click);
             // 
             // Store
             // 

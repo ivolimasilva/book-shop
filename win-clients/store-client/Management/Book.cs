@@ -10,6 +10,7 @@ namespace store_client.Management
     [Serializable]
     class Book
     {        
+        public string _id { get; set; }
         public string isbn { get; set; }
         public string title { get; set; }
         public string author { get; set; }

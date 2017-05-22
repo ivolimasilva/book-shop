@@ -19,6 +19,14 @@ namespace store_client.UserManagement
             password = _pass;
         }
 
+        public User(string _email, string _name, string _address, string _token, int n)
+        {
+            email = _email;
+            name = _name;
+            address = _address;
+            token = _token;
+        }
+
         public User(string _mail, string _pass, string _address, string _token)
         {
             email = _mail;
