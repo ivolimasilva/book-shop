@@ -264,7 +264,7 @@ namespace store_client.Views
 
         private void updateListStock(ListView list)
         {
-            list.Items.Clear();
+            // list.Items.Clear();
             list.Update(); // In case there is databinding
             list.Refresh(); // Redraw items
 

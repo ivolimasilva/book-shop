@@ -5,7 +5,7 @@
 				<div class="nav-left">
 					<a class="nav-item" v-on:click="goToHome">
 						<h1 class="title">
-							Book Shop
+							Ye Old Bookstore
 						</h1>
 					</a>
 				</div>
